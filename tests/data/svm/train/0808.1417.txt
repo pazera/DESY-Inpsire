@@ -1,0 +1,479 @@
+arXiv:0808.1417v2  [cs.IT]  30 Dec 2008
+1
+The finite harmonic oscillator and its associated
+sequences
+Shamgar Gurevich, Ronny Hadani, and Nir Sochen
+To appear in Proceedings of the National Academy of Sciences of the United States of America
+Abstract— A novel system of functions (signals) on the finite
+line, called the oscillator system, is described and studied.
+Applications of this system for discrete radar and digital com-
+munication theory are explained.
+Index Terms— Weil representation, commutative subgroups,
+eigenfunctions, random behavior, deterministic construction.
+I. INTRODUCTION
+One-dimensional analog signals are complex valued func-
+tions on the real line R. In the same spirit, one-dimensional
+digital signals, also called sequences, might be considered as
+complex valued functions on the finite line Fp, i.e., the finite
+field with p elements. In both situations the parameter of the
+line is denoted by t and is referred to as time. In this work,
+we will consider digital signals only, which will be simply
+referred to as signals. The space of signals H =C(Fp) is a
+Hilbert space with the Hermitian product given by
+〈φ,ϕ〉 = summationtext
+t∈Fp
+φ(t)ϕ(t).
+A central problem is to construct interesting and useful
+systems of signals. Given a system S, there are various
+desired properties which appear in the engineering wish list.
+For example, in various situations [1], [2] one requires that
+the signals will be weakly correlated, i.e., that for every
+φnegationslash=ϕ∈S
+|〈φ,ϕ〉| ≪ 1.
+This property is trivially satisfied if S is an orthonormal basis.
+Such a system cannot consist of more than dim(H) signals,
+however, for certain applications, e.g., CDMA (Code Division
+Multiple Access) [3] a larger number of signals is desired, in
+that case the orthogonality condition is relaxed.
+During the transmission process, a signal ϕ might be
+distorted in various ways. Two basic types of distortions
+are time shift ϕ(t) mapsto→ Lτϕ(t) = ϕ(t + τ) and phase shift
+ϕ(t) mapsto→ Mwϕ(t) = e2piip wtϕ(t), where τ,w ∈ Fp. The first
+type appears in asynchronous communication and the second
+type is a Doppler effect due to relative velocity between the
+transmitting and receiving antennas. In conclusion, a general
+distortion is of the type ϕ mapsto→ MwLτϕ, suggesting that for
+every ϕ negationslash= φ ∈ S it is natural to require [2] the following
+stronger condition
+|〈φ,MwLτϕ〉| ≪ 1.
+Date: January 1, 2007.
+c© Copyright by S. Gurevich, R. Hadani and N. Sochen, January 1, 2007.
+All rights reserved.
+Due to technical restrictions in the transmission process,
+signals are sometimes required to admit low peak-to-average
+power ratio [4], i.e., that for every ϕ∈S with bardblϕbardbl2 = 1
+max{|ϕ(t)| :t∈ Fp} ≪ 1.
+Finally, several schemes for digital communication require that
+the above properties will continue to hold also if we replace
+signals from S by their Fourier transform.
+In this paper we construct a novel system of (unit) signals
+SO, consisting of order of p3 signals, where p is an odd
+prime, called the oscillator system. These signals constitute,
+in an appropriate formal sense, a finite analogue for the
+eigenfunctions of the harmonic oscillator in the real setting
+and, in accordance, they share many of the nice properties
+of the latter class. In particular, the system SO satisfies the
+following properties
+1) Autocorrelation (ambiguity function). For every ϕ∈SO
+we have
+|〈ϕ,MwLτϕ〉| =
+braceleftbigg 1 if (τ,w) = 0,
+≤ 2√p if (τ,w) negationslash= 0. (1)
+2) Crosscorrelation (cross-ambiguity function). For every
+φnegationslash= ϕ∈SO we have
+|〈φ,MwLτϕ〉| ≤ 4√p, (2)
+for every τ,w ∈ Fp.
+3) Supremum. For every signal ϕ∈SO we have
+max{|ϕ(t)| : t∈ Fp} ≤ 2√p.
+4) Fourier invariance. For every signal ϕ∈SO its Fourier
+transform hatwideϕ is (up to multiplication by a unitary scalar)
+also in SO.
+Remark 1: Explicit algorithm that generate the (split) os-
+cillator system is given in the supporting text.
+The oscillator system can be extended to a much larger
+system SE, consisting of order of p5 signals if one is willing
+to compromise Properties 1 and 2 for a weaker condition. The
+extended system consists of all signals of the form MwLτϕ for
+τ,w ∈ Fp and ϕ∈SO. It is not hard to show that #(SE) =
+p2 ·#(SO) ≈p5. As a consequence of (1) and (2) for every
+ϕnegationslash= φ∈SE we have
+|〈ϕ,φ〉| ≤ 4√p.
+The characterization and construction of the oscillator sys-
+tem is representation theoretic and we devote the rest of
+2
+the paper to an intuitive explanation of the main underlying
+ideas. As a suggestive model example we explain first the
+construction of the well known system of chirp (Heisenberg)
+signals, deliberately taking a representation theoretic point of
+view (see [5], [2] for a more comprehensive treatment).
+II. MODEL EXAMPLE (HEISENBERG SYSTEM)
+Let us denote by ψ : Fp → C× the character ψ(t) =e2piip t.
+We consider the pair of orthonormal bases ∆ = {δa :a∈ Fp}
+and ∆∨ = {ψa :a∈ Fp}, where ψa(t) = 1√pψ(at), and δa is
+the Kronecker delta function, δa(t) = 1 if t = a and δa(t) = 0
+if tnegationslash=a.
+A. Characterization of the bases ∆ and ∆∨
+Let L : H → H be the time shift operator Lϕ(t) = ϕ(t+1).
+This operator is unitary and it induces a homomorphism of
+groups L : Fp → U(H) given by Lτϕ(t) = ϕ(t+τ) for any
+τ ∈ Fp.
+Elements of the basis ∆∨ are character vectors with respect
+to the action L, i.e., Lτψa = ψ(aτ)ψa for any τ ∈ Fp. In the
+same fashion, the basis ∆ consists of character vectors with
+respect to the homomorphism M : Fp → U(H) given by the
+phase shift operators Mwϕ(t) = ψ(wt)ϕ(t).
+B. The Heisenberg representation
+The homomorphismsL and M can be combined into a single
+map tildewidepi : Fp ×Fp → U(H) which sends a pair (τ,w) to the
+unitary operator tildewidepi(τ,ω) = ψparenleftbig−12τwparenrightbigMw ◦ Lτ. The plane
+Fp×Fp is called the time-frequency plane and will be denoted
+by V. The map tildewidepi is not an homomorphism since, in general,
+the operators Lτ and Mw do not commute. This deficiency
+can be corrected if we consider the group H = V ×Fp with
+multiplication given by
+(τ,w,z)·(τ′,w′,z′) = (τ+τ′,w+w′,z+z′+12(τw′−τ′w)).
+The map tildewidepi extends to a homomorphismpi :H →U(H) given
+by
+pi(τ,w,z) = ψparenleftbig−12τw+zparenrightbigMw ◦Lτ.
+The group H is called the Heisenberg group and the homo-
+morphism pi is called the Heisenberg representation.
+C. Maximal commutative subgroups
+The Heisenberg group is no longer commutative, however,
+it contains various commutative subgroups which can be easily
+described. To every line L ⊂ V, that pass through the origin,
+one can associate a maximal commutative subgroup AL =
+{(l,0) ∈V ×Fp :l ∈L}. It will be convenient to identify the
+subgroup AL with the line L.
+D. Bases associated with lines
+Restricting the Heisenberg representation pi to a subgroup
+L yields a decomposition of the Hilbert space H into a direct
+sum of one-dimensional subspaces H =circleplustext
+χ
+Hχ, where χ runs
+in the set L∨ of (complex valued) characters of the group
+L. The subspace Hχ consists of vectors ϕ ∈ H such that
+pi(l)ϕ = χ(l)ϕ. In other words, the space Hχ consists of
+common eigenvectors with respect to the commutative system
+of unitary operators {pi(l)}l∈L such that the operator pi(l) has
+eigenvalue χ(l).
+Choosing a unit vector ϕχ ∈ Hχ for every χ ∈ L∨ we
+obtain an orthonormal basis BL = braceleftbigϕχ :χ∈L∨bracerightbig. In partic-
+ular, ∆∨ and ∆ are recovered as the bases associated with
+the lines T = {(τ,0) :τ ∈ Fp} and W = {(0,w) :w ∈ Fp}
+respectively. For a general L the signals in BL are certain kind
+of chirps. Concluding, we associated with every line L ⊂ V
+an orthonormal basis BL, and overall we constructed a system
+of signals consisting of a union of orthonormal bases
+SH={ϕ∈ BL :L⊂V}.
+For obvious reasons, the system SH will be called the
+Heisenberg system.
+E. Properties of the Heisenberg system
+It will be convenient to introduce the following general
+notion. Given two signals φ,ϕ∈ H, their matrix coefficient is
+the function mφ,ϕ :H → C given by mφ,ϕ(h) = 〈φ,pi(h)ϕ〉.
+In coordinates, if we write h = (τ,w,z) then mφ,ϕ(h) =
+ψparenleftbig−12τw+zparenrightbig〈φ,Mw ◦Lτϕ〉. When φ = ϕ the function
+mϕ,ϕ is called the ambiguity function of the vector ϕ and
+is denoted by Aϕ = mϕ,ϕ.
+The system SH consists of p+1 orthonormal bases1, alto-
+gether p(p+1) signals and it satisfies the following properties
+[5], [2]
+1) Autocorrelation. For every signal ϕ ∈ BL the function
+|Aϕ| is the characteristic function of the line L, i.e.,
+|Aϕ (v)| =
+braceleftbigg 0, v /∈L,
+1, v ∈L.
+2) Crosscorrelation. For every φ∈ BL and ϕ∈ BM where
+Lnegationslash= M we have
+|mϕ,φ (v)| ≤ 1√p,
+for every v ∈ V. If L = M then mϕ,φ is the
+characteristic function of some translation of the line
+L.
+3) Supremum. A signal ϕ∈SH is a unimodular function,
+i.e., |ϕ(t)| = 1√p for every t∈ Fp, in particular we have
+max{|ϕ(t)| :t∈ Fp} = 1√p ≪ 1.
+Remark 2: Note the main differences between the Heisen-
+berg and the oscillator systems. The oscillator system consists
+1Note that p + 1 is the number of lines in V .
+3
+of order of p3 signals, while the Heisenberg system consists of
+order of p2 signals. Signals in the oscillator system admits an
+ambiguity function concentrated at 0 ∈V (thumbtack pattern)
+while signals in the Heisenberg system admits ambiguity
+function concentrated on a line.
+III. THE OSCILLATOR SYSTEM
+Reflecting back on the Heisenberg system we see that each
+vector ϕ ∈ SH is characterized in terms of action of the
+additive group Ga = Fp. Roughly, in comparison, each vector
+in the oscillator system is characterized in terms of action of
+the multiplicative group Gm = F×p . Our next goal is to explain
+the last assertion. We begin by giving a model example.
+Given a multiplicative character2 χ :Gm → C×, we define
+a vector χ∈ H by
+χ(t) =
+braceleftbigg 1√
+p−1χ(t), tnegationslash= 0,
+0, t = 0.
+We consider the system Bstd = braceleftbigχ :χ∈G∨m, χnegationslash= 1bracerightbig, where
+G∨m is the dual group of characters.
+A. Characterizing the system Bstd
+For each element a∈Gm let ρa : H → H be the unitary
+operator acting by scaling ρaϕ(t) =ϕ(at). This collection of
+operators form a homomorphism ρ :Gm →U(H).
+Elements of Bstd are character vectors with respect to ρ, i.e.,
+the vector χ satisfies ρaparenleftbigχparenrightbig = χ(a)χ for every a ∈ Gm. In
+more conceptual terms, the action ρ yields a decomposition
+of the Hilbert space H into character spaces H =circleplustextHχ,
+where χ runs in the group G∨m. The system Bstd consists of
+a representative unit vector for each space Hχ, χnegationslash= 1.
+B. The Weil representation
+We would like to generalize the system Bstd in a similar
+fashion like we generalized the bases ∆ and ∆∨ in the
+Heisenberg setting. In order to do this we need to introduce
+several auxiliary operators.
+Let ρa : H → H, a ∈ F×p, be the operators acting by
+ρaϕ(t) = σ(a)ϕ(a−1t) (scaling), where σ is the unique
+quadratic character of F×p , let ρT : H → H be the operator
+acting by ρTϕ(t) = ψ(t2)ϕ(t) (quadratic modulation), and
+finally let ρS : H → H be the operator of Fourier transform
+ρSϕ(t) = ν√p summationtext
+s∈Fp
+ψ(ts)ϕ(s),
+where ν is a normalization constant [6]. The operators ρa,ρT
+and ρS are unitary. Let us consider the subgroup of unitary
+operators generated by ρa,ρS and ρT. This group turns
+out to be isomorphic to the finite group Sp = SL2(Fp),
+therefore we obtained a homomorphism ρ : Sp → U(H).
+The representation ρ is called the Weil representation [7] and
+it will play a prominent role in this paper.
+2A multiplicative character is a function χ : Gm → C× which satisfies
+χ(xy) = χ(x)χ(y) for every x,y ∈ Gm.
+C. Systems associated with maximal (split) tori
+The group Sp consists of various types of commutative
+subgroups. We will be interested in maximal diagonalizable
+commutative subgroups. A subgroup of this type is called
+maximal split torus. The standard example is the subgroup
+consisting of all diagonal matrices
+A=
+braceleftbiggparenleftbigga 0
+0 a−1
+parenrightbigg
+:a∈Gm
+bracerightbigg
+,
+which is called the standard torus. The restriction of the Weil
+representation to a split torus T ⊂Sp yields a decomposition
+of the Hilbert space H into a direct sum of character spaces
+H =circleplustextHχ, where χ runs in the set of characters T∨. Choos-
+ing a unit vector ϕχ ∈ Hχ for every χ we obtain a collection
+of orthonormal vectors BT = braceleftbigϕχ :χ∈T∨, χnegationslash= σbracerightbig. Over-
+all, we constructed a system
+SsO={ϕ∈ BT :T ⊂Sp split},
+which will be referred to as the split oscillator system. We note
+that our initial system Bstd is recovered as Bstd = BA.
+D. Systems associated with maximal (non-split) tori
+From the point of view of this paper, the most interesting
+maximal commutative subgroups in Sp are those which are
+diagonalizable over an extension field rather than over the
+base field Fp. A subgroup of this type is called maximal non-
+split torus. It might be suggestive to first explain the analogue
+notion in the more familiar setting of the field R. Here, the
+standard example of a maximal non-split torus is the circle
+group SO(2) ⊂SL2(R). Indeed, it is a maximal commutative
+subgroup which becomes diagonalizable when considered over
+the extension field C of complex numbers.
+The above analogy suggests a way to construct examples of
+maximal non-split tori in the finite field setting as well. Let us
+assume for simplicity that −1 does not admit a square root in
+Fp. The group Sp acts naturally on the plane V = Fp ×Fp.
+Consider the symmetric bilinear form B on V given by
+B((t,w),(t′,w′)) = tt′ +ww′.
+An example of maximal non-split torus is the subgroup
+Tns ⊂ Sp consisting of all elements g ∈ Sp preserving the
+form B, i.e., g ∈ Tns if and only if B(gu,gv) = B(u,v)
+for every u,v ∈ V. In the same fashion like in the split
+case, restricting the Weil representation to a non-split torus
+T yields a decomposition into character spaces H =circleplustextHχ.
+Choosing a unit vector ϕχ ∈ Hχ for every χ∈T∨ we obtain
+an orthonormal basis BT. Overall, we constructed a system of
+signals
+SnsO ={ϕ∈ BT :T ⊂Sp non-split}.
+The system SnsO will be referred to as the non-split oscillator
+system. The construction of the system SO = SsO ∪ SnsO
+together with the formulation of some of its properties are the
+main contribution of this paper.
+4
+E. Behavior under Fourier transform
+The oscillator system is closed under the operation of
+Fourier transform, i.e., for every ϕ ∈ SO we have hatwideϕ ∈ SO.
+The Fourier transform on the space C(Fp) appears as a
+specific operator ρ(w) in the Weil representation, where
+w =
+parenleftbigg 0 1
+−1 0
+parenrightbigg
+∈Sp.
+Given a signal ϕ ∈ BT ⊂ SO, its Fourier transform hatwideϕ =
+ρ(w)ϕ is, up to a unitary scalar, a signal in BT′ where T′ =
+wTw−1 . In fact, SO is closed under all the operators in the
+Weil representation! Indeed, given an element g ∈ Sp and a
+signal ϕ ∈ BT we have, up to a unitary scalar, that ρ(g)ϕ
+∈ BT′, where T′ =gTg−1.
+In addition, the Weyl element w is an element in some
+maximal torus Tw (the split type of Tw depends on the
+characteristic p of the field) and as a result signals ϕ ∈ BTw
+are, in particular, eigenvectors of the Fourier transform. As
+a consequences a signal ϕ ∈ BTw and its Fourier transform
+hatwideϕ differ by a unitary constant, therefore are practically the
+”same” for all essential matters.
+These properties might be relevant for applications to
+OFDM (Orthogonal Frequency Division Multiplexing) [8]
+where one requires good properties both from the signal and
+its Fourier transform.
+F. Relation to the harmonic oscillator
+Here we give the explanation why functions in the non-
+split oscillator system SnsO constitute a finite analogue of the
+eigenfunctions of the harmonic oscillator in the real setting.
+The Weil representation establishes the dictionary between
+these two, seemingly, unrelated objects. The argument works
+as follows.
+The one-dimensional harmonic oscillator is given by the
+differential operator D = ∂2 − t2. The operator D can be
+exponentiated to give a unitary representation of the circle
+group ρ : SO(2,R) −→ UparenleftbigL2(Rparenrightbig) where ρ(θ) = eiθD.
+Eigenfunctions of D are naturally identified with character
+vectors with respect to ρ. The crucial point is that ρ is
+the restriction of the Weil representation of SL2(R) to the
+maximal non-split torus SO(2,R) ⊂SL2(R).
+Summarizing, the eigenfunctions of the harmonic oscillator
+and functions in SnsO are governed by the same mechanism,
+namely both are character vectors with respect to the restric-
+tion of the Weil representation to a maximal non-split torus in
+SL2. The only difference appears to be the field of definition,
+which for the harmonic oscillator is the reals and for the
+oscillator functions is the finite field.
+IV. APPLICATIONS
+Two applications of the oscillator system will be described.
+The first application is to the theory of discrete radar. The
+second application is to CDMA systems. We will give a brief
+explanation of these problems, while emphasizing the relation
+to the Heisenberg representation.
+A. Discrete Radar
+The theory of discrete radar is closely related [2] to the
+finite Heisenberg group H. A radar sends a signal ϕ(t) and
+obtains an echo e(t). The goal [9] is to reconstruct, in maximal
+accuracy, the target range and velocity. The signal ϕ(t) and
+the echo e(t) are, principally, related by the transformation
+e(t) = e2piiwtϕ(t+τ) = MwLτϕ(t),
+where the time shift τ encodes the distance of the target from
+the radar and the phase shift encodes the velocity of the target.
+Equivalently saying, the transmitted signal ϕ and the received
+echo e are related by an action of an element h0 ∈ H, i.e.,
+e = pi(h0)ϕ. The problem of discrete radar can be described
+as follows. Given a signal ϕ and an echo e = pi(h0)ϕ extract
+the value of h0.
+It is easy to show that |mϕ,e (h)| = |Aϕ (h·h0)| and it
+obtains its maximum at h−10 . This suggests that a desired
+signal ϕ for discrete radar should admit an ambiguity function
+Aϕ which is highly concentrated around 0 ∈ H, which is a
+property satisfied by signals in the oscillator system (Property
+2).
+Remark 3: It should be noted that the system SO is ”large”
+consisting of aproximately p3 signals. This property becomes
+important in a jamming scenario.
+B. Code Division Multiple Access (CDMA)
+We are considering the following setting.
+• There exists a collection of users i ∈ I, each holding a
+bit of information bi ∈ C (usually bi is taken to be an
+N’th root of unity).
+• Each user transmits his bit of information, say, to a central
+antenna. In order to do that, he multiplies his bit bi by a
+private signal ϕi ∈ H and forms a message ui = biϕi.
+• The transmission is carried through a single channel (for
+example in the case of cellular communication the chan-
+nel is the atmosphere), therefore the message received by
+the antenna is the sum
+u = summationtext
+i
+ui.
+The main problem [3] is to extract the individual bits bi from
+the message u. The bit bi can be estimated by calculating the
+inner product
+〈ϕi,u〉 = summationtext
+j
+〈ϕi,uj〉 = summationtext
+j
+bj angbracketleftbigϕi,ϕjangbracketrightbig = bi+summationtext
+jnegationslash=i
+bj angbracketleftbigϕi,ϕjangbracketrightbig.
+The last expression above should be considered as a sum of
+the information bit bi and an additional noise caused by the
+interference of the other messages. This is the standard sce-
+nario also called the Synchronous scenario. In practice, more
+complicated scenarios appear, e.g., asynchronous scenario -
+in which each message ui is allowed to acquire an arbitrary
+time shift ui(t) mapsto→ui(t+τi), phase shift scenario - in which
+each message ui is allowed to acquire an arbitrary phase shift
+ui(t) mapsto→e2piip witui(t) and probably also a combination of the
+two where each message ui is allowed to acquire an arbitrary
+distortion of the form ui(t) mapsto→e2piip witui(t+τi).
+5
+The previous discussion suggests that what we are seeking
+for is a large system S of signals which will enable a reliable
+extraction of each bit bi for as many users transmitting through
+the channel simultaneously.
+Definition 4 (Stability conditions): Two unit signals φ negationslash=
+ϕ are called stably cross-correlated if |mϕ,φ (v)| ≪ 1 for
+every v ∈V. A unit signal ϕ is called stably autocorrelated
+if |Aϕ (v)| ≪ 1, for every v negationslash= 0. A system S of signals
+is called a stable system if every signal ϕ ∈ S is stably
+autocorrelated and any two different signals φ,ϕ ∈ S are
+stably cross-correlated.
+Formally what we require for CDMA is a stable system S.
+Let us explain why this corresponds to a reasonable solution
+to our problem. At a certain time t the antenna receives a
+message
+u= summationtext
+i∈J
+ui,
+which is transmitted from a subset of users J ⊂ I. Each
+message ui, i∈J, is of the form ui = bie2piip witϕi(t+τi) =
+bipi(hi)ϕi, where hi ∈ H. In order to extract the bit bi we
+compute the matrix coefficient
+mϕi,u = biRhiAϕi +#(J −{i})o(1),
+where Rhi is the operator of right translation RhiAϕi(h) =
+Aϕi(hhi).
+If the cardinality of the set J is not too big then by
+evaluating mϕi,u at h =h−1i we can reconstruct the bit bi. It
+follows from (1) and (2) that the oscillator system SO can
+support order of p3 users, enabling reliable reconstruction
+when order of √p users are transmitting simultaneously.
+Remark about field extensions. All the results in this paper
+were stated for the basic finite field Fp for the reason of
+making the terminology more accessible. However, they are
+valid for any field extension of the form Fq with q = pn.
+Complete proofs appear in [6].
+Acknowledgement. The authors would like to thank J.
+Bernstein for his interest and guidance in the mathematical
+aspects of this work. We are grateful to S. Golomb and G.
+Gong for their interest in this project. We thank B. Sturmfels
+for encouraging us to proceed in this line of research. The
+authors would like to thank V. Anantharam, A. Gr¨unbaum
+and A. Sahai for interesting discussions. Finally, the second
+author is indebted to B. Porat for so many discussions where
+each tried to understand the cryptic terminology of the other.
+REFERENCES
+[1] Golomb S.W. and Gong G., Signal design for good correlation. For
+wireless communication, cryptography, and radar. Cambridge University
+Press, Cambridge (2005).
+[2] Howard S. D., Calderbank A. R. and Moran W., The finite Heisenberg-
+Weyl groups in radar and communications. URASIP Journal on Applied
+Signal Processing Volume 2006 (2006), Article ID 85685, 12 pages.
+[3] Viterbi A.J., CDMA: Principles of Spread Spectrum Communication.
+Addison-Wesley (1995).
+[4] Paterson, K.G. and Tarokh V., On the existence and construction of good
+codes with low peak-to-average power ratios. IEEE Trans. Inform. Theory
+46 (2000) 1974-1987.
+[5] Howe R., Nice error bases, mutually unbiased bases, induced represen-
+tations, the Heisenberg group and finite geometries. Indag. Math. (N.S.)
+16 (2005), no. 3-4, 553–583.
+[6] Gurevich S., Hadani R. and Sochen N., The finite harmonic oscillator
+and its applications to sequences, communication and radar. IEEE Trans-
+actions on Information Theory, in press (2008).
+[7] Weil A., Sur certains groupes d’operateurs unitaires. Acta Math. 111
+(1964) 143-211.
+[8] Chang R.W., Synthesis of Band-Limited Orthogonal Signals for Mul-
+tichannel Data Transmission. Bell System Technical Journal 45 (1966)
+1775-1796.
+[9] Woodward P.M., Probability and Information theory, with Applications
+to Radar. Pergamon Press, New York (1953).

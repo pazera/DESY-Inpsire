@@ -1,0 +1,594 @@
+arXiv:0806.3747v1  [astro-ph]  23 Jun 2008
+Suzaku Observation of the Ophiuchus Galaxy Cluster:
+One of the Hottest Cool Core Clusters
+Yutaka Fujita1, Kiyoshi Hayashida1, Masaaki Nagai1, Susumu Inoue2,
+Hironori Matsumoto3, Nobuhiro Okabe4, Thomas. H. Reiprich5,
+Craig L. Sarazin6, and Motokazu Takizawa7,
+1Department of Earth and Space Science, Graduate School of Science,
+Osaka University, Toyonaka, Osaka 560-0043
+fujita@vega.ess.sci.osaka-u.ac.jp
+2National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588
+3Department of Physics, Kyoto University, Kitashirakawa, Sakyo-ku, Kyoto 606-8502
+4Astronomical Institute, Graduate School of Science, Tohoku University, Sendai 980-8578
+5Argelander Institute for Astronomy (AIfA), Bonn University, Auf dem H¨ugel 71, 53121 Bonn, Germany
+6Department of Astronomy, University of Virginia, P.O. Box 400325, Charlottesville, VA 22904-4325, USA
+7Department of Physics, Yamagata University, Yamagata 990-8560
+(Received 2008 April 1; accepted 2008 June 23)
+Abstract
+We present the analysis of a Suzaku observation of the Ophiuchus galaxy cluster.
+We confirmed that the cluster has a cool core. While the temperature of the intra-
+cluster medium (ICM) decreases toward the center, the metal abundance increases.
+Except for the core (r <∼ 50 kpc), the cluster is hot (∼ 9–10 keV) and is almost
+isothermal for r <∼1 Mpc; the latter contradicts a previous study. We do not detect
+the variation of the redshift of the ICM in the cluster; the upper limit of the velocity
+difference is 3000kms−1. The iron line ratios in X-ray spectra indicate that the ICM
+has reached the ionization equilibrium state. From these results, we conclude that the
+Ophiuchus cluster is not a major merger cluster but one of the hottest clusters with a
+cool core. We obtain the upper limit of non-thermal emission from the cluster, which
+is consistent with both the recent claimed detection with INTEGRAL and the recent
+upper limits with the Swift/BAT. If the cluster has bright non-thermal emission as
+suggested by the INTEGRAL measurement, it is probably not due to a recent major
+cluster merger.
+Key words: galaxies: clusters: general — galaxies: cooling flows — galaxies:
+intergalactic medium — X-rays: galaxies: clusters — X-rays: individual (Ophiuchus)
+1
+1. Introduction
+The cold dark matter (CDM) model predicts that the typical mass of virialized objects in
+the Universe increases with time. This means that the most massive or hottest galaxy clusters
+(kT >∼10 keV) should be the objects that have formed most recently. In fact, X-ray observations
+have shown that the hottest clusters are often ‘major-merger’ clusters. These clusters are now
+growing through the mergers. For example, cluster 1E 0657–56 (kT =14.8+1.7−1.2 keV) has a clear
+bow shock associated with a merger; a smaller cluster is penetrating a larger cluster with a
+velocity of 3000–4000kms−1 (Markevitch et al. 2002). On the other hand, these hottest clusters
+are rarely ‘cool core clusters’, which have a distinct cool core and are almost isothermal outside
+the core. This is probably because cool cores are destroyed by cluster mergers (Ricker, Sarazin
+2001; Fujita et al. 2002).
+Cluster mergers may accelerate relativistic particles at shocks and in turbulent regions
+in the ICM (Jaffe 1977; Roland 1981; Schlickeiser et al. 1987; Sarazin 1999; Takizawa, Naito
+2000; Fujita, Sarazin 2001; Brunetti et al. 2001; Miniati et al. 2001; Ohno et al. 2002; Fujita et
+al. 2003; Ryu et al. 2003; Brunetti, Blasi 2005; Cassano, Brunetti 2005; Inoue et al. 2005; Kang
+et al. 2007). With BeppoSAX, non-thermal hard X-ray emission from relativistic particles
+has been detected from several clusters such as the Coma cluster (Fusco-Femiano et al. 2004).
+Most of them are actually merging clusters (Nevalainen et al. 2004). However, the detections
+are still controversial (Rossetti, Molendi 2004), and confirmation with other instruments would
+be highly desirable. The Suzaku HXD has an improved sensitivity for hard X-rays (Takahashi
+et al. 2007), and attempts have been made to detect non-thermal hard X-ray emission from
+clusters. So far, no firm detections have been reported (Kawano et al. 2008).
+The Ophiuchus cluster is one of the hottest known clusters. It has been observed with
+several satellites, such as HEAO 1 (Johnston et al. 1981), EXOSAT (Arnaud et al. 1987),
+Tenma (Okumura et al. 1988), and GINGA (Kafuku et al. 1992). Previous observations with
+ASCA and BeppoSAX showed that the temperature of the ICM is ∼ 10 keV (Watanabe et
+al. 2001; Nevalainen et al. 2004). In addition to the high temperature, this cluster has a few
+interesting features. First, it has been reported to have a complicated temperature distribution,
+in particular, the temperature of its western part reaches ∼20 keV (Watanabe et al. 2001). This
+temperature is comparable to that observed in 1E 0657–56 (Markevitch et al. 2002). Thus, this
+cluster may be undergoing a major merger that induces the motion of the ICM with a velocity
+of >∼3000 km s−1. Second, non-thermal hard X-ray emission may have been detected from the
+cluster. Nevalainen et al. (2004) searched for non-thermal emission with BeppoSAX and found
+some evidence at a 2σ level. Recently, Eckert et al. (2008) detected non-thermal emission from
+the center of the cluster with INTEGRAL at a 6.4σ level. However, a recent long exposure
+with the Swift/BAT instrument failed to detect any nonthermal emission, and set an upper
+limit below the claimed INTEGRAL detection (Ajello et al. 2008; Okajima et al. 2008).
+2
+In this paper, we report our observational results of the Ophiuchus cluster with Suzaku.
+Thanks to the lowbackground ofSuzaku (Mitsuda etal.2007), we canobtainanX-ray spectrum
+even in regions far from the cluster center; we discuss the temperature and metal abundance
+distributions in the ICM. The high spectral resolution of the XIS (Koyama et al. 2007) on board
+Suzaku also enables us to measure or limit the bulk motion of the ICM. Moreover, the hard
+X-ray detector, HXD, can constrain the non-thermal emission from the cluster, which can be
+compared with the INTEGRAL and Swift/BAT results.
+In this paper, we assume cosmological parameters of Ω0 = 0.3, λ0 = 0.7, and H0 =
+70kms−1Mpc−1. Since the cluster redshift is z =0.028 (Lahav et al. 1989), one arc-minute cor-
+responds to 33 kpc. All statistical errors are given at the 90% confidence level unless otherwise
+mentioned.
+2. Observations
+We observed the Ophiuchus cluster with Suzaku on 2007 March 21–24 for a total expo-
+sure time of 105 ks. Figure 1 shows a mosaic image of the cluster obtained with the XIS; the
+field of view (FOV) of the XIS is 17.′8×17.′8. We observed five regions with the XIS: C (central),
+N (north), W (west), S (south), and E (east) regions. The exposure time for region C is 15 ks,
+and those for other regions are 22.5 ks. The XIS was operated in the normal full-frame clocking
+mode. The edit mode was 3×3 and 5×5 and we combined the data of both modes for our
+analysis. We employed the following calibration files: HXD (20071201), XIS (20071122), and
+XRT (20070622). Events with ASCA grades of 0, 2, 3, 4, and 6 were retained. We excluded
+the data obtained at the South Atlantic Anomaly, during Earth occultation, and at the low
+elevation angles from Earth rim of < 5◦. For the XIS data, we further excluded the data with
+elevation angle from the rim of the shining Earth smaller than 20◦. For the HXD data, we
+removed the data obtained at the locations where the Cut-Off-Rigidity (COR) is lower than
+6 GV.
+3. Spectral Analysis
+Our spectral analysis is similar to that in Fujita et al. (2008). We extract X-ray spectra
+for the five regions (C, W, S, E, and N) shown in figure 1. For the central region (C), we also
+analyze the square subsections (C-NW, C-SW, C-SE, and C-NE). We calculated the effective
+area for each XIS chip using xissimarfgen, which provides the ancillary response file (ARF)
+through Monte Carlo simulations (Ishisaki et al. 2007). All spectra were rebinned to give a
+minimum of 50 raw counts per spectral bin to allow χ2 statistics to be applied. The non-X-ray
+instrumental background (NXB) spectrum is subtracted from the spectrum of each region. The
+NXBs for individual regions were constructed from night earth data and were generated by the
+routine xisnxbgen included in Suzaku FTOOLS Ver. 7, including the time-variation of the
+3
+Fig. 1. A mosaic image of the Ophiuchus cluster obtained with Suzaku XIS. For each of the five pointings,
+the images from the three XIS detectors (XIS0, XIS1, and XIS3) were combined. The image is corrected
+for vignetting but not for background. The calibration sources at the corners of the fields were excluded.
+Regions used for spectral analysis are shown.
+NXB (Tawa et al. 2008). We always include the NXB in all of the following spectral fits.
+Using XSPEC (Ver. 12), the spectra of the three XISs are simultaneously fitted with a
+single thermal model (APEC) representing the ICM and with the Galactic absorption (WABS;
+NH). The parameters of these models are set to be the same for all the XISs except for
+the normalization of the APEC model, which is the main component of the spectra. While
+the normalizations for the two front-illuminated (FI) chips (XIS 0 and 3) are the same, that
+for the back-illuminated (BI) chip (XIS 1) is allowed to have an independent value, because
+of the residual calibration inaccuracies between FI and BI. In the fits, we also consider the
+contributions of the cosmic X-ray background (CXB) and the Galactic soft X-ray emission.
+The CXB spectrum is given by a power-law with an index of 1.412 and the flux in the 2–
+10 keV band is FCXB = 6.38×10−8 ergcm−2 s−1 sr−1 (Kushino et al. 2002). We call this CXB
+spectrum ‘the normal CXB spectrum’. The Galactic soft X-ray emission model is constructed
+on the model of Snowden et al. (1998)1. The emission consists of two thermal components with
+temperatures of kT ≈ 0.1 keV (the local hot bubble) and 0.3 keV (the Milky Way halo); the
+values are slightly dependent on the region observed. The metal abundance and the redshift of
+1 http://heasarc.gsfc.nasa.gov/cgi-bin/Tools/xraybg/xraybg.pl
+4
+Fig. 2. The XIS spectra for region C-NW (crosses). The results of the fit are shown by the solid lines; the
+lower lines are the background emission (CXB plus the Galactic one). The lower panel plots the residuals
+divided by the 1σ errors. The NXB spectra have been subtracted.
+both components are solar and zero, respectively. The parameters for the Galactic soft X-ray
+emission are fixed in the fits except for the overall normalization; the relative normalization
+between the two components is fixed at cooler/warmer ≈0.15, which is provided by the Galactic
+soft X-ray emission model1. While the ARFs for the ICM emission were constructed assuming
+that it follows a beta model for the cluster (β = 0.747 and the core radius of 6′; Reiprich,
+B¨ohringer 2002), those for the background emission (CXB plus the Galactic one) were made
+assuming that the emission is spatially uniform. Figure 2 shows the spectra of the three XISs
+for a region with typical photon counts for the spectral analysis (C-NW) and the result of the
+fit.
+Table 1 shows the results of the spectral fits. Temperatures (T) and abundances (Z)
+are also shown in figure 3. In determining T, Z, and the absorbing column NH, the redshift of
+the ICM is fixed at the optical value of z = 0.028 (Lahav et al. 1989). The spectral fits show
+that the cluster is almost isothermal with a temperature of kT ∼9–10 keV and an abundance
+of Z ∼ 0.3Z⊙. When we derive the errors, we vary the normalization of the CXB in order
+to include possible field-to-field variance. Kushino et al. (2002) derived a 1σ deviation of the
+CXB intensity to be (6.49+0.56−0.61)% using ASCA GIS data. We roughly estimate that the CXB
+uncertainty for the XIS field is 6.49
+radicalBig
+0.4/0.088∼14%, considering the typical size of the area
+studied in Kushino et al. (2002) (∼0.4deg2) and the FOV of the XIS (∼0.088deg2). Note that
+this value depends on the flux threshold to resolve point sources. While Kushino et al. (2002)
+employed 2×10−13ergs−1cm−2 (2–10 keV), we have excluded point sources with smaller fluxes.
+Thus, the actual uncertainty might be smaller. We fit the XIS spectra of regions C, N, W, S
+and E for 14% higher or lower CXB normalizations than that of the normal CXB spectrum and
+5
+Table 1. The results of spectral fits and redshifts.
+kT Z NH χ2/dof z
+Region (keV) (Z⊙) (1021 cm−2)
+C 9.7+0.1−0.2 0.33+0.02−0.01 3.1+0.1−0.0 5399.08/5044 .....
+C-NW 10.8+0.6−0.5 0.29+0.05−0.04 2.5+0.2−0.1 1326.70/1176 0.0319±0.0020
+C-SW 10.3+0.6−0.5 0.30+0.05−0.05 2.8+0.2−0.3 1042.62/936 0.0292±0.0028
+C-SE 10.0+0.2−0.3 0.36+0.02−0.03 3.2+0.1−0.1 2935.76/2602 0.0290±0.0013
+C-NE 9.3+0.2−0.2 0.34+0.02−0.02 3.3+0.1−0.0 3768.32/3732 0.0297±0.0011
+N 9.7+0.3−0.4 0.27+0.03−0.03 2.4+0.1−0.1 2425.38/2221 0.0309±0.0017
+W 9.4+0.7−0.8 0.24+0.07−0.07 1.4+0.2−0.2 909.52/877 0.0287±0.0054
+S 9.5+0.5−0.5 0.21+0.04−0.04 1.8+0.2−0.1 1499.63/1375 0.0283±0.0025
+E 9.7+0.2−0.1 0.27+0.02−0.01 2.9+0.1−0.0 4187.73/4028 0.0305±0.0011
+ASCA 10.0+0.3−0.3 0.34+0.04−0.04 3.0 (Fixed) 66.6/45 .....
+BeppoSAX 9.1+0.6−0.5 0.49+0.08−0.08 ..... ..... .....
+Suzaku HXD 9.0+0.3−0.3 0.3 (Fixed) 0.0 (Fixed) 133.92/152 .....
+derive temperatures and metallicities. Adding linearly the statistical errors of the fits to this
+CXB uncertainty, we obtain the errors. Similarly, we assume ∼28% uncertainty for the CXB
+normalizations for the four smaller regions in C. In table 1, NH shows a large variation. Given
+that such large variations and values are not seen in clusters at higher Galactic latitudes, this
+variation is likely to be Galactic.
+For comparison, we also present the results of previous studies in table 1. The ASCA
+data are for the central region of the cluster (region 2 in Watanabe et al. 2001). They are
+consistent with the Suzaku results for region C. The HXD results will be discussed in section 6.
+4. Deprojection Analysis
+The Chandra image of the Ophiuchus cluster exhibits cold fronts around the core
+(Ascasibar, Markevitch 2006). Numerical simulations have shown that the region surrounded
+by cold fronts has a low temperature compared with the outside of the cold fronts (Fujita et al.
+2004a; Ascasibar, Markevitch 2006), which is consistent with observations for several clusters
+(e.g. Markevitch et al. 2001; Mazzotta, Giacintucci 2008). In order to study the temperature
+and metal abundance of the core in detail, we made a deprojection analysis to remove pro-
+jection effects. The deprojection procedure we adopted is the same as that in Blanton et al.
+(2003) and Fujita et al. (2004b).
+We choose annuli and sectors centered on the X-ray peak as shown in figure 4. We fix
+the Galactic absorption at the value of region C (NH =3.1×1021 cm−2; table 1). The Galactic
+soft X-ray emission is also fixed at the values of region C. The CXB is fixed at the normal
+6
+Fig. 3. (a) Temperature map of the Ophiuchus cluster. The numbers represent the temperatures (keV)
+for each region. X-ray brightness contours (logarithmically spaced by a factor of 2) are overlaid. (b) Same
+as (a) but for metal abundance (Z⊙)
+Fig. 4. An XIS 0 sky image of region C. The regions used for a deprojection analysis are shown.
+value. These background models are always included in the following procedure.
+First, we fit the spectrum from region R4 with a single ICM model (APEC). Then, the
+next annulus (R3) is fitted. The model used for this annulus is a combination of the best-
+fitting model of the exterior annulus with the normalization scaled to account for the spherical
+projection of the exterior shell onto the inner one, along with another APEC component added
+7
+0 100 200 300
+8
+10
+12
+0 5 10
+kT
+ (keV)
+r (kpc)
+FI
+BI
+(a)
+r (arcmin)
+0 100 200 3000
+0.4
+0.80 5 10
+r (kpc)
+Z (Z  )
+FI
+BI
+(b)
+r (arcmin)
+Fig. 5. (a) Temperature and (b) metal abundance profiles as functions of the distance from the cluster
+center.
+to account for the emission at the radius of interest. This process is continued inward, and
+we fitted one spectrum at a time. The FI and BI chip are treated separately because of their
+different spectral responses.
+The results of the fits are shown in figure 5. The temperature of the ICM decreases
+to kT ∼ 8 keV toward the cluster center, while the abundance increases to Z ∼ 0.5–0.6Z⊙.
+This behavior is often found in cool core clusters (Fukazawa et al. 1994; Finoguenov et al.
+2001;De Grandi& Molendi 2001;Pointecouteau et al. 2005;Vikhlinin et al. 2005). These results
+are conservative because, considering point-spread-function (PSF) smearing by the angular
+resolution of Suzaku (∼ 2′ half power diameter, independent of energy), the actual central
+temperature and abundance will be even lower and higher, respectively.
+5. Bulk Motion of the ICM
+By measuring the redshifts of metal lines in X-ray spectra, we can estimate the velocity
+of the ICM. There have been a number of previous attempts to measure bulk motions in the
+ICM using X-ray line shifts (e.g., Dupke, Bregman 2006). Since the XISs on board Suzaku
+have an excellent spectral resolution, they are suitable for such studies (Ota et al. 2007). In
+this section, we estimate the bulk motion of the ICM of the Ophiuchus cluster.
+We investigate the redshifts of the ICM for four central regions (C-NW, C-SW, C-SE,
+and C-NE) and the four surrounding regions (N, W, S, and E) shown in figure 1. A ‘gain
+8
+correction’ of the CCD chips in instruments like the XIS must be done carefully for a precision
+measurement of the redshift of the metal lines. The XISs are always illuminated by calibration
+sources (55Fe) that appear as a Mn Kα line (5.895 keV) in spectra if not masked. In this
+section, we treat the three XIS chips separately in order to allow for the gain difference among
+them. First, we limited the energy range to 5–8 keV and fit the ICM spectra including the
+emission from the calibration sources with bremsstrahlung and gaussian line components. The
+Mn Kα line from the calibration sources and the Fe K lines from the ICM are each fitted with
+the gaussian components. We put the gaussian components for the Fe K lines just because
+they may influence the line center of Mn Kα line; we do not use them for the determination of
+redshift. The central energy of the Mn Kα line determined by this fit is referred as Eobs(MnKα).
+The gain correction factor is given by
+fgain = Eobs(MnKα)E
+0(Mn Kα)
+, (1)
+where E0(MnKα) is the true energy (5.895 keV). Typically, |fgain−1|<∼0.001, and the uncer-
+tainty of fgain is ∼0.001. On the other hand, we determine the redshift of the ICM, zfit, through
+a spectral fit that is the same as that in section 3 but for each chip. Thus, a gain-corrected
+redshift is given by
+zgain =fgain(zfit +1)−1. (2)
+We present zgain for each region in figure 6. The values averaged for the three XISs are shown
+in table 1. For regions W and S, only data for FI chips (XIS 0, and 3) are shown because the
+BI chip (XIS 1) is less sensitive to hot gas (>∼2 keV) and the redshifts cannot be constrained.
+The redshifts in figure 6 are consistent with being constant and the average is z=0.030±0.003,
+which agrees with the optical redshift of the cluster (z=0.028). The difference of the maximum
+(C-NW) and minimum redshift (W) in table 1 is <∼0.01, which means that the velocity difference
+between different regions is <∼3000kms−1.
+6. Non-Thermal Hard X-ray Emission
+The Suzaku HXD PIN detector is sensitive to hard X-rays (>∼ 10 keV) and has a
+wider FOV (34′×34′ full width at half maximum, FWHM) than that of the XIS (17.′8×17.′8).
+Although the center of the HXD field is shifted from that of the XIS field by ∼3.′5, the shift is
+much smaller than the size of the HXD field. Thus, all of the five HXD fields (corresponding
+to the XIS fields C, N, W, S, and E) cover at least partially the central region of the cluster,
+where INTEGRAL detected hard X-ray excess emission (Eckert et al. 2008).
+After correcting for dead time, the exposure times of the five fields are 12.6, 18.1, 19.4,
+20.0, 20.1 ks for C, N, W, S, and E, respectively. We fit the HXD spectra with a thermal model
+(APEC), which represents the ICM, as well asa CXB component. We first simultaneously fit the
+spectra of the five fields. A redistribution matrix file for the HXD nominal position is used for
+9
+0.02
+0.03
+0.04
+0.05
+z
+C−NW C−SW C−NEC−SE
+(a)
+0.02
+0.03
+0.04
+0.05
+z
+N ESW
+(b)
+Fig. 6. Redshifts of the ICM in the (a) central regions and (b) surrounding regions. The three filled
+circles for each region are the gain corrected redshifts (zgain) for XIS 0, 1, and 3 from left to right. For
+regions W and S, only data from the FI chips (XIS 0, and 3) are shown.
+the ICM emission. TheARFsof theICM emission foreachspectrum aregenerated withhxdar-
+fgen and addarf by assuming that the emission follows the same beta model that we adopted
+for the XIS (section 3). We fix the metal abundance of the APEC model at 0.3Z⊙ and the
+redshift at z=0.028 (optical redshift). The CXB is assumed to be uniform in a 2◦×2◦ field, and
+a corresponding redistribution matrix file is employed. The spectrum of the CXB is represented
+by a power-law model multiplied by a HIGHECUT model in XSPEC. We adopt the power-law
+index of 1.29, the power-law normalization of 9.412×10−9 photonscm−2 s−1 FOV−1 keV−1, the
+cutoff energy of 1×10−4 keV, and the e-folding energy of 40 keV, following a standard model2.
+Thus, the free parameters for the fit are the temperature and normalization of the APEC
+model. While the temperature is common, the normalization is allowed to vary among the five
+spectra. We do not consider the Galactic absorption because it does not affect the results in
+the HXD energy band. The NXB spectra created from the pinnxb ver2.0 tuned NXB model
+are employed as a normal NXB. We find that the five spectra can be fitted with the thermal
+model with a temperature of kT = 8.9+0.2−0.4 keV. The normalizations of the five spectra agree
+with each other within ±10%.
+We thus combine the five spectra into one and perform a fit again. The NXB spectra
+and the ARF are combined, correspondingly. The result of the fit is kT =9.0+0.3−0.3 keV (table 1
+and figure 7). The spectrum does not require an extra hard X-ray component. The flux of the
+thermal component in 20–80 keV band is 6.8×10−11 ergs−1 cm−2, which is about 20% higher
+2 http://heasarc.nasa.gov/docs/suzaku/analysis/pin cxb.html
+10
+Fig. 7. HXD PIN spectra, including the effect of varying the normalization of the NXB by ±5% (crosses).
+The NXB has been subtracted. The fit (solid line) is for the normal NXB. The lower panel plots the
+residuals divided by the 1σ errors.
+than that expected from the BeppoSAX PDS observations (Nevalainen et al. 2004).
+We note that the systematic uncertainty in the HXD NXB strongly affects the results.
+According to Mizuno et al. (2007), the systematic 1σ uncertainty in the 15–40 keV NXB is
+3.2 %. We conservatively adopt a systematic uncertainty of ±5% (90% uncertainty), and
+estimate the upper limit on any extra hard X-ray component. Since the uncertainty in the
+NXB overwhelms the statistical error on the ICM temperature, we fix the temperature of the
+APEC model at 9.0 keV and add a power-law component to represent the extra hard X-ray
+emission. We fixed the photon index of the power-law at 2.0, which is the same as that in Eckert
+et al. (2008). The 90% upper limit on the hard power-law component is obtained by employing
+the NXB spectra for which normalization is 5% lower than the normal NXB. The HXD spectra
+including ±5% variations in the normalization of the NXB are shown in figure 7. The upper
+limit on the flux of any extra hard X-ray component is 2.8×10−11 ergs−1 cm−2 (20–60 keV),
+which is consistent with the detection obtained with INTEGRAL (0.7–1.3×10−11ergs−1cm−2;
+Eckert et al. 2008) and the upper limit from a combined Swift/BAT and Chandra spectrum
+(5.2×10−13 ergs−1 cm−2; Ajello et al. 2008). If we assume that the temperature of the APEC
+model is 8.5 keV as Eckert et al. (2008) did, the upper limit on the flux is 4.1×10−11ergs−1cm−2
+(20–60 keV). On the other hand, If we assume that the ICM temperature is 9.7 keV (region C;
+Table 1), it is 1.0×10−11 ergs−1 cm−2. Note that the higher temperature is closer to the value
+found by Ajello et al. (2008).
+11
+7. Ionization Equilibrium
+The high spectral resolution of Suzaku makes it possible to discuss the ionization equi-
+librium state of the ICM by measuring the intensity ratio of the hydrogen-like Fe Kα line to
+the helium-like Fe Kα line. We limited the energy range to 5–8 keV. The spectral compo-
+nents other than the ICM are the same as those in section 3. We fit the ICM component
+with a Bremsstrahlung model and two gaussians. The spectra of the three XISs are fitted
+simultaneously.
+Figure 8 shows the XIS spectra around the iron lines in region C-SE. Figure 9 shows
+the relation between the line ratios and the temperatures listed in table 1. The data include
+those for the three central regions (C-NW, C-SW, C-SE) and regions N, S, and E; the ratio
+for region W cannot be constrained, and that for region C-NE is omitted because this region is
+multi-temperature (figure 5a). For comparison, we present the relation predicted by the APEC
+model and those predicted by the NEI model (Ver. 2), which is based on the Astrophysical
+Plasma Emission Database (APED; Smith et al. 2001). While APEC is a model for plasmas in
+ionization equilibrium, NEI is a model for those not in equilibrium. In figure 9, the observational
+data are generally consistent with the APEC model. The NEI model indicates net >∼ 3×
+1012scm−3, where net is the ionization parameter. The results of NEI as well as APEC indicate
+that the ICM has reached ionization equilibrium. They may also indicate that the ICM except
+for the core consists of a single-temperature plasma and the cluster has no region strongly locally
+heated by a merger (see Ota et al. 2008). Although net=1×1013scm−3 is almost equivalent to
+ionization equilibrium for NEI, there is a small difference between NEI and APEC (figure 9).
+This may be due to the difference of the atomic physics each model assumed.
+8. Discussion
+8.1. Comparison with ASCA Results
+Although the Suzaku results are consistent with the previous ASCA results for the
+central region of the cluster (table 1), they are not for the outer regions. The results of
+ASCA indicated that the Ophiuchus cluster has a large temperature variation (Watanabe et
+al. 2001). In particular, the temperatures of the western and southern regions were reported to
+be extremely high (kT ∼15–20 keV). On the other hand, our Suzaku results indicate that the
+cluster is almost isothermal (kT ∼9–10 keV).
+One possible cause for the difference would be a problem with the X-ray background
+for the ASCA observation. While Watanabe et al. (2001) used a background obtained from
+a source-free region near the cluster (H 1705–250), we constructed a background based on a
+model of the Galactic emission1 plus a model for the hard CXB. Since the western and southern
+regions are dim, the difference of the background could affect the results. However, we found
+that this is not likely to be the case. We observed the region around H 1705–250 with Suzaku
+12
+Fig. 8. XIS spectra around the Fe Kα lines (crosses) and the results of the fit (solid lines) for region C-SE.
+The NXB spectra have been subtracted. The lower panel plots the residuals divided by the 1σ errors.
+8 10 12
+0.5
+1
+T (keV)
+H−Fe/He−Fe
+APEC
+NEI  1012
+NEI 3 x 1012
+NEI  1013
+Fig. 9. Observed ratios of H-like and He-like Fe Kα lines (crosses). The prediction of the APEC
+model is shown with the solid line, and those of the NEI model are shown with the dot-dashed line
+(net=1×1012scm−3), the dotted line (net=3×1012scm−3) and the dashed line (net=1×1013scm−3)
+13
+with an exposure time of 15 ks. Then, we used the spectrum of this region as the background
+for a spectral fit of region W. In this case, the temperature is kT = 9.7+0.9−1.0 keV, which is
+consistent with that in table 1. Another possibility is that the high temperature in these faint
+outer regions is due to stray light from the bright central regions of the cluster. For the X-ray
+telescopes carried on ASCA, such problem was much more serious for ASCA than for Suzaku
+(Serlemitsos et al. 2007). Although Watanabe et al. (2001) took account of the effect in their
+analysis, the correction might not have been sufficient.
+Although we could not find the cause of the inconsistency, we believe that the results of
+Suzaku are more reliable, because the problem of the stray light has been much improved.
+8.2. The Cool Core
+The existence of a cool core (section 4) and the isothermality of the cluster (section 3)
+indicate that the Ophiuchus cluster is a cool core cluster. While many of clusters with medium
+temperatures (∼5 keV) are cool core clusters having short central cooling times, most of the
+hottest clusters with temperatures similar to the Ophiuchus (>∼10 keV) do not seem to have cool
+cores (e.g. figure 18c,d in Ota, Mitsuda 2004). This is probably because the latter are major-
+merger clusters in which the core has been destroyed and the temperature has been boosted by
+the merger (Randall et al. 2002). For example, the extended HIFLUGCS sample includes 106
+nearby clusters (Reiprich, B¨ohringer 2002). Among them, there are only 8 clusters, including
+the Ophiuchus cluster, with temperatures larger than 9.0 keV (Chen et al. 2007). Five of them
+(A 1689, A 1914, A 2163, A 2319, and Triangulum Australis) do not have a prominent cool core
+(Andersson, Madejski 2004; Govoni et al. 2004; White 2000). Although A 754 and A 2142 have
+a cool core, they are now undergoing a major merger (Markevitch et al. 2000; Govoni et al.
+2004). Thus, the Ophiuchus cluster seems to be exceptional in having a very high temperature
+and a cool core with no strong evidence of a major merger. Since clusters with cool cores
+tend to be old (e.g. Fujita & Takahara 2000; Ota et al. 2006), the Ophiuchus cluster would be
+exceptionally old given its large mass. Contrary to merging clusters in which star formation
+activities might be induced in the disk galaxies (e.g., Fujita, Nagashima 1999; Fujita et al.
+1999), the environment in the Ophiuchus cluster might have been calm for a long time. Thus,
+it would be interesting to study the nature of the galaxies inside it.
+8.3. Non-Thermal Hard X-ray Emission
+Most of the clusters from which non-thermal X-ray emission has been detected are
+major-merger clusters (Nevalainen et al. 2004). Since non-thermal synchrotron radio emission
+has often been observed from these clusters (Govoni, Feretti 2004), the non-thermal hard X-
+ray emission could be attributed to inverse Compton scattering of photons by the relativistic
+electrons that are responsible for the radio emission. Since the cooling time of these electrons
+(∼108 yr) is much shorter than the dynamical time-scale of a cluster (∼109 yr; Sarazin 1999),
+the electrons are likely to be primary electrons, which are now being directly accelerated at
+14
+shocks or turbulence in the ICM induced by recent cluster mergers.
+The hard X-ray excess detected by Eckert et al. (2008) from the Ophiuchus cluster is
+curious in this regard. Although a cluster merger does not always destroy a cool core (e.g.
+A 2142; Markevitch et al. 2001) and our temperature map (figure 3a) is coarse, the X-ray
+image and spectra from this cluster do not show any strong evidence for a major merger. One
+possibility is that the Ophiuchus cluster is currently undergoing an early stage, small impact
+parameter (head-on) merger with the merger axis being close to our line of sight. Then, the two
+merging subclusters would be projected on top of one another, and no azimuthal temperature
+variations would necessarily be expected. By the same argument, one would not necessarily
+expect any azimuthal variations in the mean redshift. Although the likelihood of a head-on
+collision along the line of sight is small, this hypothesis would appear to be consistent with
+the apparent regularity of Ophiuchus, the presence of a cool core (albeit without any very cool
+gas), and the presence of nonthermal hard X-ray emission due to a merger shock or turbulence.
+On the other hand, if Ophiuchus really is not a merging cluster, then the nonthermal hard
+X-rays cannot be attributed to primary electrons accelerated through a recent major cluster
+merger, although we cannot rule out particle-acceleration by turbulence in the core generated
+by a minor merger (Fujita et al. 2004a; Fujita et al. 2005; Mazzotta, Giacintucci 2008). One
+possibility is thatparticles might have been accelerated by the central AGNrather than a cluster
+merger, because the hard X-ray emission is observed at the center of the Ophiuchus cluster
+(Eckert et al. 2008). Moreover, since recent strong AGN activities have not been observed at
+the cluster center (Dunn, Fabian 2006), the non-thermal emission from the cluster may come
+from secondary electrons that are generated through proton-proton interaction (Pfrommer,
+Enßlin 2004). In this case, the non-thermal emission can be observed even long after the AGN
+activities and proton acceleration cease, because the cooling time of the protons is longer than
+the age of a cluster. Recently, Fujita et al. (2007) proposed that the protons are accelerated at
+the forward shock around a cocoon created by an AGN outburst.
+Another possible source of the non-thermal X-ray emission would be dark matter anni-
+hilation (Profumo 2008, see also Totani 2004). In any case, a confirmation of the non-thermal
+emission in Ophiuchus with other instruments would also be very useful. The Swift/BAT in-
+strument observed Ophiuchus for 1.3 Msec, and failed to detect any non-thermal hard X-ray
+emission (Ajello et al. 2008; Okajima et al. 2008). Based on a joint Chandra and Swift/BAT
+analysis (with Chandra used to constrain the thermal emission from the cluster), Ajello et al.
+(2008) found an upper limit of 5.2×10−13 ergs−1 cm−2 (20–60 keV), which is inconsistent with
+the INTEGRAL detection at more than 2σ. We note that Eckert et al. (2008) fit the thermal
+emission from the cluster with with a single temperature model with a temperature of 8.5 keV.
+We find that most of the cluster is hotter than this, in agreement with the results from Ajello
+et al. (2008) and Okajima et al. (2008). The difference with Eckert et al. (2008) may be due to
+the cool core in Ophiuchus. It is possible that a more complex thermal model may be needed
+15
+for Ophiuchus, and might bring the INTEGRAL and Swift/BAT results into better agreement.
+Given the present disagreement of the INTEGRAL and Swift/BAT spectral results, the lack
+of evidence for a merger, and the lack of a modern radio detection of a halo or relic, we view
+the non-thermal detection in Ophiuchus as tentative.
+9. Summary
+We observed the Ophiuchus cluster with Suzaku X-ray satellite. We found that the ICM
+of the cluster is hot (kT ∼9–10 keV) and is almost isothermal except for the core. Contrary
+to a previous study, we did not find extremely hot regions (kT ∼ 20 keV) in the cluster. In
+the core, the temperature is smaller and the metal abundance is larger than those in the
+surrounding region. The radial velocity difference between different regions of the ICM is less
+than ∼ 3000kms−1. The iron line ratios in X-ray spectra suggest that the ICM has reached
+a ionization equilibrium. These features indicate that the Ophiuchus cluster is not a major-
+merger cluster but is a so-called cool core cluster. This cluster would be an exceptional cluster
+because most of the clusters with these temperatures (>∼ 10 keV) are major-merger clusters.
+Another possibility is that Ophiuchus is a nearly head-on merger with the merger axis nearly
+along our line of sight; such a model would be consistent with the observed properties of the
+cluster. We obtained the upper limit of hard X-ray excess, which is consistent with the recent
+detection with INTEGRAL and upper limit with Swift/BAT. Assuming that the Ophiuchus
+cluster is not a major-merger cluster, the origin of any hard X-ray excess may not be a recent
+major cluster merger.
+The authors wish to thank A. Furuzawa, R. K. Smith, and N. Ota for useful comments.
+We also thank the Suzaku operations team for their support in planning and executing these
+observations. Y. F., K. H., and M. T. were supported in part by a Grant-in-Aid from the
+Ministry of Education, Culture, Sports, Science, and Technology of Japan (Y. F.: 17740162;
+K. H.: 16002004; M. T.: 16740105, 19740096). T. H. R. acknowledges support by the Deutsche
+Forschungsgemeinschaft through Emmy Noether Research Grant RE 1462. C. L. S. was sup-
+ported by NASA Suzaku grants NNX06AI37G and NNX06AI44G.
+References
+Ajello, M., et al. 2008, ApJ, submitted
+Andersson, K. E., & Madejski, G. M. 2004, ApJ, 607, 190
+Arnaud, K. A., Johnstone, R. M., Fabian, A. C., Crawford, C. S., Nulsen, P. E. J., Shafer, R. A., &
+Mushotzky, R. F. 1987, MNRAS, 227, 241
+Ascasibar, Y., & Markevitch, M. 2006, ApJ, 650, 102
+Blanton, E. L., Sarazin, C. L., & McNamara, B. R. 2003, ApJ, 585, 227
+16
+Brunetti, G., & Blasi, P. 2005, MNRAS, 363, 1173
+Brunetti, G., Setti, G., Feretti, L., & Giovannini, G. 2001, MNRAS, 320, 365
+Cassano, R., & Brunetti, G. 2005, MNRAS, 357, 1313
+Chen, Y., Reiprich, T. H., B¨ohringer, H., Ikebe, Y., & Zhang, Y.-Y. 2007, A&A, 466, 805
+De Grandi, S., & Molendi, S. 2001, ApJ, 551, 153
+Dunn, R. J. H., & Fabian, A. C. 2006, MNRAS, 373, 959
+Dupke, R. A., & Bregman, J. N. 2006, ApJ, 639, 781
+Eckert, D., Produit, N., Paltani, S., Neronov, A., & Courvoisier, T. J.-L. 2008, A&A, 479, 27
+Finoguenov, A., Arnaud, M., & David, L. P. 2001, ApJ, 555, 191
+Fujita, Y., Kohri, K., Yamazaki, R., & Kino, M. 2007, ApJ, 663, L61
+Fujita, Y., Matsumoto, T., & Wada, K. 2004, ApJ, 612, L9
+Fujita, Y., Matsumoto, T., Wada, K., & Furusho, T. 2005, ApJ, 619, L139
+Fujita, Y., & Nagashima, M. 1999, ApJ, 516, 619
+Fujita, Y., & Sarazin, C. L. 2001, ApJ, 563, 660
+Fujita, Y., Sarazin, C. L., Kempner, J. C., Rudnick, L., Slee, O. B., Roy, A. L., Andernach, H., &
+Ehle, M. 2002, ApJ, 575, 764
+Fujita, Y., Sarazin, C. L., Reiprich, T. H., Andernach, H., Ehle, M., Murgia, M., Rudnick, L., & Slee,
+O. B. 2004, ApJ, 616, 157
+Fujita, Y., & Takahara, F. 2000, PASJ, 52, 317
+Fujita, Y., Takizawa, M., Nagashima, M., & Enoki, M. 1999, PASJ, 51, L1
+Fujita, Y., Takizawa, M., & Sarazin, C. L. 2003, ApJ, 584, 190
+Fujita, Y., Tawa, N., Hayashida, K., Takizawa, M., Matsumoto, H., Okabe, N., & Reiprich, T. H.
+2008, PASJ, 60, S343
+Fukazawa, Y., Ohashi, T., Fabian, A. C., Canizares, C. R., Ikebe, Y., Makishima, K., Mushotzky,
+R. F., & Yamashita, K. 1994, PASJ, 46, L55
+Fusco-Femiano, R., Orlandini, M., Brunetti, G., Feretti, L., Giovannini, G., Grandi, P., & Setti, G.
+2004, ApJ, 602, L73
+Govoni, F., & Feretti, L. 2004, International Journal of Modern Physics D, 13, 1549
+Govoni, F., Markevitch, M., Vikhlinin, A., VanSpeybroeck, L., Feretti, L., & Giovannini, G. 2004,
+ApJ, 605, 695
+Inoue, S., Aharonian, F. A., & Sugiyama, N. 2005, ApJ, 628, L9
+Ishisaki, Y., et al. 2007, PASJ, 59, 113
+Jaffe, W. J. 1977, ApJ, 212, 1
+Johnston, M. D., Bradt, H. V., Doxsey, R. E., Marshall, F. E., Schwartz, D. A., & Margon, B. 1981,
+ApJ, 245, 799
+Kafuku, S., Yamauchi, M., Hattori, M., Kawai, N., & Matsuoka, M. 1992, Frontiers Science Series,
+483
+Kawano, N., et al. 2008, PASJ, in press (arXiv:0805.3582)
+Kang, H., Ryu, D., Cen, R., & Ostriker, J. P. 2007, ApJ, 669, 729
+Koyama, K., et al. 2007, PASJ, 59, 23
+17
+Kushino, A., Ishisaki, Y., Morita, U., Yamasaki, N. Y., Ishida, M., Ohashi, T., & Ueda, Y. 2002,
+PASJ, 54, 327
+Lahav, O., Fabian, A. C., Edge, A. C., & Putney, A. 1989, MNRAS, 238, 881
+Markevitch, M., et al. 2000, ApJ, 541, 542
+Markevitch, M., Gonzalez, A. H., David, L., Vikhlinin, A., Murray, S., Forman, W., Jones, C., &
+Tucker, W. 2002, ApJ, 567, L27
+Markevitch, M., Vikhlinin, A., & Mazzotta, P. 2001, ApJL, 562, L153
+Mazzotta, P., & Giacintucci, S. 2008, ApJ, 675, L9
+Miniati, F., Ryu, D., Kang, H., & Jones, T. W. 2001, ApJ, 559, 59
+Mitsuda, K., et al. 2007, PASJ, 59, 1
+Mizuno, T., et al. 2007, http://www.astro.isas.jaxa.jp/suzaku/doc/suzakumemo/suzakumemo-2007-
+09.pdf
+Nevalainen, J., Oosterbroek, T., Bonamente, M., Colafrancesco, S. 2004, ApJ, 608, 166
+Ohno, H., Takizawa, M., & Shibata, S. 2002, ApJ, 577, 658
+Okajima, T. et al. 2008, ApJ, submitted
+Okumura, Y., Tsunemi, H., Yamashita, K., Matsuoka, M., Koyama, K., Hayakawa, S., Masai, K., &
+Hughes, J. P. 1988, PASJ, 40, 639
+Ota, N., et al. 2007, PASJ, 59, 351
+Ota, N., et al. 2008, A&A, submitted (arXiv:0805.0500)
+Ota, N., Kitayama, T., Masai, K., & Mitsuda, K. 2006, ApJ, 640, 673
+Ota, N., & Mitsuda, K. 2004, A&A, 428, 757
+Pfrommer, C., & Enßlin, T. A. 2004, A&A, 413, 17
+Pointecouteau, E., Arnaud, M., & Pratt, G. W. 2005, A&A, 435, 1
+Profumo, S. 2008, ArXiv e-prints, 801, arXiv:0801.0740
+Randall, S. W., Sarazin, C. L., & Ricker, P. M. 2002, ApJ, 577, 579
+Reiprich, T. H., & B¨ohringer, H. 2002, ApJ, 567, 716
+Ricker, P. M., & Sarazin, C. L. 2001, ApJ, 561, 621
+Roland, J. 1981, A&A, 93, 407
+Rossetti, M., & Molendi, S. 2004, A&A, 414, L41
+Ryu, D., Kang, H., Hallman, E., & Jones, T. W. 2003, ApJ, 593, 599
+Sarazin, C. L. 1999, ApJ, 520, 529
+Schlickeiser, R., Sievers, A., & Thiemann, H. 1987, A&A, 182, 21
+Serlemitsos, P. J., et al. 2007, PASJ, 59, 9
+Smith, R. K., Brickhouse, N. S., Liedahl, D. A., & Raymond, J. C. 2001, ApJ, 556, L91
+Snowden, S. L., Egger, R., Finkbeiner, D. P., Freyberg, M. J., & Plucinsky, P. P. 1998, ApJ, 493, 715
+Takahashi, T., et al. 2007, PASJ, 59, 35
+Takizawa, M., & Naito, T. 2000, ApJ, 535, 586
+Tawa, N., et al. 2008, PASJ, 60, S11
+Totani, T. 2004, Physical Review Letters, 92, 191301
+Vikhlinin, A., Markevitch, M., Murray, S. S., Jones, C., Forman, W., & Van Speybroeck, L. 2005,
+ApJ, 628, 655
+18
+Watanabe, M., Yamashita, K., Furuzawa, A., Kunieda, H., & Tawara, Y. 2001, PASJ, 53, 605
+White, D. A. 2000, MNRAS, 312, 663
+19

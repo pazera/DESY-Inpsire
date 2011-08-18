@@ -1,0 +1,308 @@
+arXiv:0809.0655v2  [hep-lat]  18 Nov 2008
+RHMC simulation of two-dimensional N=(2,2) super
+Yang-Mills with exact supersymmetry
+Issaku Kanamori∗
+Theoretical Physics Laboratory, RIKEN, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan
+E-mail: kanamori-i@riken.jp
+We report our numerical simulation of two-dimensionalN =(2,2) super Yang-Mills. The lattice
+model we use is one proposed by F. Sugino which keeps one exact supersymmetry at finite lattice
+spacing. We use Rational Hybrid Monte Carlo (RHMC) method to implement the dynamical
+fermion. We apply the simulation to measure the ground state energy which is useful to observe
+dynamical SUSY breaking.
+The XXVI International Symposium on Lattice Field Theory
+July 14 - 19, 2008
+Williamsburg, Virginia, USA
+Report Number: RIKEN-TH-138
+∗Speaker.
+c©Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike Licence. http://pos.sissa.it/
+RHMC simulation of two-dimensional N=(2,2) super Yang-Mills with exact supersymmetryIssaku Kanamori
+1. Introduction
+It seems impossible to put the SUSY on the lattice, because SUSY algebra contains infinitesi-
+mal translation but on the lattice we have only finite translations. However, what we have realized
+in the recent development is that it is possible to formulate supersymmetric models on the lat-
+tice if N ≥ 2. Lots of lattice models especially for super Yang-Mills are known along this line
+[1, 2, 3, 4, 5] and relations among them have become clear [6, 7, 8]. 1 Most of these formula-
+tions utilize the topological twist. After the twist, we have a scalar supercharge instead of spinors.
+We can put the scalar on a lattice site and keep it exactly at finite lattice spacing.2 Some of the
+simulation have already done aiming the check of the formulation [13, 14, 15].3
+In this talk we report our simulation with dynamical fermions and its application. We utilize
+the Rational Hybrid Monte Carlo algorithm [19]. The target model is two-dimensional N = (2,2)
+super Yang-Mills model based on a formulation with one exactly kept supersymmetry proposed
+by Sugino [2]. As an application of the simulation, we measure the ground state energy which is
+useful to observe dynamical SUSY breaking. We also sketch the method of observing dynamical
+SUSY breaking which we proposed in [20, 21].
+2. Lattice Model
+The target theory in the continuum hasN = (2,2) twisted supersymmetry. After the twist we
+have four supercharges, one from a scalar Q, two from a two-dimensional vector (Q0, Q1), and one
+from a pseudo scalar ˜Q. The following is a part of the twisted SUSY algebra:
+Q2 = δ(gauge)φ , Q20 = δ(gauge)φ , {Q,Q0}= 2i∂0 +2δ(gauge)A0 , (2.1)
+where δ(gauge)• denotes an infinitesimal gauge transformation with the parameter •. The super-
+charges are nilpotent up to gauge transformation. The action is Q-exact and because of the nilpo-
+tency, Q-invariance is manifest.
+On the lattice, we keep the scalar Q exactly. The following Q transformation on the lattice
+keeps the nilpotency even at the finite lattice spacing [2]:
+QU(x,µ) = iψµ(x)U(x,µ), Qψµ(x) = iψµ(x)ψµ −iparenleftbigφ(x)−U(x,µ)φ(x+ ˆµparenrightbigU(x,µ)−1),
+Qφ(x) = 0,
+Qχ(x) = H(X), QH(x) = [φ(x),χ(x)],
+Qφ(x) = η(x), Qη(x) = [φ(x),φ(x)],
+where U(x,µ) is a gauge link variable, scalar fields φ,φ and auxiliary field H are defined on the
+sites, fermions in the twisted basis η,χ,ψµ are defined on the sites. The action is defined as Q-exact
+1For the review, see [9].
+2For recent developments in keeping whole supersymmetry exactly on the lattice, see [10, 11]; See also [12].
+3See [16, 17, 18] for interesting attempts towards simulation in three and four dimensions.
+2
+RHMC simulation of two-dimensional N=(2,2) super Yang-Mills with exact supersymmetryIssaku Kanamori
+as in the continuum case:
+S = Q 1a2g2 ∑
+x
+tr
+bracketleftbigg
+χ(x)H(x)+ 14η(x)[φ(x),φ(x)]−iχ(x) ˆΦ(x)
++i ∑
+µ=0,1
+braceleftbigψ
+µ(x)
+parenleftbigφ(x)−U(x,µ)φ(x+a ˆµ)U(x,µ)−1parenrightbigbracerightbigbracketrightbigg
+= 1a2g2 ∑
+x
+tr
+bracketleftbigg1
+4
+ˆΦTL(x)2 +...
+bracketrightbigg
+,
+where g is the dimensionful gauge coupling, i ˆΦ(x) = U(x,0,1)−U(x,0,1)
+−1
+1−||1−U(x,0,1)||2/ε2 , ˆΦTL is the traceless
+part of ˆΦ and U(x,0,1) is the usual plaquette variable. We impose the admissibility condition
+||1 −U(x,0,1)|| < ε for a constant ε in order to kill artifact vacua. Because of the nilpotency
+and Q-exactness, the action is manifestly Q invariant at the finite lattice spacing. The other three
+supercharges, Q0, Q1 and ˜Q, will be automatically restored in the continuum limit as long as a
+perturbative power counting is valid.
+3. Simulation Details
+Since fermions play an important role in supersymmetry the effect of the dynamical fermion
+is crucial. We use the Rational Hybrid Monte Carlo algorithm. The path integration of the fermion
+gives Pfaffian of the Dirac operator D, which contains the Yukawa interaction terms as well. We
+rewrite the Pfaffian using pseudo fermion integration with rational function. Symbolically, contri-
+bution from the fermionic part of the action Sfermion becomes
+integraldisplay
+Df exp(−Sfermion) = Pf(D) =
+integraldisplay
+DF exp(−F†(D†D)−1/4F)
+=
+integraldisplay
+DF exp
+parenleftBigg
+−F†
+bracketleftBigg
+a0 +
+n∑
+i=1
+ai
+D†D+bi
+bracketrightBigg
+F
+parenrightBigg
+, (3.1)
+where f is the fermion, F the pseudo fermion, D the Dirac operator, ai and bi are numerical con-
+stants.4 Here we ignore a phase factor of the Pfaffian Pf(D) because it is almost 1 (i.e., almost
+real and positive) in the current model. If it is needed we would reweight this phase factor in the
+measurements. We also utilize the multi time step evolution in the molecular dynamics [23]. We
+calculate forces from Sfermion every several calculations of forces from the other part of the action.
+We evolve pseudo fermion F as well as other bosonic fields U(x,µ), φ and φ in the molecular
+dynamics.
+The parameters we use are the following. We set the gauge group to SU(2) and ε for the
+admissibility condition to 2.6.5 The lattice size is 3×12–30×10 and the lattice spacing is ag =
+0.07071–0.2357. The degree of the rational approximation is typically 20. The length of time
+evolution in the molecular dynamics in each trajectory is fixed to 0.5. We store the configurations
+every 10 trajectories. We keep the acceptance in the Metropolis test to be greater than 0.8. Because
+4We use a program from [22] to obtain ai and bi.
+5The possible maximum value for ε is 2√2 = 2.8284... in SU(2) case.
+3
+RHMC simulation of two-dimensional N=(2,2) super Yang-Mills with exact supersymmetryIssaku Kanamori
+of the flat directions in the scalar potential which will be discussed later, and since the magnitude
+of the molecular dynamical force depends on the magnitude of the scalar fields, the acceptance
+fluctuates during the simulation.6 The magnitude of the scalar fields tends to be larger and the
+acceptance tends to be smaller as the simulation runs. See also Table 1 for the parameters and
+number of configurations we use in the application.
+4. Application: observing dynamical SUSY breaking
+What can we do with this simulation? We use it to observe the dynamical SUSY breaking
+using a method we proposed in [20, 21]. The requirement for the lattice model in the method is
+that it should have nilpotent Q and exact Q-invariance, which the current model satisfies. Since the
+SUSY is not broken in the perturbation if it is not broken in the tree level, a way of observing SUSY
+breaking due to non-perturbative effects is very important. Usually, the Witten index provides such
+a method but in this system, two-dimensional N =(2,2) pure super Yang-Mills, it is not available.
+What we know without numerical simulations is an argument by Hori and Tong that SUSY is
+probably spontaneously broken in this system [24].
+What we measure is the ground state energy using the Hamiltonian as the order parameter.
+As well known, vacuum expectation value of the Hamiltonian is zero if and only if the SUSY is
+not broken. The advantage of using the Hamiltonian is that it requires one-point function which is
+numerically much less expensive than two-point function.
+Since we are interested in that it is zero or not, the correct choice of the origin of the Hamilto-
+nian is crucial. We use the SUSY algebra to define the Hamiltonian. We regard the anti-commutator
+in (2.1) as follow:
+QJ(0)0 = 2H , (4.1)
+that is, Q transformation of the 0-th component of the Noether current corresponding Q0, J(0)0 ,
+gives the Hamiltonian density H . On the lattice we have only Q transformation but no Q0 trans-
+formation. Therefore, we discretize the continuum version of the Noether current by hand. We use
+the following as the 0-th component of the current for Q0:
+J(0)0 (x) = 1a4g2 tr
+braceleftbigg
+η(x)[φ(x),φ(x)]2 +2χ(x)H(x)
+−2iψ0(x)parenleftbigφ(x)−U(x,0)φ(x+aˆ0)U(x,0)−1parenrightbig
++2iψ1(x)parenleftbigφ(x)−U(x,1)φ(x+aˆ1)U(x,1)−1parenrightbig
+bracerightbigg
+. (4.2)
+Since we know the Q transformation on the lattice so it is straightforward to obtain the Hamiltonian.
+Another point is the boundary condition. As usual method for observing spontaneous sym-
+metry breaking, we apply an external field conjugate to the order parameter. The conjugate to the
+Hamiltonian is the temperature. That is, we impose the anti-periodic condition in the time direction
+for fermion. Therefore we break SUSY by boundary condition or equivalently by the temperature.
+Then we take zero temperature limit and see the effect of the breaking is left or not.
+6This is for the case in which we impose anti-periodic boundary condition in time direction for fermions. In the
+periodic case, the flat direction is lifted so that we do not observe such fluctuations of the acceptance.
+4
+RHMC simulation of two-dimensional N=(2,2) super Yang-Mills with exact supersymmetryIssaku Kanamori
+-0.5
+ 0
+ 0.5
+ 1
+ 1.5
+ 2
+ 2.5
+ 3
+ 3.5
+ 0  1  2  3  4  5  6  7
+βm
+not broken
+broken
+Figure 1: Expectation value of the Hamiltonian
+for supersymmetric quantum mechanics versus in-
+verse temperature β . All quantities are measured
+in a dimensionful parameter m in the potential.
+ 0
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+ 0  0.5  1  1.5  2  2.5  3  3.5  4  4.5
+βg
+SYM, continuum limit
+Figure 2: Expectation value of the Hamiltonian
+density for super Yang-Mills versus inverse tem-
+perature β . All quantities are measured in unit of
+dimensionful gauge coupling g.
+As a check of the method, we first investigate supersymmetric quantum mechanics. The known
+fact is that the form of potential decides whether SUSY is broken or not. We use a lattice model
+given in [25], which has nilpotent Q and Q-exact action. The details of the measurement and
+forms of the potential are found in [21]. Here we only show Figure 1, from which we can easily
+distinguish SUSY broken case and not-broken case. Our method actually works as expected.
+Next let us investigate the super Yang-Mills case. Figure 2 shows the result. We put the
+statistical errors only in the plot. Although we can not deny a possibility of non-zero small ground
+state energy that means breaking of the SUSY, the plot shows the value of the ground state energy
+is small and close to zero. We need to take a limit of the inverse temperature β → ∞ but the plot
+implies that the β we use is enough large since the expectation value of the Hamiltonian density is
+almost saturated. Note that all quantities are measured in the dimensionful gauge coupling g. Some
+details of the measurement is in order. We fix the physical spacial size LS = 1.41/g. We discard first
+20,000–30,000 trajectories as thermalization. We calculate the Hamiltonian every 10 trajectories.
+In order to reduce the errors, we take an average over the lattice. The errors are obtained using a
+jackknife analysis with binning. The bin size with which the autocorrelation disappears is typically
+10–20. We list the number of the configurations after the binning in Table 1.
+A potential danger comes from the non-compact flat direction of scalar fields. The current
+lattice model as well as the target theory in the continuum has classical flat directions. Figure 3
+shows in fact the scalar fields are not stabilized at the origin of the potential. It rather goes far
+away over the cut off scale.7 We regard this fact as an evidence that we have actually integrated
+over the non-compact configuration space of the scalar fields. In fact the quantity of interest, the
+Hamiltonian density, does not depends on the norm of the scalars (Fig. 4).
+5. Conclusion and Discussion
+We carried out the RHMC simulation for two-dimensional N =(2,2) super Yang-Mills based
+on Sugino model, which exactly keeps one scalar supercharge. Using the simulation, we observed
+7Effects of the large scalar fields will be discussed in [26].
+5
+RHMC simulation of two-dimensional N=(2,2) super Yang-Mills with exact supersymmetryIssaku Kanamori
+ 0
+ 10000
+ 20000
+ 30000
+ 40000
+ 50000
+ 0  50000  100000  150000  200000
+tr |
+φ|2
+trajectory
+6x6, ag=0.2357
+Figure 3: Evolution of the scalar norm over the
+trajectories in the anti-periodic case. The scalar
+norm is measured by 1/g2. It tends to be larger
+as the simulation runs.
+-5
+ 0
+ 5
+ 10
+ 0  10000  20000  30000  40000
+tr |φ|2
+6x6, ag=0.2357
+Figure 4: Scalar norm dependence of the hamil-
+tonian density at fixed lattice spacing. No depen-
+dence can be found.
+NT/NS
+NS ag 0.25 0.5 1 1.5 2 3
+6 0.2357 — 500 1,700 1,300 1,000 1,100
+8 0.1768 — 500 1,100 1,100 280 700
+10 0.1414 — — — — — 175
+12 0.1179 20 600 110 450 500 —
+16 0.08839 10 — — — — —
+20 0.07071 20 — — — — —
+Table 1: Numbers of independent configurations after binning for NT ×NS lattice, NT refers temporal direc-
+tion NS refers spacial direction.
+the ground state energy which is useful to check the dynamical SUSY breaking. Compared with
+the result in [20, 21], which did not utilize the dynamical fermion but the fermion effects were
+reweighted, the current simulation drastically reduced the error. An extension to couple the matter
+multiplet based on [27] will be an interesting application.
+Before giving the conclusive result with respect to SUSY breaking using this simulation, we
+should check whether the current lattice model actually describes the target continuum theory. We
+should check the restoration of the other three supercharges explicitly. It is no longer an assumption
+based on the perturbative discussion but the current simulation with dynamical fermion allows us
+to give an explicit numerical check [26].
+Acknowledgments
+The author would like to thank F. Sugino and H. Suzuki for useful discussion. He also thanks
+H. Kawai, M. Hanada, H. Matsufuru and K. Murakami. This work is supported by the Special
+Postdoctoral Researchers Program in RIKEN. The numerical simulation was done using Riken
+Super Combined Cluster(RSCC). The simulation code in C++ was developed based on [28].
+6
+RHMC simulation of two-dimensional N=(2,2) super Yang-Mills with exact supersymmetryIssaku Kanamori
+References
+[1] D. B. Kaplan, E. Katz and M. Unsal, JHEP 0305 (2003) 037 [hep-lat/0206019].
+[2] F. Sugino, JHEP 0401 (2004) 015 [hep-lat/0311021].
+[3] S. Catterall, JHEP 0411 (2004) 006 [hep-lat/0410052].
+[4] H. Suzuki and Y. Taniguchi, JHEP 0510 (2005) 082 [hep-lat/0507019].
+[5] A. D’Adda, I. Kanamori, N. Kawamoto and K. Nagata, Phys. Lett. B 633 (2006) 645
+[hep-lat/0507029].
+[6] T. Takimi, JHEP 0707 (2007) 010 [arXiv:0705.3831].
+[7] P. H. Damgaard and S. Matsuura, JHEP 0708 (2007) 087 [arXiv:0706.3007].
+[8] P. H. Damgaard and S. Matsuura, JHEP 0709 (2007) 097 [arXiv:0708.4129].
+[9] J. Giedt, PoS LAT2006 (2006) 008 [hep-lat/0701006].
+[10] K. Nagata, arXiv:0805.4235.
+[11] S. Arianos, A. D’Adda, A. Feo, N. Kawamoto and J. Saito, arXiv:0806.0686.
+[12] M. Kato, M. Sakamoto and H. So, JHEP 0805 (2008) 057 [arXiv:0803.3121].
+[13] S. Catterall, JHEP 0603 (2006) 032 [hep-lat/0602004].
+[14] H. Suzuki, JHEP 0709 (2007) 052 [arXiv:0706.1392].
+[15] H. Fukaya, I. Kanamori, H. Suzuki and T. Takimi, PoS LAT2007 (2007) 264 [arXiv:0709.4076].
+[16] J. W. Elliott and G. D. Moore, PoS LAT2005 245 (2006) [JHEP 0511 010 (2005)] [hep-lat/0509032].
+[17] J. W. Elliott and G. D. Moore, JHEP 0711, (2007) 067 [arXiv:0708.3214].
+[18] J. W. Elliott, J. Giedt and G. D. Moore, arXiv:0806.0013.
+[19] M. A. Clark, A. D. Kennedy and Z. Sroczynski, Nucl. Phys. Proc. Suppl. 140 (2005) 835
+[hep-lat/0409133].
+[20] I. Kanamori, H. Suzuki and F. Sugino, Phys. Rev. D 77 (2008) 091502 [arXiv:0711.2099].
+[21] I. Kanamori, F. Sugino and H. Suzuki, Prog. Theor. Phys. 119 (2008) 797 [arXiv:0711.2132].
+[22] M.A. Clark and A.D. Kennedy, http://www.ph.ed.ac.uk/mike/remez~mike/remez,
+2005.
+[23] J. C. Sexton and D. H. Weingarten, Nucl. Phys. B 380 (1992) 665.
+[24] K. Hori and D. Tong, JHEP 0705 (2007) 079 [hep-th/0609032].
+[25] S. Catterall and E. Gregory, Phys. Lett. B 487 (2000) 349 [hep-lat/0006013].
+[26] I. Kanamori and H. Suzuki, in preparation.
+[27] F. Sugino, arXiv:0807.2683 [hep-lat].
+[28] M. Di Pierro, Comput. Phys. Commun. 141 (2001) 98 [hep-lat/0004007].
+7

@@ -1,0 +1,1684 @@
+arXiv:0801.2615v1  [astro-ph]  17 Jan 2008
+Tidal Interactions of Red Giants with Environment Stars in
+Globular Clusters
+Shimako Yamada1, Atsuo T. Okazaki2 and Masayuki Y. Fujimoto1
+ABSTRACT
+We investigate the tidal interactions of a red giant with a main sequence in
+the dense stellar core of globular clusters by Smoothed Particle Hydrodynamics
+method. Two models of 0.8Mnull red giant with the surface radii 20 and 85Rnull
+are used with 0.6 or 0.8Mnull main sequence star treated as a point mass. We
+demonstrate that even for the wide encounters that two stars fly apart, the
+angular momentum of orbital motion can be deposited into the red giant envelope
+to such an extent as to trigger rotational mixing and to explain the fast rotation
+observed for the horizontal branch stars, and also that sufficient mass can be
+accreted on the main sequence stars to disguise their surface convective zone
+with the matter from the red giant envelope. On the basis of the present results,
+we discuss the parameter dependence of these transfer characteristics with non-
+linear effects takeninto account, andderive fitting formulae togive the amounts of
+energy and angular momentum deposited into the red giant and of mass accreted
+onto the perturber as functions of stellar parameters and the impact parameter
+of encounter. These formulae are applicable to the encounters not only of the
+red giants but also of the main sequence stars, and useful in the study of the
+evolution of stellar systems with the star-star interactions taken into account.
+Subject headings: globular clusters: general — stellar encounters: tidal captures
+1. INTRODUCTION
+In the core of globular clusters, it is thought that star-star interactions play an important
+role because of very high stellar density and of relatively low velocity (Hills & Day 1976).
+There is growing evidence for the modifications of stellar properties and populations under
+the influence of close encounters and collisions. For example, the overabundance of low-mass
+1Department of Physics, Hokkaido University, Kita-ku, Sapporo 060-0810, Japan
+2Faculty of Engineering, Hokkai-Gakuen University, Toyohira-ku, Sapporo 062-8605, Japan
+– 2 –
+X-ray binaries and millisecond pulsars is regarded as consequent upon tidal captures of an
+environment star by neutron stars, and upon the exchange encounters involving a neutron
+star (Fabian et al. 1975; Hills 1976): the smaller relative frequency of red giants in the core
+is attributed to the deprival of their envelope during close encounters with environment stars
+(Djorgoski et al. 1991; Beer & Davies 2004), and blue-stragglers, which are main sequence
+stars more massive than the turn-off stars, may result from direct collisional coalescence
+and/or binary merge of two or more stars (Leonard 1989, see Mapelli et al. 2006, and
+Leigh et al. 2007 and references therein for recent works); see also reviews by Bailyn (1995),
+Hut et al. (2003) and Ferraro (2006). In particular, the inflation of the number of known blue
+stragglers boosted by the observations using Hubble Space Telescope (Ferraro et al. 1997,
+1999; Paltrinieri et al. 2001; Ferraro et al. 2003, 2004; Sabbi et al. 2004; Beccari et al. 2006;
+Warren et al. 2006), suggests that a significant fraction of stellar populations undergo such
+encounters with neighboring stars. Recent observations with the Chandra X-ray Observatory
+indicate a link between the numbers of X-rays binaries and the stellar encounter rates in
+globular clusters (Pooley et al. 2003; Pooley & Hut 2006).
+Furthermore, there is a longstanding problem of large star-to-star variations in the
+surface abundances of light elements such as C, N, O, Ne, Mg and Al. Some giants in
+globular clusters exhibit the anomalous surface abundances that cannot be explain in terms
+ofthe nucleosynthesis andmaterialmixing inthe starswithin thecurrent standardframework
+of stellar evolution (e.g., see reviews by Kraft 1994; Da Costa 1997). Since these anomalies
+are observed only in globular clusters but not from field giants in the Galactic halo, it
+is natural to search for their origin(s) in the differences between the environment in the
+globular clusters and in the Galactic halo, and hence, to consider them as a evidence of
+the star-star interactions. In fact, Fujimoto et al. (1999) have proposed a scenario for the
+formation mechanism of these abundance anomalies involving hydrogen shell flashes in red
+giants, as a result of internal mixing, triggered by the deposition of angular momentum
+into their envelopes during a close encounter with other stars. It is demonstrated that this
+extra-mixing model can reproduce the observed relationship such as correlation and scatter
+in the anomalous abundances of Na and Al and the Mg-Al anti-correlation (Aikawa et al.
+2001, 2004).
+Recently, similar abundance variations are found among unevolved stars of turn-off
+and sub-giant (Gratton et al. 2001). It is true that the variations and anti-correlations
+between CN and CH bands have been reported not only for giants but for stars of upper
+main sequence, which may be taken to suggest the presence of abundance anomalies in
+unevolved stars (Suntzeff & Smith 1991; Briley et al. 1992; Cannon et al. 1998; Cohen 1999).
+It has been argued that these facts refute the evolutionary scenario that the abundance
+anomalies are produced during the evolution along the giant branch and favor the primordial
+– 3 –
+scenario that the stars were born of gas already subject to the anomalous abundances (e.g.,
+Sneden et al. 2004). As a possible compromise, the recycling scenarios have been proposed
+that the inhomogeneity is due to the surface pollution by accreting the ejecta of anomalous
+abundances from the erstwhile AGB stars of intermediate masses (Thoul et al. 2002), or that
+the second-generation stars were born from the gas polluted with the ejecta of AGB stars
+(D’Antona 2004; D’Antona & Caloi 2004). Ventura et al. (2001) argue that the burning at
+the bottom of convective zone in low metallicity AGB stars can produce the observed O-
+Na and Mg-Al anti-correlations. On the other hand, Fenner et al. (2004) cast doubt upon
+the relevance of AGB ejecta to the observed anomalies. In addition, the scenarios involve
+serious difficulties both in the mass supply and in the overabundances of CN and s-process
+elements, attendant with the third dredge-up during the evolution; the necessary amount of
+mass ejecta only to cover and disguise the surface convection of giants may well exceed the
+total envelope mass that can be ejected from the erstwhile AGB stars, and the enrichment
+of s-process elements is never observed (James et al. 2004).
+For the evolutionary scenario, it can also be argued that the abundance anomalies
+are printed onto the surface of unevolved stars through the mass transfer during the close
+encounters with such giants that have already developed the abundance anomalies; the
+anomalous abundances are themselves attributed to the deposition of angular momentum
+into the convective envelope of giants during prior close encounters with environment stars
+(Shimada et al. 2003). The surface convection of population II main sequence stars contain
+mass of 3null10null3Mnull near the turn-off (e.g., see Fujimoto et al. 1995), and hence, the accretion
+of mass of this order may suffice to disguise their surface abundances with those of accreted
+matter. The evolutionary scenario with star-star interactions during the red giant branch
+taken into account are free from the above difficulties and have a fair prospect of giving a
+satisfactory explanation to these inhomogeneous anomalies. Recently, the helium production
+by this extra-mixing mechanism is discussed (Suda et al. 2007) in relevance to the splitting
+of main sequence branch, observed from ω Cen (Bedin et al. 2004) and from NGC 2808
+(Piotto et al. 2007).
+One of the aims of this paper is to investigate whether the orbital angular momentum
+can be transferred into the envelope of giant from the orbital motion and whether the main
+sequence star can accrete the envelope mass from giants enough to disguise their surface
+layer with the accreted matter through star-star interactions. It is argued that the rotation-
+induced mixing requires (differential) rotation of null 0.01 times the local critical rate from
+the energetic viewpoint (e.g., see Fujimoto et al. 1999), although the proper theory is yet
+to be established. From the observations, the horizontal branch stars are known to display
+a bimodal distribution of rotation velocity with the fastest rotators at velocity vrot sini greaterorsimilar
+30 km snull1 (where i is the inclination angle of spin axis) on the cooler side of horizontal
+– 4 –
+branch where Teff < 15000null K (Peterson 1983; Peterson et al. 1995; Cohen & McCarthy
+1997; Behr et al. 2000a,b; Recio-Blanco et al. 2002). If we neglect the angular momentum
+loss during the transition to the horizontal branch, such rapid rotations require the angular
+momentum corresponding to the rotation rate of an order of Ω null 0.01ΩRG at the tip of
+red giants (ΩRG being the critical rotation rate at the surface). This poses a problem of the
+origin of angular momentum since in the low-mass stars, the angular momentum is effectively
+extracted by magnetic braking during the main sequence phase and by mass loss during the
+red giant phase (e.g., see Recio-Blanco et al. 2002; Suda & Fujimoto 2006).
+The star-star interactions have been proposed as the mechanism(s) to form the unusual
+stellar objects discussed above and studied by many authors. Among the analytical ap-
+proaches, Fabian et al. (1975) first presented an idea and evaluated the possibility that the
+low-mass X-ray binaries are produced through tidal dissipation during the two body encoun-
+ters involving a neutron star or low-mass black hole. Press & Teukolsky (1977) developed
+the linear perturbation theory of the two-body tidal capture mechanism to derive a general
+formula for the amount of orbital energy, deposited into the oscillatory modes of stellar enve-
+lope during a periastron passage. Lee & Ostriker (1986) and McMillan et al. (1987) worked
+out the cross sections for the binary formation via tidal capture of a main sequence star and
+McMillan et al. (1990) that of a red giant, respectively. These studies are, however, limited
+to the linear regime and can not deal with the non-linear effects such as the mass transfer
+between the stars and the mass loss from the stars owing to large deformations of the stars
+by tidal force.
+In order to estimate the non-linear effects during the close encounters, numerical sim-
+ulations are necessary. Among the numerical approaches, most studies have been devoted
+to understanding the resultant offspring of the stellar interactions. Simulations of tidal en-
+counters have been performed for the various combinations of stars, e.g., a main sequence
+and a red giant star (Benz & Hills 1991): a neutron star and a main sequence star or a
+red giant star in an attempt to explain the formation of the low-mass X-ray binaries and
+the millisecond pulsars (Davies et al. 1992; Rasio & Shapiro 1991; Davies 1995; Lee et al.
+1996): main sequence stars in encounter and collision, aiming at the formation of blue
+stragglers (Lai et al. 1993; Lombardi et al. 2002): and a red giant star and a neutron star
+in relation to the formation of pulsars or ultra-compact X-ray binaries (Rasio & Shapiro
+1991; Lombardi et al. 2006). These studies have been performed exclusively by using the
+smoothed particle hydrodynamics (SPH) method, except for the encounters involving a
+massive black hole and a star, which were calculated by using a three-dimensional Euler
+hydrodynamic code (Khokhlov et al. 1993a,b). Recently SPH simulations are applied to the
+evolution of a giant planet through the tidal interactions with a sun-like star (Faber et al.
+2004; Ivanov & Papaloizou 2004).
+– 5 –
+The former hydrodynamic simulations, especially those of the tidal encounters between
+a red giants and a main sequence star by Davies et al. (1991), have been carried out with a
+relatively small number of SPH particles and for limited range of parameters. Their results
+are thought to be subject to limitations arising from low-mass resolutions since mass involved
+in the interactions decreases as the periastron distance increases, and the SPH method may
+not give a valid description of such situations where mass scales are as small as that allotted
+to each particles. In our problems of surface pollution, we deal with the accretion of mass
+null 10null3Mnull. Simulations with finer mass resolutions, and hence with larger particle numbers,
+are necessary to investigate such encounters involving the transfer of mass of this order. It is
+also desirable to perform simulations for a wide range of parameters, such as the periastron
+distance, the red giant models in different evolutionary stages, and the mass of main sequence
+stars in order to obtain a realistic and general information about the characteristics of the
+tidal interactions.
+In this paper, we first carry out simulations of tidal interactions between a red giant and
+a main sequence star by using SPH method. We make a detailed analysis of the amounts of
+energy and angular momentum, transferred from the orbital motion to the oscillation and
+spin of red giant, and the amount of mass, lost from the red giant and accreted onto the
+main sequence stars. Based on the numerical experiments, we then attempt to clarify the
+parameter dependence of these characteristics and to formulate the quantitative outcome
+as simple functions of the stellar parameters and impact parameter of encounters. The
+present results are applied to investigate the relevance of the scenario that the star-star
+interactions give rise to the abundance anomalies observed among not only giants but also
+main sequence stars in globular clusters. The derived formulae will be useful to perform
+simulations of dynamical evolution of stellar systems with the effects of stellar interactions
+taken into account.
+The organization of the paper is as follows. In next section, we describe our numerical
+methods, including the set-up of the initial conditions, the models of the red giant, the
+treatment of accretion and the determination of the viscosity of red giant models. In null3,
+we present the results from our simulations with the discussion of the non-linear effects of
+tidal interactions. In null4, we derive fitting formulae for the energy and angular momentum
+deposited into the envelope of the red giants and the mass accreted onto the main sequence
+stars during the tidal encounters. The conclusions follow in null5, with the discussion about
+the application to the globular clusters.
+– 6 –
+2. METHOD OF NUMERICAL COMPUTATIONS
+In the present work, we use the three dimensional, smoothed particle hydrodynamics
+(3D-SPH) code, originally developed by Benz (Benz 1990; Benz et al. 1990), and extended
+by Bate et al. (1995). The variable smoothing length is adopted with the hierarchical tree
+method, originally written by Press (1986), to make the list of particles in the closest neigh-
+borhood of the particles. The kernel and the integrating method in our code are respectively
+the standard cubic-spline kernel and a second-order Runge-Kutta-Fehlberg integrator with
+individual time steps for each particle (Bate et al. 1995).
+In our cases, the timescale of periastron passing is much shorter than the Helmholtz-
+Kelvin timescale in the envelope [τHK null 1.5null104(RRG/20Rnull)null1(LRG/Lnull)null1 yr, where RRG
+is the surface radius of red giant]. Accordingly we assume the adiabatic relation for the gas
+in the envelope of red giants. In actuality, the code takes into account the change of the
+entropy due to viscous dissipation, although it may have only a minor effect since we deal
+with the tidal interactions at large distance, not accompanied by large shock dissipation.
+Our SPH code uses the standard form of artificial viscosity with two free parameters
+αSPH and βSPH, which respectively control the strength of the shear and bulk viscosity compo-
+nents andthatof asecond-order, von Neumann-Richtmyer-type viscosity (Monaghan & Gingold
+1983). It is known that the linear artificial viscosity can be reduced to the Shakura-Sunyaev
+viscosity prescription in the continuous limit; Meglicki et al. (1993) derived a relation which
+connects the viscous force with the linear artificial viscous parameter αSPH. If the density
+varies on a length-scale much larger than the velocity, the shear viscosity, ν, is written in
+terms of the artificial viscosity parameter αSPH, in the form:
+ν = (1/10)αSPHcsh, (1)
+where cs is the isothermal sound velocity and h is the smoothing length (Okazaki et al. 2002).
+In the envelope of red giants, on the other hand, we may relate the shear viscosity to the
+eddy-viscosity of convective motions, νeddy, evaluated at
+νeddy = vconv nulllmix. (2)
+where vconv is the averaged velocity of convective elements and estimated from the mixing
+length theory with the mixing length, lmix. For a red giant model of mass 0.8Mnull and
+the metallicity [Fe/H] = null1.5, the eddy viscosity is found to be nearly constant around
+νeddy null 7 null 1015 cm2 snull1 in the envelope when the radius null 20Rnull and the luminosity
+null 100Lnull (see e.g., Suda & Fujimoto 2006). Since cs nullh null 7 null1017 cm2 snull1 on average for
+the red giant models constructed with SPH code (see below), we may approximate the eddy
+viscosity with a choice of αSPH = 0.1. We perform the simulations with the two values of
+– 7 –
+linear artificial viscosity parameter, αSPH = 1.0 of common use and αSPH = 0.1 in order to
+see the effects of viscous forces. As for the non-linear artificial viscosity parameter, we follow
+the usual prescription and set βSPH = 2nullαSPH (Bate et al. 1995).
+2.1. Initial Conditions and Approximations
+Our simulations consist of two steps, i.e., we first make the initial models of red giants
+in hydrostatic equilibrium with SPH particles, and then, follow the encounter with a main-
+sequence star. Our red giant models are constructed with a total of 50,000 SPH particles of
+equal mass in the envelope and the core approximated by an appropriate external potential,
+while the main-sequence star is treated as a point mass. We start the encounter simulations
+by placing a red giant and a main sequence at a separation of 5RRG. Their relative velocity
+at this distance is calculated from the relative velocity at infinity, assumed to be vnull =
+10 km snull1 in this work, and the impact parameter. The red giants are assumed to be not
+rotating initially. We set the total mass at MRG = 0.8Mnull and adopt two models at the
+different evolution stages, the one with the core mass Mcore = 0.32Mnull and the surface radius
+RRG = 20Rnull and the other with Mcore = 0.48Mnull and RRG = 85Rnull; the mass of one SPH
+particle is 0.96null10null5 and 0.64null10null5 Mnull, respectively. The former model is taken to have
+the same model parameters as by Benz & Hills (1991) and Davies et al. (1991) who use 7,132
+SPH particles of unequal masses, and the latter corresponds to the structure realized near
+the tip of the red giant branch. For the main sequence star, we take two different masses of
+MMS = 0.6 and 0.8Mnull.
+2.2. Red Giant Models
+Thee envelope structure of red giant can be reproduced by placing the envelope mass
+under the influence of the gravity of core, modeled as a sphere of uniform density, according
+to Fujimoto & Tomisaka (1992). By solving the equations of hydrostatic equilibrium with
+an additional gravity g of the core, expressed as
+g =
+braceleftbiggnullGM
+corer/R3core for r null Rcore,
+nullGMcore/r2 for r > Rcore, (3)
+with the core radius Rcore, we determine the density distribution of red giant envelope; see
+appendix A for detail. For the equation of state, we assume the polytrope of P = Kρ(1+1/N)
+with the polytropic index N = 1.5, which corresponds to the adiabatic equation of state with
+the adiabatic exponent Γ = 5/3; the polytropic constant K stands for the specific entropy
+of the monatomic ideal gas.
+– 8 –
+Figure 1 shows the density distributions in the envelope of red giants, thus obtained,
+for the models with different surface radii of RRG = 20Rnull and RRG = 85Rnull. When the
+radius and the density are normalized with the surface radii RRG and the envelope density
+ρenv = Menv/R3RG, two density distributions become nearly identical except inside of the
+core, which is a feature of red giant structure unless the mass in the envelope is much
+smaller than the core mass (Fujimoto & Tomisaka 1992). In this figure, we also plot the
+density distribution in the red giant by taking the model from the evolutionary calculation
+(Suda & Fujimoto 2006) for comparison, which exemplifies that the analytic models can
+reproduce the envelope structure of red giants very well. Moreover, we compare the models
+with different core radii of Rcore = 0.026Rnull and 2Rnull to demonstrate that the assumed core
+radii hardly affect the structure outside the core of r > 2Rnull, and in particular, in the outer
+envelope that may take a main part in tidal deformations, while the central density differs
+greatly by a factor of 4.6null105. In our simulations, we therefore set Rcore = 2Rnull to reduce
+the amount of particles injected into the innermost region. The initial models of red giants
+for the SPH simulation are constructed by distributing particles according to these envelope
+solutions, and then, by relaxing them into hydrostatic equilibrium with an artificial damping
+force on the particles. The relaxed distribution of SPH particle is also shown in the figure;
+it reproduces the structure of red-giant envelope very well except for the very surface layer
+of mass less than null 0.0001Mnull because of mass resolutions, where the variable smoothing
+length, h, null 0.1RRG.
+2.3. Accretion onto the Main Sequence Star
+We assume that the main-sequence star, treated as a point mass perturber, accretes any
+SPH gas particles that enter within the accretion radius, racc, which is defined as half the
+Roche-lobe radius, RL, calculated under the assumption of a circular orbit at a instantaneous
+separation, D, between the main sequence and the red giant, and given by;
+racc = 0.5RL = 0.5D(0.38+ 0.2logq) (4)
+in which the expression for RL is valid for the mass ratio 0.3 < q = MMS/MRG < 20
+(Paczynski 1971). A factor of 0.5 is adopted in order for the main sequence star not
+to artificially accrete unbound particles that happen to enter its Roche lobe. We have
+confirmed that the number of accreted particles is nearly the same with a smaller accretion
+radius racc = 0.1RL. As for the accreted SPH particles, the mass, momentum and angular
+momentum that they carry are added to the point mass of main sequence stars.
+– 9 –
+3. RESULTS OF SIMULATIONS
+We have carried out 25 simulations of tidal encounter with a red giant of mass 0.8Mnull
+and a main sequence star by varying the impact parameter, b, for eight sets of parameter
+combinations with the two different red giant models, the two different main sequence star
+and the two choices of artificial viscosity parameters. The model parameters are summarized
+with model identifiers in Table 1. We adopt relatively heavy main-sequence stars of mass,
+0.8 and 0.6Mnull, based on the fact that the mass segregation may proceed to enhance the
+abundance of relatively massive stars in the cluster cores where the close encounters are
+expected to occur more frequently because of larger stellar density. In this table we give the
+periastron distance, rp, instead of the impact parameter b, which is given for a hyperbolic
+orbit as
+b2 = r2p[1 + 2G(MRG +MMS)/rpv2null], (5)
+where vnull is the relative velocity before the encounter and set to be vnull = 10 km snull1 in the
+present work. We also define the ratio, η, between the critical angular velocity, ΩRG, of
+rotation at the initial surface of red giant and the angular velocity, Ωpass, for the circular
+orbit at the periastron distance, rp, as a measure of the closeness of encounter;
+η = ΩRGΩ
+pass
+=
+parenleftbigg M
+RG
+MRG +MMS
+parenrightbigg1/2parenleftbigg r
+p
+RRG
+parenrightbigg3/2
+. (6)
+following Press & Teukolsky (1977). In addition, we give the characteristic results of simu-
+lations, the energy and angular momentum transferred into the red giants from the orbital
+motions, and the masses, accreted onto the main sequence stars and lost from the systems;
+also listed are the periods, semi-major axes and eccentricities of orbital motions for the mod-
+els that yield bound systems and the models that end up with positive orbital energy are
+denoted as fly-by.
+Figures 2 gives the snapshots showing the variations of surface density, Σ, projected on
+the orbital plain for Model a8rg1 (RRG = 20Rnull, MMS = 0.8Mnull, αSPH = 1.0, rp/RRG = 1.75
+or η = 1.64); the contours, separated by 0.2 dex, are plotted in the range of 10null0.001 times
+the average surface density, Σenv = Menv/piR2RG, and open circle denotes the accretion radius
+of the main sequence star. Numerals in right-bottom corner give the elapsed time from the
+onset of simulation in units of dynamical timescale, τRG = (R3RG/GMenv)1/2, defined with the
+envelope mass of red giant as in Davies et al. (1991). On each panel open and filled squares
+mark the gas particles, initially situated on the two separate shells on the orbital plane, as
+the indicators of stellar rotation.
+As the main sequence star approaches, the tidal bulge is raised on the surface layer of
+red giant and grows toward the main sequence star. The oscillations of l = 2 f-modes are
+– 10 –
+predominantly excited as predicted from the linear perturbation theory. In the outer shells of
+a few 10 % in mass fraction, the deformations greatly elongated toward the perturber develop
+into non-linear regime, as seen from filled squares; in the interior, on the other hand, the
+perturbations remain small in linear regime, as observed from the location of open squares,
+and the gas almost stay at rest in the still deep interior. The outer deformations cannot keep
+pace with the motion of perturber as it is accelerated because of the timescale of passage
+of perturber comparable to that of oscillatory motions and of initially small rotation rate of
+the red giant. The lag of tide develops as the perturber approaches to the periastron. Later
+around time of 6.5 τRG after the periastron passage, the gas streaming out of the red giant
+starts to accrete onto the main sequence star, now separated by D null 4RRG.
+At the same time, there appears an interesting non-linear feature in the vicinity of the
+surface of the red giant star. As a result of the l = 2, f-mode oscillations, a density ditch
+is formed near the interface of upward and downward motions, as seen from the panels in
+the middle row. Figure 3 shows an enlarged picture of the velocity structure when the ditch
+is formed. Since the expanded mass elements gain larger tidal torque than the compressed
+mass elements, the former overtakes the latter while contracting to form an eddy-like velocity
+structure of counter-clockwise rotation. The rotation of Lagrangian shells and the resultant
+deposition of angular momentum into the red giant star due to the tidal torque proceed
+spectacularly in the surface region, dominated by the non-linear effects. Such features can
+no longer be the case in the linear theory, although the mass involved in the non-linear
+deformations is small, as seen from the movement of open squares. The similar non-linear
+effects are reported by Khokhlov et al. (1993a), who study tidal encounters between a poly-
+tropic star and a black hole, although they assume large periastron distance, and hence, the
+deformations remain nearly axial-symmetric without mass transfer, which is different from
+our case.
+This model illustrates an example that ends with the formation of a bound system
+after the encounter, as seen from Table 1. In Model e8rg1 with the same parameter but for
+the smaller shear viscosity of αSPH = 0.1, the deformations are identical during the earlier
+phase of time 0 null 5τRG with those in Fig. 2, and the effect of smaller viscosity is plainly
+discernible only in deeper ditch that develops after 6 time units. Accordingly, there are only
+small differences in the results in Table 1. This suggests that the transfer of energy and
+angular momentum is attributed solely to the phase-lag of the deformations, dynamically
+generated in the red giant envelope behind the perturber passage. The interactions to
+exchange these quantities predominantly occur near the periastron passage of the smallest
+separation while the deformations are still growing. On the other hand, the effects of viscosity
+become important only after the deformations contract to generate a strong shear near the
+stellar surface, and hence, the value of viscosity hardly affects the transfer characteristics.
+– 11 –
+The models of larger impact parameters such as Model c8rg1 of η = 2.4 result in a fly-by
+encounter. The non-linear deformations in the outer shells of red giant are weaker than those
+of the model of closer encounter η = 1.64 in Fig. 2. Because of slower angular velocity of
+perturber, the tidal bulge stretched out toward the perturber is relatively slimmer to form a
+chimney like structure. The ditch and the eddy-like structure, generated on the surface, are
+also in smaller scales.
+The encounter with a less massive perturber results in smaller transfer characteristics,
+a part of which is due to a larger periastron passing time, η, when compared at the same
+periastron distance. Model c6rg1 of MMS = 0.6Mnull and rp = 2.00RRG (η = 2.14) exhibits
+a similar chimney like structure as Model b8rg1 of the massive perturber with the same
+periastron distance, but the surface deformations are slightly smaller because of larger η.
+The overall transfer characteristics lie between those of two massive perturber models, Model
+b8rg1 with η = 2.00 and Model c8rg1 with η = 2.40.
+The encounters with red giants at later evolutionary stages are exemplified by the mod-
+els of the larger radius, RRG = 85Rnull. When models with the same encounter closeness
+parameter η are compared, the overall characteristics of interaction, i.e., the structure of
+mode oscillations, the development of deformations and the accreted process, are very sim-
+ilar in all models, despite of the large difference in the physical distance scales. This is
+attributable to the nature of envelope structure of red giants, i.e., to the self-similar density
+structure, as shown in Fig. 1. The resultant transfer characteristics also turn out to be very
+similar when we subtract the effects of smaller envelope mass.
+The overall features of gas streaming are as follows. For small periastron distances as
+in these encounters, the non-linear effects in the tidal interactions are important and the
+surface density profile becomes highly asymmetric in the outer shells of red giants. As the
+perturber approaches to periastron, the tidal bulge is exited in the red giant and elongated,
+first directed to the perturber. Since it cannot catch up with the motion of the perturber
+because of initially slow rotation, gas particles from the surface of red giant chases after the
+perturber to gain the energy and angular momentum. Some of them eventually get captured
+by the gravitational potential of the perturber after periastron passage. On the other hand,
+most of gas involved in the tidal bulge falls back onto the red giant with gained angular
+momentum, which produces a non-linear feature of eddy-like structure in the surface region.
+Even in the case of binary formations, the orbit is highly eccentric, and hence, as two stars
+go away from each other the tidal bulge becomes slender.
+– 12 –
+3.1. Non-Linear Deformations and The Evolution of Differential Rotation
+The transfer of orbital energy and angular momentum to the red giant is characterized
+by the following three time-scales; (i) the periastron passing time scale of main sequence
+star, τpass(= 1/Ωpass), which is related to the variation of the external perturbing force:
+(ii) the dynamical time-scale of the envelope of red giant, τdyn(= 1/ΩRG), which is related
+to the stellar oscillations in response to the external force: (iii) the viscous time-scale in
+the envelope of red giant, τvis(= R2RG/νeddy), which is caused by the convective eddy in
+the red giant envelope. In our case, τvis null τpass lessorsimilar τdyn. For a slowly rotating red giant,
+the tidal bulge tends to fall behind the accelerated motion of perturber, and hence, a tidal
+lag is formed dynamically to carry the energy and angular momentum from the orbital
+motion into the oscillatory motions and rotation of red giant envelope. The viscosity plays
+secondary roles in the transfer of energy and angular momentum, as seen in Table 1. The
+accreted mass depends little on the assumption of viscosity either. Furthermore, we see
+that the accreted mass takes nearly the same values regardless of the difference in the red
+giant models when compared among the models of the similar values of ∆E/(GM2RG/RRG),
+instead of the encounter closeness parameter η. This is indicative that the mass accretion is
+determined by the same process of energy deposition process.
+Figure 4 shows the time variations of angular velocity, Ωshell, relative to its Keplerian
+angular velocity, ΩRG = (GMRG/R3RG)1/2, averaged over the gas particles in the three La-
+grangian rings on the orbital plane, initially located at the shells which contain the mass of
+red giant (including the core mass) by 95%, 90%, and 80%, respectively. The tidal torque
+excites the oscillations of Ωshell of periods null 2τRG, corresponding to the l = 2, m = null2,f-
+mode. As the perturber approaches, the oscillations develop precipitously to reach the
+maximum strength near the periastron passage (at t null 4.5τRG and 3.0τRG for the models
+with RRG = 20Rnull and 85Rnull, respectively) with greater amplitudes and longer durations
+in outer shells. Accordingly, the turnover of rotation velocity delays in the outer shell, and
+at the same time, the mean rotation velocity of oscillation increases in prograde direction,
+reflecting the injection of angular momentum due to the tidal torque, which is stronger in
+outer shells. The amplitudes and mean-values of oscillations are greater for closer encounter.
+Between the different red giant models with the same closeness parameter η, the model with
+the larger radius entails smaller variations in the rotation rate, normalized with respect to
+the characteristic rotation rate, Ωshell/ΩRG; this is true even if we take into account the fact
+that the shell of the same mass fraction is 50% deeper in the envelope because of smaller
+envelope mass. It should be noted however that the net amount of angular momentum trans-
+ferred is larger, though slightly, for the red giant model of larger radius because of larger
+critical angular momentum (R2RGΩRG).
+– 13 –
+As for the effects of viscosity on the time variations of Ωshell, the largest one appears
+in the difference in the minimum value after the periastron passage; for the smaller viscous
+parameter, it decreases to be smaller, and along with the phase delay of outer shells, the
+eddy-like structure of counter-clockwise flow becomes stronger, as stated above. The time of
+minimum Ωshell coincides nearly with the time of the strongest eddy in Figs. 2. Stronger shear
+produced by the eddy-like structure in turn enhances the dissipation and inward transport of
+angular momentum; in panels a and anull, we see the amplitudes of oscillations in the outer two
+shells get smaller in the second and later cycles for the models of smaller viscosity, though
+the overall similarity holds , in particular, in the shifts of mean-values of oscillations.
+Figure 5 illustrates the evolution of the radial distribution of angular velocity, averaged
+over the gas particles between cylinders, perpendicular to the orbital plane, with the outer
+andinner radii, separated by 0.1RRG. The outermost layer is first accelerated andpulled most
+outwards to run after the perturber of the angular velocity, Ωpass, at periastron passage (null
+0.61ΩRG around the time null 6τRG). Then the deposited angular momentum is redistributed
+gradually into the interior. By null 40τRG, the most of interior up to the radius R null 1.1RRG
+tends to rotate uniformly while there remains differential rotation in the outer expanded layer
+of lower density. For the smaller viscosity parameter of α = 0.1, the viscous process works
+slightly more slowly and a uniform rotation is reached only in the interior of R lessorsimilar 0.8RRG
+by null 40τRG with stronger differential rotation in the outer shells. The timescale for transfer
+of angular momentum inside the red giants is shorter than that estimated from the eddy
+viscosity, the latter of which is null 1 yr and 10 yr for the case of αSPH = 1.0 and αSPH = 0.1
+respectively, while τRG = 0.02 yr. This also indicates that the non-linear effects, seen from
+Fig 3, must mainly contribute to the redistribution of the angular momentum.
+3.2. Transfer of Energy and Angular Momentum and Mass Accretion
+We evaluate the change in the orbital energy, ∆E, from the difference of the kinetic and
+potential energy as
+∆E(t) = 12µ0v2null null
+parenleftbigg1
+2µv
+2 null GMRGMMS
+r
+parenrightbigg
+, (7)
+where µ is the reduced mass: r and v are the relative distance and velocity, respectively,
+and the subscript 0 denotes the quantities before the encounter. We may well assume that
+the change in the orbital energy is equal to the energy transferred to the red giant since
+the energy carried away by the particles that escape from the system is much smaller and
+escaped mass is smaller than accreted mass by nearly an order of magnitude as seen from
+Table 1.
+– 14 –
+The total angular momentum, ∆L, transferred into the red giant is estimated by sum-
+ming up the specific angular momentum for all the particles constituting the red giant
+envelope around the core;
+∆L(t) =
+summationdisplay
+i
+mi(ri nullrRG)null(vi nullvRG), (8)
+where mi, ri and vi are respectively the mass of the i-th gas particle and its position and
+velocity vectors, and rRG and vRG are the position and velocity vectors of the core of red
+giant, respectively. We exclude from the summation the gas particles which have accreted
+onto the main sequence and those which have escaped from the system; the latter particles
+are defined as satisfying the following two conditions; (1) the total energy, i.e., the sum of the
+thermal, kinetic and potential energy, of a gas particle is positive and (2) the radial velocity
+is positive when measured from the center of mass.
+Figures 6 and 7 show the time variations of orbital energy and angular momentum
+(Eorb = µ0v2null null ∆E and Lorb = µ0bvnull null ∆L), respectively, for the 20Rnull models. As the
+periastron is approached, both decrease rapidly and reach the minimum after the periastron
+passage. Then, they turn to increase gradually to resume the loss up to null 28% at the largest
+case, and approach to asymptotic constant values. Figure 8 shows the time variation of mass,
+Macc, trapped by the perturber; the beginning of mass accretion coincides with when the
+orbital energy and angular momentum hit the minimum, and the increase in the accreted
+mass follows the curves of the latternull recovery. This indicates that the orbital energy and
+angular momentum once received by the surface matter are slowly returned back to the
+orbital motion by the accretion process.
+At the end of our simulations, the motions of two stars tend to settle in the asymptotic
+orbits, and the characteristics no longer change. We present the values of ∆E(tE), ∆L(tE)
+and Macc(tE) at the end of our simulation at t = tE = 20 or 40τRG in Tabel 1. The
+deposited energy and angular momentum into the red giant envelope increase precipitously
+with decreasing periastron distance, and for rp lessorsimilar 2RRG, both of them become appreciable in
+comparison with the gravitational binding energy and the angular momentum corresponding
+to the critical rotation of red giants, respectively. The angular momentum of ∆L(tE) greaterorsimilar
+0.01IRGΩRG (where IRG is the moment of inertia of red giant) can be deposited, which is
+necessary to explain such fast rotators as observed for the horizontal branch stars in the
+globular clusters. The accreted mass onto the main sequence stars also shows a similar
+tendency, amounting to be comparable with the mass in the surface convective zone of
+main sequence stars near the turn-off stars in the globular clusters (null 0.003Mnull; see, e.g.,
+Suda & Fujimoto 2006). As the perturber mass decreases by 25% from MMS = 0.8 to 0.6Mnull,
+the deposited energy and angular momentum decrease by a factor of 1.6null2.2, and the accrete
+mass decreases by a slightly larger factor of 2.3null2.5. When the two red giant models are
+– 15 –
+compared at the same encounter closeness parameter η, the interactions tend to be weaker
+for red giant models of larger radius, when normalized with respect to their radii, giving
+smaller ∆E(tE)/(GM2RG/RRG), ∆L(tE)/(GM3RGRRG)1/2, though the differences remain less
+than a factor of 2. This is attributable mainly to the smaller envelope mass involved in the
+tidal deformations (decreasing by 50 %) for the model of the larger radius.
+In our simulations the border between the tidal capture and the fly-by, i.e., whether
+two stars form a bound system or fly apart after the encounter, lies in the range of 2.14 <
+rp/RRG < 2.25 for 20Rnull and 1.41 < rp/RRG < 1.65 for 85Rnull, respectively. Our tidal capture
+limit is somewhat larger than obtained from the linear analysis by McMillan et al. (1990),
+who give the range rp/RRG = 1.5 null 1.7 for a capture of a 0.5Mnull dwarf (see Table 2) and
+Bailyn (1988), who give the range rp/RRG = 1.0null2.0 for a capture of a 1.4Mnull neutron star.
+As for the dependence on the red giants models, the case of 85Rnull results in the fly-by for
+closer encounters than the case of 20Rnull when compared between the models of the same
+periastron distance normalized by the stellar radius. This is due to the smaller binding
+energy of envelope, which directly affects the capture condition ∆E(tE) > (1/2)µ0v2null, as
+already discernible in the linear analysis by McMillan et al. (1990). On the other hand, a
+larger radius causes relatively greater effects on the angular momentum deposition and mass
+accretion; for the red giants of late evolutionary stages, even the fly-by encounters can give
+the sufficient amounts of angular momentum and accreted mass to explain the fast rotators
+of HB stars and to disguise the surface of the main sequence star with accrete matter.
+4. Parameter Dependences of Transfer Characteristics and Fitting Formulae
+4.1. Tidal Energy Deposition and Angular Momentum Transfer
+The linear perturbation theory has been developed by Press & Teukolsky (1977) and
+Lai (1997) to evaluate the transfer of energy and angular momentum through the dynamical
+tides; according to their results, the parameter dependences of these quantities are given
+explicitly in eqs. (B7) and (B13) for the l = 2, f-modes (see Appendix B). In order to
+separate the effects of the secondary mass, we may define ∆ ˜E and ∆˜L as
+∆ ˜E null ∆E(tE)/bracketleftbig(GM2RG/RRG)(MMS/(MRG +MMS))2bracketrightbig (9)
+∆˜L null ∆L(tE)/bracketleftbig(MRGR2RGΩRG)/(MMS/(MRG +MMS))2bracketrightbig. (10)
+Inthelinear theory, ∆ ˜E and∆˜Lareexpressed interms ofthetransfer functions, T2(η;Q02,ω02)
+and S2(η;Q02,ω02), given in eq. (B8) and eq. (B15) in Appendix B, respectively: here ω02
+and Q02 are the frequency and overlap integral of l = 2, f-mode oscillations and for the red
+– 16 –
+giants, given by interpolation formulae of eqs. (B10) and (B9) in Appnendix B as a function
+of radius. Since the l = 2 modes dominate over the oscillatory motions even in the non-linear
+regime, we may utilize these transfer functions and seek the fitting formulae of ∆ ˜E and ∆˜L
+as a function of η for the given models of red giant.
+Further, the transfer characteristics obtained by the numerical simulations differ also
+with the internal structure of red giant models, as seen above. In the linear theory, the
+dependences of the internal structure are included in the transfer functions, in particular,
+through the overlap integral Q02. In the tidal interactions via the torque, the coupling is
+given by the moment of inertia of the envelope since the core acts as an inert source of
+gravity. As a corollary, the transfer functions can be scaled with the inertia of envelope. We
+define the non-dimensional moment of inertia, ˜I, as
+˜I null
+integraldisplay
+4pir4ρdr/MRGR2RG null 0.15(Menv/MRG), (11)
+for the red giant models. The approximation in the rightmost member in eq. (11) follows
+from the similarity of the envelope structure in the red giants when normalized with respect
+to the surface radius and the envelope mass, as shown in Fig. 1. For a main sequence model
+of polytrope N = 1.5, we have ˜I nullintegraltext 4pir4ρdr/MMSR2MS null 0.2.
+Figure 9 shows ∆ ˜E/(˜I/2) and ∆˜L/˜I as a function of η for the models with the different
+red giant models of radii 20 and 85Rnull (denoted by circles and squares, respectively) and
+with the different main sequence stars of mass 0.6 and 0.8Mnull (denoted by open and filled
+symbols, respectively). They form a single curve on each panel, independent not only of
+the perturber mass but also of the red giant models. The models computed by Davies et al.
+(1991) and Davies et al. (1992) are also plotted in this figure; their models of a 0.8Mnull red
+giant and 20Rnull give very good agreement with ours for the encounter not only with a 0.6Mnull
+main sequence star (open triangles) but also with a 1.4Mnull neutron star (filled triangles).
+The encounter with neutron stars result in slightly smaller energy deposition (about several
+tenths) for close encounters of η lessorsimilar 2, which is attributable to larger accretion radius of
+neutron star since the accretion of larger mass onto the perturber returns a larger portion
+of energy from the outer elongated part of red giant envelope to the orbital motion. As for
+the angular momentum, the deposition is slightly smaller in their red giant models at close
+encounters of η < 2 than in ours, which may stem from the difference in the criterion of
+mass loss particles, giving a larger mass loss to their models, or from larger radii of red giant,
+used in the normalization, with taking into account the swell of the red giants during the
+encounter.
+In the upper panel, we also plot the results for the encounter simulations of main se-
+quence stars with a neutron star and with a black hole by Davies et al. (1992) and Lee et al.
+– 17 –
+(1996) and for the encounter of a N = 1.5 main sequence star with a black hole by
+Khokhlov et al. (1993a). We approximate the main sequence to a polytrope of index N = 1.5
+and take ˜I = 0.2. These models fall very closely along the same curve as our models, and
+seemingly compose a single group despite the difference not only in the mass of the main se-
+quence stars but also in the mass ratio. The models by Lee et al. (1996) give slightly smaller
+values than those by Davies et al. (1992), which may stem from the different criteria and
+treatment of the particles that accrete onto the neutron star. The models by Khokhlov et al.
+(1993a) show slightly larger than those by Davies et al. (1992), which may stem from the
+neglect of the accretion effect.
+This convergence may be related to the fact that the ratio, ηω02, between the timescale
+of periastron passage and the timescale of envelope oscillations decreases near to the unity in
+the non-linear regime for small η. The similar tendency that the dependence on the stellar
+models becomes weaker for smaller η is also discernible in eqs. (B7) and (B13) from the linear
+perturbation theory. These results for the linear regime are also plotted in this figure, and
+the comparison with the results of non-linear regime indicates that the latter effect enlarges
+the deposition of energy and angular momentum by a factor of several and up to ten, while
+it becomes saturated and slightly dwindles for smaller η < 2 because of the mass accretion
+onto the perturber.
+We may take advantage of the convergence in the non-linear regime to evaluate the
+transfer characteristics for other red giant models and to seek the fitting formulae that
+express ∆E(tE) and ∆L(tE) in terms of model parameters. We define the critical rota-
+tion energy and angular momentum of model stars as Ecrit = (1/2)˜I(GM2RG/RRG) and
+Lcrit = ˜IMRGR2RGΩ2RG, respectively, with the dependence on the moment of inertia taken
+into account, and assume the following fitting formulae that converge to the results of linear
+theory for distant encounters;
+∆E(tE)/[EcritnullMP/(MRG +MP)null2] = (2/˜I)ηnull4T2(η;Q02,ω02)[1 + exp(a1η2 +b1η +c1)],(12)
+∆L(tE)/[LcritnullMP/(MRG +MP)null2] = (1/˜I)ηnull4S2(η,Q02,ω02)[1 + exp(a2η2 +b2η +c2)].(13)
+where MP is the perturber mass. For the red giant models of various evolutionary stages,
+the transfer functions are computed with the estimates of ω02 and Q02 from eqs. (B9) and
+(B10) in Appendix B. For the main sequence stars, the values of ω02 and Q02 are taken
+from Lee & Ostriker (1986) for a N = 1.5 polytrope. We may determine the coefficients in
+these formulae by applying the fitting procedure with the non-linear least-square Marquardt-
+Levenberg algorithm to our data plotted in Fig. 9 for the red giant models of radii 20 and
+85Rnull. The fitting curves are plotted in the figure, which converges into a unique relationship
+in the non-linear regime for the red giant models of different radii. The fitting curves for
+the models with other radii (core masses) also derived by adopting the same data in the
+– 18 –
+non-linear regime, as shown for the model of 40Rnull in the figure. These fitting parameters,
+thus obtained for the various red giant models, are expressed as the second order polynomials
+of radius as:
+a1 = null7.8 E-05(RRG/Rnull)2 + 9.6 E-03(RRG/Rnull)null0.66
+b1 = 9.0 E-05(RRG/Rnull)2 null0.028(RRG/Rnull) + 3.7
+c1 = null5.4 E-04(RRG/Rnull)2 + 0.077(RRG/Rnull)null4.6 (14)
+a2 = null4.6 E-06(RRG/Rnull)2 + 0.00104(RRG/Rnull)null0.05945
+b2 = 2.6 E-04(RRG/Rnull)2 + 0.0127(RRG/Rnull) + 1.02
+c2 = 2.2 E-04(RRG/Rnull)2 + 0.036(RRG/Rnull)null1.42
+Furthermore, in the non-linear regime, the deposited energy and angular momentum
+during the encounters may be given simply as the functions of η in the form:
+∆E(tE) = Ecrit(MP/nullMRG +MPnull)2 exp(2.718null0.761ηnull0.386η2), (15)
+∆L(tE) = Lcrit(MP/nullMRG +MPnull)2 exp(3.735null2.237ηnull0.040η2), (16)
+which are plotted in this figure by broken lines. Note that they coincide with the expressions
+obtained above in eqs. (12) and (13) for close encounters of η lessorsimilar 4 and η lessorsimilar 10, respectively.
+These formulae are applicable not only to the encounter of red giants but also to that of
+main sequence stars of arbitrary mass and radius as long as the stellar mass is small enough
+for the surface convection to develop deep enough to be approximated by a polytrope of
+N = 1.5.
+4.2. Accreted Mass onto Main Sequence Stars
+During the encounter, matter near the very surface may gain a lot of energy and angular
+momentum from the orbital motion to expand and eventually be captured by the perturber.
+The matter accreted onto the perturber returns the acquisitions back to the orbital motion,
+which may reduce the transfer of energy and angular momentum at small η < 2, as stated
+above. As seen from Table 1, the accreted mass, Macc(tE), turns out to be nearly the same
+among the models of the similar values of ∆E(tE)/(GM2RG/RRG) regardless of the radius of
+red giants. This is indicative that the amount of accreted mass is related to the deposited
+energy. In this section, we study the relationship between the accreted mass and other
+physical quantities and attempt to express the accreted mass as a function of the model
+parameters.
+– 19 –
+In the case of a star filling the Roche lobe in a close binary, Paczynski & Sienkiewics
+(1972) argue that the mass transfer rate is related to the excess, ∆R, of stellar radius over the
+Roche lobe under the assumption of polytrope; the principal part of parameter dependences
+of the transfer rate (see their eq. [A21] ) is approximated by;
+˙M null 4piA2
+parenleftbiggGM
+A
+parenrightbiggN+0.5parenleftbiggM
+RG
+M
+parenrightbiggN+1.5
+KnullN
+parenleftbigg∆R
+RL
+parenrightbiggN+1.5
+, (17)
+where A and M are the separation and total mass of the binary system, respectively. Here
+we neglect the weak dependence on the mass ratio, and in particular, take the Roche radius
+RL/A null 0.38 (cf. eq. [4]). Although the flow is not in steady state in our case, the timescale
+of flow through the inner Lagrangian point is slower than the dynamical timescale of stellar
+envelope, and hence, we may assume the same dependences for the accreted mass. Further
+since the orbit is eccentric and not circular, it is difficult to estimate ∆R/RL exactly. And
+yet, it seems natural to ∆R/RL to be related to the deposited energy and we may well
+assume the following relation;
+(dφL/dr)∆RL
+GM/RRG =
+∆RL
+RL
+RRG
+RL null f(∆E/[GM
+2
+RG/RRG]) (18)
+with taking account of the work against the gravitational potential (φL) at the Roche lobe
+surface. By using the relation between the polytropic constant K and the stellar surface
+characteristics in eq. (A7), we then have;
+˙M null MRG(MRG
+Menv)
+Nnull1 Ω
+3
+RG
+Ωpass2f(∆E/[GM
+2
+RG/RRG])
+N+1.5. (19)
+Here we have replaced the orbital angular velocity by the instantaneous angular velocity,
+Ωpass(= radicalbigGM/A3), of circular orbit at periastron distance. Consequently, multiplying
+eq. (19) by the periastron passage time null Ωnull1pass and putting N = 1.5 lead us to:
+Macc null MRG(Menv/MRG)null1/2η3f(∆E/[GM2RG/RRG])N+1.5. (20)
+Figure10 shows the accreted mass, Macc(tE), divided by MRG(Menv/MRG)null1/2η3, against
+∆E(tE)/(GM2RG/RRG). It is clearly seen that our numerical results, denoted by open and
+filled circles and squares, form a unique relationship, indifferent of the mass of perturber
+and of the red giant model; a power-low relation is discernible in the range of ∆E(tE) >
+3null10null3GM2RG/RRG. For smaller ∆E(tE), the accreted mass tends to dropoff fromthepower-
+law relationship because of the low mass resolution due to the limited number of gas particles;
+in actuality, only a few gas particles are accreted around ∆E(tE) null 3 null 10null3GM2RG/RRG.
+In this figure, we plot the results of the simulations by Davies et al. (1991), Davies et al.
+– 20 –
+(1992), and Lee et al. (1996), and find that their values also fall very closely onto the same
+relationship for relatively large deposited energy, while the lower mass resolution in these
+earlier simulations (7500 and 9185 SPH particles, respectively) causes the deviation at larger
+∆E(tE)/GM2RG/RRG. If these results for the encounter of main sequence stars are included,
+the power relationship holds in the range of mass accretion over four orders of magnitude or
+more.
+The power-law fitting to eq. (20) yields
+Macc/MRG = 3.5(Menv/MRG)null1/2η3[∆E(tE)/(GM2RG/RRG)]1.93, (21)
+which gives the accreted mass as a function of model parameters along with the fitting
+formula of ∆E(tE) in eq. (12) or in eq. (15). This relation implies that ∆R/RL null ∆E1.93/3.
+We show the comparison between this relation and the results of simulations in Figure 11
+as a function of η which is more useful than that of ∆E(tE). It shows a good agreement for
+the both red giant models. Since we may regard the deviations for large η(greaterorsimilar 2.5) as due to
+the low resolution in mass in the simulations, this gives a reasonable fitting for the accreted
+mass as a function of η for any given set of the model parameters of encounters.
+5. CONCLUSIONS AND DISSCUSION
+We have performed the SPH simulations of tidal encounter of red giants with environ-
+ment stars and investigate the characteristics of stellar interactions for a variety of sets of
+parameters, the evolutionary stages of red giant, the mass of perturber stars and the assumed
+strength of viscosity as well as the orbital parameters of encounter. Based on our results and
+the other extent models, we discuss the dependences of interactions in the non-linear regime
+on the stellar and encounter parameters, and proposed formulae to describe the energy and
+angular momentum deposition to red giants, and the mass accretion onto the perturber stars
+in simple and convenient forms as a function of these parameters. Our main quantitative
+results are as follows;
+1. We obtain the both amounts of energy and angular momentum, transferred from the
+orbital motion into the oscillation and rotation of red giants, during tidal encounters
+by numerical simulations. The angular momentum deposited in the red giants can be
+large enough to rotate the envelope at rate Ω greaterorsimilar 0.01ΩRG for the encounter of periastron
+distance rp/RRG lessorsimilar 2.5 (or the impact parameter b/RRG lessorsimilar 15.7) and hence for such
+encounters that ended in the two stars flying apart. For still closer encounters, it
+increases to give the rotation rates significantly exceeding Ω null 0.1ΩRG. Accordingly,
+– 21 –
+the tidal encounter works as the source of angular momentum necessary to trigger
+rotational mixing in the red giants and also to explain the origin of fast rotators
+observed among the horizontal branch stars. For larger radius of red giant model,
+and hence, later stage of evolution, the transferred angular momentum increases while
+the energy deposition decreases since the transferred quantities are scaled with the
+stellar parameters. The fitting formulae are derived to describe these quantities as a
+function of the mass and radius of red giants, subject to the perturbation, the mass
+of main sequence stars as the perturber, and the impact parameter. Further we show
+that these transferred quantities, when normalized with respect to the momentum of
+inertia of models, are given solely as functions of the encounter closeness parameter
+η, Our fitting formulae agree well with the results of encounter simulations by other
+authors, and can even reproduce the results for the encounters of main sequence stars
+approximated to a polytrope of index N = 1.5.
+2. With aid of fine mass resolution, we demonstrate that the main sequence stars can
+capture gas from the red giant envelope sufficiently to disguise their surface with ac-
+creted matter even for the encounters that ended in fly-by with an evolved red giant.
+The accreted mass onto the main sequence as a perturber during the tidal encounters
+is shown to be in a direct relationship with the energy deposition into the red giants.
+We also derive the formula, which predicts the accreted mass as a function of impact
+parameters for given stellar parameters and are applicable to the encounters involving
+not only the red giants but also the main sequence stars.
+The derived formulae are useful in determining the periastron distance of the tidal
+capture limit for the encounter of various model parameters. They also be useful in inquiring
+whether some stellar objects in the globular clusters, for example the red giants and the main
+sequence stars with abundance anomalies and the fast rotating horizontal brunch stars, which
+cannot be explained through the framework of the normal stellar evolution, can be produced
+through the stellar interactions. In our computations, the mass accretion rate may exceed
+the Eddington limit ( ˙MEdd = 4picRMS/κe) on the surface of main sequence star for very close
+encounters, but since it remains below the Eddington limit at the accretion radius, we may
+well assume that the accreted mass mostly settles on the surface of main sequence stars with
+loosing thermal energy. In the following, we discuss the application of these formulae and
+the possibility that such stellar objects have their origins in the stellar encounters.
+– 22 –
+5.1. Tidal Capture Limit and Comparisons with Other Works
+In our simulations, the tidal capture limits, rp,cap in periastron distance and ηcap, in η,
+are estimated from the condition that ∆E(tE) = (1/2)µvnull(10 km s)2 with use of eq. (12) or
+eq. (15). Our estimates are given in Table 2 for the two red giant models with the perturber
+masses of 0.6Mnull, 0.8Mnull and 1.4Mnull. For the red giant of larger radius, the tidal capture
+limits decrease slightly (null 10%) when normalized with respect to the radius of red giant, but
+increase in the physical dimensions nearly in proportion to the surface radius; they slightly
+increase with the mass of perturber. For the encounter of MRG = 0.8Mnull red giant with a
+MMS = 0.6Mnull main sequence star, Davies et al. (1991, 1992) give the periastron distances
+for the tidal capture limit in the range of 2.00 < rp,cap/RRG < 2.25, and our estimate,
+rp,cap/RRG = 2.1, as seen from Table 2, resides in their range. On the other hand, our
+estimates turn out to be larger by null 20% than those obtained from the linear analysis by
+McMillan et al. (1990), as listed in the table.
+On the other hand, Khokhlov et al. (1993a) and Khokhlov et al. (1993b) compute the
+encounter of a polytrope star of mass Mnull = 0.8Mnull with a black hole of mass MB null Mnull for
+various values of polytropic index (the relative velocity is 100 km/s at infinity). The tidal
+capture limit decreases from ηcap = 2.75 for N = 1.5 to 2.20 and 1.55 for N = 2.0 and 3.0,
+respectively. This demonstrates that for larger polytrope index, the energy deposition rate
+of the star becomes smaller, because of the increase in the mass concentration toward the
+center and of decrease in the moment of inertia for a given mass and radius.
+5.2. Relevance to the Origin of Stars with Anomalous Abundances in
+Globular Clusters
+We may apply our fitting formulae to examine the possibility that the abundance anoma-
+lies observed both for red giants and main sequence stars in some globular clusters can be
+explained in terms of the stellar interactions during the close encounters. As the origin
+of these objects, we propose the following scenario; 1) The anomalies of red giants are
+generated through the flash-assisted deep mixing mechanism that is triggered by the injec-
+tion of angular momentum into their envelope during the encounter with environment stars
+(Fujimoto et al. 1999): 2) The main sequence stars gain the abundance anomalies as a result
+of the surface pollution by accreting matter from the red giants which have already devel-
+oped these anomalies. We evaluate whether these work under the conditions prevailing in
+globular clusters.
+First as for the point 1), Fujimoto et al. (1999) argue that the angular momentum of
+– 23 –
+∆LRG/Lcrit greaterorsimilar 1/100 is necessary to induce the flash-assisted deep mixing, and the trans-
+fer of angular momentum of this order occurs during the encounter of η lessorsimilar 3, and hence,
+rp null 2.6RRG from our formulae. The transfer of angular momentum may have relevance
+to the a bimodal distribution of rotation velocity that horizontal branch stars display with
+the fastest rotators distributed on the cooler (redder) side of the branch whereas with the
+slower rotators spread over wider range on the branch. Suda & Fujimoto (2006) suggest
+that the different modes of helium mixing mechanism may result according to when the
+stars undergo the close encounter and the deposition of angular momentum on the RGB
+and influence the horizontal branch morphology; the injection of angular momentum may
+invoke hydrodynamical instabilities due to differential rotation and invokes turbulent mixing
+to trigger the hydrogen-flash driven deep mixing, and the resultant helium enrichment in the
+envelope accelerates the evolution of RGB. The stars that experience the helium enrichment
+at an earlier epoch on the RGB have a smaller mass of helium core and hence, located on
+redder side of HB and those with later mixing epoch shifts to blue-ward: on the other hand,
+if the stars experience the close encounter near the tip of RGB, the helium-flash driven mix-
+ing, rather than the hydrogen-flash driven deep mixing, takes places and causes the largest
+decrease of helium core so that the stars are situated at the reddest end on the HB. If the
+stars experience close encounter at an earlier stage of RGB, then, they become slow rotators,
+due to angular momentum loss through mass loss on the RGB, and hence, settle on redder
+side of horizontal branch, and the stars, if experiencing it at later stage of RGB, become
+faster rotators and settle on bluer side. Finally, the stars, which undergo close encounters
+very close to the tip of RGB, become the fastest HB rotators, located on redder-most side
+of the branch. The close encounters at η greaterorsimilar 3 can explain the fastest rotation rates observed
+from HB stars of Ω null 0.1ΩK if the angular momentum is conserved during the contraction
+from the RGB to the HB. While the pristine angular momentum is lost effectively for such
+low mass stars, such fast rotation as observed for HB stars may be expected also from the
+synchronization of red giants in the binary systems of separations (more than a several au),
+and yet, it is difficult for such binaries to survive without suffering encounters in the dense
+stellar environment of globular clusters (see below eq. [22]). In other word, we may take the
+existence of HB stars of these fastest rotations as an evidence that such close encounters as
+η lessorsimilar 3 take place in these clusters.
+Next as for the point 2), since the mass in the surface convective zone is ofnull 3null10null3Mnull,
+the accreted mass of an order of null 10null3 Mnull suffices to disguise the surface abundances
+with those transferred from the red giant envelope with anomalous abundances. From the
+present results, it is possible to estimate the range of periastron distance, η, that can allow
+the accreted mass of this order at η = 1.8 null 2.2 and 1.5 null 2.0, which correspond to
+rp = 1.9 null 2.1RRG and 1.7 null 2.0RRG, for RRG = 20Rnull and 85Rnull, respectively, for masses
+– 24 –
+range of main sequence stars of 0.6Mnull and 0.8Mnull.
+The timescale oftidalinteractions intheenvironment where thestellar density isnf pcnull3
+and the velocity dispersion v null, is estimated (with the gravitational focusing taken into
+account, because of low velocity dispersion of environment stars in the core) at:
+τenc null 7.4null109(10
+4 pcnull3
+nf )(
+100Rnull
+rp )(
+vnull
+10km snull1)(
+M1 +M2
+2Mnull )
+null1yr (22)
+On this basis, the timescales of tidal encounters, which can bring about the mass accretion of
+a order of 10null3Mnull and the angular momentum transfer of ∆LRG/Lcrit greaterorsimilar 1/100, are estimated
+at null 1.5null1010 yr for 20Rnull and null 3null109 yr for 85Rnull in the environment of nf = 104 pcnull3
+and vnull = 10 km snull1. These time-scales seem to be too large to explain the observed these
+objects by tidal interactions as compared with the lifetimes on the corresponding stages of
+red giants, null 108 yr for 20Rnull and null 107 yr for 85Rnull, and the accumulated number of
+close encounters, attendant with the abundance anomalies, seems to be no more than a few,
+too small to explain the observations even in rough estimates. In order for the encounters
+to be viable, these time-scales have to be shorter more than an order of magnitude, and
+accordingly, there need some mechanism(s) to enhance the frequency of tidal encounter in
+globular clusters.
+Sugimoto (1996) points out the importance of mass segregation in modeling dynamical
+evolution of star clusters to explain the observable number of mill-second pulsars in 47 Tuc;
+without the mass segregation, theoretical estimation indicates that the formation probability
+of binary with a neutron star is higher in ω Cen having no collapsed core than 47 Tuc having
+collapsed core, although in actuality, the former has not been reported to contain any pulsars.
+Moreover, mass segregation promotes the core collapse and make it more rapidly than in the
+case of single-mass component. Portegies Zwart et al. (2001) confirm that mass segregation
+enriches the core of star cluster in giants and white dwarfs by N-body simulations for an open
+star cluster. In order to explain the observable number of giants with abundance anomalies,
+about a half of total number of giants have to experience tidal encounters with field stars. It
+is necessary to see whether the mass segregation can gather most of giants, though not all, in
+the core and can increase the two-body encounter rate by more than an order of magnitude.
+In addition to the mass segregation, the gravo-thermal oscillations of star clusters, which
+has been proposed by Bettwieser & Sugimoto (1984) and confirmed by N-body simulation
+Makino (1996), may influence the rate; since the interactions are expected to occur in the
+evolutional stage near the high density peak, it is necessary to investigate in a correct manner
+how deeply and how long such a high density state reaches and lasts to affect the encounter
+rates.
+For the encounter with the red giants of later stages, the pollution of main sequence
+– 25 –
+stars are possible even when the two stars fly apart after the encounters. For the encounter
+that ends in the formation of binary, it depends on the fate of two stars whether the abun-
+dance anomalies imprinted onto the companions are observable or not, and it is necessary
+to pursue the details of evolution of tidally captured binaries. There are many effects to
+influence the binary evolution, such as the spin-up and mode damping rates of red giant
+after the encounter, the mass transfer to the companion at subsequent periastron passages
+(ex. Sepinsky et al. 2007), the mass loss from the bound system, and also the expansion of
+red giant as it ascends the red giant branch. In addition, we should also take into account
+the tidal interactions of formed binaries with the environment stars. It is conceivable as the
+destination of tidally captured binary that either one component is liberated through the ex-
+change encounter with a third body, or the two stars eventually coalesce as a result of Roche
+lobe overflow. The possibility of the exchange event depends on the evolution timescale of
+giants and the encounter timescale; since the exchange encounter rate is proportional nearly
+to a semi-major axis of a binary under the assumption of point mass limit (Heggie et al.
+1996), then the former is expected to occur more frequently. Accordingly, if tidal capture
+of two body encounters can contribute the modification of stellar populations, then, the ex-
+change encounters follow at larger rates and make greater contributions. This increase in the
+encounter rates with red giant in the binary may affect the statistics of the main sequence
+stars with the abundance anomalies. Further, through the exchange encounters, the red
+giants and horizontal branch stars, now losing the mass due to the mass loss and becoming
+lighter than the heaviest main sequence stars, can be ejected from the binary systems to fly
+apart as single stars.
+In summary, the enhancement of tidal interactions, necessary to explain the observed
+abundance anomalies, is expected to be provided by the formation of high density core due
+to the gravo-thermal oscillations and by the mass segregations which enlarge the fractions
+of stars of the upper mass end in the core. The proper understandings of these effects wait
+for N-body simulations of globular clusters with the stars of multi-mass spectra taken into
+account since star-star interactions as studied in the present work will play a critical role.
+In these studies of dynamical evolution of stellar systems, the formulae for the transfer of
+energy, angular momentum, and accreted mass derived in the present work serve the purpose
+for incorporation these effects into the simulations. It is also necessary to pursue the binary
+evolution and accurately explore the fate of red giants and subsequent horizontal branch
+stars with the interactions with the environment stars taken into account.
+This paper is based on one of the authornull s(S. Y.) dissertation submitted to Hokkaido
+University, in partial fulfillment of the requirement for the doctorate. This work has been
+partially supported by Grant-in-Aid for Scientific Research (15204010, 16540213, 18104003),
+– 26 –
+from Japan Society of the Promotion of Science.
+A. The Polytrope Model of Red Giant Structure
+Fujimoto & Tomisaka (1992) show that the structure of red giant can be modeled by
+a combination of two polytropes with the cool and hot components corresponding to the
+core and envelope, respectively; In particular, we may replace the cool component as a
+sphere of uniform density (i.e., a polytrope of index N = null) since we are interested only
+in the envelope structure, and in this case, the structure of hot components ensues from the
+following equations;
+dMr
+dr = 4pir
+2ρ, (A1)
+1
+ρ
+dP
+dr = null
+GMr
+r2 +g, (A2)
+with the contribution of core gravity, g, in eq. (3) taken into account. With a given envelope
+mass, Menv, and the surface radius, R, we may introduce the dimensionless variables as
+Mr = Menvϕ, r = Rξ, ρ = ρ0θN, P = P0θN+1, (A3)
+where ρ0 and P0 are the density and pressure coefficients, related to the envelope mass and
+radius as;
+ρ0 = Menv/4piR3, P0 = GM2env/4pi(N + 1)R4. (A4)
+By using these variables, we may rewrite the equations in the non-dimensional form, corre-
+sponding to the Lane-Emden equation, as
+1
+ξ2
+d
+dξ(ξ
+2dθ
+dξ) = nullθ
+N null3ϕcore
+ξ3core for ξ < ξcore
+1
+ξ2
+d
+dξ(ξ
+2dθ
+dξ) = nullθ
+N for ξ null ξcore, (A5)
+where ξcore = Rcore/R and ϕcore = Mcore/Menv. In the above equations, we take into account
+the hot component in the core, but its contribution to the envelope mass is negligible because
+of small core radius.
+We may obtain the envelope structure of red giants by solving eqs. (A5) for a given set
+of core radius and mass, (ξcore,ϕcore) with the boundary conditions,
+dθ/dξ = 0,ϕ = 0 at ξ = 0 : and θ = 0,ϕ = 1 at ξ = 1. (A6)
+– 27 –
+The several solutions are shown in Fig. 1, and we see that the structure, exterior to the core,
+resemble each other as long as the core radius is sufficiently smaller than the stellar radius
+(ξcore null 1) and unless the envelope mass is much smaller or much larger than the core mass.
+In particular, we may have relation between the polytropic constant (or entropy) and the
+surface characteristics of red giant analogous to the single polytrope;
+K = P0/ρ1+1/N0 = (4pi)
+1/NG
+N M
+1null1/N
+env R
+3/Nnull1. (A7)
+B. Model Dependences of Transfer of Energy and Angular Momentum due to
+Linear Dynamical Tide
+The linear perturbation theory of dynamical tides has been developed to estimate the
+deposition of energy and angular momentum from the orbital motion to the stellar oscilla-
+tions. Press & Teukolsky (1977) derive an analytic formula for the energy deposition, and
+later, Lai (1997) extends it with the stellar rotation taken into account to give the general
+formulae for both the energy deposition and angular momentum transfer, which are appli-
+cable for η null 1. We are here concerned with the red giants in negligible rotation initially.
+Furthermore, we may well retain only a leading term of l = 2, f-modes, which dominate the
+dynamical tides (see Lee & Ostriker 1986).
+Press & Teukolsky (1977) give the energy loss, ∆E, of the orbital motion into the adi-
+abatic, non-radial oscillations for a star of mass, M1, and radius, R1, during an encounter of
+periastron distance rp with a point object of mass M2, in the following formua;
+∆E = GM
+2
+1
+R1 (
+M2
+M1)
+2 summationdisplay
+l=2,3..
+(R1r
+p
+)2l+2Tl(η), (B1)
+where the dimensionless transfer function, Tl, is defined by
+Tl(η) = 2pi2
+summationdisplay
+n
+null Qnl null2
+lsummationdisplay
+m=nulll
+null Knlm null2 (B2)
+with the overlap integral, Qnl, given by
+Qnl =
+integraldisplay R1
+0
+r2drρl(r/R1)lnull1[ξRnl(l)ξSnl], (B3)
+and with the integral, Knlm, along the trajectory, given by
+Knlm = Wlm2pi 23/2ηIlm(ηωnl), (B4)
+– 28 –
+Ilm(y) =
+integraldisplay null
+0
+dx(1 +x2)nulll cos[21/2y(x+x3/3)+ 2m tannull1 x], (B5)
+Wlm = (null)(l+m)/2[ 4pi2l + 1(lnullm)!(l +m)!]1/2/[2l(lnullm2 )!(l +m2 )!]. (B6)
+Here ξRnl and ξSnl are the radial and poloidal normal mode components of the Lagrangian
+displacements from the unperturbed spherically symmetric state in units of Mnull1/21 , respec-
+tively, and the symbol (null)k in (B6) is to be interpreted as (null1)k when k is an integer, while
+zero when k is not an integer. Since Tl(η) includes the stellar mode frequency, ωnl, and the
+overlap integrals, Qnl, both determined from the normal mode structures, and hence, ∆ ˜E is
+dependent on the mode oscillation structure of the star.
+For the leading term of l = 2, f-mode, we have the following form by separating the
+dependences on the mass and radius of stars as,
+∆E2 = (GM21/R1)(M2/M1 +M2)2ηnull4T2(η : Q02,ω02), (B7)
+T2(η : Q02,ω02) = 4pi5 null Q02 null2 [I20(ηω02)2 + 32nullI22(ηω02)2 +I2null2(ηω02)2null]. (B8)
+For the red-giants of M1 = MRG = 0.8Mnull, the frequency, ω02, and the overlap integral,
+Q02, of l = 2, f-mode oscillations are obtained by McMillan et al. (1990), who solve the
+perturbation equations to find the overlap integral and stellar mode frequency. We may
+evaluate the values of ω02 and Q02 by interpolating their results as a function of the radius
+in the following forms;
+ω02 = null1.56E-04(RRG/Rnull)2 + 0.0112(RRG/Rnull) + 1.84. (B9)
+Q02 = 2.29E-05(RRG/Rnull)2 null0.00352(RRG/Rnull) + 0.331. (B10)
+As for the angular momentum, ∆L, transferred from the orbit to the spin of primary
+star, Lai(1997) derives a general form with the effects of stellar rotation taken into account.
+In the limit of negligible initial rotation rate, it reduces to
+∆L = (GM31R1)1/2(M2M
+1
+)2
+summationdisplay
+l=2,3..
+(R1r
+p
+)2l+2Sl(η), (B11)
+where the transfer function, Sl, is defined as
+Sl(η) = null2pi2
+summationdisplay
+n
+null Qnl null2 ωnull1nl
+lsummationdisplay
+m=nulll
+m null Knlm null2 (B12)
+with the overlap integral, Qnl, and the trajectory integral, Knlm, defined above.
+– 29 –
+Then for the l = 2, f-mode, we have
+∆L2 =
+radicalBig
+GM31R1( M2M
+1 +M2
+)2ηnull4S2(η : Q02,ω02), (B13)
+where
+(B14)
+S2(η : Q02,ω02) = null(12pi5 ) null Q02 null2 ωnull102 nullI22(ηω02)2 nullI2null2(ηω02)2null]. (B15)
+REFERENCES
+Aikawa, M., Fujimoto, M, Y., & Kato, K. 2001, ApJ, 560, 937
+Aikawa, M., Fujimoto, M, Y., & Kato, K. 2004, ApJ, 608, 983
+Bailyn, C. D. 1995, ARA&A, 33, 133
+Bailyn, B. C.1988 Nature, vol.332, 330, 332
+Bate, M. R., Bonnell, I. A., & Price, N. M. 1995, MNRAS, 285, 33
+Beccari, G., Ferraro, F. R., Possenti, A., Valenti, E., Origlia, L., Rood, R. T. 2006, AJ, 131,
+2551
+Bedin, L. R., Piotto, G., Anderson, J., Cassisi, S., King, I. R., Momany, Y., & Carraro, G.
+2004, ApJ, 605, L125
+Beer, M. E., Davies, M. B. 2004, MNRAS, 348, 679
+Behr, B. B., Djorgovski, S. G., Cohen, J. G., McCarthy, J. K., Cˆot`e, P., Piotto, G., &
+Zoccali, M. 2000, ApJ, 528, 849
+Behr, B. B., Cohen, J. G., & McCarthy, J. K. 2000, ApJ, 531, L37
+Benz, W., 1990, in Buchler J. R., ed., The Numerical Modeling of Nonlinear Stellar Pulsa-
+tions: Problems and Prospects. Kluwer, Dordrecht, p. 269
+Benz, W., Bower R. L., Cameron A. G. W., Press W., 1990, ApJ, 348, 647
+Benz, W., & Hills, J. G. 1987, ApJ, 323, 614
+Bettwieser, E., Sugimoto, D. 1984, MNRAS, 208, 493
+– 30 –
+Briley, M. M., Smith, G. H., Bell, R. A., Oke, J. B., & Hesser, J. E. 1992, ApJ, 387, 612
+Camilo, F., Lorimer, D. R., Freire, P., Lyne, A. G., Manchester, R. N. 2000 ApJ, 535, 975
+Cannon, R. D., Croke, B. F. W., Bell. R. A., Hesser, J. E., & Stathakis, R. A. 1998, MNRAS,
+298, 601
+Cohen, J. G. 1999, AJ, 117, 2434
+Cohen, J.G. & McCarthy, J.K. 1997, AJ, 113, 1353
+Da Costa, G. S. 1997, in Fundamental Stellar Properties: The Interaction between Obser-
+vation & Theory, IAU Symp. No. 189, eds T.R. Bedding, A.J. Booth, & J.
+D’Antona, F. 2004, Mem. S. A. It., 75, 388
+D’Antona, F. & Caloi, V. 2004, ApJ,611, 871
+Davies, M. B., Benz, W., & Hills, J. G. 1991, ApJ, 381, 449
+Davies, M. B., Benz, W., & Hills, J. G. 1992, ApJ, 401, 246
+Davies, M. B., Benz, W., & Hills, J. G. 1993, ApJ, 411, 285
+Davies, M. B. 1995, MNRAS, 276, 887
+Djorgoski, S., Piotto, G., Phinney, E. S., & Chernoff, D. F. 1991, ApJ, 372, L41
+Faber, J. A., Rasio, F. A., & Willems, B. 2004, astro-ph/0407318
+Fabian,A.C., Pringle,J.E., and Rees,M.J. 1975, MNRAS, 172, 15
+Fenner, Y., Campbel, S., Karakas, A.I. Lattanzio, J.C., Gibson, B.K. 2003, MNRAS, 353,
+789
+Ferraro, F. R., Paltrinieri, B., et al. 1997, A&A, 324, 915
+Ferraro, F. R., Paltrinieri, B., Rood, R. T., Dorman, & B. 1999, ApJ, 522, 983
+Ferraro, Francesco R., Sills, A., Rood, R. T., Paltrinieri, B., Buonanno, R. 2003, ApJ, 588,
+464
+Ferraro, F. R., Beccari, G., Rood, R. T., Bellazzini, M., Sills, A., Sabbi, E. 2004, ApJ,603,
+127
+Ferraro, F. R. 2006, astro-ph/0601217
+– 31 –
+Fujimoto, M. Y., Sugiyama, K., Iben, I., Jr. & Hollowel, D. 1995, ApJ, 444, 175
+Fujimoto, M. Y., Aikawa, M., & Kato, K. 1999, ApJ, 519, 733
+Fujimoto, M. Y., & Tomisaka,K. 1992, ApJ, 385, 445F
+Gratton, R. G., et al. 2001, A&A, 369, 87
+Heggie, D. C., Hut, P. & McMillan, S. L. W., 1996, ApJ, 467, 359H
+Hills, J. G. 1976, MNRAS,175, 1
+Hills, J. G. & Day, C. A. 1976, Astrophy. Lett. 17, 87
+Hut, P., Shara, M. M., Aarseth, J., Klessen, R. S., Lomardi, J. C., Makino, J., McMillan,
+S., Pols, O. R., & Teuben, P. J., Weddink, R.F. 2003, New Astronomy, 8, 337H
+Ivanov, P. B., & Papaloizou, C. B. 2004, MNRAS, 347, 437
+James, G., Francois, P., Bonifacio, P. et al. 2004, A&A, 414, 1071
+Khokhlov, A., Novikov, I. D., & Pethick, C. J. 1993, ApJ, 418, 163
+Khokhlov, A., Novikov, I. D., & Pethick, C. J. 1993, ApJ, 418, 181
+Kraft, R. P. 1994, PASP, 106, 553
+Kraft, R. P., et al. 1997, AJ, 113, 279
+Kumar,P. 1996, ApJ, 446, 946K
+Lai, D., Rasio, F. A., & Shapiro, S. L. 1993, ApJ, 412, 593
+Lai, D. 1997, ApJ, 490, 847L
+Lee, H. M., & Ostriker, J. P. 1986, ApJ, 310, 176
+Lee, H. M., Kim, S. S., & Kang, H. 1996, JKAS, 29, 19
+Leigh, N., Sills, A., & Knigge, C. ApJ, 661, 210
+Leonard. P.J.T. 1989, AJ, 98, 217
+Lombardi, J. C., Warren, J.S., Rasio, Frederic, A., Sills, A., Warren, A. R. 2002, ApJ,568,
+939L
+– 32 –
+Lombardi, J. C., Proulx, Z. F., Dooley, K. L., Theriault, E. M., Ivanova, N., Rasio, F. A.,
+2006, ApJ,640, 441L
+Makino J, 1996, ApJ, 471, 796
+Mapelli, M., Sigurdsson, S., Ferraro, F. R., Colpi, M., Possenti, A., Lanzoni, B. 2006,
+MNRAS, 373, 361
+McMillan, S. L. W., McDermott, P.N., & Taam, R. E.1987 ApJ, 318, 261
+McMillan, S. L. W., Taam, E. T., & McDermott, P.N. 1990, ApJ, 354, 190
+Meglicki Z., Wickramasinghe D., & Bicknell G. V., 1993 MNRAS, 264, 691
+Monaghan J, J., Gingold R. A., 1983, J Comput. Phys, 52, 374
+Okazaki, A. T., Bate, M. R., Ogilvie, G. I., & Pringle, J. E. 2002, MNSRA, 337, 967
+Paczynski, B. 1971, ARA&A, 9, 183
+Paczynski, B. & Sienkiewics, R. 1972, Acta Astron., 22, 73
+Paltrinieri, B., Ferraro, F. R., Paresce, F., & de Marchi, G. 2001, AJ, 121, 3114
+Peterson, R.C. 1983, ApJ, 275, 737
+Peterson, R.C., Rood, R.T. & Crocker, D.A. 1995, ApJ, 453, 214
+Piotto, G., et al. 2007, ApJ, 661, L53
+Pooley, D., et al. 2003, ApJ, 591, 131
+Pooley, D., Hut, P. 2006, ApJ, 646, 143
+Portegies Zwart, S. F., McMillan, S. L. W., Hut, P., & Makino, J. 2001, MNRAS, 321, 199
+Press, W. H., & Teukolsky, S. A. 1977, ApJ, 213, 183
+Press, W. H., 1986 in Spriger Lecture Notes in Physics, Vol 267, Use of Supercomputers in
+Stellar Dynamics, ed. Hut, P., & McMillan, S. L., Springer, Berlin, p. 184
+Rasio, F. A., & Shapiro, S. L. 1991, ApJ, 377, 559
+Recio-Blanco, A., Piotto, G., Aparicio, A., & Renzini, A. 2002, ApJ, 572, L71
+Sabbi, E., Ferraro, F. R., Sills, A., Rood, R. T. 2004, ApJ, 617, 1296
+– 33 –
+Sepinsky, J.F., Willems, B., Kalogera V., Rasio, F. A. astro-ph:0706.4312v1
+Shimada, M., Fujimoto, M. Y., Yamada, S. & Sugimoto, D. 2003 in Astrophysical Super-
+computing using Particle Simulations, IAU Symp. No. 208, eds J. Makino & P. Hut
+(San Francisco: Astronomical Society of the Pacific), p.445
+Sigurdsson, S., & Phinney, E. S. 1996, ApJ, 415, 631
+Sneden, C., Kraft, R. P., Guhathakurta, P., Peterson, R. C., & Fulbright, J. P. 2004, AJ,
+127, 2162
+Suda. T & Fujimoto, M. Y. 2006, ApJ, 643, 897
+Suda, T., Tsujimoto, T., Shigeyama, T., & Fujimoto, M.Y. 2007, ApJin press
+Sugimoto D., 1996, in IAU Symp. ,Dynamical Evolution of Star Clusters, ed.
+Suntzeff, N. B., & Smith, V. V. 1991, ApJ, 381, 16
+Thoul, A., Jorissen, A., Goriely, S. Jehin, E., Magain, P., Noels, A., & Parmentier, G. 2002,
+A&A, 383, 491
+Ventura, P, D’Antona, F., Mazzitelli, I., & Gratton, R. 2001, ApJ, 550, L65
+Warren, S. R., Sandquist, E. L., Bolte, M. 2006, ApJ648, 1026W
+Zahn, J. P. 1977, Astron. Astrophysics. 57, 383
+Zahn, J. P. 1989, Astron. Astrophysics. 220, 112
+This preprint was prepared with the AAS LATEX macros v5.2.
+– 34 –
+Table 1. Parameters and Characteristic Results of Encounter Simulations.
+Model αSPH MMS rp η ∆E(tE) ∆LRG(tE) Macc(tE) Mloss(tE) Torb e
+(Mnull) (RRG) (GM2RG/RRG) (MRGR2RGΩK) (Mnull) (Mnull) (yr)
+Red Giant Model of RRG = 20Rnull
+a8rg1 1.0 0.8 1.75 1.64 1.86E-02 2.6E-02 6.70E-03 5.09e-04 4.19 0.95
+b8rg1 1.0 0.8 2.00 2.00 8.19E-03 9.2E-03 2.91E-03 1.92e-05 22.99 0.98
+c8rg1 1.0 0.8 2.25 2.40 3.09E-03 3.8E-03 5.47E-04 0.0 fly-by -
+d8rg1 1.0 0.8 2.50 2.80 9.48E-04 1.4E-03 0.0 0.0 fly-by -
+e8rg1 0.1 0.8 1.75 1.64 1.88E-02 2.6E-02 6.93E-03 5.47e-04 4.09 0.95
+f8rg1 0.1 0.8 2.00 2.00 8.32E-03 9.2E-03 2.97E-03 4.80e-05 22.01 0.98
+g8rg1 0.1 0.8 2.25 2.40 3.19E-03 3.9E-03 5.37E-04 9.60e-06 fly-by -
+h8rg1 0.1 0.8 2.50 2.80 1.00E-03 1.4E-03 0.0 0.0 fly-by -
+a6rg1 1.0 0.6 1.50 1.40 2.35E-02 3.3E-02 5.81E-03 1.14e-03 1.86 0.92
+b6rg1 1.0 0.6 1.75 1.75 1.12E-02 1.4E-02 2.95E-03 1.44e-04 7.25 0.96
+c6rg1 1.0 0.6 2.00 2.14 4.33E-03 5.0E-03 8.06E-04 9.60e-06 91.9 0.99
+d6rg1 1.0 0.6 2.25 2.55 1.41E-03 1.9E-03 9.60E-06 0.0 fly-by -
+e6rg1 0.1 0.6 1.50 1.40 2.37E-02 3.3E-02 5.97E-03 0.0 fly-by -
+Red Giant Model of RRG = 85Rnull
+a8rg2 1.0 0.8 1.41 1.18 2.49E-02 3.3E-02 6.66E-03 2.22E-03 60.3 0.97
+b8rg2 1.0 0.8 1.80 1.70 9.29E-03 1.1E-02 3.20E-03 2.50E-04 fly-by -
+c8rg2 1.0 0.8 1.88 1.82 7.18E-03 9.3E-03 2.51E-03 1.82E-04 fly-by -
+d8rg2 1.0 0.8 2.00 2.00 4.71E-03 5.2E-03 1.57E-03 5.02E-06 fly-by -
+e8rg2 1.0 0.8 2.12 2.18 3.25E-03 3.5E-03 8.83E-04 1.28E-05 fly-by -
+f8rg2 1.0 0.8 2.45 2.71 8.79E-04 1.1E-03 1.92E-05 0.0 fly-by -
+g8rg2 0.1 0.8 1.41 1.18 2.49E-02 3.3E-02 6.66E-03 2.22E-03 60.3 0.97
+h8rg2 0.1 0.8 1.80 1.70 9.18E-03 1.1E-02 3.52E-03 2.24E-04 fly-by -
+i8rg2 0.1 0.8 2.00 2.00 4.71E-03 5.5E-03 1.56E-03 6.4E-06 fly-by -
+a6rg2 1.0 0.6 1.41 1.27 1.68E-02 2.3E-02 3.56E-03 1.13E-03 142.2 0.98
+b6rg2 1.0 0.6 1.65 1.60 8.84E-03 1.2E-02 2.20E-03 3.26E-04 fly-by -
+c6rg2 1.0 0.6 1.88 1.95 4.11E-03 4.8E-03 4.80E-04 2.56E-04 fly-by -
+– 35 –
+– 36 –
+Table 2: Tidal Capture Limits:
+First and second columns are main sequence mass and red ginat radius, third and forth ones
+are η and rp at tidal capture limit for parameters of first and second columns estimated from
+our simulations and last two columns are same as that of third and forth ones but estimated
+from linear theory.
+MMS(Mnull) RRG(Rnull) ηcap rpcap(RRG) ηlinearcap rlinearpcap (RRG)
+0.6 20 2.3 2.1 1.78 1.77
+0.8 20 2.38 2.25 1.82 1.88
+1.4 20 2.47 2.56 1.91 2.16
+0.6 85 1.5 1.58 1.14 1.31
+0.8 85 1.58 1.71 1.20 1.42
+1.4 85 1.70 2.00 1.31 1.68
+– 37 –
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+10000
+0 0.2 0.4 0.6 0.8 1
+ρ/ρ
+env
+r/Rrg
+Rrg=20Ro Rcore=2Ro
+Rrg=85Ro Rcore=2Ro
+Rrg=20Ro Rcore=0.026Ro
+SPH
+Rrg=19.8Ro Mcore=0.362Mo(stellar model)
+Fig. 1.— The distribution of density in the envelope of red giants, normalized with respect
+to the envelope mass and radius (Menv = RRG = 1) as a function of normalized radius. Solid
+and long broken curves denote the models of the same core radius of Rcore = 2Rnull with the
+same total mass 0.8Mnull, the different surface radius RRG = 20Rnull and 85Rnull and the different
+core mass Mcore = 0.32Mnull and 0.48Mnull, respectively, while broken curve denotes the model
+of a same surface radius RRG = 20Rnull and a same core mass Mcore = 0.32Mnull with the same
+total mass 0.8Mnull and the different core radius Rcore = 0.026Rnull, for comparison. Dash-
+dotted curve denotes a stellar model of RRG = 19.8Rnull and Mcore = 0.362Mnull, taken from
+the evolutionary calculation of a star with mass 0.8Mnull and the metallicity [Fe/H] = null1.5
+by Suda & Fujimoto (2006). Asterisks represent the density distribution of the SPH model
+with RRG = 20Rnull for the radii at intervals of 2Rnull with two additional ones near the center
+and surface.
+– 38 –
+-2 0 2
+-2
+0
+2
+6.0
+-2 0 2
+-2
+0
+2
+7.0
+-3 -2 -1 0 1 2 3
+-3
+-2
+-1
+0
+1
+2
+3
+7.5
+-2 0 2 4
+-2
+0
+2
+8.0
+-2 0 2 4-4
+-2
+0
+2
+8.5
+-2 -1 0 1 2 3 4-4
+-3
+-2
+-1
+0
+1
+2
+9.0
+-2 0 2 4
+-2
+0
+2
+10.0
+-3 -2 -1 0 1 2 3-4
+-3
+-2
+-1
+0
+1
+2
+11.0
+3.0
+-2 -1 0 1 2-2
+-1
+0
+1
+2
+5.0
+(η=1.64)
+-2 0 2 4
+-2
+0
+2
+0.0
+X
+Y
+X
+Y
+-2 -1.5 -1 -0.5 0 0.5 1 1.5-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+-2 -1 0 1-2
+-1
+0
+1
+4.0
+Rrg20RoMms08rmin1.75al1.0
+.0
+Fig. 2.— Variations in the surface density, projected on the orbital plane, during the
+encounter for case a8rg1 (RRG = 20Rnull, η = 1.64, MMS = 0.8Mnull, α = 1.0). Each panel
+shows a snapshot of contour lines at intervals of 0.2 dex in the logarithmic scale over the
+range of 10-0.001 times the average surface density, Σenv = Menv/piR2RG. The origin of
+coordinate is set at the center of mass and numerals in the right bottom corner indicate the
+time in units of dynamical timescale, τRG = radicalbigR3RG/GMenv. Filled and open squares indicate
+representative SPH particles initially located on the shells that contain 95% and 70% of total
+mass including the core mass in the interior, respectively.
+– 39 –
+0 2 
+-2 
+0 
+7 . 0 
+Fig. 3.— The velocity vectors, plotted on the density contour map of panel at time 7.0 τRG
+in Fig. 2.
+– 40 –
+0 5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+95%
+90%
+80%
+Rrg20rmin1.75ms08al0.1 η=1.64
+a’ )
+0 5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+95%
+90%
+80%
+Rrg20rmin2.00ms08al1 η=2.00
+b)
+time
+0 5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+95%
+90%
+80%
+Rrg85rmin1.80ms08al1 η=1.70
+c)
+0 5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+95%
+90%
+80%
+Rrg20rmin1.75ms08al1 η=1.64
+a)
+timetimetime
+Ω    /
+Ω RG
+shell
+Fig. 4.— Time variations of angular velocity, Ωshell, averaged over particles in Lagrangian
+rings on z = 0 orbital plain, initially located at the shells, the interior of which contains
+95%, 90% and 80% mass of red giant (including the core mass); the vertical axis is the
+angular velocity normalized with respect to the Keplerian value at the initial surface (ΩRG =radicalbig
+GMRG/R3RG) and the horizontal axis is time in units of τRG = 1/ΩRG). Leftmost panel
+(a) for Model a8rg1: the second and the third panels (anull and b) for Models e8rg1 and b8rg1,
+which differ from the first one in the viscous parameter and in the encounter closeness
+parameter, respectively; rightmost panel (c) for Model b8rg2 with the red giant model of
+larger surface radius.
+– 41 –
+Ω/
+Ω RG
+0.2 0.4 0.6 0.8 1 1.2 1.4
+10-2
+10-1
+100
+6.0
+9.0
+20.0
+31.0
+40.0
+time
+r/RRG
+Fig. 5.— The evolution of radial distribution of angular velocity, averaged over the particles
+that reside temporally between the cylinders, separated by 0.1RRG on the orbital plane, for
+model b8rg1; ΩRG(= radicalbigGMRG/R3RG) is the critical rotation velocity at the initial surface
+of red giant, and the time is designated in the box in units of dynamical time of τRG =radicalbig
+R3RG/GMenv.
+– 42 –
+        time
+Ε
+0 5 10 15 20
+-0.02
+-0.015
+-0.01
+-0.005
+0
+or
+b
+a8rg1
+e8rg1
+b8rg1
+f8rg1c8rg1
+g8rg1
+d8rg1h8rg1
+η=2.80
+η=2.40
+η=1.64
+η=2.00
+/(G
+M RG
+R RG
+)
+/
+/( /GMRGRRG )0.53
+2
+Fig. 6.— Time variations in the orbital energy, Eorb = (1/2)µ0v2null null ∆E; filled and open
+symbols denote the models of αSPH = 1.0 and αSPH = 0.1, respectively.
+– 43 –
+L o
+rb
+/(G
+M RG3
+R RG
+)0.5
+0 5 10 15 20 25 30 35 401.3
+1.325
+1.35
+1.375
+1.4
+1.425
+1.45
+1.475
+1.5
+1.525
+1.55
+a8rg1
+e8rg1
+b8rg1
+f8rg1
+c8rg1
+g8rg1η=1.64
+η=2.00
+η=2.40
+time /( /G RGRRG )0.53 M
+Fig. 7.— Time variations in the orbital angular momentum, (Lorb = µ0bvnullnull∆LRG). Filled
+and open symbols denote the models of αSPH = 1.0 and αSPH = 0.1, respectively.
+– 44 –
+M ac
+c
+/M e
+nv
+0 5 10 15 200
+0.001
+0.002
+0.003
+0.004
+0.005
+0.006
+0.007
+0.008
+0.009
+0.01
+0.011
+0.012
+0.013
+0.014
+0.015
+a8rg1
+e8rg1
+b8rg1
+f8rg1
+c8rg1
+g8rg1
+η=2.40
+η=1.64
+η=2.00
+time /( /G RGRRG )0.53 M
+(tE)
+Fig. 8.— Time variations of the accreted mass, Macc, onto the secondary point mass; Symbols
+have the same meanings as in Fig. 7.
+– 45 –
+ 0.0001
+ 0.001
+ 0.01
+ 0.1
+ 1
+ 10
+1 2 3 4 5
+∆E(t
+E)/E
+crit
+((M
+1+M
+2)/M
+2)
+2
+η
+20Ro
+40Ro
+85Ro
+RRG=20Ro MMS=0.6Mo
+RRG=20Ro MMS=0.8Mo
+RRG=85Ro MMS=0.6Mo
+RRG=85Ro MMS=0.8Mo
+MS(0.8Mo) + NS(1.4Mo)(DB1992)
+RG(0.8Mo 20Ro) + NS(1.4Mo)(DB1992)
+RG(0.8Mo 20Ro) + MS(0.6Mo)(DB1991)
+MMS=0.2Mo MNS=1.4Mo(Lee1996)
+MMS=0.3Mo MNS=1.4Mo(Lee1996)
+MMS=0.5Mo MNS=1.4Mo(Lee1996)
+MMS=0.7Mo MNS=1.4Mo(Lee1996)
+Black hole + polyrope star(Khokhlov1993)
+eq.(15) 
+ 0.0001
+ 0.001
+ 0.01
+ 0.1
+ 1
+ 10
+1 2 3 4 5
+((M
+1+M
+2)/M
+2)
+2
+η
+RRG=20Ro MRG=0.6Mo
+RRG=20Ro MRG=0.8Mo
+RRG=85Ro MRG=0.6Mo
+RRG=85Ro MRG=0.8Mo
+RG(0.8Mo 20Ro) + MS(0.4Mo)(DB1991)
+RG(0.8Mo 20Ro) + MS(0.6Mo)(DB1991)
+20Ro
+40Ro
+85Ro
+eq.(16)
+∆L(t
+E)/
+L cr
+it
+Fig. 9.— The deposited energy and angular momentum, normalized by the inertia, ∆ ˜E/12 ˜I
+(top panel) and ∆˜L/˜I (bottom panel) from the orbital to stellar internal motions are plotted
+as a function of the encounter closeness parameter η for the red giant model of radius, 20
+and 85Rnull (circles and squares) with the main sequence perturber of mass, 0.6 and 0.8Mnull
+(open and filled symbols). Also plotted are the results by other authors: a red giant of
+mass 0.8Mnull and radius 20Rnull with a main sequence of mass, 0.4Mnull and 0.6Mnull, and with
+a neutron star of mass 1.4Mnull by Davies et al. (1991, 1992) (inverted filled, open and filled
+triangles): a 0.8Mnull main sequence with a neutron star of mass 1.4Mnull, by Davies et al.
+(1992) (inverted open triangles): a 0.2Mnull, 0.3Mnull, 0.5Mnull and 0.7Mnull main sequence star
+with a 1.4Mnull neutron star, by Lee et al. (1996) (plus signs, crosses, asterisks and waning
+moons): a polytrope with a black hole by (Khokhlov et al. 1993a,b) (windmills). Thin solid,
+dotted and dash-dotted lines denote the fitting curves given in eq. (12) and eq. (13) for 20Rnull,
+40R and 85R , respectively and the dashed line denots eq. (15) and eq. (16), while thick
+– 46 –
+ 1e-07
+ 1e-06
+ 1e-05
+ 0.0001
+ 0.001
+ 0.01
+ 0.1
+ 1
+ 0.0001  0.001  0.01  0.1  1
+Macc
+(tE
+)/M
+1(M
+en
+v/M
+1)
+0.5
+η-3
+∆E(tE)/(GM2RG/RRG)
+RRG=20Ro MMS=0.6Mo
+RRG=20Ro MMS=0.8Mo
+RRG=85Ro MMS=0.6Mo
+RRG=85Ro MMS=0.8Mo
+RRG=20Ro MMS=0.6Mo(Benz1991)
+RRG=20Ro MNS=1.4Mo(Benz1992)
+MMS=0.8Mo MNS=1.4Mo(Benz1992)
+MMS=0.2Mo MNS=1.4Mo(Lee1996)
+MMS=0.3Mo MNS=1.4Mo(Lee1996)
+MMS=0.5Mo MNS=1.4Mo(Lee1996)
+MMS=0.7Mo MNS=1.4Mo(Lee1996)
+3.48893 x1.93025
+ 
+Fig. 10.— The accreted mass, multiplied by the root of the mass fraction of envelope of red
+giant and divided by third power of encounter closeness parameter, η, as a function of the
+deposited energy, ∆E(tE), into the red giant envelope. Symbols are the same as Figure 9
+and solid line represents a power-law fitting. See text for details.
+– 47 –
+ 0.01
+ 0.1
+ 1
+ 10
+ 100
+1 2 3 4 5M acc
+(tE
+)/M
+1 (M
+en
+v/M
+1)
+0.5
+ [ ((M
+1+M
+2)/M
+2)
+2  (2/I) ]
+1.93
+η
+RRG=20Ro MMS=0.6Mo
+RRG=20Ro MMS=0.8Mo
+RRG=85Ro MMS=0.6Mo
+RRG=85Ro MMS=0.8Mo
+20Ro
+85Ro
+~
+Fig. 11.— The accreted mass, multiplied by (Menv/M1)1/2[2/˜I[(M1M2)/M2]2]1.93, as a func-
+tion of η. Symbols are same as Figure 10. Solid and dashed curve are derived from eq. (21)
+and the fitting formula eq. (12) for the red giants models of 20Rnull and 85Rnull, respectively
+(see text for details).

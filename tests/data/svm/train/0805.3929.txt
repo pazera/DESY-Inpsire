@@ -1,0 +1,185 @@
+arXiv:0805.3929v1  [hep-ex]  26 May 2008
+STUDY OF VECTOR BOSON FUSION HIGGS IN ATLAS-LHC
+D. VAROUCHAS
+LAL, Univ Paris-Sud, IN2P3/CNRS, Orsay, France
+Within the framework of Standard Model, the production mode of Higgs boson through the
+fusion of the vector bosons W or Z (Vector Boson Fusion) is one of the most important
+production mechanisms, providing a specific detection signature. A detailed study regarding
+this issue is being undergone for ATLAS detector in LHC and some general features of this
+analysis are being presented in this note emphasizing in the study of Central Jet Veto.
+1 VBF Topology and its characteristics
+The four different production mechanisms of a Standard Model Higgs boson1 at the LHC are
+(Fig.1b): the gg fusion, the Vector Boson Fusion, the Higgs boson production associated with
+vector bosons W or Z and the Higgs boson production associated with the production of a tt
+pair. Although VBF cross section is one order of magnitude lower than the dominant one of gg
+fusion (Fig.1a), its topological characteristics provide a signature which makes it an important
+discovery channel for a low mass Higgs boson.
+As it is illustrated in Fig.1b the VBFa Higgs (or WZ Fusion) occurs when two quarks
+originating from the proton beam are being scattered through the exchange of a W or Z boson
+and their fusion produces the Higgs boson. The important aspect of this topology is the fact the
+two scattered quarks give two energetic jets highly separated in rapidity in the forward regions
+of the detector.
+Because of the electroweak character of the VBF Higgs boson production (W,Z colorless
+exchange), a low gluon radiation activity is expected which is translated in detection terms as a
+low jet activity. Consequently, no jets are expected in the central region of the detector above
+a certain pT limit, in addition to the Higgs boson decay products. This aspect is motivating a
+central jet veto: the event is rejected if a third jet is detected in the central region above a given
+threshold of pT. This cut is efficient against the main backgrounds and especially against tt and
+can be a useful tool to the improvement of the S Vs B separation.
+aVector Boson Fusion
+D8
+AM
+D8C0
+CIC0
+CFC0
+C0D5D5
+CVCVAXC0
+D1
+D8
+BP BDBJBK BZCTCE
+C5CACBCCBBC6C4C7
+D4
+D7 BP BDBG CCCTCE
+ARB4D4D4AXC0 B7 CGB5 CJD4CQCL
+C5
+C0
+CJBZCTCECL
+BDBCBCBCBDBCBC
+BDBCBC
+BDBC
+BD
+BCBABD
+gg Fusiong
+g
+t
+t_
+t H
+tt− Fusiong
+g
+t_
+t
+t_
+t
+H
+Higgs-Strahlungq_
+q′
+W*, Z*
+W, Z
+H
+WZ Fusionq
+q′
+W,Z
+W,Z
+H
+Figure 1: (a) Cross Section of Higgs boson for (b) the four different production mechanisms in LHC, within the
+frame of Standard Model.
+2 VBF H → τ+τ− in ATLAS
+The most promissing part of the VBF Higgs analysis is the one which studies its decay into
+a pair of τ+τ− leptons. This channel was first studied in ref.2 for ATLAS 3 and now, a more
+detailed study is being undergone using state of the art Monte Carlo generators and a fully
+detailed simulation of the detector.
+Due to the weak branching ratio of Higgs boson decaying to τ+τ− for masses mh >
+140GeV/c2, the analysis is performed in the mass range of 110GeV/c2 < mh < 140GeV/c2
+and it is divided into three different categories depending on the decays of τ leptons (leptonic
+or hadronic decay). As a consequence, three sub-channels are obtained at the end: The lepton-
+lepton channel with a B.R. ≃ 12 %, the lepton-hadron channel with a B.R. ≃ 46 % and the
+hadron-hadron channel with a B.R. ≃ 42 %.
+For the processes of background the generated events correspond to:
+• Z → τ+τ− + jets
+• tt
+• W± + jets
+Among them the dominant background is the Z → τ+τ− + jets which has a quite similar
+topology with the signal and therefore is the most difficult to suppress.
+The final goal is to reconstruct the invariant mass of the couple τ+τ− which equals to the
+mass of Higgs boson. The existence of at least two neutrinos in the event, requires the use of a
+collinear approximation to estimate the mτ+τ− invariant mass from the measure of the missing
+pT vector and the pT of the visible tau decay products. This approximation implies that the
+tau decay products are collinear to the direction of taus. This is an acceptable assumption
+considering the hig Pt of the τ leptons. However it provides a good mass resolution only if
+the tau decay products are not back to back, which is the case if the parent Higgs boson has
+reasonably high Pt.
+The first step of the analysis consists of the identification of leptons and hadrons following the
+general ATLAS methods. Then, several cuts are applied in order to separate background from
+signal. This cuts can be categorized in three groups. The first group is related to the tau decay
+and different constraints concerning the kinematic variables of leptons or jets originating from
+Mass (GeV)
+60 80 100 120 140 160 180
+events/5 GeV
+0
+5
+10
+15
+20
+25
+-1Combined channel  L=30 fb
+=120GeV)HVBF H (m
+ (QCD/ELWK)-τ+τ →Z
+ + W)tQCD (t
+ATLAS
+Preliminary
+Figure 2: The reconstructed τ+τ− invariant mass for a VBF Higgs boson signal of 120GeV/c2 in the combined
+lepton-lepton and lepton-hadron channel above all backgrounds after application of all cuts. The number of signal
+and background events is shown for an integrated luminosity of 30fb−1.
+the hadronic decay of tau are being applied. These cuts differ in lepton-lepton, lepton-hadron
+and hadron-hadron cases. Next, the following set of cuts is based on collinear approximation
+method used for the mass reconstruction and finally, several constraints deriving from the special
+jet VBF behavior described in the previous paragraph are being applied such as, a given pT
+threshold for the two forward jets, a large separation in η, the decay products to lie between the
+forward jets in η, high invariant mass of the two forward jets and also a central jet veto.
+At Fig.2 we see the mass distribution after having applied all the different cuts. It is obvious
+that the Z → τ+τ− is the dominant background as expected, butstill there is a clear peak related
+to the mass of Higgs boson. Nevertheless, the importance of the mass resolution is highlighted
+through this plot, which shows that a worse resolution would result to a contamination of the
+signal by the Z resonance.
+3 Central Jet Veto
+Jets play an important role in this channel and therefore, many studies have been done towards
+this issue. In this analysis, the jets are reconstructed with a cone algorithm of a radius of 0.4
+and part of these jet studies related to VBF Higgs topology, is the optimization of the central
+jet veto cut. This cut rejects an event if a third jet is found in a region of |η| < 3.2 having a
+pT > 20GeV/c. Other alternatives of this cut are also studied by changing this |η| region. A
+jet veto was studied without applying any constraints on η and also applying the cut if a third
+jet is only found between the two forward jets in η. Another interesting feature seen, was that
+in many cases of signal events rejected by this cut, the vetoing jet was very close in ∆R b to
+one of the two forward jets. This was due to the splitting of the initial jet originating from
+the scattered parton. Using a larger jet reconstruction cone, such as 0.7 for instance which is
+the other alternative in ATLAS algorithms, the jet splitting effect might have been reduced but
+the overall signal significance would still be lower. Therefore, a better option is to introduce
+an additional constraint, which is to not take into consideration the third jet if it is close to
+one of the forward jets, and more precisely, if ∆R between these two jets is less than 1. In
+order to compare the three different approaches the cut efficiency is calculated for Signal and
+Background. The results are shown in Fig.3.
+With the combination of the ∆R condition to eliminate the vetoing jets close to the forward
+jets and searching for a third jet between the two forwards jets in terms of η, a gain of ∼10%
+b∆R =radicalbig∆η2 + ∆φ2
+signalefficiency
+0 0.2 0.4 0.6 0.8 1
+background
+efficiency
+0
+0.2
+0.4
+0.6
+0.8
+1 ,(BASELINE)cutR∆|<3.2,NO η jet in |rd3
+=1cutR∆|<3.2, η jet in |rd3
+=1cutR∆ jet between VBF jets , rd3
+Figure 3: Jet veto cut efficiency for signal and background. The white triangles represent the primary jet veto
+method where no ∆R cut is applied and the third jet is searched in |η| < 3.2 . The green triangles represent the
+primary jet veto method but searching the third jet only between the two forward jets in term of η and finally,
+the red squares represent the previous jet veto method having applied the ∆R cut as well. Every point in all
+curves corresponds to the efficiencies of a given pT threshold of the third jet starting from 10GeV/c with a step
+of 5GeV/c.
+for the signal jet veto cut efficiency is achieved, as it is seen in Fig.3.
+4 Outlook
+The main characteristics of VBF Higgs boson topology and some general aspects of the analysis
+of its decay in a couple of τ+τ− in ATLAS were presented. An example of improving a cut
+efficiency was addressed and it was shown that a gain of 10 % is accomplished modifying the
+jet veto cut. This analysis is not yet finalized since many studies are still being undergone, in
+particular concerning the effect of pile − up, which causes the creation of more jets into both
+signal and background events for the high LHC luminosities. Nevertheless, it was shown that
+VBF Higgs boson is one of the most promising channels for a low mass Higgs boson.
+References
+1. A. Djouadi, ”The anatomy of electro-weak symmetry breaking” arXiv:hep-ph/0503173
+2. Asai and al., Eur. Phys. J. C 32S2 (2004) 19 [arXiv:hep-ph/0402254]
+3. ATLAS Collaboration, Detector and physics performance technical design report (volume
+ii) CERN-LHCC/99-15 (1999)

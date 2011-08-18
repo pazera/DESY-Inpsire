@@ -1,0 +1,306 @@
+Spectrum of SU(2) gauge theory with two fermions
+in the adjoint representation
+Ari Hietanen 
+Department of Physics, Florida International University, Miami, FL 33199, USA
+Jarno Rantaharju, Kari Rummukainen
+Department of Physics, University of Oulu, P.O.Box 3000, FIN-90014 Oulu, Finland
+Kimmo Tuominen
+Department of Physics, University of Jyväskylä, P.O.Box 35 FIN-40014 Jyväskylä, Finland and
+Helsinki Institute of Physics, P.O.Box 64, FIN-00014 University of Helsinki, Finland
+We present preliminary results of lattice simulations of SU(2) gauge theory with two Wilson
+fermions in the adjoint representation. This theory has recently attracted considerable attention
+because it might possess an infrared fixed point (or an almost-fixed-point), and hence be a candi-
+date for a walking technicolor theory. In this work we study the particle spectrum of the theory,
+and compare it with more familiar spectrum of the theory with SU(2) gauge fields and two flavors
+of fundamental representation fermions.
+The XXVI International Symposium on Lattice Field Theory
+July 14 - 19, 2008
+Williamsburg, Virginia, USA
+ Speaker.
+c Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike Licence. http://pos.sissa.it/
+arXiv:0810.3722v1  [hep-lat]  21 Oct 2008
+Spectrum of SU(2) gauge theory with two fermions in the adjoint representation Ari Hietanen
+1. Introduction
+Gauge theories with fermions in other than fundamental representation may have qualitatively
+different features from QCD. One of these features is so called “walking” behaviour, which is
+required by a class of technicolor theories [1]. Technicolor is an extension to the standard model,
+where the Higgs boson is replaced with a composite particle, essentially a scalar “meson” which
+consists of techniquarks interacting through a gauge interaction, technicolor.
+In this project we study the properties of SU(2) gauge theory with two Dirac fermions in
+the adjoint (2-index symmetric) representation. This is a candidate theory for a “minimal” (i.e.
+simplest) walking technicolor [2]. For this to be viable, the theory should either have an IR fixed
+point (where it shows conformal behaviour) or an almost fixed point, where the coupling evolves
+extremely slowly with the energy scale. This theory has been studied previously in [3, 4, 5]. (See
+also [6, 7, 8, 9] for recent studies of related theories.)
+In this first stage we shall investigate the excitation spectrum of the theory and estimate its
+lattice phase diagram. We use considerably larger volumes than the earlier published work. Full
+results will be published in [10].
+2. Lattice action
+The lattice action of SU(2)+adjoint quark theory is S = Sg + Sf; where Sg is the standard
+plaquette gauge action and Sf is the Wilson fermion action for spinors in the adjoint representation:
+Sf = a4 
+x
+¯y(x)Dy(x) (2.1)
+= 
+x
+¯yy(x) k 
+m
+ ¯y(r g
+m)Vm(x)y(x)+ ¯y(r +gm)V †m(x m)y(x m)
+ : (2.2)
+Here the adjoint link variables V are related to the fundamental representation ones as
+V abm (x) = 2Tr(SaUm(x)SbU†m(x)); (2.3)
+where Sa = 12sa, a = 1;2;3 are the generators of the fundamental representation.
+As usual, the lattice action is parametrized with
+b = 2Ncg2 = 4g2 and k = 18+2m
+Q;bare
+; (2.4)
+where mQ;bare is the bare mass parameter.
+3. Lattice simulations
+The simulations were carried out with five different values of b = 1:3, 1.7, 1.9, 2.2 and 2.5.
+For each value of b we used 5 to 11 different values of k. The volumes used were 244 and 324.
+The updates were performed using standard hybrid Monte Carlo algorithm and the number of
+trajectories was 100-700 for a single run. The timestep Dt used was 0:02 for larger values of mass
+and was decreased to 0:004 closer to the zero mass limit. The number of integration steps Ns was
+chosen so that Ns Dt O(1).
+2
+Spectrum of SU(2) gauge theory with two fermions in the adjoint representation Ari Hietanen
+Particle quark content QCD equivalent
+Pseudoscalar meson Ug5 ¯U p
+Vector meson Ugm ¯U r
+Axial vector meson Ugmg5U b1
+“Higgs” U ¯U +D ¯D f0 or s
+Spin 1/2 baryon UUD proton
+Spin 3/2 baryon UUU D
+Quark Gluon UG NA
+Table 1: List of some particles in adjoint representation
+We also performed some simulations in fundamental representation in order to validate the
+algorithms and to confirm that we observe qualitatively different behaviour and not e.g. lattice
+artifacts.
+3.1 Phase diagram
+First, in order to obtain the relevant parameter range we probe the phase diagram of the theory.
+We are especially interested in the critical line kc(b), along which the quark mass vanishes. The
+quark mass is measured using the axial Ward identity (“PCAC mass”):
+mQ = limt!¥ 12 ¶tVPSV
+PP
+; (3.1)
+where the currents are
+VPS(x0) = a3  
+x1;x2;x3
+h¯u(x)g5d(x) ¯u(0)g5d(0)i (3.2)
+VPP(x0) = a3  
+x1;x2;x3
+h¯u(x)g0dg5(x) ¯u(0)g0g5d(0)i: (3.3)
+On the left panel of Fig. 1 we have plotted the measured quark masses against 1=k, and on the
+right panel we have extrapolated the results to the zero quark mass limit. We include here also the
+results from Del Debbio et al. [3] and Catterall et al. [5]. All of the results agree well with each
+other.
+Authors of [5] find a phase transition around b = 1:9 at zero mass. We also observe a change
+in the behaviour of the system at b  1:9: when b < 1:9 and we decrease the quark mass (k is
+increased), the system has a sharp phase transition around mQ  0, making the simulations in
+practice impossible at large volumes. This is especially noticeable at b = 1:9 simulations. This
+new phase is an artifact of Wilson fermions, corresponding to the “Aoki phase” of lattice QCD. On
+the other hand, when b > 1:9 there is no sharp transition and, if the volume is not too large, we can
+decrease mQ below zero without problems.
+3.2 Mass spectrum
+The “hadron” spectrum with adjoint representation quarks has more states than with the fun-
+damental representation quarks. In Table 1 we have listed some of the low energy states. Here we
+3
+Spectrum of SU(2) gauge theory with two fermions in the adjoint representation Ari Hietanen
+−0.2−0.1
+00.1
+0.20.3
+0.40.5
+0.60.7
+0.80.9
+11.1
+1.21.3
+1.41.5
+am
+Q
+4 5 6 7 8 91/κ
+β=1.3β=1.7
+β=1.9β=2.2
+β=2.5
+0
+0.1
+0.2
+0.3
+κ
+1 2 3β
+β=0
+β=∞
+mQ<0
+mQ>0
+ourdataCatterall etal.
+DelDebbioetal.Figure 1: Left: Quark masses as functions of k. Right: The phase diagram with mQ = 0 line. Our results
+agree well with other groups.
+will present the measurements of the pseudoscalar and vector 2-quark states, “mesons”, and the
+spin 1/2 and spin 3/2 3-quark states, “baryons”.
+The measurement of the axial vector would be interesting, because it has been speculated that
+ratio MAxial=Mr could be smaller than one for a conformal theory [11]. Unfortunately, we do not
+have yet good enough statistics at large volumes to obtain reliable measurement. The “Higgs”
+particle includes a quark disconnected part and we have not attempted to measure it.
+The masses of the excitations are estimated by fits to the time sliced averaged correlation
+functions. We use wall sources at timeslice t = 0 (with Coulomb gauge fixing) and point sinks. For
+example, the correlation function for mesons reads
+GO(t)   
+x;y1;y2
+h¯y(x;t)GOy(x;t) ¯y(y1;0)GOy(y2;0)i; (3.4)
+where GO = g5 for the pseudoscalar and GO = gm, m = 1;2;3 for the vector meson. The baryon
+correlation functions are measured analogously.
+The masses of the pseudoscalar and vector mesons are plotted in Figs. 2 and 3. For a conformal
+theory one expects that all particle masses approach zero as mQ !0, with the same exponent.
+However, at small b we observe a more or less standard pattern of chiral symmetry breaking: as
+mQ !0 the pseudoscalar meson (Goldstone bosons for chiral symmetry breaking) mass behaves
+approximately as  pmQ at small mQ, whereas vector meson remains massive. On the other hand,
+at large b > 2 the mesons are practically degenerate, and their masses almost vanish as mQ !0.
+The baryon masses are shown in Fig. 4 and show a similar pattern: at small b they extrapolate to a
+finite value as mQ!0, but at large b the masses decrease linearly, but with a small intercept.
+Thus, one can argue that at large b the results are compatible with a conformal behaviour (if
+we ignore the small intercepts in particle masses as mQ !0). However, we emphasize that this
+is qualitatively also compatible with standard QCD-like running coupling: we have also measured
+the meson spectrum in theory with SU(2) gauge + 2 fundamental representation fermions, and the
+4
+Spectrum of SU(2) gauge theory with two fermions in the adjoint representation Ari Hietanen
+0
+1
+2
+3
+ampi
+0 0.5 1amQ
+β=1.3β=1.7
+β=1.9β=2.2
+β=2.5
+0
+1
+2
+3
+amρ
+0 0.5 1amQ
+β=1.3β=1.7
+β=1.9β=2.2
+β=2.5
+Figure 2: Mass of p, (pseudoscalar) and mass of r (vector meson) with different b as a function of PCAC
+quark mass.
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+1.2
+mpi/
+mρ
+0 0.5 1amQ
+β=1.3β=1.7
+β=1.9β=2.2
+β=2.5
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+1.2
+mpi/
+mρ
+0 0.5 1amQ
+β=1.7β=2.5
+Figure 3: Ratio between p (pseudoscalar) and r (vector meson) mass with different b as a function of
+PCAC quark mass. In the left panel the results are for adjoint representation and in the right panel for the
+fundamental representation.
+mass pattern is comparable to the one shown in Fig. 2. On Fig. 3 we show the mass ratios of
+pseudoscalar and vector mesons for adjoint and fundamental fermions. For fundamental fermions
+the reason for this behaviour is easy to understand: at small b we observe chiral symmetry breaking,
+as we should, but at large b the lattice spacing becomes so small that the linear size of the system
+becomes much smaller than the hadron size. Thus, the quarks become effectively deconfined, and
+we observe near-conformal behaviour also with fundamental quarks at mQ 0.
+Thus, whether or not the adjoint quark theory has conformal or near-conformal behaviour (and
+hence an IR fixed point or “walking” coupling), or QCD-like running coupling, is very difficult to
+distinguish from the mass spectrum. However, we note that if there is a genuine IR fixed point
+where the theory becomes conformal, there must be a phase transition somewhere along the crit-
+5
+Spectrum of SU(2) gauge theory with two fermions in the adjoint representation Ari Hietanen
+0
+1
+2
+3
+4
+5
+am
+pro
+ton
+0 0.2 0.4 0.6 0.8 1 1.2amQ
+β=1.3β=1.7
+β=1.9β=2.2
+β=2.5
+0
+1
+2
+3
+4
+5
+am
+∆
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1.1 1.2amQ
+β=1.3β=1.7
+β=1.9β=2.2
+β=2.5
+Figure 4: Mass of proton (spin 1/2 baryon) and D (spin 3/2 baryon) as a function of PCAC quark mass.
+ical mQ = 0-line (kc(b)) where the theory goes from the chirally broken phase (at small b) into
+the phase controlled by the IR fixed point (at large b), where IR physics is conformal. In our
+simulations we do observe behaviour compatible with this: there is a clear change in the mQ!0
+limit around b  2. Indeed, around this point it is very difficult to even reach small mQ values
+with lattice Monte Carlo. If this scenario is the correct one, then the chiral symmetry breaking is a
+lattice artifact (or rather, UV cutoff artifact) not present in the continuum theory. The existence of
+a critical point was also suggested in [5].
+4. Conclusions
+We have presented preliminary results of the lattice measurement of the mass spectrum in
+SU(2) gauge theory with two fermions in the adjoint representation. This theory has been proposed
+to have either a walking (i.e. very slowly evolving) coupling or even an IR fixed point, where the
+theory becomes conformal (in the massless fermion limit). In this case the physical states of the
+theory are all massless. We indeed observe an almost-massless behaviour at large inverse lattice
+coupling b. However, resolving the reason for this behaviour on the lattice is complicated by
+the fact that in practice the spectrum for a theory with a QCD-like running coupling also appears
+conformal at large b, due to the fact that the lattice volume becomes so small that the system is
+essentially deconfined. In order to resolve the issue more direct evaluation of the evolution of the
+coupling is required, using e.g. Schrödinger functional methods.
+5. Acknowledgements
+The simulations were performed on center of scientific computing Finland (CSC) and Jülich
+supercomputing center (JSC). JR and KR acknowledge support from Academy of Finland grant
+number 114371.
+6
+Spectrum of SU(2) gauge theory with two fermions in the adjoint representation Ari Hietanen
+References
+[1] S. Weinberg, Implications Of Dynamical Symmetry Breaking: An Addendum, Phys. Rev. D 19, 1277
+(1979).
+L. Susskind, Dynamics Of Spontaneous Symmetry Breaking In The Weinberg-Salam Theory, Phys.
+Rev. D 20, 2619 (1979).
+[2] F. Sannino and K. Tuominen, Techniorientifold, Phys. Rev. D 71, 051901 (2005)
+[arXiv:hep-ph/0405209].
+D. D. Dietrich, F. Sannino and K. Tuominen, Light composite Higgs from higher representations
+versus electroweak precision measurements: Predictions for LHC, Phys. Rev. D 72, 055001 (2005)
+[arXiv:hep-ph/0505059].
+[3] L. Del Debbio, A. Patella and C. Pica, Higher representations on the lattice: numerical simulations.
+SU(2) with adjoint fermions, arXiv:0805.2058 [hep-lat].
+[4] S. Catterall and F. Sannino, Minimal walking on the lattice, Phys. Rev. D 76 (2007) 034504
+[arXiv:0705.1664 [hep-lat]].
+[5] S. Catterall, J. Giedt, F. Sannino and J. Schneible, Phase diagram of SU(2) with 2 flavors of
+dynamical adjoint quarks, arXiv:0807.0792 [hep-lat].
+[6] Y. Shamir, B. Svetitsky and T. DeGrand, Zero of the discrete beta function in SU(3) lattice gauge
+theory with color sextet fermions, Phys. Rev. D 78 (2008) 031502 [arXiv:0803.1707 [hep-lat]].
+[7] B. Svetitsky, Y. Shamir and T. DeGrand, Nonperturbative infrared fixed point in sextet QCD,
+arXiv:0809.2885 [hep-lat].
+[8] T. DeGrand, Y. Shamir and B. Svetitsky, Exploring the phase diagram of sextet QCD,
+arXiv:0809.2953 [hep-lat].
+[9] Z. Fodor, K. Holland, J. Kuti, D. Nogradi and C. Schroeder, “Probing technicolor theories with
+staggered fermions, arXiv:0809.4890 [hep-lat]; Nearly conformal electroweak sector with chiral
+fermions, arXiv:0809.4888 [hep-lat].
+[10] A. Hietanen, J. Rantaharju, K. Rummukainen and K. Tuominen, Minimal walking technicolor on the
+lattice, in preparation
+[11] T. Appelquist and F. Sannino, The physical spectrum of conformal SU(N) gauge theories, Phys. Rev.
+D 59 (1999) 067702 [arXiv:hep-ph/9806409].
+7

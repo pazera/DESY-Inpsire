@@ -1,0 +1,882 @@
+arXiv:0810.4482v2  [hep-ex]  9 Jan 2009
+Probing eV-scale axions with CAST
+E. Arik1,†, S. Aune2, D. Autiero3,18, K. Barth3, A. Belov4,
+B. Beltr´an5,19, S. Borghi3,20, G. Bourlis21, F. S. Boydag1,†,
+H. Br¨auninger6, J. M. Carmona5, S. Cebri´an5, S. A. Cetin1,
+J. I. Collar7, T. Dafni5, M. Davenport3, L. Di Lella3,22,
+O. B. Dogan1,†, C. Eleftheriadis8, N. Elias3, G. Fanourakis9,
+E. Ferrer-Ribas2, H. Fischer10, P. Friedrich6, J. Franz10,
+J. Gal´an5, T. Geralis9, I. Giomataris2, S. Gninenko4,
+H. G´omez5, R. Hartmann6,23, M. Hasinoff11, F. H. Heinsius10,24,
+I. Hikmet1,†, D. H. H. Hoffmann12, I. G. Irastorza5, J. Jacoby13,
+K. Jakovˇci´c14, D. Kang10,25, K. K¨onigsmann10, R. Kotthaus15,
+M. Krˇcmar14, K. Kousouris9,26, M. Kuster6,12, B. Laki´c14,
+C. Lasseur3, A. Liolios8, A. Ljubiˇci´c14, G. Lutz14, G. Luz´on5,
+D. Miller7, J. Morales5, T. Niinikoski3, A. Nordt6,12, A. Ortiz5,
+T. Papaevangelou2, M. J. Pivovaroff16, A. Placci3, G. Raffelt15,
+H. Riege3,12, A. Rodr´ıguez5, J. Ruz5, I. Savvidis8,
+Y. Semertzidis17,27, P. Serpico15,28, R. Soufli16, L. Stewart3,
+K. van Bibber16, J. Villar5, J. Vogel10, L. Walckiers3,
+K. Zioutas17,3(CAST Collaboration)
+1 Dogus University, Istanbul, Turkey
+2 CEA, IRFU, Centre de Saclay, Gif-sur-Yvette, France
+3 European Organization for Nuclear Research (CERN), Gen`eve, Switzerland
+4 Institute for Nuclear Research (INR), Russian Academy of Sciences, Moscow,
+Russia
+5 Instituto de F´ısica Nuclear y Altas Energ´ıas, Universidad de Zaragoza, Zaragoza,
+Spain
+6 Max-Planck-Institut f¨ur extraterrestrische Physik, Garching, Germany
+7 Enrico Fermi Institute and KICP, University of Chicago, Chicago, IL, USA
+8 Aristotle University of Thessaloniki, Thessaloniki, Greece
+9 National Center for Scientific Research “Demokritos”, Athens, Greece
+10 Albert-Ludwigs-Universit¨at Freiburg, Freiburg, Germany
+11 Department of Physics and Astronomy, University of British Columbia,
+Vancouver, Canada
+12 Technische Universit¨at Darmstadt, IKP, Darmstadt, Germany
+13 Johann Wolfgang Goethe-Universit¨at, Institut f¨ur Angewandte Physik, Frankfurt
+am Main, Germany
+14 Rudjer Boˇskovi´c Institute, Zagreb, Croatia
+15 Max-Planck-Institut f¨ur Physik, M¨unchen, Germany
+16 Lawrence Livermore National Laboratory, Livermore, CA, USA
+17 Physics Department, University of Patras, Patras, Greece
+2
+18 Present address: Institut de Physique Nucl´eaire, Lyon, France
+19 Present address: Department of Physics, University of Alberta, Edmonton,
+Alberta, Canada
+20 Present address: Department of Physics and Astronomy, University of Glasgow,
+Glasgow, UK
+21 Present address: Hellenic Open University, Patras, Greece
+22 Present address: Scuola Normale Superiore, Pisa, Italy
+23 Present address: PNSensor GmbH, Rmerstrasse 28, M¨unchen, Germany
+24 Present address: Ruhr-Universit¨at Bochum, Bochum, Germany
+25 Present address: Institut f¨ur Experimentelle Kernphysik, Universit¨at Karlsruhe,
+Karlsruhe, Germany
+26 Present address: Fermi National Accelerator Laboratory, Batavia, Illinois, USA
+27 Present address: Brookhaven National Laboratory, Upton, New York, USA
+28 Present address: European Organization for Nuclear Research (CERN), Gen`eve,
+Switzerland
+† Deceased
+E-mail: eferrer@cea.fr
+Abstract.
+We have searched for solar axions or other pseudoscalar particles that couple to
+two photons by using the CERN Axion Solar Telescope (CAST) setup. Whereas we
+previously have reported results from CAST with evacuated magnet bores (Phase
+I), setting limits on lower mass axions, here we report results from CAST where the
+magnet bores were filled with 4He gas (Phase II) of variable pressure. The introduction
+of gas generates a refractive photon mass mγ, thereby achieving the maximum possible
+conversion rate for those axion masses ma that match mγ. With 160 different
+pressure settings we have scanned ma up to about 0.4 eV, taking approximately 2 h
+of data for each setting. From the absence of excess X-rays when the magnet was
+pointing to the Sun, we set a typical upper limit on the axion-photon coupling of
+gaγ lessorsimilar 2.2×10−10 GeV−1 at 95% CL for ma lessorsimilar 0.4 eV, the exact result depending on
+the pressure setting. The excluded parameter range covers realistic axion models with
+a Peccei-Quinn scale in the neighborhood of fa ∼ 107 GeV. Currently in the second
+part of CAST Phase II, we are searching for axions with masses up to about 1.2 eV
+using 3He as a buffer gas.
+PACS numbers: 95.35.+d; 14.80.Mz; 07.85.Nc; 84.71.Ba
+3
+1. Introduction
+The most promising experimental approach to search for axions or other pseudoscalar
+particles is to use their two-photon interaction that is traditionally written in the form
+Laγ = −14 gaγFµν ˜Fµνa = gaγ E·Ba, (1)
+where a is the axion field, F the electromagnetic field-strength tensor, ˜F its dual, E
+the electric, B the magnetic field, and gaγ the axion-photon coupling constant. This
+interaction implies the conversion a ↔ γ in the presence of external electric and magnetic
+fields. One strategy (see [1] for a review) to search for this effect is Sikivie’s helioscope
+technique where a long dipole magnet is oriented towards the Sun [2]. Axions with
+energies of a few keV would be produced in the hot solar interior by the transformation
+of thermal photons into axions in the electric fields of the charged particles of the
+solar plasma, the Primakoff effect [3,4], and re-converted into x-rays within the dipole
+magnet. This conversion in a macroscopic B field is best viewed as a particle oscillation
+phenomenon in analogy to neutrino flavor oscillations [5]. Accordingly, the conversion
+probability in a B-field region of length L is [6]
+Pa→γ =
+parenleftbiggg
+aγB
+q
+parenrightbigg2
+sin2
+parenleftbiggqL
+2
+parenrightbigg
+, (2)
+where in vacuum q = m2a/2E is the photon-axion momentum difference (we use natural
+units with planckover2pi1 = c = 1).
+An early helioscope experiment was performed in Brookhaven in the early 1990s [7]
+and later a much more sensitive search in Tokyo [8–10]. The largest and most sensitive
+helioscope, the CERN Axion Solar Telescope (CAST), has taken data since 2003 and
+has provided the most restrictive constraints on the axion-photon coupling [11,12],
+superseding well-known astrophysical limits [13]. The limit, gaγ lessorsimilar 8.8×10−11 GeV−1,
+obtained in the first phase of CAST (CAST-I)[12] applies only for masses ma lessorsimilar 0.02 eV.
+This is seen most easily by rewriting the conversion probability in the form
+Pa→γ =
+parenleftbiggg
+aγBL
+2
+parenrightbigg2 sin2(x)
+x2 , (3)
+where x ≡ qL/2. The degradation of sensitivity to gaγ when going to high masses follows
+then from the x−2 suppression of the conversion probability when x ≫ 1. For the magnet
+length L ≃ 9.26 m and the typical 4 keV energy of solar axions, the sensitivity declines
+when x greaterorsimilar 1, or ma greaterorsimilarradicalbig4E/L ≃ 0.02 eV.
+It has long been recognized that the sensitivity of axion helioscope experiments
+can be extended to larger masses if one fills the conversion region with a suitable buffer
+gas, providing the photons with an effective mass mγ [6]. The axion-photon momentum
+difference becomes q = (m2a − m2γ)/2E so that for ma values in the neighborhood of
+the chosen mγ the maximum sensitivity is restored. Varying the gas density allows
+one to scan an entire range of ma values, of course at the price of having to take data
+separately at each density setting. Such a programme was first carried out at the Tokyo
+4
+axion helioscope [9] with recent results [10]. In 2005 CAST transitioned to its second
+phase (CAST-II), operating with a buffer gas to increase sensitivity to higher axion
+masses. In the first part of CAST-II from late 2005 to early 2007, data were taken with
+4He as a buffer gas, extending the sensitivity to ma lessorsimilar 0.4 eV. In this manuscript, we
+report the results of these measurements that supersede all previous laboratory limits
+on the axion-photon coupling strength in this mass range.
+In general the dispersion relation of photons in matter is a complicated function
+of energy. The refractive index can be either larger or smaller than unity so that in
+the medium, the dispersion relation can be either space-like (E2 −p2 < 0) or time-like
+(E2 − p2 > 0). In the former case, e.g. for visible light in air, the mismatch between
+the axion and photon dispersion relations would be exacerbated. We stress this point
+because it is sometimes overlooked in the literature. If the photon energy is far above
+all resonances of the medium it is guaranteed, however, that the dispersion relation is
+not only time-like, but also that its energy dependence is such as if the photons had an
+effective mass: E2−p2 = m2γ where m2γ = ω2plas = 4piαne/me with ne the electron density,
+me the electron mass, and α = 1/137 the fine-structure constant. In other words, for
+high-energy photons any medium has the same effect as a nonrelativistic plasma with
+the same electron density. For x-ray energies of a few keV relevant for CAST, one needs
+to use a low-Z gas such as hydrogen or helium [6]. In the first part of CAST-II we
+use 4He, allowing us to go up to a pressure of 16.4 mbar, the 4He vapor pressure at
+the operating temperature of 1.8 K of the superconducting magnet, corresponding to
+mγ ≈ 0.4 eV. To reach larger masses up to about 1.2 eV we use 3He in the second part
+of CAST-II.
+CAST and previous helioscope experiments are sensitive to axion-like particles
+within a certain region in the two-parameter plane spanned by gaγ and ma. The main
+motivation, however, is to search for QCD axions that appear as a consequence of the
+Peccei-Quinn mechanism to solve the CP problem of strong interactions [14]. For these
+particles we have
+gaγ = α2pi 1f
+a
+parenleftbiggE
+N −
+2
+3
+4 + z
+1 + z
+parenrightbigg
+,
+ma = z
+1/2
+1 + z
+fpimpi
+fa , (4)
+where fa is the Peccei-Quinn scale or axion decay constant, a free parameter of the
+theory, mpi is the pion mass, fpi = 92 MeV the pion decay constant, E/N the ratio of
+the electromagnetic and colour anomalies of the axial current associated with the Peccei-
+Quinn U(1) symmetry, and z = mu/md the up/down quark mass ratio. Therefore, in
+the gaγ–ma plane, the locus for QCD axions is given by
+gaγ = α2pi
+parenleftbiggE
+N −
+2
+3
+4 + z
+1 + z
+parenrightbigg1+ z
+z1/2
+ma
+mpifpi , (5)
+sometimes called “the axion line.” Since E/N is a model-dependent parameter of order
+unity and since z is somewhat uncertain [15], QCD axions, if they exist, presumably
+5
+live somewhere within a relatively narrow band in the gaγ–ma plane shown as a yellow
+band in figure 7. While the CAST-I limits did not yet intersect the axion band, the
+CAST-II results reported below begin to encroach into it.
+The CAST magnet, the detectors, and the Sun as an axion source were described
+in detail in the final CAST-I paper [12] and [22–24]. In section 2 we describe the
+modifications of the CAST experimental set-up necessary to inject a buffer gas in the
+magnet pipes with the required precision, followed by a description of the strategy that
+we have followed for the data taking. We describe our data analysis and provide new
+limits in section 3 before concluding in section 4.
+2. Upgrade and strategy of the CAST experiment for Phase II
+The setup of the CAST experiment has been described elsewhere [11,16]. Here we focus
+on the upgrade that was done to allow operation with 4He buffer gas in the cold magnet
+bore. This upgrade was the first part of a transition to a more complex system designed
+for eventual operation at higher buffer gas densities using 3He. The system was designed
+after a series of measurements and tests during resistive transitions (quenches) of the
+superconducting magnet in June 2005. It was found that that the helium pressure in
+the cold bore rose by a factor 13 in the first 3 seconds after the quench trigger, and by
+a factor 20 in 120 seconds, when the gas in the cold bore tubes was not extracted.
+During the 4He run the density of the helium in the cold bores was increased in
+daily steps equivalent to a pressure step of 0.08 mbar at 1.8 K in the cold bores and
+in the pipework linking it to the gas system outside. In order to be able to reproduce
+the density settings precisely, the steps were controlled by injecting a precisely metered
+quantity of 4He gas into the cold bores. The metering was based on a precise volume
+with temperature control within 0.1oC, and on a metrology grade pressure gauge. The
+density step was determined so as to shift the peak in the axion mass acceptance by one
+FWHM that provides a sizeable overlap with the previous setting. Thus by making a
+series of steps, resulting in a rather smooth scan of the axion mass range, the discovery
+potential is maximized and has no substantial mass gaps. The system was designed to
+operate up to 16.4 mbar pressure at 1.8 K, with a stable and homogeneous density along
+the cold bores, and with an accuracy and reproducibility of equivalent pressure settings
+better than 0.01 mbar and 0.1 mbar, respectively [17–19]. The homogeneity of the
+density along the cold bores of the magnet is ensured by the efficient thermal coupling
+with the subcooled superfluid liquid helium bath filling the magnet vessel. Moreover, as
+the buffer gas is sealed within the volume including the cold bores and the dead volumes
+of the linking pipework, the density remains sufficiently constant despite of the small,
+uncorrelated fluctuations of the temperatures of the magnet and of the dead volumes,
+because care was taken to minimise the volume of the external pipework connected to
+the cold bore. During the initial tests spontaneous thermo-acoustic oscillations (TAOs)
+were observed in the pipework formed by the cold bores and their connections up to the
+room-temperature shut-off valves. The standing wave has 3.7 Hz fundamental frequency
+6
+in our system and is driven by non-linear forces in the pipes with large temperature
+gradient. As a consequence the density varies in time and space in the cold bores, which
+results in a loss of sensitivity and control of the axion peak width. In order to avoid this
+effect, damping elements were installed inside the interconnecting pipework to entirely
+eliminate the conditions that generate the TAO. The tests during magnet quenches were
+required also for the design of the 3He gas system components and of the passive and
+active safety measures to protect the cold X-ray windows against the pressure surges
+due to the quenches. This was not used during the operation with 4He as buffer gas
+reported here, and will be the subject of a forthcoming paper.
+The effect of the gravity in the gas density in the cold bores was also studied and
+was found to be negligible even if the cold bore tubes were operated vertically. The
+smallness of the maximum tilt angle of ±8o reduces the effect further.
+A key element in the system are the x-ray windows that confine the buffer gas
+axially. Four windows were installed at the entrance and exit of the two cold bores of
+the magnet. These windows must have a high x-ray transmission in the range of 2 keV
+to 8 keV. This requires the use of very thin low Z-material, such as beryllium or plastic.
+Additional requirements for these windows are: i)resistance to static and dynamic
+pressures during normal operation and when the magnet quenches, ii)low permeability
+to helium and iii)transparency at visible wavelengths for both visual inspection and for
+laser alignment of the x-ray telescope and CCD relative to the axis of the cold bore.
+In order to fulfill these requirements, we have made the windows of 15 µm thick
+polypropylene film, supported by an electro-eroded grid (strongback) structure to
+withstand the 150 mbar pressure difference of future normal operation with 3He, as
+well as the rapid pressure rise that may happen during a quench of the magnet. The
+strongback obscures 12.6% of the geometric area. Although polypropylene has a large
+helium permeation rate at room temperature, this rate is reduced by at least 4 orders of
+magnitude at cryogenic temperatures. All windows were pressure tested at 1.5 bar
+at cryogenic temperatures, and the results of leak tests showed values better than
+1×10−7mbarLs−1 at 60 K. The design and cryogenic test results of the windows have
+been described briefly in [17].
+The pressure rise due to a magnet quench, at the maximum density attained during
+the runs with 4He buffer gas, was limited to about 300 mbar. During the future runs
+with 3He, a quench in a closed system would result in a maximum pressure of 2.7 bar,
+which requires the implementation of a safety system to limit the pressure to about
+1 bar, as will be reported in a forthcoming paper.
+The transmission of the foil glued to the strongback was measured at the
+PANTER x-ray facility[20]. The results of the measurements compared to a calculated
+transmission using NIST data and including the effect of the strongback are shown in
+figure 1. The mean calculated and measured transmission are in excellent agreement,
+with an overall difference of about 1%. The absorption edge of the polypropylene foil
+defined the low-energy x-ray cut-off for low densities of the gas; however at increasingly
+higher densities the absorption of the gas dominates, whereas at low densities the
+7
+0 2 4 6 8 10
+0
+20
+40
+60
+80
+100
+Energy [keV] 
+Transmission [%]
+  4He 1mbar−.−
+   4He 10mbar− −
+   PP 15µm____
+0 2 4 6 8 10
+0
+20
+40
+60
+80
+100
+Energy [keV] 
+Transmission [%]
+Figure 1. Left:calculated transmission of a 15 µm film of polypropylene compared
+with that of 10m of 4He gas at 1.8 K and at two different pressures. Right:
+transmission of a 15 µm thick polypropylene film glued to a stainless steel strongback.
+The black points show the measurements performed at the PANTER x-ray facility,
+with errors smaller than the points. The black curve shows the calculated transmission
+using the NIST data and taking into account the 12.6% transmission loss due to the
+strongback.
+transmission of the polypropylene dominates as shown in the left plot of figure 1.
+The 4He gas system was operational from November 2005 when the first 4He runs
+took place. In 2006 the data-taking period lasted for 9 months. The density was changed
+in daily steps equivalent to 0.08 mbar at 1.8 K, covering equivalent pressures up to
+13.4 mbar at 1.8 K. This allowed CAST to scan a new axion mass range between 0.02
+and 0.39 eV. During 2007, following a technical design review [19], a more sophisticated
+and complex gas system was installed and commissioned which operates with 3He buffer
+gas, and includes a pressure-limiting safety system and an improved monitoring and
+control system that will enable CAST to eventually reach an axion mass of about 1.2
+eV. This new system will be described in a forthcoming paper.
+2.1. Off-resonance solar axion identification technique
+In the presence of a buffer gas which provides an effective photon mass mγ, the axion-
+photon conversion probability given in equation (2) takes the form
+Pa→γ =
+parenleftbiggg
+aγ B
+2
+parenrightbigg2 1
+q2 + Γ2/4
+bracketleftbig1 + e−ΓL −2e−ΓL/2 cos(qL)bracketrightbig, (6)
+where Γ is the inverse absorption length for photons in a gas and q = (ma2−m2γ)/(2E) is
+the axion-photon momentum difference. In the particular case of vacuum (when Γ → 0),
+equation (6) becomes equation (2).
+The coherent axion-photon conversion will occur for qL lessorsimilar pi, which implies that
+the CAST experiment will be sensitive only to axion masses in the rangeradicalbigg
+m2γ − 2piEL lessorsimilar ma lessorsimilar
+radicalbigg
+m2γ + 2piEL . (7)
+8
+For qL greaterorsimilar pi, the axion-photon momentum mismatch will reduce the sensitivity. During
+CAST-I, with vacuum inside the magnet pipes, the coherence condition restricted the
+CAST sensitivity to ma lessorsimilar 0.02 eV. In CAST-II, with helium inside the magnet pipes,
+the coherence can be restored for a very narrow mass range (∆m/m ∼ 10−2–10−3)
+around mγ ≈ ma (for P = 6.08 mbar, for example, ∆m/m is 0.008). The axion-photon
+conversion probability for two cases is shown in figure 2. In order to cover the whole
+accessible axion mass range uniformly, the gas pressure has to be varied in appropriate
+steps. Figure 3 shows the axion-photon conversion probability for three consecutive
+pressure settings as well as the sum of the three probabilities. During the 4He phase,
+the axion mass range 0.02 eV < ma < 0.39 eV was covered with 160 density settings.
+The solar axion flux based on the solar model in [21] is very well approximated by
+(energies in keV)
+dΦa
+dE = 6.02×10
+10 g2
+10 E
+2.481 e−E/1.205 cm−2 s−1 keV−1, (8)
+while the differential flux of photons expected at the end of the magnet in case of the
+coherent conversion is given by
+dΦγ
+dE =
+dΦa
+dE Pa→γ (9)
+= 0.088 g410
+parenleftbigg L
+9.26 m
+parenrightbigg2parenleftbigg B
+9.0 T
+parenrightbigg2
+E2.481 e−E/1.205 day−1 cm−2 keV−1,
+where g10 = gaγ/(10−10 GeV−1). CAST developed a novel technique for solar axion
+identification using the off-resonance spectral distribution. The expected photon
+spectrum depends on the resonance mismatch between ma and mγ as shown in figure 4.
+The characteristic spectral distribution can be used for additional confirmation of the
+signal as a solar axion. We remark that this possibility, to the best of our knowledge,
+was never used before in axion search experiments.
+3. Data analysis
+During the data-taking period with 4He in the magnet bores in 2005 and 2006, the
+x-ray detectors were operated in the same configuration as for the 2004 data taking
+period [12,22–24], except for minor improvements. The time projection chamber
+(TPC) [23], covering both bores of the east end of the magnet looking for axion-to-
+photon conversion during sunset, had reduced electronic noise, using improved low
+voltage power supplies. At the other end, looking for x-rays from axion-to-photon
+conversion during sunrise, two detection systems were installed: a gaseous micromegas
+chamber (MM) [24] and an x-ray telescope consisting of x-ray optics coupled to a pn-
+Charge Coupled Device (CCD) [22] as a focal plane detector. The use of the x-ray
+mirror system suppresses the background by a factor of about 155 since the potential
+signal from the magnet acceptance area of 14.5 cm2 is focused to a spot of roughly
+9.3 mm2 on the CCD chip, thus improving the signal to background ratio by the same
+factor. The vacuum system of the telescope and the CCD was upgraded as well as the
+9
+6.08 mbar
+vacuum
+Axion mass [eV]
+Conversion probability
+10 -24
+10 -23
+10 -22
+10 -21
+10 -20
+10 -19
+10 -18
+10 -17
+10 -16
+10 -4 10 -3 10 -2 10 -1 1
+Figure 2. Axion-photon conversion probability versus axion mass. The black line
+corresponds to vacuum inside the magnet pipes and the red line to one particular
+helium densitysetting. Axion-photoncoupling constantof1×10−10 GeV−1 is assumed.
+0.254 0.256 0.258 0.26 0.262 0.264 0.266 0.268
+Axion mass LBracket1eVRBracket1
+5Multiply10Minus18
+1Multiply10Minus17
+1.5Multiply10Minus17
+2Multiply10Minus17
+2.5Multiply10Minus17
+Conversion
+probability
+5.99 6.08 6.16
+Pressure LBracket1mbarRBracket1 at 1.8K
+0.254 0.256 0.258 0.26 0.262 0.264 0.266 0.268
+Axion mass LBracket1eVRBracket1
+5Multiply10Minus18
+1Multiply10Minus17
+1.5Multiply10Minus17
+2Multiply10Minus17
+2.5Multiply10Minus17
+Conversion
+probability
+5.99 6.08 6.16
+Pressure LBracket1mbarRBracket1 at 1.8K
+Figure 3. Axion-photon conversion probability versus axion mass for three
+consecutive density settings on the left. On the right the same plot for the sum of the
+three probabilities is shown. An axion-photon coupling constant of 1×10−10 GeV−1
+is assumed.
+control software resulting in a safer and more flexible mode of operation. A new MM
+detector was installed for Phase II which had an improved performance with respect to
+the one used previously: a reduction of the copper fluorescence due to detector materials,
+which used to dominate the detector background, was achieved by the introduction of
+a gold-coated amplification mesh.
+As during CAST-I, axion-sensitive data were taken when the magnet was pointing
+to the sun (about 2× 1.5 h per day), while the rest of the time was used to measure
+background continuously only interrupted by daily calibrations. The density setting was
+changed once a day so that both sunrise and sunset detectors could cover all settings.
+10
+2 4 6 8 10 12 14
+Energy LBracket1keVRBracket1
+2
+4
+6
+8
+10
+12
+Count
+rate
+LBracket1Multiply
+10
+Minus10
+cm
+Minus2
+sMinus1
+RBracket1
+2 4 6 8 10 12 14
+Energy LBracket1keVRBracket1
+1
+2
+3
+4
+5
+6
+Count
+rate
+LBracket1Multiply
+10
+Minus10
+cm
+Minus2
+sMinus1
+RBracket1
+2 4 6 8 10 12 14
+Energy LBracket1keVRBracket1
+0.25
+0.5
+0.75
+1
+1.25
+1.5
+1.75
+Count
+rate
+LBracket1Multiply
+10
+Minus10
+cm
+Minus2
+sMinus1
+RBracket1
+2 4 6 8 10 12 14
+Energy LBracket1keVRBracket1
+0.025
+0.05
+0.075
+0.1
+0.125
+0.15
+0.175
+Count
+rate
+LBracket1Multiply
+10
+Minus10
+cm
+Minus2
+sMinus1
+RBracket1
+Figure 4. Expected photon spectra depending on the shift S = mγ −ma from the
+resonance: S = 0 (top left), S = FWHM/2 (top right), S = FWHM (bottom left)
+S = 3×FWHM (bottom right). Axion-photon coupling constant of 1×10−10 GeV−1
+is assumed.
+ 0
+ 2
+ 4
+ 6
+ 8
+ 10
+ 12
+ 14
+ 16
+ 18
+ 0  2  4  6  8  10  12  14  16
+Counts
+Energy [keV]
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 2  3  4  5  6  7  8  9
+Counts
+Energy [keV]
+Figure 5. Energy distribution of events recorded during the tracking run (stars with
+dashed line) at pressure setting Pk = 8.909mbar compared to background data (empty
+squares with continuous line) for the TPC (left) and the Micromegas (right) detectors
+respectively.
+Small shutdown periods, for a single detector, due to replacements of components,
+maintenance or upgrades did occur. As a general rule, the pressure step was repeated
+if more than one of the detectors were off.
+An example of the energy distribution of the events during the tracking run at the
+density setting Pk = 8.909mbar at 1.8 K compared to background data are shown in
+11
+0 10 20 30 40 50 60
+0
+50
+100
+150
+200
+   0.00
+   0.50
+   1.00
+   1.50
+   2.00
+   2.50
+   3.00
+X-Coordinate  [Pixel]
+Y-C
+oordinate
+  [Pi
+xel]
+0 10 20 30 40 50 60
+0
+50
+100
+150
+200
+   0.00
+   0.50
+   1.00
+   1.50
+   2.00
+   2.50
+   3.00
+X-Coordinate  [Pixel]
+Y-C
+oordinate
+  [Pi
+xel]
+Figure 6. Left: Spatial distribution of events observed during sun tracking by
+the CAST x-ray telescope during the 2005/2006 data taking period (189 solar
+observations). The intensity is given in counts per pixel and is integrated over the
+tracking period of 294.8 h accounting to 45 counts between 1 and 7keV. The white
+circle represents the expected size and position of the potential signal, which would
+be an image of the sun’s hot inner axion-producing region. Right: Background spatial
+distribution as observed by the CAST x-ray telescope during the 2005/2006 data-
+taking period. The intensity is given in counts per pixel and integrated over the full
+observation period of 2741.5 h.
+figure 5 for the TPC and MM detectors. The background data shown in the plots is
+the effective background used to calculate the axion-photon coupling constant. Figure 6
+shows the background data observed in the CCD detector (area 3×1cm2) during the
+4He run. The solar axion signal is expected to cover a circular spot of ≈ 9.3mm2 and
+is indicated in figure 6 by the white circle. The stability of the alignment of the optical
+axis of the x-ray telescope to the magnet axis has been monitored with an external x-ray
+source to an accuracy of ±0.5 pixel. Therefore, the location of the potential signal spot
+on the CCD chip is known with the same precision throughout the run. A summary
+of the data acquired with each of the detectors for both solar tracking and background
+12
+data is given in table 1. In order to extract the final result the data from the three
+detectors are combined.
+Table 1. Summary of data taken during the 4He phase. Average background rates
+are given for each detector.
+Steps Tracking Background Rate Energy Range
+(h) (h) keV−1s−1cm−2 keV
+CCD 147 294.8 2758.1 (8.66±0.06)×10−5 1–7
+TPC 154 304.1 4346.6 (7.68±0.01)×10−5 2–15
+MM 159 336.6 3115.0 (4.75±0.02)×10−5 2–9
+During Phase I, the presence of a solar axion would have been evident over the
+entire data taking period of roughly one year.
+The signal to be looked for in the CAST-II data would be present only in
+a few trackings centered at the density which matches the axion mass observation
+corresponding to one density setting. The effective exposure time at a given axion mass
+is approximately 100 minutes, during which a very low number of counts is expected as
+background (e.g. for the x-ray telescope only about 0.26 counts are expected in the spot
+area during one tracking). Hence, the sensitivity of CAST in phase II is statistics-limited
+by the number of expected background events.
+In order to extract an axion signal or to derive an upper limit on its coupling
+constant from CAST-II data, one has to take into account the fact that the axion signal
+s depends on the density at step k at which data are taken, s = sk(gaγ,ma), and that
+sk is maximum when ma matches the gas-induced photon mass mk, m2k = 4piαnek/me,
+nek being the electron density at setting k, but quickly drops as mk deviates from ma.
+A standard likelihood function can be built for a single step k based on the Poissonian
+probability distribution,
+Lk(gaγ,ma) = PkP
+0k
+= P({ni}k;{µi}k)P({n
+i}k;{ni}k)
+, (10)
+where
+P({ni}k;{µi}k) =
+productdisplay
+i
+e−µik µ
+nik
+ik
+nik! , (11)
+nik is the observed number of counts in energy bin i and density step k, and µik is the
+expected number of counts in each bin, estimated as the sum of expected background
+counts plus the axion signal µik = bik +sik(gaγ,ma). The estimation of bik is done using
+experimental data taken in non-tracking conditions, following different prescriptions
+that are discussed below. The statistical uncertainty in bik is not taken into account in
+equation (10) since its effect on the final result has been shown to be negligible by a
+dedicated Monte-Carlo simulation.
+13
+Data from different density steps can be combined by multiplying the corresponding
+Lk,
+L(gaγ,ma) =
+productdisplay
+k
+Lk(gaγ,ma). (12)
+The use ofLto extract statistical information, like best-fit values or confidence intervals,
+provides a method to account for neighbouring pressure steps and off-resonance axion
+masses. The product in equation (12) runs in principle over all k settings, in practice,
+however, only those settings close to the axion mass ma evaluated contribute to the final
+likelihood function, a fact used to reduce computation time. In order to combine the
+data from the three x-ray detectors, the calculated L in equation (12) for individual
+detectors are multiplied.
+The final step is now similar to the one followed in our previous analysis [12]. A
+best-fit value g4min is obtained after maximisation of L for a fixed value of ma. The
+results are compatible with absence of signal, and therefore we can express our result
+as an upper limit on the axion photon coupling with a 95% confidence level, g495. To
+do that we follow the Bayesian approach, which consists in considering the Bayesian
+probability P(g4|g4min) with a prior distribution uniform in g4 and integrating it from
+zero to 95% of its area, in order to find g495. This value is computed for many values of
+the axion mass ma in order to configure the full exclusion plot shown in figure 7. This
+plot shows the combined CAST-I and 4He part of CAST-II results (blue line) along with
+the constraints from the Tokyo helioscope [8–10] and HB stars [13,25]. The vertical line
+(HDM) is the Hot Dark Matter limit for hadronic axions (ma < 1.0 eV) [28,30] inferred
+from observations of the cosmological large-scale structure. The yellow band represents
+typical theoretical models with |E/N −1.95| in the range 0.07–7 where the green solid
+line corresponds to the case E/N = 0. The red dashed line shows our prospects for the
+3He run started in March 2008. The plot shows an increase of sensitivity at discrete
+masses (e.g. ma ∼ 0.2 eV corresponding to a pressure Pk = 3.747 mbar at 1.8 K). This
+reflects the fact that more time was spent at these pressure settings in order to follow
+what resulted to be statistical fluctuations. A close-up of the same plot showing the
+axion mass range explored in the 4He part of CAST-II is also shown.
+The influence of systematic uncertainties on the best-fit value of g4 and on the
+upper limit of gaγ has been studied for all experimental parameters entering the analysis:
+magnet length and field, detector efficiencies, window transparencies, etc. Most of these
+sources of uncertainty have negligible effects on the final result (less than 1%), the
+exception being the background definitions and, for the x-ray telescope, the tracking
+precision.
+Any pointing inaccuracy affects negatively the effective area of the telescope and
+the expected location and size of the signal spot on the CCD. For our stated accuracy of
+0.01 degree, these effects have been quantified to introduce a systematical uncertainty
+in the final limit of less than 3%.
+Regarding the background determination, different prescriptions have been used in
+order to estimate the systematic uncertainty in our ability to measure the background
+14
+of each detector for each density step, induced by possible uncontrolled dependencies of
+the background on time, position or other experimental conditions.
+For the TPC detector, the background bik to be used for a specific density step
+k is usually defined using data taken in the non-tracking runs of the same day(s) (i.e.
+same pressure in the magnet) as the tracking run of that step. Alternatively, data
+from neighboring days (up to 5 days after and before) have also been used. Another
+background definition makes use of the tracking data from off-coherence pressure
+steps. For the MM detector, in order to check for possible diurnal effects, background
+measurements taken at different daytime have been compared. For the case of the CCD,
+the data outside the solar spot, taken either during tracking or non-tracking runs have
+been used alternatively or in combination with the data from the spot area.
+The variation of the final result due to the use of these different background
+prescriptions is usually much smaller than 10% and only in extreme cases of that order.
+Therefore we estimate that the overall effect of systematic uncertainties on our final
+combined upper limit of gaγ is less than 10%.
+As can be seen in figure 7, CAST extends its exclusion line from axion masses of
+0.02 eV (Phase I) up to masses of 0.39 eV. For the 4He phase the limit at a given mass is
+derived from a few hours of data taking only and correspondingly small event numbers
+causing large statistical fluctuations of the line contour.
+For the first time, limits resulting from direct observation have entered the QCD
+axion model band in the eV range, excluding an important part of the parameter space.
+4. Conclusions
+The CAST-I search for solar axions has provided the most restrictive observational
+limit on the two-photon coupling of axions and axion-like particles (ALPs) for ma lessorsimilar
+0.02 eV [12]. In the first part of CAST-II setup, we have used 4He as a buffer gas to
+provide x-rays with an effective mass within the magnet bores. Varying the gas density
+in 160 steps, we have extended the search up to ma lessorsimilar 0.4 eV. The absence of a signal
+above background excludes a new range in the gaγ–ma plane shown in figure 7 that was
+not previously explored by direct laboratory experiments. We were able to derive a
+mean upper limit of 2.17×10−10 GeV−1 in the range 0.02 < ma < 0.39 eV.
+The CAST search has now entered the realistic model parameter space for QCD
+axions. In contrast to generic axion-like particles, QCD axions unavoidably interact
+with nucleons so that one expects them to be efficiently emitted from a hot nuclear
+medium. Accordingly, the well-known energy-loss argument based on the duration of
+the observed neutrino burst of SN 1987A provides a limit corresponding roughly to
+ma lessorsimilar 10−2 eV. A concise and recent summary of the status of this bound can be found
+in Sec. 6 of [26] and refs. therein. The SN 1987A limit is a powerful argument that has
+been applied to many cases other than axions, but on the other hand it suffers from the
+very sparse statistics of the SN 1987A neutrino burst as well as possibly large systematic
+uncertainties from the axion emission rates in dense nuclear matter. For sure a CAST
+15
+(eV)axionm
+-310 -210 -110 1 10
+)-1
+(GeV γ
+ag
+-1110
+-1010
+-910
+Tokyo helioscope
+HB stars   
+Axion models
+KSVZ [E/N = 0]
+He4 He3
+HDM limit
+CAST phase I
+(eV)axionm
+0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4
+)-1
+GeV
+-10
+ 10×(
+γag
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+He4
+P [mbar]
+2 4 6 8 10 12 14
+Figure 7. Top: Exclusion plot in the axion-photon coupling versus the axion mass
+plane. The limit achieved by the CAST experiment (combined result of the CAST-I
+and 4He part of CAST-II) is compared with constraints from the Tokyo helioscope [8–
+10] and HB stars [13,25]) discussed in the Introduction. The vertical line (HDM) is
+the hot dark matter limit for hadronic axions ma < 1.0 eV [28,30] inferred from
+observations of the cosmological large-scale structure. The yellow band represents
+typical theoretical models with |E/N −1.95| in the range 0.07–7 while the green solid
+line corresponds to the case when E/N = 0 is assumed. The red dashed line shows our
+prospects for the 3He run started in March 2008. Bottom: Expanded view of the limit
+achieved in the 4He part CAST-II for ma between 0.02 eV and 0.39 eV corresponding
+to a pressure scan from 0 to 13.4 mbar.
+16
+detection of axions in the range ma greaterorsimilar 10−2 eV would reveal a significant problem with
+the often-used SN 1987A argument.
+In the ongoing second part of CAST-II, we use 3He as a buffer gas, allowing
+us to reach higher gas pressures at the operating temperature of 1.8 K and thus to
+reach axion masses up to about 1 eV. In this mass range QCD axions would exist
+as thermal relic particles in the universe and provide a hot dark matter component
+similar to neutrinos [27]. Therefore, the usual structure-formation arguments that
+provide neutrino mass limits can be applied to axions as well [28–31]. Based on the
+latest cosmological data that are safely in the linear regime of structure formation, a
+limit on the axion mass of ma < 1.0 eV at 95% CL is found [30]. In the long run
+such cosmological results are likely to improve, with the ultimate goal of detecting the
+unavoidable neutrino hot dark matter component. If eventually a hot dark matter
+component above the minimal neutrino contribution is found in cosmological precision
+data, its interpretation is not necessarily unique and could signify an axion component.
+In such a case, and if the forthcoming CAST search is unsuccessful, the experimental
+challenge for axion searches in the sub-eV range is to improve the sensitivity beyond
+the stellar evolution limits and to cover the full range of plausible axion models that is
+roughly represented by the yellow band in figure 7.
+Acknowledgments
+CAST wishes to give special thanks to the family Poulin-McGilchrist for kindly granting
+permission to remove three oak trees which were in line of sight for the sun filming tests
+carried out each March and September and which are considered an essential crosscheck
+of the alignment of our experiment. We thank CERN for hosting the experiment
+and for the contributions of V. Benda, J. P. Bojon, F. Cataneo, R. Campagnolo, G.
+Cipolla, F. Chiusano, M. Delattre, L. Dufay-Chanat, J.-F. Ecarnot, F. Formenti, D.
+Fraissard, M. Genet, J. N. Joux, L. Le Mao, A. Lippitsch, L. Musa, R. De Oliveira,
+A. Onnela, J. Pierlot, S. Prunet, C. Rosset, H. Thiesen, A. Vacca, and B. Vullierme.
+We acknowledge support from MSES (Croatia) under grant No. 098-0982887-2872,
+CEA (France), BMBF (Germany) under grant Nos. 05 CC2EEA/9 and 05 CC1RD1/0,
+the Deutsche Forschungsgemeinschaft (DFG) under grant HO 400/7-1, GSRT (Greece),
+RFFR (Russia), the Spanish Ministry of Science and Education (MEC) under grants
+FPA2004-00973 and FPA2007-62833 and the Turkish Atomic Energy Authority. This
+work was supported in part by the U.S. Department of Energy under Contract No. DE-
+AC52-07NA27344; support from the Laboratory Directed Research and Development
+Program at LLNL is also warmly acknowledged. We acknowledge helpful discussions
+within the European Union network on direct dark matter detection of the ILIAS
+integrating activity (Contract number: RII3-CT-2003-506222).
+The CAST collaboration dedicates this paper to the memory of our colleagues E.
+Arik, F. S. Boydag, O. B. Dogan and I. Hikmet, who perished in the Atlasjet accident
+in southern Turkey, 30 November 2007. Their friendship, energy and enthusiasm will
+17
+be sorely missed.
+References
+[1] Battesti R, Beltran B, Davoudiasl H, Kuster M, Pugnat P, Rabadan R, Ringwald A, Spooner N,
+Zioutas K, Axion searches in the past, at present, and in the near future, 2008 Lect. Notes
+Phys. 741, 199 [hep-ex/0705.0615]
+[2] Sikivie P, Experimental tests of the invisible axion, 1983 Phys. Rev. Lett. 51, 1415 [Erratum ibid.
+52, 695 (1984)]
+[3] Dicus D A , Kolb E W , Teplitz V L and Wagoner R V , Astrophysical bounds on the masses of
+axions and Higgs particles, 1978 Phys. Rev. D 18, 1829
+[4] Raffelt G G, Astrophysical axion bounds diminished by screening effects, 1986 Phys. Rev. D 33,
+897
+[5] Raffelt G and Stodolsky L, Mixing of the photon with low mass particles, 1988 Phys. Rev. D 37,
+1237
+[6] van Bibber K, McIntyre P M, Morris D E and Raffelt G G, Design for a practical laboratory
+detector for solar axions, 1989 Phys. Rev. D 39, 2089
+[7] Lazarus D M, Smith G C, Cameron R, Melissinos A C, Ruoso G, Semertzidis Y K and Nezrick
+F A, A search for solar axions, 1992 Phys. Rev. Lett. 69, 2333
+[8] Moriyama S, Minowa M, Namba T, Inoue Y, Takasu Y and Yamamoto A, Direct search for
+solar axions by using strong magnetic field and X-ray detectors, 1998 Phys. Lett. B 434, 147
+[arXiv:hep-ex/9805026]
+[9] Inoue Y, Namba T, Moriyama S, Minowa M, Takasu Y, Horiuchi T and Yamamoto A, Search
+for sub-electronvolt solar axions using coherent conversion of axions into photons in magnetic
+field and gas helium, 2002 Phys. Lett. B 536, 18 [arXiv:astro-ph/0204388]
+[10] Inoue Y, Akimoto Y, Ohta R, Mizumoto T, Yamamoto A, Minowa M Search for solar axions
+with mass around 1 eV using coherent conversion of axions into photons, 2008 Phys. Lett. B
+668, 93 [arXiv:astro-ph/0806.2230]
+[11] Zioutas K et al. (CAST collaboration), First results from the CERN Axion Solar Telescope, 2005
+Phys. Rev. Lett. 94, 121301 [SPIRES] [hep-ex/0411033]
+[12] Andriamonje S et al. (CAST collaboration), An improved limit on the axion-photon coupling from
+the CAST experiment, 2007 JCAP 04, 10 [SPIRES] [hep-ex/0702006]
+[13] Raffelt G G, Astrophysical axion bounds, (2008) Lect. Notes Phys. 741, 51 [arXiv:hep-
+ph/0611350]
+[14] Peccei R D, The strong CP problem and axions, 2008 Lect. Notes Phys. 741, 3 [arXiv:hep-
+ph/0607268]
+[15] Yao W M et al. (Particle Data Group), Review of particle physics, 2006 J. Phys. G 33, 1
+[16] Zioutas K et al, A decommissioned LHC model magnet as an axion telescope, 1999 Nucl. Instrum.
+Methods Phys. Res., A 425 480 [astro/ph-9801176]
+[17] Niinikoski T O et al., Thin cryogenic X-ray windows, 2008 Submitted to Proc. ICEC 22, Seoul
+[18] CAST Collaboration, Status Report of the CAST Collaboration, CERN-SPSC-2005-022
+[19] CAST Collaboration, Technical Design Report of the CAST 3He Gas System, SPSC-TDR-001,
+CERN-SPSC-2006-029
+[20] Freyberg M J, Br¨auninger H, Burkert W, Hartner G D, Citterio O, Mazzoleni F, Pareschi G,
+Spiga D, Romaine S and Gorenstein P and Ramsey B D, The MPE X-ray test facility PANTER:
+Calibration of hard X-ray (15–50 keV) optics, 2005 Experimental Astronomy, 20 405
+[21] Bahcall J N and Pinsonneault M H, 2004 Phys. Rev. Lett. 92 121301, see also
+http://www.sns.ias.edu/˜jnb/SNdata/sndata.html
+[22] Kuster M et al.,The X-ray telescope of CAST, 2007New J. Phys 9, 169 [SPIRES][hep-ex/0702188]
+[23] Autiero D et al., The CAST Time Projection Chamber, 2007 New J. Phys 9, 171 [SPIRES]
+[hep-ex/0702189]
+18
+[24] Abbon P et al., The Micromegas detector of the CAST experiment, 2007 New J. Phys 9, 170
+[SPIRES] [hep-ex/0702190]
+[25] Raffelt G G, Stars as Laboratories for Fundamental Physics, 1996 (Chicago, IL: The University
+of Chicago Press)
+[26] Raffelt G G, Astrophysical axion bounds, 2008 Lect. Notes. Phys. 741, 51 [arXiv:hep-ph/0611350]
+[27] Moroi T and Murayama H, Axionic hot dark matter in the hadronic axion window, 1998 Phys.
+Lett. B 440, 69 [arXiv:hep-ph/9804291]
+[28] Hannestad S, Mirizzi A and Raffelt G, New cosmological mass limit on thermal relic axions, 2005
+JCAP 0507, 002 [arXiv:hep-ph/0504059]
+[29] Hannestad S, Mirizzi A, Raffelt G G and Wong Y Y Y, Cosmological constraints on neutrino plus
+axion hot dark matter, 2007 JCAP 0708, 015 [arXiv:0706.4198 [astro-ph]].
+[30] Hannestad S, Mirizzi A, Raffelt G G and Wong Y Y Y, Cosmological constraints on neutrino
+plus axion hot dark matter: Update after WMAP-5, 2008 JCAP 0804 019 [arXiv:0803.1585
+[astro-ph]]
+[31] Melchiorri A, Mena O and Slosar A, An improved cosmological bound on the thermal axion mass,
+2007 Phys. Rev. D 76, 041303 [arXiv:0705.2695 [astro-ph]]

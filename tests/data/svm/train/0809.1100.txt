@@ -1,0 +1,984 @@
+arXiv:0809.1100v2  [hep-th]  13 Aug 2009
+Preprint typeset in JHEP style - HYPER VERSION PI-COSMO-73
+Stochastic tunneling for strongly non-Gaussian
+inflationary theories
+Andrew J. Tolleya and Mark Wymanb
+Perimeter Institute for Theoretical Physics
+31 Caroline St. N
+Waterloo, ON N2L 2Y5
+Canada
+a atolley@perimeterinstitute.ca b mwyman@perimeterinstitute.ca
+Abstract: We reconsider the dynamics of stochastic or thermal tunneling in theories like
+Dirac-Born-Infeld inflation that have non-minimal kinetic terms and, as a result, strongly
+non-Gaussian perturbations. We first describe a local description of the tunneling process
+which gives results consistent with the standard Hawking-Moss tunneling. This result is
+under perturbative control as long as the fluctuation determinant is well approximated
+by a one-loop integral. We then move to a global description, using the methodology of
+stochastic inflation and the in-in path integral formalism. This approach shows clearly that
+the tunneling process becomes strongly coupled whenever the sound speed of the tunneling
+trajectory departs sufficiently from unity. We argue that these two very different perspec-
+tives are nevertheless consistent, and may imply the existence of a simple resummation of
+the strongly coupled interactions of the field.
+Contents
+1. Introduction 1
+1.1 Global versus local 3
+2. The local picture: Euclidean Quantum Gravity 4
+2.1 Extending to non-minimal models 5
+3. The global picture: stochastic inflation 9
+3.1 Deriving the stochastic formalism 9
+3.2 Irreversibility and the fluctuation theorem 12
+3.3 Irreversibility for DBI inflation, non-gaussian corrections to tunneling rate 14
+3.4 A contradiction? 17
+3.5 Consequences for other instanton tunneling rates 18
+4. Summary 18
+1. Introduction
+Tunneling is the best understood non-perturbative phenomenon in the theory of gravity
+coupled to scalar fields. It is central to the description of vacuum phase transitions, dy-
+namics on the landscape, and the initial conditions for inflation. There are two types of
+tunneling in nature: quantum tunneling and thermal tunneling. Quantum tunneling is a
+classically forbidden process, while thermal tunneling appears for any open system whose
+environment induces a finite temperature and thus can be purely classical. In any finite-
+temperature tunneling system, these processes coexist. The precise nature of the potential
+barrier through or over which a system is tunneling and the temperature prevalent in the
+system determine which kind of tunneling is dominant. Thermal tunneling dominates at
+high temperatures and for very broad potential energy barriers, whereas quantum tunnel-
+ing dominates for narrow barriers. When considering tunneling in cosmological theories
+with a positive potential, the effect of gravity on tunneling is equivalent to adding tem-
+perature. This is because of the finite temperature seen by an observer in de Sitter space.
+The presence of gravity thus implies the coexistence of quantum and thermal tunneling in
+cosmology.
+Many of the novel inflationary models proposed in the past few years consist of a
+scalar field with a non-minimal kinetic term – at least at the level of their 4-D effective
+field theory. The example with the best physical motivation is Dirac-Born-Infeld (DBI)
+inflation [1]. In this model, the inflaton is the scalar field describing the location of a
+D-brane in a warped throat, and the action is of a square root form characteristic of
+– 1 –
+Figure 1: A typical tunneling potential. The minimum labeled φfalse denotes the false vacuum,
+while φtrue is the true vacuum, separated by a barrier with maximum at φbarrier.
+relativistic particle motion. More generally, k-inflation [2] and k-essence [3] are examples
+of field theories of this type. In such theories, the Lagrangian is an arbitrary function
+of the scalar field and the usual kinetic term L = √−gp(X,φ) with X = −12(∂φ)2. In
+fact, all possible predictions of single field inflationary models coming from local theories
+can be described within a unified framework using this kind of approach [4]. In any case,
+non-minimal kinetic term models represent explicit, computable alternatives to standard
+slow roll inflation.
+In the case of DBI inflation, quantum tunneling – i.e., tunneling within the Coleman-
+de Luccia framework – has been considered in Ref. [5]. In this work we shall focus our
+attention exclusively on thermal tunneling. As we discuss below, there are two ways to
+describe thermal tunneling: a local description and a global description. Which one we
+choose depends on whether we wish to study the physics seen by a single observer, or want
+to ask about the global geometry, including superhorizon modes. The local description
+is straightforward to generalize to a variety of models, but generalizing the global picture
+proves to be a more challenging undertaking. There is an immediate, technical challenge:
+the slow roll approximation cannot be used. This limitation requires a generalization of
+the stochastic description of inflationary fields; this we carried out in a previous paper
+[6] and was addressed in earlier work [7, 8]. There is, though, a more fundamental hur-
+dle: the presence of intrinsic non-Gaussianity in these theories plays a crucial role in the
+– 2 –
+tunneling process. This may prevent any perturbative calculation from capturing the full
+phenomenon, forcing us to develop new techniques.
+1.1 Global versus local
+There are two ways to interpret thermal, also known as stochastic, tunneling. To un-
+derstand these two approaches most clearly, it is helpful to work in the decoupling limit
+(Mpl → ∞) with fixed Hubble parameter, H. In this limit, the scalar fields are taken
+to exist on a fixed de Sitter background geometry; that is, gravity does not respond to
+the changes in the scalar fields. We begin by considering the local approach. The local
+approach describes the tunneling process from the perspective of an observer within a par-
+ticular causal patch. This patch is covered by what are known as the static coordinates in
+de Sitter:
+ds2 = −(1−H2r2)dt2 + (1−H2r2)−1dr2 +r2d2Ω. (1.1)
+In this local, or subhorizon, approach, the natural coarse graining of the closed system is:
+• Open System: causal patch, sub–horizon modes, defined in position space as fields
+with support in r ≤ H−1
+• Environment: super-horizon modes, defined in position space as fields with support
+in r > H−1
+• Tunneling Rate: Determines rate that the observer’s Hubble-sized region “jumps”
+over the barrier
+The only effect of the environment is to induce a finite temperature T = H/2π for the
+subhorizon system [9]. This idea is known as de Sitter complementarity [10]. Consequently,
+in this picture tunneling can be described by a finite temperature field theory living in the
+causal patch.
+In the global approach, we consider physics from the perspective of a ‘superobserver’
+who can see physics on a global slicing. For simplicity, we can take this to be the flat slicing
+in de Sitter,
+ds2 = −dτ2 +e2Hτdvectorx2. (1.2)
+In the global, or superhorizon, approach, the natural coarse graining of the closed system
+is:
+• Open System: Long wavelength modes, defined in momentum space as fields with
+support on length scales λ > ǫ−1aH−1 1
+• Environment: Subhorizon modes, defined in momentum space as fields with sup-
+port from length scales λ ≤ ǫ−1aH−1
+• Tunneling Rate: Determines rate that the field, coarse grained over several Hubble
+volumes in flat slicing, “jumps” over barrier
+1Here ǫ is a small parameter introduced so that the the coarse graining scale is a few Hubble radii where
+the growing mode has already come to dominate over the decaying mode.
+– 3 –
+The effect of the environment here is to induce a stochastic noise for the long wavelength
+system. Adding gravitational dynamics, whilst complicating the description of the system,
+does not significantly change these considerations.
+We stress that these two methods are not calculating precisely the same tunneling
+rate. Nevertheless, they are sufficiently similar that we expect a comparable result. In
+brief, they both answer the question: ‘What is the rate at which we should expect to find a
+Hubble volume exiting a metastable vacuum and reaching a stable – or at least more stable
+– vacuum through a stochastic/thermal fluctuation?’
+2. The local picture: Euclidean Quantum Gravity
+In the local picture, we consider the causal patch to be at finite temperature T = H/2π.
+The system is thus described by a partition function
+Z = TrS e−βHstatic, (2.1)
+with β = 2πH−1. The justification for this is as follows. If the global vacuum is chosen
+to be the Bunch-Davies vacuum |0〉, then the state that an observer sees is obtained by
+taking the trace of the density matrix over those modes with support outside the causal
+patch. This is is found to be equivalent to a thermal state [9]:
+ρS = TrL (|0〉〈0|) = Z−1e−βHstatic. (2.2)
+Here Hstatic(π,φ) is the static patch Hamiltonian (written as a function of the field and its
+spatial derivatives as well as the conjugate momentum) which is the generator associated
+with the timelike Killing vector in de Sitter. Standard techniques tell us that evaluat-
+ing this partition function is equivalent to calculating the Euclidean path integral over
+configurations which are periodic in Euclidean time τE with period β. That is, we may
+write
+Z =
+integraldisplay
+DφDπe−Sβ(φ,pi) (2.3)
+where
+Sβ(φ,π) =
+integraldisplay β/2
+−β/2
+dτE
+integraldisplay H−1
+0
+dr
+integraldisplay
+r2d2Ω
+parenleftbigg
+π ∂φ∂τ
+E
+−Hstatic(π,φ)
+parenrightbigg
+. (2.4)
+Note that this is a canonical representation of the path integral, which is necessary to get
+the correct measure in the case of a non-minimally coupled field. For a minimally coupled
+scalar field, the explicit form of the static Hamiltonian is
+Hstatic =
+integraldisplay H−1
+0
+dr
+integraldisplay
+r2d2Ω Hstatic (2.5)
+=
+integraldisplay H−1
+0
+dr
+integraldisplay
+d2Ω
+parenleftbigg1
+2(1−H
+2r2)
+parenleftbiggπ2
+r2 +r
+2φ2
+,r
+parenrightbigg
++ 12(∇Ωφ)2 +r2V(φ)
+parenrightbigg
+.
+For a configuration in which φ is fixed at a minimum or a maximum, the energy is
+Hstatic = 4πH
+−3
+3 V (φ). (2.6)
+– 4 –
+When the field has reached a true equilibrium, the above noted partition function is real:
+tunneling from the left of a barrier to the right of a barrier is exactly balanced by the
+reverse process. Nevertheless, we can infer the rate for tunneling from the false to the
+true vacuum by restricting the range of the phase space path integral so that it only
+includes configurations with right moving flux and in which the initial state is prepared
+as being thermal to the left of the barrier and vacuum to the right. This path integral
+can be evaluated in the saddle-point approximation. Tunneling instantons are those whose
+fluctuations exhibit an odd number of negative modes. To deal with these, we must perform
+a Wick rotation of the integration contours. This Wick rotation picks up factors of i, and
+the total tunneling rate is determined by the imaginary part of the partition function
+Γ ∝ImlnZ. (2.7)
+A class of instantons that always exist are defined by the static configurations
+π = 0, δHstatic(φ,π = 0)δφ = 0, (2.8)
+where the field is fixed at a maximum or minimum of its potential. Unlike in Minkowski
+spacetime, these are guaranteed to have finite action in de Sitter spacetime because the
+static patch has finite volume. When the instanton is at a maximum, there is at least
+one negative mode, hence there is a nonzero contribution to the tunneling rate. In the
+decoupling limit, the tunneling rate is given by the Arrhenius law
+Γ ∝ exp(−β(Hstatic(φbarrier,0)−Hstatic(φfalse,0))) (2.9)
+where φfalse is the false vacuum and φbarrier is the maximum of the potential intermediate
+between the false and true vacuua. This is precisely the decoupling limit of the Hawking-
+Moss result
+Γ ∝ exp(Sent(φbarrier)−Sent(φfalse)), (2.10)
+where Sent is the entropy of the de Sitter geometry associated with the extrema:
+Sent(φ) = 8π
+2M2
+pl
+H2(φ) =
+24π2M4pl
+V(φ) . (2.11)
+This follows since
+∆Sent ∼−24π
+2M4
+pl
+V 2 ∆V ∼−2πH
+−1
+parenleftbigg4πH−3
+3 ∆V
+parenrightbigg
+= −β∆Hstatic. (2.12)
+In a similar way the Coleman-de Luccia instanton can also be interpreted as finite temper-
+ature quantum tunneling [11] in the decoupling limit.
+2.1 Extending to non-minimal models
+How does the local picture change in a theory with a non-canonical relationship between
+momentum and kinetic energy in its action? Let us consider theories of the general form,
+Sφ =
+integraldisplay
+d4x√−gp(X,φ). X ≡−12(∂φ)2 (2.13)
+– 5 –
+The best known example of such a model is DBI inflation. There, the pressure p takes the
+explicit form
+p(X,φ) = −T(φ)
+radicalbig
+1−2X/T(φ) +T(φ)−V (φ), (2.14)
+where T(φ) is the tension of the D-brane moving in the warped throat. The chief novel
+physics encoded in this action are that perturbations travel with a sound speed less than
+the speed of light. This sound speed is given by
+c2s = dpdρ = p,Xp,
+X +2Xp,XX
+(2.15)
+(note that here and throughout the paper we will use commas to indicate partial differen-
+tiation; that is, P,X ≡ ∂P/∂X). This means that when we perturb around a cosmological
+solution, the perturbations travel at a speed typically lower than unity, and there is a sound
+horizon which is smaller than the causal horizon. In the local picture we are discussing,
+this reduced sound speed implies that Lorentz invariance is broken for the scalar field vacua
+described by such theories all the way up to the cut-off energy scale when this effective
+Lagrangian is expected to breakdown. To see this, let us consider the short distance singu-
+larity structure of the Feynman propagator for fluctuations δφ around some cosmological
+solution, taken to be in their adiabatic vacuum. Since this will be dominated by the con-
+tribution from subhorizon modes, it is sufficient to treat cs as a constant, since it varies
+‘slowly’. Nevertheless, even high momenta modes travel at the sound speed cs, and so the
+Feynman propagator will have the Lorentz-violating form
+lim
+x→x′
+〈Tδφ(x)δφ(x′)〉 =
+parenleftbigg −1
+8π2csp,X
+parenrightbigg 1
+(τ −τ′)2 −c−2s exp(2Hτ)(vectorx−vectorx′)2 −iǫ, (2.16)
+as if the scalar field perturbations were living on the emergent geometry [12]
+ds2 = (csp,X)parenleftbig−dτ2 +c−2s e2Hτdvectorx2parenrightbig. (2.17)
+In the case where cs and p,X are exactly constant, the emergent geometry is also de Sitter,
+with Hubble constant H/√csp,X and associated emergent background temperature equal
+to Te = H/(2π√csp,X). In the case of a DBI-like kinetic term p,X = c−1s and so there is
+no change in the apparent temperature within the emergent geometry. The horizon of the
+emergent geometry is the sound horizon which the perturbations see and is in general no
+longer the same as the true event horizon.
+Nevertheless, the physical temperature of the background is still the same. Following
+the argument of Ref. [9], if the Feynman propagator is definedto be analytic in the emergent
+geometry for spacelike separated points then it will be invariant under
+τ → τ +i2πH , (2.18)
+which is the same as requiring analyticity of the propagator in the real geometry. This
+is the key step in justifying the notion that subhorizon physics in de Sitter is equivalent
+to a finite temperature system of temperature T = H/2π. This is true when cs and p,X
+– 6 –
+are constant because the emergent metric depends on time only through e2Hτ, which is
+invariant under this shift.
+What this example illustrates is that even if we choose the global state to be the adia-
+batic vacuum state for fluctuations around nontrivial cosmological solution, with nontrivial
+speed of sound, i.e. even if we choose the global vacuum not to be Bunch-Davies, it still
+makes sense to think of the subhorizon system as being at a finite temperature T = H/2π
+set by the event horizon and not the sound horizon.
+In short, causality demands that the part of the global vacuum describing superhorizon
+physics is never relevant to a local observer. Let us denote the Bunch-Davies vacuum by
+|0〉. At a given time, the apparent vacuum |α〉 for perturbations around some cosmological
+solution formally corresponds to a coherent state2
+|α〉 = U|0〉 = e−|α|2 exp[αa +α†a†]|0〉, (2.19)
+where the α and α† are defined for the particular state, and αa is shorthand for a sum
+over a complete set of modes summationtexti αiai. We can always divide the creation operators into
+superhorizon (L) and subhorizon (S) modes,
+a = aL +aS, (2.20)
+such that we guarantee [aL,aS] = [aL,a†S] = 0. As a density matrix this state is
+|α〉〈α| = U|0〉〈0|U−1 = ULUS|0〉〈0|U−1S U−1L . (2.21)
+where US = e−|αS|2 exp[αSaS + α†Sa†S] and similarly for UL. A local observer can only see
+the part of the state obtained by tracing out the long wavelength modes, namely
+ρS = TrL|α〉〈α| = TrL(ULUS|0〉〈0|U−1S U−1L ) (2.22)
+= US(TrLUL|0〉〈0|U−1L )U−1S = US(TrL|0〉〈0|)U−1S (2.23)
+= USZ−1e−βHstaticU−1S = Z−1e−βUSHstaticU−1S . (2.24)
+In other words, if the global vacuum is the adiabatic vacuum defined around some cos-
+mological solution, the state seen by a local observer is a coherent excitation of a thermal
+state with the same temperature T = H/2π.
+Nothing about these changes implies that the usual thermal tunneling instanton should
+no longer exist or be substantially changed. By construction, the thermal instanton in this
+picture occurs via a static field configuration. Since the novel effects from the nonminimal
+kinetic term only arise when velocity is finite (for instance, in DBI inflation, p(X,φ) ≃
+X − 2X2/T(φ) − V (φ) for ˙φ ≪ √T), there is little influence of the kinetic term on the
+static configuration. Thus, the instanton itself and the fluctuations around it – which are
+2Technically speaking, the coherent state may be in a unitarily inequivalent representation since the
+sum Pi |αi|2 may not converge in the UV. In the context of field theory with a cutoff, this distinction is
+irrelevant, and is really a reflection of the fact that we are not allowed to excite modes lying beyond the
+cutoff. We take the point of view that these manipulations are meaningful if, having defined them for fixed
+cutoff, they make sense in the limit that the cutoff tends to infinity, after appropriate renormalizations.
+– 7 –
+necessary to determine the existence of a negative mode and hence the existence of the
+instanton – are not affected by the nonminimal kinetic terms.
+Any difference between the nonminimal and minimal cases will come from higher-order
+corrections, specifically two-loop corrections in the Euclidean path integral. The instanton
+calculation is a saddle-point calculation, usually considered to one-loop order, that is only
+valid as long as the two-loop and higher corrections are negligible. Fluctuations around
+the instanton generate terms in the Lagrangian schematically of the form
+δL = p,XδX + 12p,XXδX2 + 13!p,φφφδφ3 +p,XφδXδφ = ... (2.25)
+where δX = −12(∂δφ)2. A necessary, but not sufficient, condition for the one-loop calcula-
+tion to be valid is
+δX ≪ p,Xp
+,XX
+vextendsinglevextendsingle
+vextendsinglevextendsingle
+φ=φbarrier,pi=0
+, (2.26)
+since at the point of equality the fluctuations in the higher order contributions to the
+kinetic term become as large as the quadratic part. For a minimally coupled scalar field
+p,XX = 0 and so this condition is always satisfied. In the language of instantons, when
+this condition is not satisfied, the fluctuation determinant can no longer be determined by
+a gaussian integral about the instanton solution.
+The typical magnitude of the fluctuations is set by the Hubble scale δφ ∼ H, δ ˙φ ∼ H2.
+In the case of a DBI model, this condition for the breakdown of the one-loop approximation
+is, then,
+δX
+T(φbarrier) ∼
+δ ˙φ2
+T(φbarrier) ∼
+H4
+T(φbarrier) ∼ 1. (2.27)
+This result is intuitive. We expect loop corrections to the effective action to be of order
+at least H4. On the other hand T(φ) sets the scale of the kinetic term for DBI, so this
+is just the condition for the loop corrections to the effective action to become comparable
+to the classical kinetic term. This is, of course, not the only condition for the validity
+of the one-loop approximation. However, the additional conditions have to do with the
+φ dependence p(X,φ) and so are typically easier to satisfy if the potential is sufficiently
+broad.
+This is similar but not the same as the perturbative bounds that have been placed
+on eternal inflation, when quantum fluctuations dominate over classical evolution in the
+field evolution in Refs. [13, 14]. The key difference is that in our case we are expanding
+around a static solution (the instanton), whereas in these other works the authors have
+found nontrivial bounds by expanding around a time dependent solution with cs negationslash= 1. The
+two calculations are qualitatively similar in that they reflect the break down of pertur-
+bation theory for the fluctuations – in one case around the instanton, in the other the
+cosmologically rolling solution – but should not be expected to match in detail.
+We have thus established a subset of cases where the thermal tunneling instanton is
+not valid. It will be a bad approximation when the top of the potential barrier is at such
+a high energy that all perturbations are dominated by relativistic effects. In contrast, the
+Hawking-Moss instanton for a minimally coupled scalar field is valid [15] even when the top
+– 8 –
+of the potential barrier reaches the energies associated with eternal inflation. This is closely
+connected with the observation that a minimally coupled field reaches eternal inflation
+within the regime of perturbative control [13], but a non-minimal theory such as DBI
+inflation is not under perturbative control in the regime of eternal inflation, at least when
+the sound speed departs sufficiently from unity. The difference is that the loop expansion
+for a minimally coupled field is determined by the potential in the decoupling limit, rather
+than by its kinetic term. If the potential is sufficiently flat, then these corrections are
+always negligible. This is always true when slow roll is a good approximation, and can be
+true even at the top of a broad potential barrier in a tunneling set up.
+We now turn to the complementary, global picture of de Sitter space and inflation,
+where the techniques of stochastic inflation can help us to understand better what exactly
+is going on in thermal tunneling.
+3. The global picture: stochastic inflation
+In any accelerating geometry, perturbations of a quantum field expand faster than the
+Hubble radius. As these perturbative modes cross the Hubble horizon, their two quantum
+oscillating components split into a growing and a decaying classical mode. The long wave-
+length state of the quantum field retains any non-linearities it possesses, but is squeezed
+by the expansion and becomes progressively more classical as its growing mode dominates
+over its decaying mode. The long wavelength or background field evolution thus has two
+contributions: part from its overall classical evolution, part from the stochastic kicks it
+receives as each subhorizon mode exits the horizon and adds itself to the collection of
+superhorizon modes constituting the background.
+This process is always operative for inflating geometries, but the stochastic influence of
+the subhorizon noise is generally small enough to ignore. However, the process of thermal
+tunneling is precisely the exception that proves this rule: a stochastic jump of rare vigor
+comes along that is of sufficient size to move the average field at its false vacuum value in
+one Hubble patch over the potential barrier that separates it from the true vacuum. The
+other time when large perturbations are important is, of course, during eternal inflation.
+Both of these phenomena can be described within the framework of stochastic inflation.
+3.1 Deriving the stochastic formalism
+A rigorous derivation of the stochastic approach is quite involved, but we can sketch the
+details as follows: Consider the evolution of the system in the flat slicing with canonical
+action
+S[P,φ] =
+integraldisplay
+dτd3xe3Hτ
+parenleftbigg
+P ∂φ∂τ −Hflat(P,φ)
+parenrightbigg
+, (3.1)
+The momentum conjugate P defined here should not be confused with π which was the
+momentum in the static slicing. For instance, for the case of a massive minimally coupled
+scalar field on de Sitter we have
+Hflat(P,φ) = 12P2 + 12a2(∇φ)2 + 12m2φ2, (3.2)
+– 9 –
+with a(τ) = eHτ. Expectation values of fields can be derived from considering the in-in or
+closed-time-path integral, which contains two branches + and −. For instance we have
+〈0|Tei
+R Jφ
+|0〉 =
+integraldisplay
+Dφ+DP+Dφ−DP−eiS[P+,φ+]−iS[P−,φ−]+i
+R Jφ
++, (3.3)
+and the path integral is performed with final time boundary conditions φ+(τf) = φ−(τf),
+P+(τf) = P−(τf).
+To connect with the usual stochastic formulation, we want to construct a probability
+distribution on phase space. In an appropriate limit, this approach will give rise to a
+Fokker-Planck equation describing the stochastic evolution. In quantum theory, for a
+density matrix ρ we can define a quasi-probability distribution – the Wigner function – as
+follows
+W[φ,P;τ] =
+integraldisplay
+DEei
+R d3xe3HτPE
+〈φ− E2|ρ(τ)|φ + E2〉. (3.4)
+As is well known, this function can beused to calculate expectation values in the normalway
+as if it were a probability distribution defined on phase space. The quantum information
+is contained in the fact that W is not positive definite.
+The Wigner function can also be thought of as the ‘wavefunction’ associated with the
+functional Fourier transform of the path integral (3.3), given the replacements φ± = φ∓E/2
+and P± = P ±χ/2
+W[φ,P] =
+integraldisplay φ
+Dφ
+integraldisplay P
+DP
+integraldisplay
+DE
+integraldisplay
+Dχexp
+parenleftBig
+iˆS
+parenrightBig
+, (3.5)
+with
+ˆS = integraltext dτd3xe3Hτ
+bracketleftbigg
+χ∂τφ+E(∂τP + 3HP)−Hflat[φ− E2,P + χ2]
++Hflat[φ + E2,P − χ2]
+bracketrightbigg
+. (3.6)
+Just as in the local approach, we traced out the superhorizon degrees of freedom to deter-
+mine the subhorizon density matrix, here we define the long wavelength density matrix ρL
+by separating each field A = (φ,P,E,χ) into long and short wavelength modes
+A(x) = AL(x) +AS(x), (3.7)
+AL =
+integraldisplay d3k
+(2π)3e
+ik.xφ(k,τ)W(k;τ), AS =
+integraldisplay d3k
+(2π)3e
+ik.xφ(k,τ)(1−W(k;τ)). (3.8)
+Here W(k;τ) is the Window function that distinguishes super and sub-Hubble modes, and
+is most commonly taken to be of the form
+W(k;τ) = θ(ǫaH −|k|), (3.9)
+with ǫ a constant whose value is taken to be much less than unity. This is in fact a
+crucial point: the coarse graining is not performed at the Hubble horizon, because the
+state still appears quantum there. The state only appears classical once the squeezing
+– 10 –
+mechanism has taken effect, when the modes are a few e-folds outside the Hubble horizon.
+This split is defined so that equal time bilinears of the form (for some functions A and B)integraltext
+d3xAL(x,τ)BS(x,τ) = 0. However since the coarse graining is explicitly time dependent,
+we have
+integraldisplay
+d3xAL∂τBS = −
+integraldisplay
+d3x(∂τAL)BS = −
+integraldisplay d3k
+(2π)3A(−k)B(k)W(k;τ)∂τW(k;τ)
+= −ǫaH
+2
+2
+integraldisplay d3k
+(2π)3A(−k)B(k)δ(|k|−aH). (3.10)
+This means that independent of the form of the Hamiltonian, there is always a direct
+coupling between the momentum and field of the short and long wavelength modes through
+the P∂τφ term in the Lagrangian. For a free field theory, this is the only coupling term.
+We construct the reduced Wigner function describing the effective long wavelength
+dynamics by tracing out the short wavelength modes
+Wr [φL,PL] =
+integraldisplay
+DφS DPS W [φL +φS,PL +PS] . (3.11)
+The reduced Wigner function is the ‘wavefunction’ associated with the path integral,
+Wr [φL,PL] =
+integraldisplay
+DφL DPL DEL DχL exp
+parenleftBig
+iˆS[φL,PL,EL,χL]
+parenrightBig
+F [φL,PL,EL,χL] (3.12)
+where F is the Feynman-Vernon infuence functional
+F [φL,PL,EL,χL] =
+integraldisplay
+DφS DPS DES DχS exp
+parenleftBig
+iˆS[φ,P,E,χ]−iˆS [φL,PL,EL,χL]
+parenrightBig
+.
+(3.13)
+The full expression for F is obviously difficult to determine, however in most cases of
+physical interest, logF has a controlled perturbative expansion in powers of EL and χL.
+We will not require this sort of expansion for our calculations. However, let us write down
+concretely what form such an expansion would take. Since we have F∗ [φL,PL,EL,χL] =
+F [φL,PL,EL,−χL], we can simply expand logF in the following way:
+logF = C [φL,PL]+
+integraldisplay
+(iAφ [φL,PL]EL +iAP [φL,PL]χS)e3Hτd3xdτ (3.14)
+−
+integraldisplayintegraldisplay
+d4xd4ye3H(τx+τy)
+parenleftbigg1
+2EL(x)Dφφ(x,y)EL(y) +
+1
+2EL(x)DφP(x,y)χL(y)+
+1
+2χL(x)DPP(x,y)χL(y)
+parenrightbigg
++O(E3,χ3,E2χ,Eχ2),
+For some functions C, AX, and DXX that will encode the particularities of the system
+one is studying (where X stands for the field or momentum, as above) . The influence
+functional can also be represented by its functional Fourier transform
+F [φL,PL,EL,χL] =
+integraldisplay
+DηφDηPP[ηφ,ηP,φL,PL]e−i
+R[η
+φEL+ηpχL]e3Hτd3xdτ , (3.15)
+– 11 –
+with ηφ and ηP being the conjugate variables to EL and χL. We will see soon that these
+ηX will function as noise forces in the equations of motion for our system. The advantage
+of this approach can now be seen. In the semi-classical limit we can approximate
+ˆS[φL,PL,EL,χL] ≈
+integraldisplay
+d3xdτe3Hτ
+bracketleftbigg
+χL∂τφL +EL [∂τ + 3H]PL +ELδHLδφ −χLδHLδP
+bracketrightbigg
+,
+where HL = integraltext d3xHflat(φL,PL). We can then easily perform the path integral (Eqn. 3.12)
+over EL and χL with the result
+Wr [φL,PL] ≈
+integraldisplay φL
+DφL
+integraldisplay PL
+DPL
+integraldisplay
+Dηφ
+integraldisplay
+DηP P[ηφ,ηP,φL,PL]
+× δ
+bracketleftbigg
+∂τφL − δHLδP −ηφ
+bracketrightbigg
+δ
+bracketleftbigg
+∂τPL + 3HPL + δHLδφ −ηP
+bracketrightbigg
+. (3.16)
+Thus we see that the reduced Wigner function is the classical probability distribution
+associated with the two-noise Langevin equations, as considered in reference [6]
+∂τφL = δHLδP +ηφ (3.17)
+∂τPL = −3HPL − δHLδφ +ηP , (3.18)
+where P in Eqn. 3.16 is a quasi-probability distribution that encodes the “coloring” – the
+statistical behavior – of the noise terms.
+3.2 Irreversibility and the fluctuation theorem
+Having connected with the approach of [6] we can now address the question of how to
+calculate the tunnelling rate. The key observation is that the dominant contribution to the
+tunneling rate is determined by the irreversible nature of the coarse-grained dynamics. A
+crucial difference between the stochastic approach and the local approach of the previous
+section is that in the stochastic case the effective dynamics of the long wavelength system
+is irreversible due to the presence of dissipation (Hubble damping) and diffusion (noise
+from subhorizon quantum fluctuations). In the local case causality guarantees that the
+superhorizon and subhorizon modes decouple, and hence there is no diffusion, and since
+the static time coordinate is a Killing vector, there is also no damping seen by a static
+observer.
+To be more precise about what we mean by irreversibility, consider the propagator K
+that evolves the reduced Wigner function between two times τi and τf
+Wr
+bracketleftBig
+φfL,PfL,τf
+bracketrightBig
+=
+integraldisplay
+DφiLDPiL K
+bracketleftBig
+φfL,PfL,τf;φiL,PiL,τi
+bracketrightBig
+Wr bracketleftbigφiL,PiL,τibracketrightbig. (3.19)
+The propagator K has the path integral representation
+K
+bracketleftBig
+φfL,PfL,τf;φiL,PiL,τi
+bracketrightBig
+= (3.20)
+integraldisplay φL(τf)=φf
+L
+φL(τi)=φiL
+Dφ
+integraldisplay PL(τf)=Pf
+L
+PL(τi)=PiL
+DP
+integraldisplay
+DE
+integraldisplay
+DχL exp
+parenleftBig
+iˆS [φL,PL,EL,χL]
+parenrightBig
+F [φL,PL,EL,χL]
+– 12 –
+The fundamental statement of the irreversibility of the system can be encoded in the
+following ratio
+R
+bracketleftBig
+φfL,PfL,τf;φiL,PiL,τi
+bracketrightBig
+=
+K
+bracketleftBig
+φfL,PfL,τf;φiL,PiL,τi
+bracketrightBig
+K
+bracketleftBig
+φiL,−PiL,τf;φfL,−PfL,τi
+bracketrightBig (3.21)
+In other words, for a given transition between two states A → B, we can compare the
+probability for this transition, with the probability for the time reversed transition B → A
+to occur in the same time. For a reversible system, we have R = 1, and so R encodes any
+departure from reversibility, which in practice is a measure of the amount of dissipation
+and diffusion.
+A priori, this ratio can be a complicated function of the initial and final phase space
+values and times. However, in many well understood systems, the ratio takes the simple
+detailed balance form
+R = exp
+parenleftBig
+M[φfL,PfL]−M[φiL,PiL]
+parenrightBig
+, (3.22)
+for some function, M. This result is closely connected to a result known in the condensed
+matter literature as the fluctuation theorem [16]. It states that the ratio of the probabilities
+of making a transition from A → B to the ratio for the time reversed process B → A, in
+some time τf −τi is the exponential of the amount of entropy produced in the transition:
+R = P(A → B;τf −τi)P(B → A;τ
+f −τi)
+= exp
+parenleftbiggintegraldisplay τf
+τi
+dτ∂Sentdτ
+parenrightbigg
+= exp(Sent(B)−Sent(A)), (3.23)
+where Sent is the entropy associated with the system. Thus it is natural to identify
+M[φiL,PiL] as the entropy associated with a given phase space configuration.
+The fluctuation theorem is the modern statement of the Second Law of Thermodynam-
+ics, encodingthe fact that the probability for entropy to increase is greater than that for it to
+decrease, recognizing that whilst spontaneous entropy decrease is allowed, its probability is
+highly suppressed. This exponential suppression for the reverse process, directly determines
+the exponential suppression of the stochastic tunneling rate. The rate to go from the false
+vacuum to the top of the barrier is given by the exponential of the de Sitter entropy differ-
+ence between the two configurations multiplied by the rate to go from the top of the barrier
+to the false vacuum: P(false → barrier) = exp(Sent(φtop)−Sent(φfalse))P(barrier → false).
+The latter process P(barrier → false) though, is a classically allowed process; hence its
+transition probability will contain no additional exponential suppression. Similarly, once
+the field has reached the top of the barrier it can roll classically down towards the true
+vacuum. Thus we infer that the tunneling rate is given by
+Γ(false → true) ∝ exp(Sent(φbarrier)−Sent(φfalse)), (3.24)
+up to factors determined by the classically allowed processes.
+So, how does this connect with cosmology? We have performed the above analysis for
+inflation with a minimally coupled scalar field. We have expanded the influence functional
+only to quadratic order as in equation [3.14]. In this case, one can explicitly show that in
+– 13 –
+the ultralocal limit, the detailed balance condition [3.22] holds, and furthermore that it is
+consistent with the fluctuation theorem: the change in M is precisely equal to the decou-
+pling limit of the change in the entropy (eq. [2.12]) of a scalar field in a de Sitter spacetime
+determined by the potential V(φ). Even when gravitational backrection is included, this re-
+sult holds up [6, 18]. In other words, the dominant contribution to the stochastic tunneling
+rate is identical to the rate determined by Hawking and Moss in the local case via the in-
+stanton method. This strongly supports the interpretation of the Hawking-Moss transition
+as being equivalent to the stochastic tunneling process, as is usually assumed [18].
+Ourinterpretation of this resultis that the two results agree in the usualcase (Hawking-
+Moss and stochastic) precisely because of thermodynamic reasons. In the Hawking-Moss
+case this is explicit, because it is a thermal calculation of the imaginary part of the free
+energy. In the stochastic case, it is explicit because the evolution of the Wigner function
+is consistent with detailed balance and the fluctuation theorem.
+3.3 Irreversibility for DBI inflation, non-gaussian corrections to tunneling rate
+In a previous paper [6] we extended the stochastic formalism to DBI inflation, and in
+the language of this section, derived the Langevin/Fokker-Planck equations that follow
+expanding the log of the influence functional to quadratic order as described in equation
+[3.14], and then taking the ultralocal long wavelength limit. We found that to this order,
+the evolution of the (Wigner) probability distribution on phase space, indeed satisfied
+detailed balance, in the form
+R = exp
+parenleftBig
+M[φfL,PfL]−M[φiL,PiL]
+parenrightBig
+, (3.25)
+but that the full expression for M was
+M[φ,P] = M[φ,J] = −16π2
+integraldisplay
+dφM2pl
+parenleftbiggc
+sH,φ(φ,J)
+H(φ,J)3
+parenrightbigg
+(3.26)
+where J is related to φ and P via the canonical transformation used to derive the Hamilton-
+Jacobi formalism [6]. As pointed out in Refs. [6, 17] if this result is taken at face value,
+the presence of the additional factor of cs inside the integrand means that the associated
+stochastic tunneling rate, whose suppression is by the above arguments determined by R,
+is no longer given by the same result as the local thermal tunneling rate, since M is no
+longer identical to the expression for the entropy of de Sitter spacetime, with the associated
+Hubble constant H(φ,J). It is only in the case cs = 1, in other words in the minimally
+coupled scalar case do we recover the usual answer.
+The stochastic tunneling rate and the Hawking-Moss tunneling rate for models in which
+cs may depart from unity along the tunneling path thus appear to disagree. One might
+think that this apparent discrepancy should be taken as evidence that the two rates do
+not describe quite the same thing. We find that result unlikely since, as we explained at
+length in the introduction, they both effectively describe the rate for a Hubble sized region
+to traverse the barrier between the false and true vacuum. If this is not the case, then
+it must be that the approximations used in deriving one of the two results breaks down.
+– 14 –
+In the local instanton method, we have already argued that the calculation is usually well
+under control from higher loop corrections to the tunneling rate, as long as the condition
+H4 ≪ T(φbarrier) is satisfied. This suggests that it is the stochastic calculation that is
+failing.
+Let is consider the approximations used in deriving the stochastic formalism, sketched
+out above. The key approximations are:
+• Long wavelength perturbations are treated as classical: This is encoded in equation
+[3.16] where ˆS is expanded to linear order in EL and χL.
+• Long wavelength modes decouple, i.e. the ultralocal limit: In this approximation we
+can neglect spatial gradients for the long wavelength fluctuations, and the noise
+correlators are assumed to be local in space〈η(x)η(x′)〉∝ δ3(x−x′). This is explained
+in more detail in Ref. [6].
+• Short wavelength noise can be treated as gaussian: This is encoded in equation [3.14]
+where the influence functional is taken to be gaussian in EL and χL.)
+The first and second properties follow from the squeezing of the long wavelength quan-
+tum state and causality respectively. Both of these properties are equally well satisfied in
+DBI inflation as they are in usual slow roll inflation. However, the third approximation is
+not, precisely because in DBI inflation, the quantum fluctuations in the inflaton are more
+non-gaussian, then in turn the stochastic noise which arises from the short wavelength
+fluctuations is more non-gaussian.
+Our central claim is that it is the neglect of the non-gaussian noise fluctuations that
+is responsible for the apparent discrepancy between the stochastic tunneling rate and the
+Hawking-Moss result. As soon as cs departs noticeably from unity along the tunneling
+trajectory, the non-gaussian contributions to the irreversibility ratio R become important.
+Indeed it seems plausible that the physical consistency of these two results requires that
+the ratio R is always consistent with the fluctuation theorem, and so when the corrections
+from the non-gaussian noise fluctuations are resummed, we will recover the usual result.
+To restate this problem for DBI inflation, whenever cs departs from unity along the
+tunneling trajectory, perturbation theory in the variables EL and χL which are conjugate to
+the noise in the in-in path integral breaks down. The path integration over these variables
+must be performed non-perturbatively. Unfortunately it is not clear how to achieve this as
+yet.
+To see that the noise fluctuations are becoming non-perturbative during tunneling, let
+us compute the three-point function for the noise ηφ. Following the coarse-graining recipe
+described above, and in more detail in Ref. [6], the noise ηφ is related to the subhorizon
+fluctuations as follows (note: in the ultralocal limit we can drop the x dependence)
+ηφ(τ) = −
+integraldisplay d3k
+(2π)3a(τ)H
+2δ(|k|−ǫaH)φS(k). (3.27)
+where φS are the short wavelength fluctuations about the long wavelength background φL.
+The key point is that the noise has a non-zero three-point correlation function, precisely
+– 15 –
+because the subhorizon fluctuations have a non-zero three-point function. As we are only
+interested in the order of magnitude, we can estimate the three-point function as follows: in
+the framework of cosmological perturbation theory we would define the comoving curvature
+perturbation ζ ∼ HφS/ ˙φL. It is usual to encode the non-gaussianity of the the fluctuations
+in terms of the parameter fNL which is in general scale and shape dependent,
+〈ζ3〉∼−35fNL (〈ζ〉)2 . (3.28)
+In terms of the fluctuations φS this is
+〈φ3S〉∼−H˙φ
+L
+fNL (〈φS〉)2 . (3.29)
+Given the expression for the noise in terms of the fluctuations φS, we find the three-point
+function for the noise to be of the form
+〈ηφ(τ1)ηφ(τ2)ηφ(τ3)〉∼ fNLH
+6
+˙φL δ(τ1 −τ2)δ(τ1 −τ3), (3.30)
+where we have made the simplifying assumption that the mixing of modes that exit the
+horizon at different times is negligible, which provides the two delta functions. This should
+be compared with the form for the two-point function for the noise
+〈ηφ(τ1)ηφ(τ2)〉∼ H3δ(τ1 −τ2). (3.31)
+Consider the dimensionless noise variable q(τ) = ηφ˙φ
+L
+which encodes the ratio of the stochas-
+tic fluctuations to the classical evolution. We can average this over the tunneling trajectory
+that takes time ∆τ
+¯q = ∆τ−1
+integraldisplay ∆τ
+0
+dτq(τ) (3.32)
+then a simple order of magnitude estimate gives
+〈¯q2〉∼ H
+3
+˙φ2L ∆τ (3.33)
+and
+〈¯q3〉∼〈fNL〉H
+6
+˙φ4L ∆τ
+2 (3.34)
+Here we understand〈fNL〉to be the average of fNL along the tunneling trajectory. In other
+words just as 〈fNL〉 naturally encodes the nonlinearities in ζ, it also naturally encodes the
+non-linearities in ¯q
+〈¯q3〉∼〈fNL〉parenleftbig〈¯q2〉parenrightbig2 . (3.35)
+Now the key point is that since ¯q measures the ratio of the stochastic fluctuations to the
+classical evolution, during tunneling, which is a rare quantum event where the quantum
+fluctuations are sufficient to dominate over the classical evolution, we inevitably have ¯q ∼ 1.
+But unless 〈fNL〉 ≪ 1, for any such large fluctuation all the higher order correlation
+– 16 –
+functions of ¯q become of order unity, and hence perturbation theory breaks down in the
+noise variable.
+We have explicitly checked by a more detailed calculation that the above argument
+goes through when the corrections to the irreversibility ratio Rare computed from the non-
+gaussian noise fluctuations. The bound on the perturbative region we find for tunneling,
+namely 〈fNL〉 ≪ 1, is much more restrictive than that discussed in Refs. [13, 14] for
+vacuum fluctuations about a cosmological solution. This is not surprising since we are
+looking at different effects. Tunneling is itself a non-perturbative phenomena, and so
+the perturbative bounds derived there are not appropriate. Tunneling is described by
+rare stochastic fluctuations, and the conditions for the validity of the stochastic tunneling
+calculation are necessarily more restrictive for these rare fluctuations, in comparison to the
+typical fluctuations about cosmological solutions considered in Refs. [13, 14].
+Returning to the tunneling rate, which as we have argued is principally determined by
+the irreversibility ratio R we find that the correction to lnΓ from the non-Gaussian term
+takes the form
+δlnΓ ∼〈fNL〉lnΓ, (3.36)
+with similar contributions from higher N-point functions. To get a reliable result, we
+would have to sum this full set of contributions. For minimally coupled scalars we always
+have 〈fNL〉 ∼ 〈ǫslowroll〉 ≪ 1 and so these higher order corrections are negligible. This
+explains why in the standard case there is perfect agreement between the local and global
+descriptions of the tunneling process [18].
+3.4 A contradiction?
+The fact that the effect of the non-gaussian noise correlation functions become significant
+during tunneling is evidence that the dynamics of tunneling in DBI inflation is strongly
+coupled, i.e. strongly sensitive to the higher order kinetic terms. Since the strongly coupled
+regime is difficult or impossible to treat perturbatively, we should not be surprised that a
+perturbative expansion of the logarithm of the influence functional is insufficient to capture
+these dynamics fully. In practice this means that the familiar picture of stochastic inflation
+with gaussian noise is no longer appropriate for DBI inflation, at least in the description
+of tunneling.
+However, the Euclidean calculation gives the tunneling rate independent of the tun-
+neling trajectory’s dynamics to be
+Γ ∼ exp(Sent(φbarrier)−Sent(φfalse)), Sent = 8π
+2M2
+pl
+H2(φ) . (3.37)
+This result is identical to that for inflation driven by a minimally coupled scalar field and
+seems to be insensitive to the nontrivial kinetic terms in the DBI action, at least as long
+as we satisfy H4 ≪ T(φbarrier). If these two calculations are really describing the same
+physics, it is difficult to see how it could be the case that one rate is essentially insensitive
+to the non-minimal kinetic terms, whilst the other calculation is strongly sensitive to the
+new interactions that arise in the presence of these terms.
+– 17 –
+The probable resolution is that the while the full tunneling dynamics is strongly cou-
+pled, the Euclidean calculation gets the correct answer because it correctly captures the
+underlying gravitational thermodynamics of the problem. Thermodynamics tells us that
+the rate is independent of the path chosen, and thus is independent of the fact that cs may
+depart from unity along the tunneling path. Thus the Euclidean calculation innocently
+gets the correct answer without really capturing the full non-equilibrium dynamics. Since
+gravitational thermodynamics is likely to be fundamental, it seems reasonable to suppose
+that if the contribution from all the higher order noise correlation functions could some-
+how be resummed, the result for the irreversibility ratio R would ultimately be consistent
+with the fluctuation theorem, and hence agree with the standard Hawking-Moss result, as
+long as the barrier remains in the regime where the fluctuation determinant can be well
+approximated by a one-loop gaussian integral.
+3.5 Consequences for other instanton tunneling rates
+Another recent calculation of the consequences for tunneling – in the Coleman-de Luccia
+instanton, described in Ref. [5] – found a sound speed enhancement to that quantum tun-
+neling rate. As emphasized by [11, 19], though, the Hawking-Moss instanton is the extreme
+case in which tunneling takes place via a maximally broad “bounce”, or in a very thick
+tunneling “bubble”. The instanton calculation in this case is almost entirely determined
+by the evaluation of the action exactly at the unstable maximum on the tunneling poten-
+tial, where the non-trivial sound speed effects are suppressed. In the opposite extreme,
+Coleman-de Luccia, the quantum tunneling is rapid and proceeds for typically subhorizon
+sized bubbles. Ref. [19] demonstrates that there are typically a large number of interpo-
+lating instantons between Hawking-Moss and Coleman-de Luccia in the case of canonical
+scalar fields. It is natural to expect that each of these interpolating instantons will also
+exist for DBI and other non-minimal kinetic theories. Though we have not yet pursued the
+question, we expect DBI effects will begin to show up in these other instantons, but will be-
+come progressively smaller as the bubbles get broader and we approach the Hawking-Moss
+instanton.
+4. Summary
+The thermal tunneling rate described by the Hawking-Moss instanton is apparently insen-
+sitive to the strong coupled dynamics of theories with non-minimal kinetic terms as long as
+the barrier lies in the regime where the fluctuation determinant can be well approximated
+by a one-loop gaussian integral. However, the actual non-equilibrium dynamics that a
+tunneling trajectory follows is strongly coupled whenever cs departs sufficiently from unity
+along the tunneling trajectory. The calculable estimate of the stochastic tunneling rate,
+assuming gaussian noise from subhorizon fluctuations, disagrees with the Hawking-Moss
+calculation in the 〈cs〉 ≪ 1 case. We have argued that the stochastic tunneling rate and
+the thermal Hawking-Moss tunneling rate should be complementary descriptions of the
+same physics, and consequently it is a surprise that they should appear to disagree. The
+probable resolution of this apparent conflict is that the strongly coupled physics must,
+– 18 –
+when resummed, respect the underlying gravitational thermodynamics that govern de Sit-
+ter space and which are manifest in the local picture. We have explicitly demonstrated that
+the non-gaussian noise fluctuations induced by the subhorizon modes become order unity
+effects during the tunneling process, negating a perturbative calculation of the stochastic
+tunneling rate. Since the fluctuation theorem, the fundamental statement of thermody-
+namics, agrees with the Hawking-Moss instanton, we expect this to be the ultimate answer,
+which implies that the full rate of tunneling is blind to the strongly coupled dynamics of
+the tunneling path. We leave it to future work to hopefully provide a fully non-equilibrium
+derivation of this result and demonstrate the consistency between the local and global
+descriptions of tunneling.
+Acknowledgments
+We thank Sarah Shandera and the anonymous referee for questions and comments that
+greatly enhanced the clarity of the text and L. Susskind, B. Freivogel, A. Brown, H. Tye,
+and S. Sarangi for helpful discussions. The work of A.J.T. and M.W. was supported by
+the Perimeter Institute for Theoretical Physics. Research at the Perimeter Institute is
+supported by the Government of Canada through Industry Canada and by the Province
+of Ontario through the Ministry of Research & Innovation.
+References
+[1] E. Silverstein and D. Tong, “Scalar speed limits and cosmology: Acceleration from
+D-cceleration,” Phys. Rev. D 70, 103505 (2004) [arXiv:hep-th/0310221];
+M. Alishahiha, E. Silverstein and D. Tong, “DBI in the sky,” Phys. Rev. D 70, 123505 (2004)
+[arXiv:hep-th/0404084].
+[2] C. Armendariz-Picon, T. Damour and V. F. Mukhanov, “k-inflation,” Phys. Lett. B 458, 209
+(1999) [arXiv:hep-th/9904075];
+J. Garriga and V. F. Mukhanov, “Perturbations in k-inflation,” Phys. Lett. B 458, 219
+(1999) [arXiv:hep-th/9904176].
+[3] T. Chiba, T. Okabe and M. Yamaguchi, “Kinetically driven quintessence,” Phys. Rev. D 62,
+023511 (2000) [arXiv:astro-ph/9912463];
+C. Armendariz-Picon, V. F. Mukhanov and P. J. Steinhardt, “A dynamical solution to the
+problem of a small cosmological constant and late-time cosmic acceleration,” Phys. Rev.
+Lett. 85, 4438 (2000) [arXiv:astro-ph/0004134];
+C. Armendariz-Picon, V. F. Mukhanov and P. J. Steinhardt, “Essentials of k-essence,” Phys.
+Rev. D 63, 103510 (2001) [arXiv:astro-ph/0006373].
+[4] C. Cheung, P. Creminelli, A. L. Fitzpatrick, J. Kaplan and L. Senatore, “The Effective Field
+Theory of Inflation,” JHEP 0803, 014 (2008) [arXiv:0709.0293 [hep-th]].
+[5] A. R. Brown, S. Sarangi, B. Shlaer and A. Weltman, “A Wrinkle in Coleman - De Luccia,”
+Phys. Rev. Lett. 99, 161601 (2007) [arXiv:0706.0485 [hep-th]].
+[6] A. J. Tolley and M. Wyman, “Stochastic Inflation Revisited: Non-Slow Roll Statistics and
+DBI Inflation,” arXiv:0801.1854 [hep-th].
+– 19 –
+[7] X. Chen, S. Sarangi, S. H. Henry Tye and J. Xu, “Is brane inflation eternal?,” JCAP 0611,
+015 (2006) [arXiv:hep-th/0608082].
+[8] F. Helmer and S. Winitzki, “Self-reproduction in k-inflation,” Phys. Rev. D 74, 063528
+(2006) [arXiv:gr-qc/0608019].
+[9] G. W. Gibbons and S. W. Hawking, “Cosmological Event Horizons, Thermodynamics, And
+Particle Creation,” Phys. Rev. D 15, 2738 (1977).
+[10] L. Dyson, M. Kleban and L. Susskind, “Disturbing implications of a cosmological constant,”
+JHEP 0210, 011 (2002) [arXiv:hep-th/0208013];
+[11] A. R. Brown and E. J. Weinberg, “Thermal derivation of the Coleman-De Luccia tunneling
+prescription,” Phys. Rev. D 76, 064003 (2007) [arXiv:0706.1573 [hep-th]].
+[12] E. Babichev, V. Mukhanov and A. Vikman, “k-Essence, superluminal propagation, causality
+and emergent geometry,” JHEP 0802, 101 (2008) [arXiv:0708.0561 [hep-th]].
+[13] L. Leblond and S. Shandera, “Simple Bounds from the Perturbative Regime of Inflation,”
+arXiv:0802.2290 [hep-th].
+[14] N. Arkani-Hamed, S. Dubovsky, A. Nicolis, E. Trincherini and G. Villadoro, “A Measure of
+de Sitter Entropy and Eternal Inflation,” JHEP 0705, 055 (2007) [arXiv:0704.1814 [hep-th]].
+P. Creminelli, S. Dubovsky, A. Nicolis, L. Senatore and M. Zaldarriaga, “The Phase
+Transition to Slow-roll Eternal Inflation,” arXiv:0802.1067 [hep-th].
+[15] P. Batra and M. Kleban, “Transitions Between de Sitter Minima,” Phys. Rev. D 76, 103510
+(2007) [arXiv:hep-th/0612083].
+[16] D. J. Evans and D. J. Searles, “The Fluctuation Theorem”, Advances in Physics 51 (2002)
+15291585.
+[17] D. Wohns, “Hawking-Moss Tunneling with a Dirac-Born-Infeld Action,” arXiv:0802.0623
+[hep-th].
+[18] A. D. Linde, “Particle Physics and Inflationary Cosmology,” Harwood, Switzerland (1990),
+arXiv:hep-th/0503203.
+[19] J. C. Hackworth and E. J. Weinberg, “Oscillating bounce solutions and vacuum tunneling in
+de Sitter spacetime,” Phys. Rev. D 71, 044014 (2005) [arXiv:hep-th/0410142].
+– 20 –

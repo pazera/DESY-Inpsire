@@ -1,0 +1,503 @@
+arXiv:0806.1349v2  [math-ph]  5 Jan 2009
+3D binary anti-commutative operadic Lax
+representations for harmonic oscillator
+Eugen Paal and J¨uri Virkepu
+Abstract
+It is explained how the time evolution of the operadic variables may be introduced by
+using the operadic Lax equation. The operadic Lax representations for the harmonic oscilla-
+tor are constructed in 3-dimensional binary anti-commutative algebras. As an example, an
+operadic Lax representation for the harmonic oscillator in the Lie algebra sl(2) is constructed.
+1 Introduction
+In Hamiltonian formalism, a mechanical system is described by the canonical variables qi,pi and
+their time evolution is prescribed by the Hamiltonian equations
+dqi
+dt =
+∂H
+∂pi ,
+dpi
+dt = −
+∂H
+∂qi (1.1)
+By a Lax representation [3, 1] of a mechanical system one means such a pair (L,M) of matrices
+(linear operators) L,M that the above Hamiltonian system may be represented as the Lax
+equation
+dL
+dt = ML−LM (1.2)
+Thus, from the algebraic point of view, mechanical systems can be described by linear operators,
+i.e by linear maps V → V of a vector space V. As a generalization of this one can pose the fol-
+lowing question [4]: how to describe the time evolution of the linear operations (multiplications)
+V ⊗n → V ?
+The algebraic operations (multiplications) can be seen as an example of the operadic variables
+[2]. If an operadic system dependson time one can speak about operadic dynamics [4]. The latter
+may be introduced by simple and natural analogy with the Hamiltonian dynamics. In particular,
+the time evolution of the operadic variables may be given by the operadic Lax equation. In [5, 6],
+a 2-dimensional binary operadic Lax representation for the harmonic oscillator was constructed.
+In the present paper we construct the operadic Lax representations for the harmonic oscillator in
+3-dimensional binary anti-commutative algebras. As an example, an operadic Lax representation
+for the harmonic oscillator in the Lie algebra sl(2) is constructed.
+2 Endomorphism operad and Gerstenhaber brackets
+Let K be a unital associative commutative ring, V be a unital K-module, and EnV := EndnV :=
+Hom(V ⊗n,V) (n ∈ N). For an operation f ∈ EnV , we refer to n as the degree of f and often write
+(when it does not cause confusion) f instead of degf. For example, (−1)f := (−1)n, EfV := EnV
+and ◦f := ◦n. Also, it is convenient to use the reduced degree |f| := n − 1. Throughout this
+paper, we assume that ⊗ := ⊗K.
+Definition 2.1 (endomorphism operad [2]). For f⊗g ∈ EfV ⊗EgV define the partial compositions
+f ◦i g := (−1)i|g|f ◦(id⊗iV ⊗g ⊗id⊗(|f|−i)V ) ∈ Ef+|g|V , 0 ≤ i ≤ |f|
+The sequence EV := {EnV }n∈N, equipped with the partial compositions ◦i, is called the endomor-
+phism operad of V.
+Definition 2.2 (total composition [2]). The total composition •: EfV ⊗EgV → Ef+|g|V is defined
+by
+f •g :=
+|f|summationdisplay
+i=0
+f ◦i g ∈ Ef+|g|V , |•| = 0
+The pair ComEV := {EV ,•} is called the composition algebra of EV .
+Definition 2.3 (Gerstenhaber brackets [2]). The Gerstenhaber brackets [·,·] are defined in
+ComEV as a graded commutator by
+[f,g] := f •g−(−1)|f||g|g •f = −(−1)|f||g|[g,f], |[·,·]| = 0
+The commutator algebra of ComEV is denoted as Com−EV := {EV ,[·,·]}. One can prove (e.g
+[2]) that Com−EV is a graded Lie algebra. The Jacobi identity reads
+(−1)|f||h|[[f,g],h] +(−1)|g||f|[[g,h],f] + (−1)|h||g|[[h,f],g] = 0
+3 Operadic Lax equation and harmonic oscillator
+Assume that K := R or K := C and operations are differentiable. Dynamics in operadic systems
+(operadic dynamics) may be introduced by
+Definition 3.1 (operadic Lax pair [4]). Allow a classical dynamical system to be described by
+the Hamiltonian system (1.1). An operadic Lax pair is a pair (L,M) of operations L,M ∈ EV ,
+such that the Hamiltonian system (1.1) may be represented as the operadic Lax equation
+dL
+dt = [M,L] := M •L−(−1)
+|M||L|L•M
+The pair (L,M) is also called an operadic Lax representation of/for Hamiltonian system (1.1).
+Evidently, the degree constraints |M| = |L| = 0 give rise to the ordinary Lax equation (1.2)
+[3, 1].
+The Hamiltonian of the harmonic oscillator is
+H(q,p) = 12(p2 +ω2q2)
+Thus, the Hamiltonian system of the harmonic oscillator reads
+dq
+dt =
+∂H
+∂p = p,
+dp
+dt = −
+∂H
+∂q = −ω
+2q (3.1)
+If µ is a linear algebraic operation we can use the above Hamilton equations to obtain
+dµ
+dt =
+∂µ
+∂q
+dq
+dt +
+∂µ
+∂p
+dp
+dt = p
+∂µ
+∂q −ω
+2q∂µ
+∂p = [M,µ]
+2
+Therefore, we get the following linear partial differential equation for µ(q,p):
+p∂µ∂q −ω2q∂µ∂p = [M,µ] (3.2)
+By integrating (3.2) one can get sequences of operations called the operadic (Lax representations
+of) harmonic oscillator. Since the general solution of the partial differential equations depends
+on arbitrary functions, these representations are not uniquely determined.
+4 Evolution of binary algebras
+Let A := {V,µ} be a binary algebra with an operation xy := µ(x⊗y). For simplicity assume that
+|M| = 0. We require that µ = µ(q,p) so that (µ,M) is an operadic Lax pair, i.e the Hamiltonian
+system (3.1) of the harmonic oscillator may be written as the operadic Lax equation
+˙µ = [M,µ] := M •µ−µ•M, |µ| = 1, |M| = 0
+Let x,y ∈ V. Assuming that |M| = 0 and |µ| = 1 we have
+M •µ =
+0summationdisplay
+i=0
+M ◦i µ = M ◦0 µ = M ◦µ
+µ•M =
+1summationdisplay
+i=0
+µ◦i M = µ◦0 M +µ◦1 M = µ◦(M ⊗idV )+µ◦(idV ⊗M)
+Therefore,
+d
+dt(xy) = M(xy)−(Mx)y −x(My)
+Let dimV = n. In a basis {e1,...,en} of V , the structure constants µijk of A are defined by
+µ(ej ⊗ek) := µijkei, j,k = 1,...,n
+In particular,
+d
+dt(ejek) = M(ejek)−(Mej)ek −ej(Mek)
+By denoting Mei := Msi es, it follows that
+˙µijk = µsjkMis −Msj µisk −Mskµijs, i,j,k = 1,...,n
+5 Main Theorem
+Lemma 5.1. Matrices
+L :=
+
+
+p ωq 0
+ωq −p 0
+0 0 1
+
+, M := ω2
+
+
+0 −1 0
+1 0 0
+0 0 0
+
+
+give a 3-dimensional Lax representation for the harmonic oscillator.
+3
+Lemma 5.2. Let dimV = 3 and M be defined as in Lemma 5.1. Then the 3-dimensional binary
+operadic Lax equations read
+
+
+
+
+
+
+
+
+
+˙µ111 = −ω2 parenleftbigµ211 +µ112 +µ121parenrightbig, ˙µ113 = −ω2 parenleftbigµ213 +µ123parenrightbig, ˙µ133 = −ω2µ233
+˙µ112 = −ω2 parenleftbigµ212 −µ111 +µ122parenrightbig, ˙µ123 = −ω2 parenleftbigµ223 −µ113parenrightbig, ˙µ233 = ω2µ133
+˙µ121 = −ω2 parenleftbigµ221 −µ111 +µ122parenrightbig, ˙µ131 = −ω2 parenleftbigµ231 +µ132parenrightbig, ˙µ313 = −ω2µ323
+˙µ122 = −ω2 parenleftbigµ222 −µ112 −µ121parenrightbig, ˙µ132 = −ω2 parenleftbigµ232 −µ131parenrightbig, ˙µ323 = ω2µ313
+˙µ211 = ω2 parenleftbigµ111 −µ212 −µ221parenrightbig, ˙µ213 = −ω2 parenleftbigµ223 −µ113parenrightbig, ˙µ322 = ω2 parenleftbigµ312 +µ321parenrightbig
+˙µ212 = ω2 parenleftbigµ112 +µ211 −µ222parenrightbig, ˙µ223 = ω2 parenleftbigµ123 +µ213parenrightbig, ˙µ321 = ω2 parenleftbigµ311 −µ322parenrightbig
+˙µ221 = ω2 parenleftbigµ121 +µ211 −µ222parenrightbig, ˙µ231 = −ω2 parenleftbigµ232 −µ131parenrightbig, ˙µ311 = −ω2 parenleftbigµ321 +µ312parenrightbig
+˙µ222 = ω2 parenleftbigµ122 +µ212 +µ221parenrightbig, ˙µ232 = ω2 parenleftbigµ132 +µ231parenrightbig, ˙µ312 = ω2 parenleftbigµ311 −µ322parenrightbig
+˙µ333 = 0, ˙µ332 = ω2µ331, ˙µ331 = −ω2µ332
+In what follows, consider only anti-commutative algebras. Then one has
+Corollary 5.3. Let A be a 3-dimensional anti-commutative algebra, i.e
+µijk = −µikj, i,j,k = 1,2,3
+Then the operadic Lax equations for the harmonic oscillator read
+
+
+
+˙µ112 = −ω2µ212, ˙µ212 = ω2µ112, ˙µ312 = 0
+˙µ113 = −ω2 parenleftbigµ123 +µ213parenrightbig, ˙µ213 = −ω2 parenleftbigµ223 −µ113parenrightbig, ˙µ313 = −ω2µ323
+˙µ123 = ω2 parenleftbigµ113 −µ223parenrightbig, ˙µ223 = ω2 parenleftbigµ213 +µ123parenrightbig, ˙µ323 = ω2µ313
+For the harmonic oscillator, define its auxiliary functions A± by
+A2+ +A2− = 2√2H, A2+ −A2− = 2p, A+A− = ωq (5.1)
+Theorem 5.4. Let Cν ∈ R (ν = 1,...,9) be arbitrary real–valued parameters, such that
+C22 +C23 +C25 +C26 +C27 +C28 negationslash= 0 (5.2)
+Let M be defined as in Lemma 5.1, and
+
+
+
+
+
+
+
+
+
+
+
+
+
+µ111 = µ122 = µ133 = µ211 = µ222 = µ233 = µ311 = µ322 = µ333 = 0
+µ123 = −µ132 = C2p−C3ωq −C4
+µ213 = −µ231 = C2p−C3ωq +C4
+µ131 = −µ113 = C2ωq +C3p−C1
+µ223 = −µ232 = C2ωq +C3p+C1
+µ112 = −µ121 = C5A+ +C6A−
+µ212 = −µ221 = C5A− −C6A+
+µ313 = −µ331 = C7A+ +C8A−
+µ323 = −µ332 = C7A− −C8A+
+µ312 = −µ321 = C9
+(5.3)
+Then (µ,M) is a 3-dimensional anti-commutative binary operadic Lax pair for the harmonic
+oscillator.
+4
+Proof. Denote braceleftBigg
+Gω+ := ˙p+ω2q, Gω/2+ := ˙A+ + ω2A−
+Gω− := ω(˙q −p), Gω/2− := ˙A− − ω2A+
+Define the matrix
+Γ = (Γβα) :=
+
+
+
+
+
+
+
+
+
+0 0 0 0 0 0 0 0 0
+Gω+ Gω+ Gω− Gω− 0 0 0 0 0
+−Gω− −Gω− Gω+ Gω+ 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 Gω/2+ Gω/2− 0 0 0
+0 0 0 0 Gω/2− −Gω/2+ 0 0 0
+0 0 0 0 0 0 Gω/2+ Gω/2− 0
+0 0 0 0 0 0 Gω/2− −Gω/2+ 0
+0 0 0 0 0 0 0 0 0
+
+
+
+
+
+
+
+
+
+Then it follows from Corollary 5.3 that the 3-dimensional anti-commutative binary operadic Lax
+equations read
+CβΓβα = C2Γ2α +C3Γ3α +C5Γ5α +C6Γ6α +C7Γ7α +C8Γ8α = 0, α = 1,...,9
+Since the parameters Cβ (β = 2,3,5,6,7,8) are arbitrary, not simultaneously zero, the latter
+constraints imply Γ = 0.
+Thus we have to consider the following differential equations
+Gω± = 0 = Gω/2±
+We show that
+Gω± = 0 (I)⇐⇒
+braceleftBigg
+˙p = −ω2q
+˙q = p
+(II)⇐⇒ Gω/2
+± = 0
+First note that (I) immediately follows from the definition of Gω±.
+The proof of (II) can be found in [6] (Theorem 5.2 (I)).
+6 Initial conditions and dynamical deformations
+It seems attractive to specify the coefficients Cν in Theorem 5.4 by the initial conditions
+µ|t=0 = ◦µ, p|t=0 = p0 negationslash= 0, q|t=0 = 0
+The latter together with (5.1) yield the initial conditions for A±:
+
+
+
+parenleftbigA2
++ +A2−
+parenrightbigvextendsinglevextendsingle
+t=0 = 2|p0|parenleftbig
+A2+ −A2−parenrightbigvextendsinglevextendsinglet=0 = 2p0
+A+A−|t=0 = 0
+⇐⇒
+
+
+
+p0 > 0
+A+|t=0 = ±√2p0
+A−|t=0 = 0
+∨
+
+
+
+p0 < 0
+A+|t=0 = 0
+A−|t=0 = ±√−2p0
+In what follows assume that p0 > 0 and A+|t=0 > 0. Other cases can be treated similarly. Note
+that p0 = √2E, where E > 0 is the total energy of the harmonic oscillator, H = H|t=0 = E.
+5
+From (5.3) we get the following linear system:
+
+
+
+◦µ1
+23 = C2p0 −C4,
+◦µ1
+31 = C3p0 −C1,
+◦µ1
+12 = C5
+√2p
+0◦
+µ213 = C2p0 +C4, ◦µ212 = −C6√2p0, ◦µ223 = C3p0 +C1
+◦µ3
+13 = C7
+√2p
+0,
+◦µ3
+23 = −C8
+√2p
+0,
+◦µ3
+12 = C9
+(6.1)
+One can easily check that the latter system can be uniquely solved with respect to Cν (ν =
+1,...,9):
+
+
+
+
+C1 = 12
+parenleftBig◦
+µ223 − ◦µ131
+parenrightBig
+, C2 = 12p0
+parenleftBig◦
+µ213 + ◦µ123
+parenrightBig
+, C3 = 12p0
+parenleftBig◦
+µ223 + ◦µ131
+parenrightBig
+C4 = 12
+parenleftBig◦
+µ213 − ◦µ123
+parenrightBig
+, C5 = 1√2p
+0
+◦µ1
+12, C6 = −
+1√
+2p0
+◦µ2
+12
+C7 = 1√2p
+0
+◦µ3
+13, C8 = −
+1√
+2p0
+◦µ3
+23, C9 =
+◦µ3
+12
+Remark 6.1. Note that the parameters Cν have to satisfy condition (5.2) to get the operadic
+Lax representation for the harmonic oscillaror.
+Definition 6.2. If µ negationslash= ◦µ, then the multiplication µ is called a dynamical deformation of ◦µ (over
+the harmonic oscillator). If µ = ◦µ, then the multiplication ◦µ is called dynamically rigid.
+7 Examples
+Example 7.1 (so(3)). As an example consider the Lie algebra so(3) with the structure equations
+[e1,e2] = e3, [e2,e3] = e1, [e3,e1] = e2
+Thus, the nonzero structure constants are
+◦µ1
+23 =
+◦µ2
+31 =
+◦µ3
+12 = −
+◦µ1
+32 = −
+◦µ2
+13 = −
+◦µ3
+21 = 1
+Using the above initial conditions (6.1), we get
+
+
+
+◦µ1
+23 = C2p0 −C4 = 1,
+◦µ1
+31 = C3p0 −C1 = 0,
+◦µ1
+12 = C5
+√2p
+0 = 0
+◦µ2
+13 = C2p0 +C4 = −1,
+◦µ2
+12 = −C6
+√2p
+0 = 0,
+◦µ2
+23 = C3p0 +C1 = 0◦
+µ313 = C7√2p0 = 0, ◦µ323 = −C8√2p0 = 0, ◦µ312 = C9 = 1
+From this linear system it is easy to see that the only nontrivial constants are C9 = −C4 = 1.
+Replacing these constants into (5.3) we get
+µijk = ◦µijk, i,j,k = 1,2,3 =⇒ ˙µ|so(3) = 0
+Thus we can see that the present selection of the parameters Cν (ν = 1,...9) via the struc-
+ture constants of so(3) does not give rise to the operadic Lax representation for the harmonic
+oscillator. Thus so(3) is dynamically rigid over the harmonic oscillator. This happens because
+condition (5.2) is not satisfied.
+Example 7.2 (Heisenberg algebra). As another example, consider the 3-dimensional Heisenberg
+algebra h1 with the structure equations
+[e1,e2] = e3, [e1,e3] = [e2,e3] = 0
+6
+We can see that the only nonzero structure constant is ◦µ312 = 1. System (6.1) reads
+
+
+
+◦µ1
+23 = C2p0 −C4 = 0,
+◦µ1
+31 = C3p0 −C1 = 0,
+◦µ1
+12 = C5
+√2p
+0 = 0◦
+µ213 = C2p0 +C4 = 0, ◦µ212 = −C6√2p0 = 0, ◦µ223 = C3p0 +C1 = 0
+◦µ3
+13 = C7
+√2p
+0 = 0,
+◦µ3
+23 = −C8
+√2p
+0 = 0,
+◦µ3
+12 = C9 = 1
+Thus, the only nontrivial constant is C9 = 1. We conclude that
+µijk = ◦µijk, i,j,k = 1,2,3 =⇒ ˙µ|h1 = 0
+and h1 turns out to be dynamically rigid over the harmonic oscillator as well. Again we can see
+that condition (5.2) is not satisfied.
+Example 7.3 (sl(2)). Finally consider the Lie algebra sl(2) with the structure equations
+[e1,e2] = e3, [e3,e1] = 2e1, [e2,e3] = 2e2
+We can see that the nonzero structure constants are
+◦µ1
+31 =
+◦µ2
+23 = 2
+◦µ3
+12 = 2
+System (6.1) reads
+
+
+
+◦µ1
+23 = C2p0 −C4 = 0,
+◦µ1
+31 = C3p0 −C1 = 2,
+◦µ1
+12 = C5
+√2p
+0 = 0◦
+µ213 = C2p0 +C4 = 0, ◦µ212 = −C6√2p0 = 0, ◦µ223 = C3p0 +C1 = 2
+◦µ3
+13 = C7
+√2p
+0 = 0,
+◦µ3
+23 = −C8
+√2p
+0 = 0,
+◦µ3
+12 = C9 = 1
+from which it follows that the only nontrivial constants are C3 = 2p0, C9 = 1. From (5.3) we get
+the operadic Lax system
+braceleftBigg
+µ112 = µ212 = µ313 = µ323 = µ312 −1 = 0
+µ123 = µ213 = −2ωp0 q, µ131 = µ223 = 2p0p
+It turns out that the deformed algebra with multiplication µ is also a Lie algebra and isomorphic
+to sl(2). The isomorphism
+µsjk(q,p)Ais = ◦µilmAljAmk
+is realized by the matrix
+A = (Aij) := 12p
+0
+
+
+2p0
+ωq (p+
+√2H) 2p
+0 0
+p−√2H ωq 0
+0 0 2√2H
+
+
+Acknowledgement
+The research was in part supported by the Estonian Science Foundation, Grant ETF 6912.
+7
+References
+[1] O. Babelon, D. Bernard, and M. Talon. Introduction to Classical Integrable Systems. Cam-
+bridge Univ. Press, 2003.
+[2] M. Gerstenhaber. The cohomology structure of an associative ring. Ann. of Math. 78 (1963),
+267–288.
+[3] P. D. Lax. Integrals of nonlinear equations of evolution and solitary waves. Comm. Pure
+Applied Math. 21 (1968), 467-490.
+[4] E. Paal. Invitation to operadic dynamics. J. Gen. Lie Theory Appl. 1 (2007), 57-63.
+[5] E. Paal and J. Virkepu. Note on operadic harmonic oscillator. Rep. Math. Phys. 61 (2008),
+207-212.
+[6] E. Paal and J. Virkepu. 2D binary operadic Lax representation for harmonic oscillator.
+Preprint arXiv:0803.0592 [math-ph], 2008.
+Department of Mathematics, Tallinn University of Technology
+Ehitajate tee 5, 19086 Tallinn, Estonia
+E-mails: eugen.paal@ttu.ee and jvirkepu@staff.ttu.ee
+8

@@ -1,0 +1,428 @@
+arXiv:0806.4172v2  [hep-ph]  16 Jul 2008
+LBNL-72350
+Prediction of a Photon Peak in Heavy Ion Collisions
+Jorge Casalderrey-Solana1 and David Mateos2
+1Nuclear Science Division, MS 70R319, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+2Department of Physics, University of California, Santa Barbara, CA 93106-9530, USA
+We show that if a flavour-less vector meson remains bound after deconfinement, and if its limiting
+velocity in the quark-gluon plasma is subluminal, then this meson produces a distinct peak in the
+spectrum of thermal photons emitted by the plasma. We also demonstrate that this effect is a
+universal property of all strongly coupled, large-Nc plasmas with a gravity dual. For the J/Ψ the
+corresponding peak lies between 3 and 5 GeV and could be observed in heavy-ion collisions at LHC.
+1. Introduction. At a temperature Tc ≃ 170 MeV,
+Quantum Chromodynamics (QCD) undergoes a rapid
+cross-over into a deconfined phase called the quark-gluon
+plasma (QGP). This new state of matter is being in-
+tensively studied at the Relativistic Heavy Ion Collider
+(RHIC) and will be studied in the future at the Large
+Hadron Collider (LHC).
+A remarkable conclusion from the RHIC experiments
+is that the QGP does not behave as a weakly coupled
+gas of quarks and gluons, but rather as a strongly cou-
+pled fluid. This makes the study of the plasma a chal-
+lenging task. Experimentally, it is difficult to find clean
+probes with which to determine the properties of the
+plasma, since any coloured probe will strongly interact
+with the medium in a complicated manner; for this rea-
+son, thermal photons emitted by the plasma are partic-
+ularly interesting. The theoretical task of predicting the
+properties of the QGP from first principles is also chal-
+lenging. Since the plasma is strongly coupled, perturba-
+tive methods are not applicable in general. The lattice
+formulation of QCD is also of limited utility, since it is
+not well suited for studying real-time phenomena such as
+transport, photon production, etc. Thus one must either
+make predictions based on very general expectations, or
+resort to some other non-perturbative method such as
+the gauge/gravity duality.
+In this letter we will show that, under two plausible
+assumptions about the properties of heavy vector mesons
+in the QGP, a distinct peak in the spectrum of thermal
+photons is predicted. Moreover,we will demonstrate that
+this is a universal property of all strongly coupled, large-
+Nc theories with a gravity dual. Finally, we discuss under
+what conditions this effect could be observed at LHC.
+2. Peaks in the photon spectrum. Sufficiently heavy
+mesons (eg, J/ψ,Υ, etc.) may be expected to exhibit
+two generic properties in the QGP. First, they may re-
+main bound up to a dissociation temperature Tdiss >Tc.
+Second, their limiting velocity in the plasma may be sub-
+luminal.
+The original argument [1] for the first expectation is
+simply the fact that the heavier the meson, the smaller
+its size. It is thus plausible to expect a meson to remain
+bound until the screening length in the plasma becomes
+comparable to the meson size, and for sufficiently heavy
+ω/ ¯M
+k/ ¯M
+FIG. 1: Dispersion relation (blue curve) for a heavy meson
+in the N = 4 SYM plasma at strong coupling [7]. The black
+straight line corresponds to ω = k. ¯M is a reference mass
+scale – see [7] for details.
+mesons this happens atTdiss >Tc. This conclusion is sup-
+ported by calculations of both the static quark-antiquark
+potential [2] and of Minkowski-spacespectral functions in
+lattice-regularized QCD [3].
+The second expectation goes back to ref. [4], which
+considered a weakly coupled plasma. More generally,
+one may note [5] that a meson moving in the plasma
+with velocity v experiences a boosted, higher energy
+density, and hence also a higher effective temperature
+Teff(v) = (1−v2)−1/4T. Thus one may expect the exis-
+tence of a subluminal limiting velocity for the meson [6],
+determined by the condition Teff(vlim) ∼Tdiss [5].
+Although the two assumptions above are reasonable,
+by no means they have been rigourously established in
+QCD. Our purpose is not to discuss their plausibility in
+detail but to exhibit an immediate consequence.
+Consider the in-medium meson dispersion relation
+ω(k), whereω andk are the energy and the spatial three-
+momentum of the meson. M = ω(0) is the rest mass. As
+k →∞, the assumption of a subluminal limiting velocity
+implies ω(k) ∼vlimk, with vlim < 1. Fig. 1 shows the dis-
+persion relation for a pseudoscalar meson in the strongly-
+coupled, large-Nc, four-dimensional, N = 4 super-Yang-
+Mills (SYM) plasma, calculated using its gravity dual
+[7]; the dispersion relation for vector mesons is expected
+to exhibit the same features. As noted in [8], continu-
+ity now implies that the dispersion relation curve must
+cross the light-cone, defined by ω = k, at some energy
+ω = ωpeak. At this point the meson four-momentum is
+null, and so the meson possesses the same quantum num-
+bers as a photon [9]. Such a meson can then decay into
+2
+γMeson
+FIG. 2: Decay of a vector meson into and on-shell photon.
+an on-shell photon [10], as depicted in fig. 2. This pro-
+cess contributes a resonance peak, at an energy ωpeak, to
+the in-medium spectral function of two electromagnetic
+currents,χµν(ω,k) ∼ 〈Jµ(ω,k)Jν(−ω,−k)〉, evaluated at
+null-momentum ω = k. This in turn produces a peak in
+the spectrum of thermal photons emitted by the plasma,
+dNγ/dω ∼ e−ω/T χµµ(ω,T). The width of this peak is
+the width of the meson in the plasma. In fig. 3 we have
+illustrated this effect for the N = 4 SYM plasma coupled
+to one massless quark and one heavy quark. The results
+are valid at strong coupling and largeNc, since they were
+obtained by means of the gravity dual [8]. The spectral
+function for the massless quark is structure-less, whereas
+that for the heavy quark exhibits a resonance peak – see
+[8] for further details.
+0 0.2 0.4 0.6 0.8 1 1.2 1.4
+0
+0.2
+0.4
+0.6
+0.8
+1
+piχµµ(ω/2piT)
+NcTω
+ω/2piT
+FIG. 3: Spectral functions for the N = 4 SYM plasma cou-
+pled to a massless quark (top, red curve) and a heavy quark
+(bottom, blue curve), at large Nc and strong coupling.
+3. A universal property of plasmas with a gravity
+dual. The gravity dual of QCD is presently unknown.
+When studying strongly-coupled plasmas with a grav-
+ity dual, it is therefore important to focus on properties
+that apply to as broad a class of plasmas as possible,
+since these may also apply to QCD. In this section we
+will show that the two assumptions above about heavy
+mesons in a QGP are true in all strongly coupled, large-
+Nc plasmas with a gravity dual, because they follow from
+two universal properties of the duality: The fact that the
+deconfined phase is described by a background with a
+black hole (BH) [11], and the fact that, in the large-Nc
+limit, a finite number of flavours Nf is described by Nf
+D-brane probes in this background [12].
+In the presence of the black hole, there are two possible
+phases for the D-branes, separated by a universal first-
+order phase transition [13, 14]. Geometrically, these two
+phases are distinguished by whether or not the D-brane
+tension can compensate for the black hole gravitational
+attraction (see fig. 4). In the first case the branes lie
+completely outside the horizon in a ‘Minkowski embed-
+ding’. In the second case they fall through the horizon
+in a ‘BH embedding’. From the gauge theory viewpoint,
+FIG. 4: Possible D-brane embeddings in a BH background.
+this phase transition corresponds to the dissociation of
+heavy mesons [13, 18]. In the Minkowski phase stable
+mesons exist, and their spectrum is discrete and gapped.
+The meson mass in this phase increases as the separation
+between the branes and the black hole increases [19]. By
+contrast, in the black hole phase no meson bound states
+exist. Recalling that the radius of the black hole is pro-
+portional to the plasma temperature, we see that if a me-
+son is sufficiently heavy compared to the temperatrure,
+then this meson remains bound in the plasma and is de-
+scribed by a Minkowski brane.
+The existence of a subluminal limiting velocity for
+mesons is obvious from the geometric picture above: It
+is just the local speed of light at the tip of the branes
+[7]. Indeed, the wave function of a meson is supported
+on the D-branes. The larger the energy of the meson,
+the more it is attracted by the black hole and the more
+its wave-function is concentrated at the tip of the branes
+(see fig. 4). In the limit k → ∞ the velocity of this me-
+son approaches the local speed of light at the tip of the
+branes. Because of the redshift caused by the BH, this
+limiting velocity is lower than the speed of light at the
+boundary, where the gauge theory resides. In the gauge
+theory this translates into the statement thatvlim is lower
+than the speed of light in the vacuum [7]. This effect is
+clearly illustrated in fig. 1.
+4. Heavy Ion Collisions. Our analysis so far applies
+to an infinitely-extended plasma at constant tempera-
+ture. A crucial question is whether a peak in the photon
+spectrum could be observed in a heavy ion collision ex-
+periment. Natural heavy vector mesons to consider are
+the J/ψ and the Υ, since these are expected to survive
+deconfinement. We wish to compare the number of pho-
+tons coming from these mesons to the number of pho-
+tons coming from other sources. Accurately calculating
+the meson contribution would require a precise theoret-
+ical understanding of the dynamics of these mesons in
+the QGP, which at present is not available. Our goal will
+therefore be to estimate the order of magnitude of this
+effect with a simple model.
+Following [21], we model the fireball as an expanding
+cylinder with volumeV(t) = pi(z0+vzt)(r0+a⊥t2/2)2 (we
+choose tthermalisation = 0). This leads to the temperature
+evolution T(t) = T(0)[V(0)/V(t)]1/3. At t = thadro the
+temperature reaches Tc and the system hadronises.
+Let us first consider theJ/ψ contribution. In the spirit
+3
+of statistical recombination [22, 23], we assume that the
+c¯c-pairs produced in the initial collisions between partons
+become kinetically but not chemically equilibrated in the
+QGP [24]; in particular, their total number, Nc¯c, stays
+constant. To implement this condition we introduce a
+fugacity factor [22, 23]
+gc(T) = Nc¯c
+2·3·V(T) parenleftbigMcT2pi parenrightbig3/2e−Mc/T
+, (1)
+where Mc = 1.7 GeV is the charm-quark mass. At
+t = tdiss the temperature reaches the dissociation tem-
+perature of the J/ψ in the medium, Tdiss. At this point
+a fraction of the c¯c-pairs coalesce and recombine forming
+J/ψ mesons [25]. Their contribution to the total number
+of photons with frequency ω emitted by the plasma is
+then
+S(ω) ∝
+integraldisplay thadro
+tdiss
+dtV(t)gc(T(t))2e−ω/T(t)χJ/ψ(ω,T(t)),
+(2)
+where the ‘S’ stands for ‘signal’. The overall normali-
+sation is not important since it is the same as that for
+the background of thermal photons emitted by the light
+quarks, which is given by
+B(ω) ∝
+integraldisplay thadro
+0
+dtV(t)e−ω/T(t). (3)
+We have omitted χlight(ω,T) since, guided by the results
+for plasmas with a gravity dual, we assume it is struc-
+tureless.
+We would like to compare the two contributions above.
+Motivated by fig. 3, we expect the magnitude of χJ/ψ
+around ωpeak to be comparable to that of χlight. We thus
+model the spectral function for the J/ψ by a unit-area
+Gaussian distribution of width Γ centred at ωpeak(T(t)).
+For the width we choose Γ = 100 MeV, of the or-
+der of the temperature and a thousand times larger
+than the vacuum width. The temperature dependence
+of ωpeak arises from that of the meson dispersion rela-
+tion. On general grounds we expect this to take the
+form ω(k) = radicalbigM2v4lim +k2v2lim +M(1−v2lim). The first
+term is just the vacuum dispersion relation with the
+speed of light replaced by vlim. The second term en-
+sures that M is the rest mass of the meson. The me-
+son dispersion relation in fig. 1 is very well approximated
+by this ansatz. We neglect medium-induced changes in
+the J/ψ mass and set M = 3 GeV. The above ansatz
+yields ωpeak = M(1 + vlim/radicalbig1−v2lim). The limiting ve-
+locity is determined by the condition (1 − v2lim)1/4 =
+T/Tdiss + [(1 − v20)1/4 − 1]. The first term implements
+the relationship between T and vlim that was heuristi-
+cally motivated in sec. 2. The second term accounts for
+the fact that the limiting velocity at Tdiss may be non-
+zero, as is the case in plasmas with a gravity dual. We
+choose v0 = 0.2.
+3.25 3.5 3.75 4 4.25 4.5 4.75 5
+0.2
+0.4
+0.6
+0.8
+1
+dNγ
+dω
+ω [GeV]
+FIG. 5: Thermal photon spectrum for LHC energies and
+Tdiss = 1.25Tc. The (arbitrary) normalisation is the same for
+all curves. The continuous, monotonically decreasing, blue
+curve is the background from light quarks. The continuous,
+red curve is the signal from J/ψ mesons. The dashed, black
+curve is the sum of the two.
+We also need the number of primordial c¯c-pairs pro-
+duced in the heavy ion collision. This is proportional to
+the c¯c cross-section in a pp-collision, which suffers from
+large uncertainties. For LHC energies we use dσppc¯c/dy =
+1850 µb, which is within the plausible range [26]. With
+this choice one has Nc¯c ≃ 60.
+The results of numerically evaluating eqs. (2) and (3)
+for LHC values of the parameters [27] and Tdiss = 1.25Tc
+[28] areplotted in fig. 5. We seethat thereis anorder-one
+enhancement in the spectrum, associated to the decays
+of J/ψ’s into on-shell photons. However, whether this
+photon excess manifests itself as a peak, or only as an en-
+hancement smoothly distributed over a broader range of
+frequencies, depends sensitively on the dissociation tem-
+perature. Perhaps surprisingly, the peak is less sharp for
+higher values of Tdiss.
+The signal is also quite sensitive to other parameters.
+For example, increasing the width by a factor of two turns
+the peak into an enhancement. Note also thatS depends
+quadratically on the c¯c cross-section. Since at RHIC this
+is believed to be ten times smaller than at LHC, the en-
+hancement discussed above is presumably unobservable
+at RHIC energies. Finally, we note that the signal is
+exponentially sensitive to other parameters such as the
+charm-quark mass, the maximum temperature T(0), etc.
+These considerations show that a precise determina-
+tion of the enhancement is not possible without a very
+detailed understanding of the in-medium dynamics of the
+J/ψ. On the other hand, they also illustrate that there
+exists a reasonable range of parameters for which this ef-
+fect yields an order-one enhancement, or even a peak, in
+the spectrum of thermal photons produced by the QGP.
+This thermal excess is concentrated at photon energies
+roughly between 3 and 5 GeV. In this range the number
+of thermal photons at LHC is expected to be comparable
+or larger than that of pQCD photons produced in initial
+partonic collisions [29]. Thus we expect the thermal ex-
+cess above to be observable even in the presence of the
+pQCD background.
+We have examined the possibility of an analogous ef-
+fect associated to the Υ meson. In this case ωpeak >∼ 10
+4
+GeV. At these energies the number of thermal photons
+is exponentially smaller than that coming from pQCD
+photons, so we do not expect an observable effect.
+5. Conclusions. Our two assumptions about the dy-
+namics of vector mesons in the QGP can be motivated,
+and could in principle be checked, purely within QCD.
+We therefore emphasise that the prediction of a peak in
+the thermal photon spectrum does not rely on whether or
+not the QGP is well described by a dual gravity theory.
+In practice, however, our ability to verify these as-
+sumptions in real-world QCD is very limited due to the
+lack of well-suited tools. It is therefore useful to investi-
+gate if they hold for strongly coupled, large-Nc plasmas
+with a gravity dual, for which the gravity description
+provides such a tool. In this letter we have demonstrated
+that the two assumptions above are indeed true for all
+such plasmas.
+Acknowledgments. We thank M. Cacciari, D.
+d’Enterria, E. Ferreiro, S. Hartnoll, G. Martinez, V.
+Koch, M. Strassler, V.N. Tram and L. Yaffe for discus-
+sions. We aregratefulto the INT at the U. of Washington
+for hospitality. We are supported by the DOE, Contract
+No. DE-AC03-76SF00098 (JCS) and by the NSF grant
+PHY-0244764 (DM).
+[1] T. Matsui and H. Satz, Phys. Lett. B 178, 416 (1986).
+[2] O. Kaczmarek, F. Karsch, F. Zantow and P. Pe-
+treczky, Phys. Rev. D 70, 074505 (2004) [Erratum-ibid.
+D 72, 059903 (2005)] [arXiv:hep-lat/0406036]; P. Pe-
+treczky and K. Petrov, Phys. Rev. D 70 (2004) 054503
+[arXiv:hep-lat/0405009]; O. Kaczmarek and F. Zantow,
+Phys. Rev. D 71, 114510 (2005) [arXiv:hep-lat/0503017];
+A. Mocsy and P. Petreczky, Phys. Rev. D 77, 014501
+(2008) [arXiv:0705.2559 [hep-ph]].
+[3] M. Asakawa and T. Hatsuda, Phys. Rev. Lett. 92 (2004)
+012001 [arXiv:hep-lat/0308034]; S. Datta, F. Karsch,
+P. Petreczky and I. Wetzorke, Phys. Rev. D 69 (2004)
+094507 [arXiv:hep-lat/0312037]; T. Hatsuda, Int. J.
+Mod. Phys. A 21 (2006) 688 [arXiv:hep-ph/0509306];
+F. Karsch, D. Kharzeev and H. Satz, Phys. Lett.
+B 637 (2006) 75 [arXiv:hep-ph/0512239]; H. Satz,
+arXiv:hep-ph/0609197; M. Asakawa, T. Hatsuda and
+Y. Nakahara, Nucl. Phys. A 715, 863 (2003) [Nucl. Phys.
+Proc. Suppl. 119, 481 (2003)] [arXiv:hep-lat/0208059].
+[4] M. C. Chu and T. Matsui, Phys. Rev. D 39, 1892 (1989).
+[5] K.Peeters, J. Sonnenschein and M. Zamaklar, Phys. Rev.
+D 74, 106008 (2006) [arXiv:hep-th/0606195]; H. Liu,
+K. Rajagopal and U. A. Wiedemann, Phys. Rev. Lett.
+98, 182301 (2007) [arXiv:hep-ph/0607062]; M. Cherni-
+coff, J. A. Garcia and A. Guijosa, JHEP 0609, 068 (2006)
+[arXiv:hep-th/0607089]; Q. J. Ejaz, T. Faulkner, H. Liu,
+K. Rajagopal and U. A. Wiedemann, JHEP 0804, 089
+(2008) [arXiv:0712.0590 [hep-th]].
+[6] An alternative possibility (not realised in plasmas with a
+gravity dual) would be that meson states with k above
+some upper bound cease to exist. In any event, our con-
+clusions will rely on meson states existing (with a suf-
+ficiently narrow width) only up to some moderate k for
+which ω(k) ∼k.
+[7] D. Mateos, R. C. Myers and R. M. Thomson, JHEP
+0705, 067 (2007) [arXiv:hep-th/0701132].
+[8] D. Mateos and L. Patino, JHEP 0711, 025 (2007)
+[arXiv:0709.2168 [hep-th]].
+[9] We assume that the meson is flavour-less and we neglect
+the thermal mass of the photon.
+[10] In the vacuum, only the decay into a virtual photon
+would be allowed by kinematics.
+[11] E. Witten, Adv. Theor. Math. Phys. 2, 505 (1998)
+[arXiv:hep-th/9803131].
+[12] A. Karch and L. Randall, JHEP 0106, 063 (2001)
+[arXiv:hep-th/0105132]; A. Karch and E. Katz, JHEP
+0206, 043 (2002) [arXiv:hep-th/0205236].
+[13] D. Mateos, R. C. Myers and R. M. Thomson, Phys. Rev.
+Lett. 97, 091601 (2006) [arXiv:hep-th/0605046].
+[14] Specific examples of this transition in so-called Dp/Dq
+systems were originally seen in [15]. More recently similar
+transitions for Dp/Dq/D¯q systems [16] have been found
+in [17].
+[15] J. Babington, J. Erdmenger, N. J. Evans, Z. Gural-
+nik and I. Kirsch, Phys. Rev. D 69, 066007 (2004)
+[arXiv:hep-th/0306018]; I. Kirsch, Fortsch. Phys. 52, 727
+(2004) [arXiv:hep-th/0406274]; M. Kruczenski, D. Ma-
+teos, R. C. Myers and D. J. Winters, JHEP 0405, 041
+(2004) [arXiv:hep-th/0311270].
+[16] T. Sakai and S. Sugimoto, Prog. Theor. Phys. 113, 843
+(2005) [arXiv:hep-th/0412141].
+[17] O. Aharony, J. Sonnenschein and S. Yankielowicz, Annals
+Phys. 322, 1420 (2007) [arXiv:hep-th/0604161]; A. Par-
+nachev and D. A. Sahakyan, Phys. Rev. Lett. 97, 111601
+(2006) [arXiv:hep-th/0604173].
+[18] C. Hoyos-Badajoz, K.Landsteiner and S.Montero, JHEP
+0704, 031 (2007) [arXiv:hep-th/0612169].
+[19] In the Dp/Dq systems this is because the bare quark
+mass increases; in the Dp/Dq/D¯q systems this is be-
+cause the chiral symmetry-breaking scale increases. In
+Dp/Dq systems at finite baryon density the branes al-
+ways fall through the horizon, but for large quark masses
+the physics is essentially the same as at zero density [20].
+[20] S. Kobayashi, D. Mateos, S. Matsuura, R. C. My-
+ers and R. M. Thomson, JHEP 0702, 016 (2007)
+[arXiv:hep-th/0611099].
+[21] R. Rapp and J. Wambach, Eur. Phys. J. A 6, 415 (1999)
+[arXiv:hep-ph/9907502].
+[22] P. Braun-Munzinger and J. Stachel, Phys. Lett. B
+490, 196 (2000) [arXiv:nucl-th/0007059]; A. Andronic,
+P. Braun-Munzinger, K. Redlich and J. Stachel, Phys.
+Lett. B 571, 36 (2003) [arXiv:nucl-th/0303036].
+[23] A. Andronic, P. Braun-Munzinger, K. Redlich
+and J. Stachel, Nucl. Phys. A 789, 334 (2007)
+[arXiv:nucl-th/0611023].
+[24] B. W. Zhang, C. M. Ko and W. Liu, Phys. Rev. C 77,
+024901 (2008) [arXiv:0709.1684 [nucl-th]].
+[25] Whose subsequent distribution is also thermal. This im-
+plies that the J/ψ suppression is the same as in [23].
+[26] M. Cacciari, private communication.
+[27] T(0) = 470 MeV, z0 = 0.3 fm, vz = 2×0.7c, r0 = 6.6
+fm, a⊥ = 0.085c2/fm.
+[28] A. Mocsy and P. Petreczky, Phys. Rev. Lett. 99, 211602
+(2007) [arXiv:0706.2183 [hep-ph]].
+[29] F. Arleo, D. G. d’Enterria and D. Peressounko,
+arXiv:0707.2357 [nucl-th].

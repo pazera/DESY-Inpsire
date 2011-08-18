@@ -1,0 +1,845 @@
+arXiv:0802.0493v1  [astro-ph]  5 Feb 2008
+An X-ray Survey of Wolf-Rayet Stars in the Magellanic Clouds.
+II. The ROSAT PSPC and HRI Datasets
+Mart´ın A. Guerrero1,2, You-Hua Chu2
+ABSTRACT
+Wolf-Rayet (WR) stars in the Magellanic Clouds (MCs) are ideal for study-
+ing the production of X-ray emission by their strong fast stellar winds. We have
+started a systematic survey for X-ray emission from WR stars in the MCs using
+archival Chandra, ROSAT, and XMM-Newton observations. In Paper I, we re-
+ported the detection of X-ray emission from 29 WR stars using Chandra ACIS
+observations of 70 WR stars in the MCs. In this paper, we report the search and
+analysis of archival ROSAT PSPC and HRI observations of WR stars. While
+useful ROSAT observations are available for 117 WR stars in the MCs, X-ray
+emission is detected from only 7 of them. The detection rate of X-ray emission
+from MCs WR stars in the ROSAT survey is much smaller than in the Chandra
+ACIS survey, illustrating the necessity of high angular resolution and sensitivity.
+LMC-WR101-102 and 116 were detected by both ROSAT and Chandra, but no
+large long-term variations are evident.
+Subject headings: surveys – Magellanic Clouds – stars: Wolf-Rayet – X-rays:
+stars
+1. Introduction
+Wolf-Rayet (WR) stars are characterized by their broad emission lines, indicating co-
+pious fast stellar winds. Spectral analyses of WR stars show typical wind terminal ve-
+locities of 1,000–3,000 km s−1 (Prinja, Barlow, & Howarth 1990) and mass loss rates of a
+few ×10−5M⊙ yr−1 (de Jager, Nieuwenhuijzen, & van der Hucht 1988). Such powerful stel-
+lar winds are expected to generate a variety of X-ray sources. Within the WR wind it-
+self, instability shocks produce regions with high temperatures and high densities for X-ray
+emission (Lucy & White 1980; Gayley & Owocki 1995). Upon leaving the WR star, the
+1Instituto de Astrof´ısica de Andaluc´ıa, CSIC, Apdo. 3004, 18080, Granada, Spain
+2Astronomy Department, University of Illinois, 1002 W. Green Street, Urbana, IL 61801, USA
+– 2 –
+wind may encounter a massive companion’s wind, and the colliding winds produce com-
+pressed hot gas that emits X-rays. Finally, as the WR wind impinges on the ambient
+medium, a wind-blown bubble may form, and the shocked WR wind in the bubble in-
+terior may emit in X-rays (Weaver et al. 1977; Garc´ıa-Segura, Mac Low, & Langer 1996b;
+Garc´ıa-Segura, Langer, & Mac Low 1996a). Therefore, X-ray observations of WR stars pro-
+vide an opportunity to probe the opacity of the stellar wind, study the orbital configuration
+of a WR+OB binary system, and examine the stellar mechanical energy injection into the
+interstellar medium.
+Previous Einstein and ROSAT X-ray surveys of Galactic WR stars have shown that WR
+stars in binary systems have higher LX/Lbol than single WR stars or O stars, and that single
+WN stars are generally brighter than WC stars, although no simple LX/Lbol relationship
+appears to exist among single WN stars (Pollock 1987; Pollock, Haberl & Corcoran 1995;
+Wesselowski 1996). While these results reveal the potential of scientific yields from X-ray
+observations ofWRstars, theGalacticsample isplagued byheavy obscuration intheGalactic
+plane that renders a large fraction of WR stars undetectable. The nearby Large and Small
+Magellanic Clouds (LMC &SMC) areideallocations toexpand the X-rayobservations ofWR
+stars, since the foreground and internal extinctions in these galaxies are small. Furthermore,
+their lower metallicities allow us to probe abundance effects on the stellar winds, and their
+known distances allow us to determine LX with greater certainty.
+In the first paper of this series (Guerrero & Chu 2007, hereafter Paper I), we have used
+the current archive of the Chandra X-ray Observatory to search for X-ray emission from
+WR stars in the Magellanic Clouds (MCs). This survey included useful ACIS observations
+for 70 of the 146 known WR stars in the MCs and resulted in credible detection of X-ray
+emission from 29 of these WR stars and possibly another 4 WR stars. Many of the WR
+stars in the MCs that have not been observed by Chandra have ROSAT X-ray observations
+available in the archive. In this paper, we have used the entire ROSAT archive of pointed
+observations to search for and analyze X-ray sources associated with WR stars in the MCs
+in order to complement our Chandra ACIS X-ray survey for WR stars in the MCs and to
+investigate long-term X-ray variability. In an upcoming paper (Carter et al., in preparation,
+Paper III), the results from the ROSAT and Chandra surveys of WR stars in the MCs will
+be complemented by an XMM-Newton survey. All three archival studies will be analyzed
+together in conjunction with a systematic spectroscopic search for binaries for all WR stars in
+the MCs (Bartzakos, Moffat & Niemela 2001; Foellmi, Moffat, & Guerrero 2003a,b, Schnurr
+et al., in preparation) to determine accurately the origin of X-ray emission from WR stars.
+– 3 –
+2. ROSAT Observations of WR Stars in the MCs
+The R¨ontgen Satellite (ROSAT) had two types of X-ray detectors onboard - the Position
+Sensitive Proportional Counter (PSPC) and the High-Resolution Imager (HRI). The PSPC
+has an on-axis angular resolution of ∼ 30′′ and a spectral resolution of ∼45% at 1 keV; it is
+sensitive in the energy range of 0.1–2.4 keV, and has a field-of-view of ∼2◦. The HRI has a
+higher angular resolution, ∼5′′, but does not provide spectral resolution over the operational
+energy range of 0.1–2.0 keV; its field-of-view is ∼38′. During the ROSAT mission from 1990
+to 1999, numerous pointed observations of targets in the MCs were made, and the large
+field-of-view serendipitously included many WR stars. These observations can be retrieved
+from the ROSAT archive1 maintained by the High Energy Astrophysics Science Archive
+Research Center (HEASARC) of Goddard Space Flight Center, NASA.
+To search for X-ray observations of WR stars in the MCs, we used the lists of LMC WR
+stars compiled by Breysacher, Azzopardi, & Testor (1999) and SMC WR stars compiled by
+Massey, Olsen, & Parker (2003). We use only archival ROSAT observations with exposure
+times greater than 1 ks. The point-spread-function (PSF) and effective exposure of the
+telescope degrade significantly with distance from the field center; therefore, we select only
+PSPC observations with WR stars within the central 35′ radius and HRI observations with
+WR stars within the central 18′ radius. For PSPC observations with exposure times longer
+than 5 ks, we relax the selection criteria to include observations with WR stars within 35′
+to 40′ from the central pointing. The search finds PSPC observations for 121 WR stars in
+the LMC and 11 WR stars in the SMC, and HRI observations for 110 WR stars in the LMC
+and 11 WR stars in the SMC. Tables 1 and 2 list, respectively, the available PSPC and HRI
+observations, exposure times, and offsets of WR stars from the central pointings. Multiple
+observations with the same instrument of a WR star were merged in order to increase the
+signal-to-noise ratio.
+3. Results
+X-ray images are extracted from the merged PSPC and/or HRI observations of each
+WR star in the MCs within the full spectral energy range, i.e., 0.1–2.4 keV for the PSPC
+and 0.1–2.0 keV for the HRI. A pixel size of 5′′ pixel−1 is used for the PSPC images and 2′′
+pixel−1 for the HRI images. These images are subsequently smoothed with a Gaussian profile
+1ROSAT archival data can be obtained from the anonymous ftp site legacy.gsfc.nasa.gov, or downloaded
+from the web site http://heasarc.gsfc.nasa.gov/W3Browse.
+– 4 –
+of FWHM of 15′′ for the PSPC and 3′′ for the HRI. The smoothed images are used to search
+for X-ray emission at the location of WR stars. When X-ray emission is detected within
+30′′ from the location of a WR star, we compare the X-ray images of the WR star with an
+optical image extracted from the Digitized Sky Survey2 (DSS) to search for a point source
+at the location of the star or diffuse emission from its surrounding bubble, if it exists. To
+assess the reliability of these detections, we have defined a source region encompassing the
+X-ray source at the location of the WR star and an appropriate background region without
+sources, and computed the background-subtracted ROSAT PSPC and/or HRI counts within
+the source region using the IRAF3 PROS task imcnts. This has allowed us to confirm the
+greaterorsimilar 3σ detections of X-ray emission from the 7 WR stars in the LMC listed in Table 3.
+The net count rates and net counts of these WR stars are listed in columns 5 and 6 of
+Tab. 3, respectively. No WR stars in the SMC are detected by ROSAT. The correlation
+between these detections and sources in different ROSAT catalogs is listed in Table 4. The
+ROSAT PSPC and HRI X-ray and DSS optical images of the WR stars detected in X-rays
+are presented in Figures 1 and 2. For the central regions of R136 and R140 (Fig. 2), only
+the HRI images are shown as the angular resolution of the PSPC observations is too poor
+to resolve these stars.
+The WR stars in the MCs that are not detected by ROSAT observations are listed in
+Table 5. For these WR stars, we use source regions with sizes matching the PSF of ROSAT
+PSPC and HRI in order to determine their 3-σ upper limits using the IRAF PROS task
+imcnts. The radii of these source regions range from 20′′ to 60′′ for the PSPC and from 10′′
+to 20′′ for the HRI, depending on the offsets of the WR stars from the central pointings. The
+resulting 3-σ upper limits are listed in column 5 of Tab. 5. The distribution of these upper
+limits indicates that most of the non-detections have HRI count rates <1.0×10−4 cnts s−1
+and PSPC count rates <1.5×10−4 cnts s−1.
+Several WR stars in the MCs are found to be embedded in diffuse X-ray emission or
+2 The Digitized Sky Survey (DSS) is based on photographicdata obtained using the UK Schmidt Telescope
+and the Oschin Schmidt Telescope on Palomar Mountain. The UK Schmidt was operate by the Royal
+Observatory of Edinburgh, with funding from the UK Science and Engineering Research Council, until 1988
+June, and thereafter by the Anglo-Australian Observatory. The Palomar ObservatorySky Survey was funded
+by the National Geographic Society. The Oschin Schmidt Telescope is operated by the California Institute
+of Technology and Palomar Observatory. The plates were processed into the present compressed digital form
+with the permission of these institutes. The Digitized Sky Survey was produced at the Space Telescope
+Science Institute under US government grant NAGW-2166.
+3IRAF is distributed by the National Optical Astronomy Observatories, which is operated by the As-
+sociation of Universities for Research in Astronomy, Inc. (AURA) under cooperative agreement with the
+National Science Foundation.
+– 5 –
+close to bright X-ray sources. The analysis of these sources is neither possible nor necessary,
+since Chandra observations provide a much clearer view. These include ROSAT PSPC
+observations of LMC-WR96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109,
+110, 111, 112, 113, 114, 115, and 116, all within 70′′ from R136, and PSPC observations
+of LMC-WR31, 81, 82, 84, 85, 88, 89, 91, 92, 93, 95, 117, 118, 119, 121, and 122, and of
+HD5980 in the SMC, as they are embedded in diffuse X-ray emission. Similarly, no analysis
+was attempted for the ROSAT HRI observations of LMC-WR99, 100, 104, 105, 106, 107,
+108, 109, 110, 111, 112, 113, 114, and 115 near R136, the observations of LMC-WR91 and
+93 that are too close to bright X-ray sources, or the observations of LMC-WR80, 85, 92,
+and 118, and HD5980 in the SMC, which are superposed by bright diffuse X-ray emission.
+3.1. Comparison Between the Chandra ACIS and ROSAT Surveys
+The Chandra ACIS and ROSAT surveys for X-ray emission from WR stars in the MCs
+have many stars in common. LMC-WR19, 20, 67, 78, 79, 119, 125, 126, and 127 are detected
+by Chandra ACIS, but not ROSAT. In all these cases, the ROSAT PSPC and HRI count
+rates expected from their Chandra ACIS count rates are below the 3-σ upper limit listed in
+Tab. 5. LMC-WR101-102 and 116 in the LMC are detected both by Chandra ACIS and by
+ROSAT HRI. The Chandra ACIS count rates and spectral properties of these two sources
+(Paper I) correspond to ROSAT HRI count rates of 2.8×10−3 cnts s−1 for LMC-WR101-102,
+and (4.5–6.3)×10−3 cnts s−1 for the X-ray variable LMC-WR116. These values are fairly
+consistent with the HRI count rates of these sources listed in Tab. 3.
+3.2. X-ray Luminosity of the Wolf-Rayet Stars Detected by ROSAT
+The ROSAT PSPC detections of WR stars in the MCs have yielded insufficient num-
+bers of counts for spectral fits, and the ROSAT HRI observations do not provide spectral
+information. In order to estimate the X-ray luminosities of the WR stars in the MCs de-
+tected by ROSAT, we adopt the emission model that describes the integrated spectra of the
+weakly detected WR stars in the Chandra ACIS survey (Paper I), i.e., a thin plasma with
+a temperature of kT = 1.6 keV absorbed by intervening material with abundances of 0.33
+Z⊙ and an absorption column density of 3×1021 cm−2. We have used PIMMS to convert
+the ROSAT PSPC and HRI count rates to X-ray luminosities in the 0.5-7.0 keV band and
+listed them in Tab. 3.
+– 6 –
+3.3. Remarks on Individual Objects
+LMC-WR10 (Brey9) is at the core of the OB association LH 9 in N11 that includes
+up to 25 stellar components in a field of view 6.′′4×6.′′4 (Schertl et al. 1995; Bauer et al.
+1996). Therefore, the X-ray emission reported in this paper may have an origin different
+from LMC-WR10.
+The X-ray emission from LMC-WR38, 39 and 42 has been previously reported by
+Dunne, Points, & Chu (2001). LMC-WR38isalsoidentified assource #538byHaberl & Pietsch
+(1999). LMC-WR38 (Brey31) and 39 (Brey32) are confirmed binary systems with periods of
+∼3 and ∼2 days, respectively (Moffatt, Niemela, & Marraco 1990). Similarly, LMC-WR42
+(Brey34)isabinarysystem butwithalongerperiod, 30days (Seggewiss, Moffat, & Lamontagne
+1991).
+The X-ray detection of LMC-WR47 (Brey39) needs to be examined carefully. LMC-
+WR47 is located on an area of diffuse X-ray emission and its number of counts is only ∼3.5σ
+over the local background level of X-ray emission. Furthermore, the X-ray contours shown in
+Fig. 1 reveal a noticeable offset of ∼25′′ between the X-ray peak and the location of this WR
+star. Therefore, until new X-ray observations with better angular resolution of LMC-WR47
+are acquired, its X-ray detection reported in this paper should be considered tentative.
+LMC-WR101, 102, and 103 are in the visual multiple system R140 near the core of
+30 Doradus, of which LMC-WR102 (R140a2) is a close spectroscopic binary with a pe-
+riod of ∼3 days (Moffat et al. 1987). LMC-WR101, 102, and 103 were marginally de-
+tected by the Einstein High Resolution Imager (Wang & Helfand 1991). ROSAT made
+a clear detection, being listed as source #299 by Sasaki, Haberl & Pietsch (2000), but the
+X-ray emission of the different components was not individually resolved until the Chan-
+dra ACIS-I observations of the 30 Doradus nebula offered a sharper view of this region
+(Portegies Zwart, Pooley, & Lewin 2002; Townsley et al. 2006, Paper I). Chandra observa-
+tions show that LMC-WR101-102 (R140a1 and R140a2) are much brighter than R140b
+(Portegies Zwart et al. 2002; Townsley et al. 2006, Paper I). The present analysis show that
+the level of X-ray emission in the ROSAT HRI and Chandra ACIS-I observations are con-
+sistent with each other. We note, however, that Wang (1995) reported a higher X-ray flux
+based on the ROSAT HRI observation rh600228 obtained in 1992 December and 1993 June.
+We have examined these individual observations, as well as the ROSAT HRI observation
+rh400779 (1996 August and 1997 April), and find that in all cases the HRI count rates remain
+at roughly a constant level consistent with the count rate of 2.9×10−3 cnts s−1 reported in
+Tab. 3.
+LMC-WR116 (Brey84) is also a WR star in the 30 Doradus region that was marginally
+– 7 –
+detected by the Einstein High Resolution Imager (Wang & Helfand 1991). Wang (1995)
+reported a ROSAT HRI count rate of 8.1×10−3 cnts s−1 based on the observation rh600228
+obtained in 1992 December and 1993 June. A similar ROSAT HRI count rate of 8.5×10−3
+cnts s−1 is reported by Sasaki et al. (2000) who assigned it the source number #301 in their
+catalog. The ROSAT HRI count rate reported in Tab. 3 is ∼40% lower than the values re-
+ported by Wang (1995) and Sasaki et al. (2000) because we used a smaller source aperture to
+exclude the contribution from LMC-WR112 (R136c), LMC-WR99 (Brey78), and an X-ray
+bright source near LMC-WR115 (Brey83) north of Brey84 (see Fig. 1d of Guerrero & Chu
+2007). If contributions from these bright neighboring sources are added to our measurement,
+we recover the ROSAT HRI count rates reported by Wang (1995) and Sasaki et al. (2000).
+To further investigate possible long-term variations of this source, we have analyzed the in-
+dividual ROSAT HRI observations rh500036 (1992 February), rh600228 (1992 December),
+and rh400779 (1996 August and 1997 April), and find HRI count rates of (5.9±0.8)×10−3
+cnts s−1, (4.3±0.4)×10−3 cnts s−1, (4.0±0.4)×10−3 cnts s−1, and (4.9±0.3)×10−3 cnts s−1,
+respectively. These values are consistent with the ROSAT HRI count rate of (4.5–6.3)×10−3
+cnts s−1 expected from the Chandra ACIS observation of Brey84; thus, there is no evidence
+for large long-term variations.
+4. Summary
+We have searched the entire ROSAT archive for pointed observations that serendipi-
+tously cover WR stars in the MCs. This search has yielded useful PSPC observations for 90
+WR stars in the LMC and 10 WR stars in the SMC, and HRI observations for 87 WR stars
+in the LMC and 10 WR stars in the SMC. A total of 117 WR stars in the MCs have useful
+ROSAT observations.
+We have examined the ROSAT observations of these 117 WR stars in the MCs and
+found X-ray emission from 7 of them, of which 5 had been previously reported to exhibit
+X-ray emission. We find that the X-ray detection of LMC-WR10 (Brey9) and LMC-WR47
+(Brey39) need to be confirmed by X-ray observations at higher angular resolution. The
+detection rate, ∼6%, is much lower than that of the Chandra ACIS survey, 40–50%. This
+illustrates that the sensitivity and angular resolution of Chandra is needed to study WR
+stars in the MCs. Indeed, many WR stars detected by Chandra have X-ray emission at
+levels below the 3-σ upper limits of the available ROSAT observations, are located near
+bright X-ray sources, or are superposed on bright diffuse X-ray emission, making it difficult
+for ROSAT to detect them. Together, the ROSAT and Chandra surveys have detected
+X-ray emission from 34 WR stars in the MCs.
+– 8 –
+This work is supported by the Chandra X-ray Observatory grant AR3-4001X. M.A.G.
+also acknowledges support from the grants AYA 2002-00376 and AYA 2005-01495 of the
+Spanish MEC (co-funded by FEDER funds) and the Spanish program Ram´on y Cajal.
+REFERENCES
+Bartzakos, P., Moffat, A., & Niemela, V. S. 2001, MNRAS, 324, 18
+Bauer, T., Weghorn, H., Grebel, E. K., & Bomans, D. J. 1996, A&A, 305, 135
+Breysacher, J., Azzopardi, M., & Testor, G. 1999, A&AS, 137, 117
+de Jager, C., Nieuwenhuijzen, H., & van der Hucht, K. A. 1988, A&AS, 72, 259
+Dunne, B. C., Points, S. D., & Chu, Y.-H. 2001, ApJS, 136, 119
+Foellmi, C., Moffat, A. F. J., & Guerrero, M. A. 2003a, MNRAS, 338, 360
+Foellmi, C., Moffat, A. F. J., & Guerrero, M. A. 2003b, MNRAS, 338, 1025
+Garc´ıa-Segura, G., Langer, N., & Mac Low, M.-M. 1996a, A&A, 316, 133
+Garc´ıa-Segura, G., Mac Low, M.-M., & Langer, N. 1996b, A&A, 305, 229
+Gayley, K. G., & Owocki, S. P. 1995, ApJ, 446, 801
+Guerrero, M. A., & Chu, Y.-H. 2007, ApJS, submitted
+Haberl, F., & Pietsch, W. 1999, A&AS, 139, 277
+Lucy, L. B., & White, R. L. 1980, ApJ, 241, 300
+Massey, P., Olsen, K. A. G., & Parker, J. W. 2003, PASP, 115, 1265
+Moffat, A. F. J., Niemela, V. S., & Marraco, H. G. 1990, ApJ, 348, 232
+Moffat, A. F. J., Niemela, V. S., Phillips, M. M., Chu, Y.-H., & Seggewiss, W. 1987, ApJ,
+312, 612
+Pollock, A. M. T. 1987, ApJ, 320, 283
+Pollock, A. M. T., Haberl, F., & Corcoran, M. F. 1995, IAU Symposium, 163, 512
+Portegies Zwart, S. F., Pooley, D., & Lewin, W. H. G. 2002, ApJ, 574, 762
+– 9 –
+Prinja, R. K., Barlow, M. J., & Howarth, I. D. 1990, ApJ, 361, 607
+Sasaki, M., Haberl, F., & Pietsch, W. 2000, A&AS, 147, 75
+Schertl, D., Hoffmann, K.-H., Seggewiss, W., & Weigelt, G. 1995, A&A, 302, 327
+Seggewiss, W., Moffat, A. F. J., & Lamontagne, R. 1991, A&AS, 89, 105
+Townsley, L. K., Broos, P. S., Feigelson, E. D., Garmire, G.P., & Getman, K. V. 2006, AJ,
+131, 2164
+Wang, Q. D. 1995, ApJ, 453, 783
+Wang, Q. D., & Helfand, D. J. 1991, ApJ, 370, 541
+Weaver, R., McCray, R., Castor, J., Shapiro, P., & Moore, R. 1977, ApJ, 218, 377
+Wesselowski, U. 1996, in R¨ontgenstrahlung from the Universe, W¨urzburg meeting proceed-
+ings, 75
+This preprint was prepared with the AAS LATEX macros v5.2.
+–1
+0–
+Table 1. ROSAT PSPC Observations of WR Stars in the MCs
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+LMC-WR3 Brey3 rp900320 31.3 23 rp600099 8.8 37 LMC-WR54 Brey44a rp180251 20.2 23
+LMC-WR5 Brey4 rp500258 13.8 34 LMC-WR31 Brey25 rp400154 6.5 2 rp180179 15.9 23
+LMC-WR6 Brey5 rp500263 12.7 2 rp500093 8.7 4 rp500100 26.6 23
+LMC-WR7 Brey6 rp500263 12.7 21 LMC-WR32 Brey26 rp400263 24.1 24 rp500138 31.6 31
+LMC-WR9 Brey7 rp600098 10.5 25 LMC-WR33 Sk−68◦73 rp400154 6.5 5 rp500140 40.0 23
+rp600577 9.0 25 rp500093 8.7 8 rp500303 9.4 23
+rp900320 31.3 11 LMC-WR34 Brey28 rp400263 24.1 39 rp600100 22.7 23
+LMC-WR10 Brey9 rp600098 10.5 21 LMC-WR35 Brey27 rp500062 5.9 14 LMC-WR55 Sk−69◦175 rp180251 20.2 24
+rp600577 9.0 21 rp600578 10.5 25 rp180179 15.9 24
+rp900320 31.3 0 rp600099 8.8 25 rp500100 26.6 24
+LMC-WR11 Brey10 rp500258 13.8 18 LMC-WR36 Brey29 rp500138 31.6 23 rp500138 31.6 30
+LMC-WR12 Brey10a rp500263 12.7 32 LMC-WR37 Brey30 rp500062 5.9 15 rp500140 40.0 24
+LMC-WR13 Sk−66◦40 rp600098 10.5 16 rp600578 10.5 9 rp500303 9.4 25
+rp600577 9.0 16 rp600099 8.8 9 rp600100 22.7 23
+rp900320 31.3 8 LMC-WR38 Brey31 rp400154 6.5 35 LMC-WR56 Brey46 rp500054 7.9 34
+LMC-WR14 Brey11 rp500258 13.8 19 rp500054 7.9 1 LMC-WR57 Brey45 rp500054 7.9 35
+LMC-WR15 Brey12 rp500060 3.9 33 rp500093 8.7 34 rp900536 1.0 34
+LMC-WR16 Brey13 rp600098 10.5 24 LMC-WR39 Brey32 rp142564 2.7 32 rp900536 1.4 32
+rp600577 9.0 24 rp500138 31.6 1 rp900539 1.4 17
+LMC-WR19 Brey16 rp300129 4.0 18 LMC-WR40 Brey33 rp500138 31.6 1 rp900541 1.0 24
+rp500037 6.8 10 LMC-WR41 Brey35 rp500138 31.6 17 rp900549 1.3 26
+LMC-WR20 Brey16a rp300129 4.0 18 LMC-WR42 Brey34 rp500138 31.6 1 rp900552 1.1 29
+rp500037 6.8 10 LMC-WR43 Brey37 rp300172 13.1 28 rp900553 1.2 24
+LMC-WR21 Brey17 rp500052 12.4 2 LMC-WR44 Brey36 rp141507 1.3 33 LMC-WR58 Brey47 rp500138 31.6 38
+LMC-WR22 Brey18 rp180033 3.6 19 rp141508 1.1 31 LMC-WR60 Brey49 rp110167 2.3 28
+rp900398 12.4 20 rp141518 1.3 32 rp110173 2.0 11
+LMC-WR23 . .. rp500052 12.4 4 rp141519 1.1 32 rp110174 2.9 22
+LMC-WR24 Brey19 rp900398 12.4 33 rp141542 1.6 32 rp110175 2.2 27
+LMC-WR25 Brey19a rp400263 24.1 34 rp141543 1.5 32 rp180251 20.2 17
+LMC-WR26 Brey20 rp900398 12.4 37 rp141800 1.0 32 rp500100 26.6 18
+LMC-WR27 Brey21 rp500061 3.8 11 rp141937 1.9 32 rp500140 40.0 17
+LMC-WR28 Brey22 rp141507 1.3 29 rp142011 2.6 32 rp500303 9.4 17
+rp141508 1.1 30 rp142564 2.7 32 rp600100 22.7 18
+rp141518 1.3 31 rp142617 1.6 32 LMC-WR61 Brey50 rp110167 2.3 27
+rp141519 1.1 30 rp160084 1.7 32 rp110173 2.0 19
+rp141542 1.6 30 rp500004 1.1 32 rp110174 2.9 16
+rp141543 1.5 30 rp500138 31.6 21 rp110175 2.2 13
+rp141937 1.9 30 rp500141 11.4 32 rp110176 2.2 25
+rp142011 2.6 30 LMC-WR45 Sk−69◦142a rp500138 31.6 11 rp110182 2.0 28
+rp142617 1.6 30 LMC-WR46 Brey38 rp500138 31.6 15 rp120006 1.3 27
+rp160084 1.7 30 LMC-WR47 Brey39 rp500138 31.6 15 rp120101 1.8 27
+rp180033 3.6 31 LMC-WR48 Brey40 rp500138 31.6 16 rp180251 20.2 29
+rp300126 7.6 32 LMC-WR49 Brey40a rp300335 11.3 36 rp180255 17.6 34
+rp500004 1.1 31 LMC-WR50 Brey41 rp180251 20.2 35 rp400079 7.4 27
+rp500141 11.4 30 rp500138 31.6 19 rp400148 6.0 34
+rp900398 12.4 31 LMC-WR51 Brey42 rp500138 31.6 1 rp400298 1.1 34
+LMC-WR29 Brey23 rp500053 8.3 0 LMC-WR52 Brey43 rp500054 7.9 25 rp500100 26.6 29
+LMC-WR30 Brey24 rp500053 8.3 21 rp900539 1.4 28 rp500140 40.0 29
+rp500062 5.9 24 rp900541 1.0 30 rp500303 9.4 29
+rp600578 10.5 37 LMC-WR53 Brey44 rp300335 11.3 32 rp600100 22.7 29
+–1
+1–
+Table 1—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+LMC-WR62 Brey51 rp400246 14.5 13 rp110179 2.2 32 rp900539 1.4 25
+LMC-WR63 Brey52 rp900533 1.6 29 rp180251 20.2 4 rp900548 1.1 14
+rp900539 1.4 29 rp500100 26.6 4 rp900549 1.3 2
+rp900549 1.3 18 rp500140 40.0 4 rp900552 1.1 9
+rp900552 1.1 26 rp500303 9.4 4 rp900553 1.1 29
+LMC-WR64 Brey53 rp110167 2.3 22 rp600100 22.7 4 LMC-WR76 Brey64 rp180251 20.2 17
+rp110170 2.1 33 LMC-WR69 TSWR4 rp110167 2.3 24 rp500100 26.6 17
+rp110173 2.0 21 rp110173 2.0 32 rp500140 40.0 17
+rp110174 2.9 12 rp110174 2.9 26 rp500303 9.4 17
+rp110175 2.2 11 rp110179 2.2 32 rp600100 22.7 17
+rp110176 2.2 28 rp180251 20.2 4 LMC-WR77 Brey65 rp110168 1.8 11
+rp110179 2.2 32 rp500100 26.6 4 rp110173 2.0 33
+rp110181 1.9 35 rp500140 40.0 4 rp110179 2.2 31
+rp110182 2.0 25 rp500303 9.4 4 rp180251 20.2 5
+rp120006 1.3 24 rp600100 22.7 4 rp500100 26.6 5
+rp120101 1.8 24 LMC-WR70 Brey62 rp110167 2.3 25 rp500140 40.0 5
+rp180251 20.2 28 rp110173 2.0 33 rp500303 9.4 5
+rp400079 7.4 24 rp110174 2.9 27 rp600100 22.7 4
+rp500140 40.0 28 rp110179 2.2 32 LMC-WR78 Brey65b rp110168 1.8 11
+rp500303 9.4 28 rp180251 20.2 5 rp110173 2.0 33
+rp600100 22.7 28 rp500100 26.6 5 rp110179 2.2 31
+LMC-WR65 Brey55 rp110167 2.3 30 rp500140 40.0 5 rp180251 20.2 5
+rp110173 2.0 35 rp500303 9.4 5 rp500100 26.6 5
+rp110174 2.9 33 rp600100 22.7 5 rp500140 40.0 5
+rp180251 20.2 10 LMC-WR71 Brey60 rp110167 2.3 34 rp500303 9.4 5
+rp500100 26.6 10 rp180251 20.2 16 rp600100 22.7 4
+rp500140 40.0 10 rp500100 26.6 16 LMC-WR79 Brey57 rp110168 1.8 11
+rp500303 9.4 10 rp500140 40.0 16 rp110173 2.0 33
+rp600100 22.7 10 rp500303 9.4 16 rp110179 2.2 31
+LMC-WR66 Brey54 rp900532 1.2 20 rp600100 22.7 16 rp180251 20.2 5
+rp900533 1.6 21 LMC-WR72 Brey61 rp110167 2.3 35 rp500100 26.6 5
+rp900536 1.0 20 rp180251 20.2 17 rp500140 40.0 5
+rp900538 1.4 30 rp500100 26.6 17 rp500303 9.4 5
+rp900539 1.4 23 rp500140 40.0 17 rp600100 22.7 5
+rp900548 1.1 18 rp500303 9.4 17 LMC-WR80 Brey65c rp110168 1.8 11
+rp900549 1.3 3 rp600100 22.7 17 rp110173 2.0 33
+rp900552 1.1 12 LMC-WR73 Brey63 rp180251 20.2 22 rp110179 2.2 31
+rp900553 1.1 29 rp500100 26.6 22 rp180251 20.2 5
+LMC-WR67 Brey56 rp110167 2.3 23 rp500140 40.0 22 rp500100 26.6 5
+rp110173 2.0 31 rp500303 9.4 22 rp500140 40.0 5
+rp110174 2.9 26 rp600100 22.7 22 rp500303 9.4 5
+rp110179 2.2 32 LMC-WR74 Brey63a rp180251 20.2 21 rp600100 22.7 4
+rp180251 20.2 3 rp500100 26.6 21 LMC-WR81 Brey65a rp900533 1.6 33
+rp500100 26.6 3 rp500140 40.0 21 rp900549 1.3 32
+rp500140 40.0 3 rp500303 9.4 21 LMC-WR82 Brey66 rp110168 1.8 8
+rp500303 9.4 3 rp600100 22.7 21 rp110179 2.2 30
+rp600100 22.7 3 LMC-WR75 Brey59 rp900532 1.2 17 rp180251 20.2 8
+LMC-WR68 Brey58 rp110167 2.3 24 rp900533 1.6 19 rp500100 26.6 8
+rp110173 2.0 32 rp900536 1.0 17 rp500140 40.0 8
+rp110174 2.9 26 rp900538 1.4 29 rp500303 9.4 8
+–1
+2–
+Table 1—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+rp600100 22.7 8 rp180251 20.2 14 rp500140 40.0 19
+LMC-WR83 HD269858 rp110168 1.8 28 rp500100 26.6 14 rp500303 9.4 19
+rp110173 2.0 29 rp500131 16.0 4 rp600100 22.7 19
+rp110179 2.2 21 rp500140 40.0 14 LMC-WR96 Brey81 rp110168 1.8 9
+rp180251 20.2 15 rp500303 9.4 14 rp110179 2.2 26
+rp500100 26.6 15 rp600100 22.7 13 rp180251 20.2 19
+rp500140 40.0 15 LMC-WR90 Brey74 rp110168 1.8 13 rp500100 26.6 19
+rp500303 9.4 15 rp110179 2.2 22 rp500131 16.0 0
+rp600100 22.7 14 rp180251 20.2 12 rp500140 40.0 19
+LMC-WR84 Brey68 rp110168 1.8 24 rp500100 26.6 12 rp500303 9.4 19
+rp110173 2.0 30 rp500131 16.0 8 rp600100 22.7 18
+rp110179 2.2 20 rp500140 40.0 12 LMC-WR97 Mk51 rp110168 1.8 9
+rp180251 20.2 12 rp500303 9.4 12 rp110179 2.2 26
+rp500100 26.6 12 rp600100 22.7 11 rp180251 20.2 19
+rp500140 40.0 12 LMC-WR91 Brey73 rp110168 1.8 8 rp500100 26.6 19
+rp500303 9.4 12 rp110179 2.2 26 rp500131 16.0 0
+rp600100 22.7 11 rp180251 20.2 14 rp500140 40.0 19
+LMC-WR85 Brey67 rp110168 1.8 9 rp500100 26.6 14 rp500303 9.4 19
+rp110179 2.2 27 rp500131 16.0 4 rp600100 22.7 18
+rp180251 20.2 8 rp500140 40.0 14 LMC-WR98 Brey79 rp110168 1.8 9
+rp500100 26.6 8 rp500303 9.4 14 rp110179 2.2 26
+rp500140 40.0 8 rp600100 22.7 13 rp180251 20.2 19
+rp500303 9.4 8 LMC-WR92 Brey72 rp110168 1.8 5 rp500100 26.6 19
+rp600100 22.7 8 rp110179 2.2 29 rp500131 16.0 0
+LMC-WR86 Brey69 rp110168 1.8 5 rp180251 20.2 16 rp500140 40.0 19
+rp110179 2.2 29 rp500100 26.6 16 rp500303 9.4 19
+rp180251 20.2 12 rp500131 16.0 4 rp600100 22.7 18
+rp500100 26.6 12 rp500140 40.0 16 LMC-WR101,102 R140a rp110168 1.8 9
+rp500131 16.0 7 rp500303 9.4 16 rp110179 2.2 27
+rp500140 40.0 12 rp600100 22.7 16 rp180251 20.2 20
+rp500303 9.4 12 LMC-WR93 Brey74a rp110168 1.8 8 rp500100 26.6 20
+rp600100 22.7 11 rp110179 2.2 25 rp500131 16.0 1
+LMC-WR87 Brey70 rp110168 1.8 19 rp180251 20.2 14 rp500140 40.0 20
+rp110173 2.0 35 rp500100 26.6 14 rp500303 9.4 20
+rp110179 2.2 19 rp500131 16.0 4 rp600100 22.7 19
+rp180251 20.2 11 rp500140 40.0 14 LMC-WR103 Brey79 rp110168 1.8 9
+rp500100 26.6 11 rp500303 9.4 14 rp110179 2.2 27
+rp500140 40.0 11 rp600100 22.7 13 rp180251 20.2 20
+rp500303 9.4 11 LMC-WR94 Brey85 rp110168 1.8 29 rp500100 26.6 20
+rp600100 22.7 10 rp110179 2.2 11 rp500131 16.0 1
+LMC-WR88 Brey70a rp110168 1.8 7 rp180251 20.2 20 rp500140 40.0 20
+rp110179 2.2 27 rp500100 26.6 20 rp500303 9.4 20
+rp180251 20.2 13 rp500140 40.0 20 rp600100 22.7 19
+rp500100 26.6 13 rp500303 9.4 20 LMC-WR104 Brey76 rp110168 1.8 9
+rp500131 16.0 5 rp600100 22.7 20 rp110179 2.2 26
+rp500140 40.0 13 LMC-WR95 Brey80 rp110168 1.8 8 rp180251 20.2 19
+rp500303 9.4 13 rp110179 2.2 28 rp500100 26.6 19
+rp600100 22.7 12 rp180251 20.2 19 rp500131 16.0 0
+LMC-WR89 Brey71 rp110168 1.8 6 rp500100 26.6 19 rp500140 40.0 19
+rp110179 2.2 27 rp500131 16.0 1 rp500303 9.4 19
+–1
+3–
+Table 1—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+rp600100 22.7 19 rp110179 2.2 31 rp500303 9.4 39
+LMC-WR105 Brey77 rp110168 1.8 9 rp180251 20.2 23 rp600100 22.7 39
+rp110179 2.2 26 rp500100 26.6 23 LMC-WR124 Brey93a rp110179 2.2 10
+rp180251 20.2 20 rp500131 16.0 6 rp180251 20.2 31
+rp500100 26.6 19 rp500140 40.0 23 rp500100 26.6 31
+rp500131 16.0 1 rp500303 9.4 23 rp500140 40.0 31
+rp500140 40.0 20 rp600100 22.7 23 rp500303 9.4 31
+rp500303 9.4 20 LMC-WR118 Brey89 rp110168 1.8 9 rp600100 22.7 31
+rp600100 22.7 19 rp110179 2.2 30 LMC-WR125 Brey94 rp110168 1.8 27
+LMC-WR106,108,109,110 R136a rp110168 1.8 9 rp180251 20.2 23 rp110179 2.2 7
+rp110179 2.2 26 rp500100 26.6 23 rp180251 20.2 24
+rp180251 20.2 20 rp500131 16.0 4 rp500100 26.6 24
+rp500100 26.6 19 rp500140 40.0 23 rp500140 40.0 24
+rp500131 16.0 1 rp500303 9.4 23 rp500303 9.4 24
+rp500140 40.0 20 rp600100 22.7 22 rp600100 22.7 24
+rp500303 9.4 20 LMC-WR119 Brey90 rp110168 1.8 10 LMC-WR126 Brey95 rp110168 1.8 27
+rp600100 22.7 19 rp110179 2.2 26 rp110179 2.2 6
+LMC-WR107 Brey86 rp110168 1.8 9 rp180251 20.2 21 rp180251 20.2 25
+rp110179 2.2 26 rp500100 26.6 21 rp500100 26.6 25
+rp180251 20.2 19 rp500131 16.0 2 rp500140 40.0 25
+rp500100 26.6 19 rp500140 40.0 21 rp500303 9.4 25
+rp500131 16.0 0 rp500303 9.4 21 rp600100 22.7 25
+rp500140 40.0 19 rp600100 22.7 20 LMC-WR127 Brey95a rp110168 1.8 27
+rp500303 9.4 19 LMC-WR120 Brey91 rp110168 1.8 29 rp110179 2.2 7
+rp600100 22.7 19 rp110179 2.2 9 rp180251 20.2 26
+LMC-WR111 R136b rp110168 1.8 9 rp180251 20.2 22 rp500100 26.6 26
+rp110179 2.2 26 rp500100 26.6 22 rp500140 40.0 26
+rp180251 20.2 19 rp500140 40.0 22 rp500303 9.4 26
+rp500100 26.6 19 rp500303 9.4 22 rp600100 22.7 26
+rp500131 16.0 0 rp600100 22.7 21 LMC-WR128 Brey96 rp110179 2.2 4
+rp500140 40.0 19 LMC-WR121 Brey90a rp110168 1.8 10 rp150044 5.3 8
+rp500303 9.4 19 rp110179 2.2 28 rp180251 20.2 30
+rp600100 22.7 19 rp180251 20.2 22 rp400052 8.8 8
+LMC-WR112 R136c rp110168 1.8 9 rp500100 26.6 22 rp400079 7.4 18
+rp110179 2.2 26 rp500131 16.0 3 rp400133 1.8 8
+rp180251 20.2 19 rp500140 40.0 22 rp500100 26.6 30
+rp500100 26.6 19 rp500303 9.4 22 rp500140 40.0 30
+rp500131 16.0 0 rp600100 22.7 22 rp600100 22.7 29
+rp500140 40.0 19 LMC-WR122 Brey92 rp110168 1.8 11 LMC-WR129 Brey97 rp110169 1.8 18
+rp500303 9.4 19 rp110179 2.2 29 rp300335 11.3 29
+rp600100 22.7 19 rp180251 20.2 24 LMC-WR130 Sk−69◦297 rp110179 2.2 22
+LMC-WR113 Mk30 rp110168 1.8 9 rp500100 26.6 24 rp150044 5.3 23
+rp110179 2.2 27 rp500131 16.0 5 rp400052 8.8 22
+rp180251 20.2 20 rp500140 40.0 24 rp400133 1.8 22
+rp500100 26.6 20 rp500303 9.4 24 LMC-WR131 Brey98 rp900533 1.6 36
+rp500131 16.0 1 rp600100 22.7 23 LMC-WR132 Brey99 rp900533 1.6 36
+rp500140 40.0 20 LMC-WR123 Brey93 rp180251 20.2 39 LMC-WR133 Sk−67◦266 rp900533 1.6 39
+rp500303 9.4 20 rp180179 15.9 39 SMC-WR1 AV2a rp500249 19.2 21
+rp600100 22.7 19 rp500100 26.6 39 rp500251 2.1 33
+LMC-WR117 Brey88 rp110168 1.8 9 rp500140 40.0 39 rp600196 23.5 34
+–1
+4–
+Table 1—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+rp600454 18.0 10 rp500251 2.1 4 SMC-WR10 .. . rp500249 19.2 9
+SMC-WR2 AV39a rp500249 19.2 9 rp600196 23.5 13 rp500251 2.1 32
+rp500251 2.1 15 rp600454 18.0 35 rp600196 23.5 25
+rp600196 23.5 10 SMC-WR5 HD5980 rp600195 26.1 9 rp600454 18.0 35
+rp600453 17.6 40 SMC-WR6 Sk108 rp500142 4.9 6 SMC-WR11 .. . rp600195 23.0 33
+rp600454 18.0 33 rp500250 20.8 6 rp600196 23.5 39
+SMC-WR3 AV60a rp500249 19.2 17 SMC-WR7 AV336a rp500142 4.9 3 rp600453 17.6 15
+rp500251 2.1 6 rp500250 20.8 5 SMC-WR12 SMC-054730 rp500142 4.9 8
+rp600196 23.5 9 SMC-WR9 MG9 rp600195 23.0 33 rp500250 20.8 6
+rp600454 18.0 34 rp600196 23.5 33
+SMC-WR4 Sk41 rp500249 19.2 23 rp600453 17.6 1
+–1
+5–
+Table 2. ROSAT HRI Observations of WR Stars in the MCs
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+LMC-WR3 Brey3 rh400654 2.6 7 LMC-WR38 Brey31 rh400353 7.9 13 rh400125 4.9 11
+LMC-WR9 Brey7 rh900321 32.2 10 rh400355 4.5 16 rh400658 5.9 11
+LMC-WR10 Brey9 rh900321 32.2 0 LMC-WR39 Brey32 rh400356 3.1 17 rh500470 28.7 17
+LMC-WR13 Sk−66◦40 rh900321 32.2 8 rh600646 23.7 9 rh500546 22.0 17
+LMC-WR14 Brey11 rh400354 3.9 16 LMC-WR40 Brey33 rh400356 3.1 17 rh600775 19.7 14
+LMC-WR19 Brey16 rh400239 3.1 9 rh600646 23.7 9 rh600776 20.8 5
+rh500174 11.3 10 LMC-WR41 Brey35 rh600033 1.7 6 LMC-WR61 Brey50 rh110290 1.7 12
+LMC-WR20 Brey16a rh400239 3.1 8 rh600641 26.1 18 rh110291 1.7 12
+rh500174 11.3 10 rh600646 23.7 9 rh400233 5.0 13
+LMC-WR22 Brey18 rh400358 4.0 8 LMC-WR42 Brey34 rh400356 3.1 16 rh500234 17.7 10
+LMC-WR24 Brey19 rh400358 4.0 9 rh600646 23.7 8 rh600650 2.1 9
+rh601033 16.4 10 LMC-WR43 Brey37 rh400127 1.9 16 rh600775 19.7 16
+LMC-WR25 Brey19a rh400359 5.7 13 LMC-WR44 Brey36 rh600033 1.7 0 rh600780 23.3 9
+LMC-WR26 Brey20 rh400358 4.0 12 rh600641 26.5 3 LMC-WR62 Brey51 rh400456 14.2 13
+rh601033 16.4 16 LMC-WR45 Sk−69◦142a rh600033 1.7 11 rh400457 15.0 13
+LMC-WR27 Brey21 rh500171 17.3 11 rh600641 26.5 11 rh400458 3.0 13
+LMC-WR28 Brey22 rh400657 3.8 9 rh600646 23.7 8 rh400459 8.5 13
+rh600919 18.1 15 LMC-WR46 Brey38 rh600033 1.7 8 rh500173 2.7 13
+LMC-WR31 Brey25 rh600913 110.6 4 rh600641 26.5 8 LMC-WR63 Brey52 rh400644 4.6 8
+LMC-WR32 Brey26 rh600030 1.5 12 rh600646 23.9 11 LMC-WR64 Brey53 rh110290 1.7 9
+LMC-WR33 Sk−68◦73 rh600913 110.6 8 LMC-WR47 Brey39 rh400356 3.1 9 rh110291 1.7 10
+LMC-WR34 Brey28 rh201848 2.2 13 rh600640 23.8 16 rh400233 5.0 13
+LMC-WR35 Brey27 rh400066 21.0 18 rh600646 23.7 7 rh500234 17.1 12
+rh400828 9.5 18 rh600647 23.6 15 rh600650 2.1 8
+rh400829 4.3 18 LMC-WR48 Brey40 rh600640 23.8 14 rh600775 19.7 14
+rh400830 12.5 18 rh600641 26.1 16 rh600780 23.3 8
+rh400831 7.7 18 rh600646 23.7 7 LMC-WR65 Brey55 rh400056 23.4 10
+rh400832 12.4 18 LMC-WR49 Brey40a rh600781 48.7 7 rh400779 106.0 14
+rh400833 9.6 18 LMC-WR50 Brey41 rh600033 1.7 15 rh500407 11.1 10
+rh400834 11.0 18 rh600635 21.0 15 rh500408 20.9 10
+rh400835 11.0 18 rh600640 23.8 15 rh500468 18.1 10
+rh400836 15.2 18 rh600641 26.5 12 rh500470 28.7 10
+rh400837 11.4 18 rh600646 23.7 13 rh500471 18.7 10
+rh400838 15.7 18 LMC-WR51 Brey42 rh400356 3.1 11 rh500546 22.0 10
+rh400839 10.8 18 rh600640 23.8 12 rh600634 23.6 15
+rh500172 29.0 14 rh600646 23.7 10 LMC-WR66 Brey54 rh400644 4.6 12
+LMC-WR37 Brey30 rh400066 21.0 11 LMC-WR52 Brey43 rh400355 4.6 8 LMC-WR67 Brey56 rh400056 23.4 3
+rh400828 9.5 11 LMC-WR53 Brey44 rh600781 48.7 0 rh400779 106.0 13
+rh400829 4.3 11 LMC-WR54 Brey44a rh400125 4.9 11 rh500407 11.1 3
+rh400830 12.5 11 rh600635 21.0 4 rh500408 20.9 3
+rh400831 7.7 11 rh600641 26.1 16 rh500468 18.1 3
+rh400832 12.4 11 rh400658 5.8 11 rh500470 28.7 3
+rh400833 9.6 11 LMC-WR55 Sk−69◦175 rh400125 4.9 14 rh500471 18.7 3
+rh400834 11.0 11 rh600635 21.0 6 rh500546 22.0 3
+rh400835 11.0 11 rh600640 23.8 15 LMC-WR68 Brey58 rh400056 23.4 4
+rh400836 15.2 11 rh400658 5.8 14 rh400779 106.0 12
+rh400837 11.4 11 LMC-WR56 Brey46 rh400234 6.4 7 rh500407 11.1 4
+rh400838 15.7 11 LMC-WR58 Brey47 rh600645 19.0 4 rh500408 20.9 4
+rh400839 10.8 11 LMC-WR59 Brey48 rh400234 6.4 1 rh500468 18.1 4
+rh500172 29.0 15 LMC-WR60 Brey49 rh400056 23.4 17 rh500470 28.7 4
+–1
+6–
+Table 2—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+rh500471 18.7 4 rh600634 23.6 8 rh500468 18.1 15
+rh500546 22.0 4 LMC-WR77 Brey65 rh400056 23.4 5 rh500470 28.7 15
+LMC-WR69 TSWR4 rh400056 23.4 4 rh400779 106.0 11 rh500471 18.7 15
+rh400779 106.0 12 rh500407 11.1 5 rh500546 22.0 15
+rh500407 11.1 4 rh500408 20.9 5 rh600774 22.4 15
+rh500408 20.9 4 rh500468 18.1 5 rh600775 19.7 4
+rh500468 18.1 4 rh500470 28.7 5 LMC-WR84 Brey68 rh400056 23.4 12
+rh500470 28.7 4 rh500471 18.7 5 rh500407 11.1 12
+rh500471 18.7 4 rh500546 22.0 5 rh500408 20.9 12
+rh500546 22.0 4 rh600228 30.2 15 rh500468 18.1 12
+LMC-WR70 Brey62 rh400056 23.4 5 LMC-WR78 Brey65b rh400056 23.4 5 rh500470 28.7 12
+rh400779 106.0 12 rh400779 106.0 11 rh500471 18.7 12
+rh500407 11.1 5 rh500407 11.1 5 rh500546 22.0 12
+rh500408 20.9 5 rh500408 20.9 5 rh600774 22.4 15
+rh500468 18.1 5 rh500468 18.1 5 rh600775 19.7 6
+rh500470 28.7 5 rh500470 28.7 5 LMC-WR85 Brey67 rh400056 23.4 8
+rh500471 18.7 5 rh500471 18.7 5 rh400779 106.0 6
+rh500546 22.0 5 rh500546 22.0 5 rh500407 11.1 8
+LMC-WR71 Brey60 rh400056 23.4 16 rh600228 30.2 15 rh500408 20.9 8
+rh400779 106.0 14 LMC-WR79 Brey57 rh400056 23.4 5 rh500468 18.1 8
+rh500407 11.1 16 rh400779 106.0 11 rh500470 28.7 8
+rh500408 20.9 16 rh500407 11.1 5 rh500471 18.7 8
+rh500468 18.1 16 rh500408 20.9 5 rh500546 22.0 8
+rh500470 28.7 16 rh500468 18.1 5 rh600228 30.2 11
+rh500471 18.7 16 rh500470 28.7 5 LMC-WR86 Brey69 rh400056 23.4 12
+rh500546 22.0 16 rh500471 18.7 5 rh400779 106.0 4
+rh600634 23.6 8 rh500546 22.0 5 rh500407 11.1 12
+LMC-WR72 Brey61 rh400056 23.4 17 rh600228 30.2 15 rh500408 20.9 12
+rh400779 106.0 15 LMC-WR80 Brey65c rh400056 23.4 5 rh500468 18.1 12
+rh500407 11.1 17 rh400779 106.0 11 rh500470 28.7 12
+rh500408 20.9 17 rh500407 11.1 5 rh500471 18.7 12
+rh500468 18.1 17 rh500408 20.9 5 rh500546 22.0 12
+rh500470 28.7 17 rh500468 18.1 5 rh600228 30.2 8
+rh500471 18.7 17 rh500470 28.7 5 LMC-WR87 Brey70 rh150008 18.1 14
+rh500546 22.0 17 rh500471 18.7 5 rh400056 23.4 11
+rh600634 23.6 7 rh500546 22.0 5 rh400779 106.0 13
+LMC-WR73 Brey63 rh400779 106.0 17 rh600228 30.2 15 rh500407 11.1 11
+rh600634 23.6 2 LMC-WR81 Brey65a rh400644 4.6 16 rh500408 20.9 11
+LMC-WR74 Brey63a rh400779 106.0 18 LMC-WR82 Brey66 rh400056 23.4 8 rh500468 18.1 11
+rh600634 23.6 4 rh400779 106.0 7 rh500470 28.7 11
+LMC-WR75 Brey59 rh400644 4.6 15 rh500407 11.1 5 rh500471 18.7 11
+LMC-WR76 Brey64 rh400056 23.4 17 rh500408 20.9 5 rh500546 22.0 11
+rh400779 106.0 14 rh500468 18.1 5 rh600228 30.2 16
+rh500407 11.1 17 rh500470 28.7 5 rh600774 22.4 15
+rh500408 20.9 17 rh500471 18.7 5 rh600775 19.7 12
+rh500468 18.1 17 rh500546 22.0 5 LMC-WR88 Brey70a rh400056 23.4 13
+rh500470 28.7 17 rh600228 30.2 11 rh400779 106.0 2
+rh500471 18.7 17 LMC-WR83 HD269858 rh400056 23.4 15 rh500407 11.1 13
+rh500546 22.0 17 rh500407 11.1 15 rh500408 20.9 13
+rh600228 30.2 16 rh500408 20.9 15 rh500468 18.1 13
+–1
+7–
+Table 2—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+rh500470 28.7 13 rh500546 22.0 14 LMC-WR107 Brey86 rh400779 106.0 4
+rh500471 18.7 13 rh600228 30.2 5 rh500036 8.8 6
+rh500546 22.0 13 LMC-WR94 Brey85 rh100193 39.7 15 rh600228 30.2 1
+rh600228 30.2 6 rh150008 18.1 13 rh600633 21.5 14
+LMC-WR89 Brey71 rh400056 23.4 14 rh600774 22.4 6 LMC-WR111 R136b rh400779 106.0 4
+rh400779 106.0 1 rh600775 19.7 13 rh500036 8.8 6
+rh500407 11.1 14 LMC-WR95 Brey80 rh400779 106.0 4 rh600228 30.2 0
+rh500408 20.9 14 rh500036 8.8 6 rh600633 21.5 15
+rh500468 18.1 14 rh600228 30.2 1 LMC-WR112 R136c rh400779 106.0 4
+rh500470 28.7 14 rh600633 21.5 15 rh500036 8.8 6
+rh500471 18.7 14 LMC-WR96 Brey81 rh400779 106.0 3 rh600228 30.2 0
+rh500546 22.0 14 rh500036 8.8 5 rh600633 21.5 15
+rh600228 30.2 5 rh600228 30.2 1 LMC-WR113 Mk30 rh400779 106.0 4
+LMC-WR90 Brey74 rh150008 18.1 14 rh600633 21.5 16 rh500036 8.8 6
+rh400056 23.4 12 LMC-WR97 Mk51 rh400779 106.0 3 rh600228 30.2 0
+rh400779 106.0 6 rh500036 8.8 5 rh600633 21.5 15
+rh500407 11.1 12 rh600228 30.2 0 LMC-WR114 Mk35 rh400779 106.0 4
+rh500408 20.9 12 rh600633 21.5 16 rh500036 8.8 5
+rh500468 18.1 12 LMC-WR98 Brey79 rh400779 106.0 3 rh600228 30.2 0
+rh500470 28.7 12 rh500036 8.8 5 rh600633 21.5 16
+rh500471 18.7 12 rh600228 30.2 0 LMC-WR115 Brey83 rh400779 106.0 4
+rh500546 22.0 12 rh600633 21.5 16 rh500036 8.8 6
+rh600228 30.2 9 LMC-WR99 Brey78 rh400779 106.0 4 rh600228 30.2 0
+LMC-WR91 Brey73 rh150008 18.1 16 rh500036 8.8 5 rh600633 21.5 15
+rh400056 23.4 14 rh600228 30.2 0 LMC-WR116 Brey84 rh400779 106.0 4
+rh400779 106.0 1 rh600633 21.5 15 rh500036 8.8 6
+rh500407 11.1 14 LMC-WR100 Brey75 rh400779 106.0 4 rh600228 30.2 0
+rh500408 20.9 14 rh500036 8.8 6 rh600633 21.5 15
+rh500468 18.1 14 rh600228 30.2 0 LMC-WR117 Brey88 rh400779 106.0 8
+rh500470 28.7 14 rh600633 21.5 15 rh500036 8.8 10
+rh500471 18.7 14 LMC-WR101,102 R140a rh400779 106.0 4 rh600228 30.2 5
+rh500546 22.0 14 rh500036 8.8 6 rh600633 21.5 10
+rh600228 30.2 5 rh600228 30.2 0 LMC-WR118 Brey89 rh400779 106.0 7
+LMC-WR92 Brey72 rh400056 23.4 16 rh600633 21.5 15 rh500036 8.8 9
+rh400779 106.0 2 LMC-WR103 Brey79 rh400779 106.0 4 rh600228 30.2 4
+rh500407 11.1 16 rh500036 8.8 6 rh600633 21.5 11
+rh500408 20.9 16 rh600228 30.2 0 LMC-WR119 Brey90 rh400779 106.0 5
+rh500468 18.1 16 rh600633 21.5 15 rh500036 8.8 7
+rh500470 28.7 16 LMC-WR104 Brey76 rh400779 106.0 4 rh600228 30.2 1
+rh500471 18.7 16 rh500036 8.8 5 rh600633 21.5 15
+rh500546 22.0 16 rh600228 30.2 0 LMC-WR120 Brey91 rh100193 39.7 15
+rh600228 30.2 4 rh600633 21.5 16 rh150008 18.1 11
+LMC-WR93 Brey74a rh150008 18.1 15 LMC-WR105 Brey77 rh400779 106.0 4 rh600774 22.4 3
+rh400056 23.4 14 rh500036 8.8 6 rh600775 19.7 16
+rh400779 106.0 2 rh600228 30.2 0 LMC-WR121 Brey90a rh400779 106.0 6
+rh500407 11.1 14 rh600633 21.5 15 rh500036 8.8 9
+rh500408 20.9 14 LMC-WR106,108,109,110 R136a rh400779 106.0 4 rh600228 30.2 2
+rh500468 18.1 14 rh500036 8.8 6 rh600633 21.5 13
+rh500470 28.7 14 rh600228 30.2 0 LMC-WR122 Brey92 rh400779 106.0 8
+rh500471 18.7 14 rh600633 21.5 15 rh500036 8.8 10
+–1
+8–
+Table 2—Continued
+WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset WR # WR Name Obs. ID texp Offset
+(ks) (arcmin) (ks) (arcmin) (ks) (arcmin)
+rh600228 30.2 4 SMC-WR1 AV2a rh400340 5.2 15 rh500418 28.8 0
+rh600633 21.5 11 rh600929 24.5 13 rh900445 49.5 0
+LMC-WR123 Brey93 rh400349 6.5 11 rh601045 9.5 4 SMC-WR6 Sk108 rh500003 21.9 6
+rh600633 21.5 6 SMC-WR2 AV39a rh300513 1.6 16 rh500137 14.1 3
+rh600638 25.7 13 rh400340 5.2 10 SMC-WR7 AV336a rh500003 21.9 6
+LMC-WR124 Brey93a rh100193 39.7 5 rh500136 12.0 9 rh500137 14.1 3
+rh600774 22.4 8 rh500419 15.7 13 SMC-WR9 MG9 rh400237 3.6 9
+rh600779 26.2 11 rh600812 28.5 15 rh600808 27.4 15
+LMC-WR125 Brey94 rh150008 18.1 4 SMC-WR3 AV60a rh300513 1.6 16 SMC-WR10 .. . rh400340 5.2 16
+rh600774 22.4 6 rh400335 3.8 14 rh500136 12.0 9
+LMC-WR126 Brey95 rh150008 18.1 4 rh400340 5.2 10 SMC-WR11 .. . rh180240 7.5 7
+rh600774 22.4 6 rh500419 15.7 5 rh400237 3.6 6
+LMC-WR127 Brey95a rh150008 18.1 4 rh600811 27.4 17 rh600810 27.4 14
+rh600774 22.4 7 rh600812 28.5 8 rh601048 2.9 14
+LMC-WR128 Brey96 rh150008 18.1 7 SMC-WR4 Sk41 rh300513 1.6 11 SMC-WR12 SMC-054730 rh500003 21.9 7
+rh600773 15.9 14 rh400335 3.8 9 rh500137 14.1 3
+rh600774 22.4 7 rh500419 15.7 6 rh500418 28.8 16
+LMC-WR130 Sk−69◦297 rh600632 26.7 11 rh600812 28.5 7 rh900445 34.6 16
+rh600773 15.9 11 SMC-WR5 HD5980 rh400337 5.0 13
+– 19 –
+Table 3. WR Stars in the MCs Detected by ROSAT Observations
+WR # WR Name Instrument texp Count Rate Counts L0.5−7.0keV
+(ks) (cnts s−1) (cnts) (ergs s−1)
+LMC-WR10 Brey9 PSPC 50.8 1.2×10−3 61±10 (6.7±1.1)×1033
+LMC-WR38 Brey31 PSPC 23.1 9.8×10−4 23±6 (5.4±1.4)×1033
+HRI 12.4 2.2×10−3 28±8 (3.2±0.9)×1034
+LMC-WR39 Brey32 PSPC 31.6 1.0×10−3 31±9 (5.5±1.8)×1033
+LMC-WR42 Brey34 PSPC 31.6 1.2×10−3 37±9 (6.7±1.1)×1033
+HRI 26.8 6.0×10−4 16±8 (8.6±4.3)×1033
+LMC-WR47 Brey39 PSPC 31.6 7.6×10−4 24±9 (4.2±1.6)×1033
+LMC-WR101-103 R140a,b HRI 134.8 2.9×10−3 390±30 (1.6±0.1)×1035
+LMC-WR116 Brey84 HRI 143.5 4.7×10−3 670±30 (1.7±0.1)×1035
+–2
+0–
+Table 4. Correlation of X-ray Detected WR Stars in the MCs with Other ROSAT Catalogs
+WR # This Paper 1RXH This Paper 2RXP 1WGA 1RXS
+HRI Count Rate Source Name Count Rate PSPC Count Rate Source Name Count Rate Source Name Count Rate Source Name Count Rate
+(cnts s−1) (cnts s−1) (cnts s−1) (cnts s−1) (cnts s−1) (cnts s−1)
+LMC-WR10 ··· J045633.1–662828 8.5×10−4 1.2×10−3 J045635.7–662815 9.7×10−3 J0456.5–6628 1.6×10−3 045635.6–662819 2.8×10−2
+LMC-WR38 2.2×10−3 J052605.4–672958 2.9×10−3 9.8×10−4 J052604.8–673002 3.8×10−3 J0526.0–6730 1.8×10−3 ··· ···
+LMC-WR39 ··· ··· ··· 1.0×10−3 ··· ··· J0526.4–6850 2.4×10−3 ··· ···
+LMC-WR42 6.0×10−4 ··· ··· 1.2×10−3 J052643.4–684950 3.3×10−3 ··· ··· ··· ···
+LMC-WR101-103 2.9×10−3 5.8×10−3 ··· ··· ··· 1.9×10−2 ··· ···
+LMC-WR116 4.7×10−3 3.9×10−3 ··· J053844.8–690602 1.3×10−1 4.6×10−2 ··· ···
+– 21 –
+Table 5. WR Stars in the MCs Undetected by ROSAT Observations
+WR # WR Name Instrument texp 3σ Upper Limit WR # WR Name Instrument texp 3σ Upper Limit
+(ks) (cnts s−1) (ks) (cnts s−1)
+LMC-WR3 Brey3 PSPC 31.3 6.5×10−4 LMC-WR50 Brey41 PSPC 51.8 5.5×10−4
+HRI 2.6 2.7×10−3 HRI 96.7 4.6×10−4
+LMC-WR5 Brey4 PSPC 13.8 1.4×10−3 LMC-WR51 Brey42 PSPC 31.6 7.4×10−4
+LMC-WR6 Brey5 PSPC 12.7 1.2×10−3 HRI 50.6 7.1×10−4
+LMC-WR7 Brey6 PSPC 12.7 9.5×10−4 LMC-WR52 Brey43 PSPC 10.0 1.0×10−3
+LMC-WR9 Brey7 PSPC 50.8 4.2×10−4 HRI 4.6 3.9×10−3
+HRI 32.2 6.5×10−4 LMC-WR53 Brey44 PSPC 10.9 1.2×10−3
+LMC-WR10 Brey9 HRI 32.2 7.3×10−4 HRI 48.7 6.2×10−4
+LMC-WR11 Brey10 PSPC 13.8 9.7×10−4 LMC-WR54 Brey44a PSPC 157.9 2.7×10−4
+LMC-WR12 Brey10a PSPC 12.7 1.1×10−3 HRI 57.8 7.9×10−4
+LMC-WR13 Sk−66◦40 PSPC 50.8 4.0×10−4 LMC-WR55 Sk−69◦175 PSPC 154.1 2.8×10−4
+HRI 32.2 5.8×10−4 HRI 55.5 8.6×10−4
+LMC-WR14 Brey11 PSPC 13.8 1.0×10−3 LMC-WR56 Brey46 PSPC 7.9 2.4×10−3
+HRI 3.9 3.5×10−3 HRI 6.4 2.0×10−3
+LMC-WR15 Brey12 PSPC 3.9 4.1×10−3 LMC-WR57 Brey45 PSPC 16.3 1.4×10−3
+LMC-WR16 Brey13 PSPC 19.5 1.2×10−3 LMC-WR58 Brey47 PSPC 31.6 1.0×10−3
+LMC-WR19 Brey16 PSPC 10.8 2.3×10−3 HRI 19.0 7.2×10−4
+HRI 14.3 1.4×10−3 LMC-WR59 Brey48 HRI 6.4 2.3×10−3
+LMC-WR20 Brey16a PSPC 10.8 2.4×10−3 LMC-WR60 Brey49 PSPC 128.3 6.3×10−4
+HRI 14.3 1.4×10−3 HRI 125.4 3.5×10−4
+LMC-WR21 Brey17 PSPC 12.4 1.3×10−3 LMC-WR61 Brey50 PSPC 167.7 4.9×10−4
+LMC-WR22 Brey18 PSPC 16.0 6.8×10−4 HRI 70.6 5.1×10−4
+HRI 4.0 2.4×10−3 LMC-WR62 Brey51 PSPC 14.5 1.0×10−3
+LMC-WR23 . .. PSPC 12.4 1.3×10−3 HRI 43.4 6.5×10−4
+LMC-WR24 Brey19 PSPC 12.4 2.0×10−3 LMC-WR63 Brey52 PSPC 5.4 4.3×10−3
+HRI 20.4 8.1×10−4 HRI 4.6 1.8×10−3
+LMC-WR25 Brey19a PSPC 24.1 1.8×10−3 LMC-WR64 Brey53 PSPC 122.6 7.7×10−4
+LMC-WR26 Brey20 PSPC 12.4 2.7×10−3 HRI 706. 5.6×10−4
+HRI 20.4 8.3×10−4 LMC-WR65 Brey55 PSPC 126.1 5.0×10−4
+LMC-WR27 Brey21 PSPC 3.8 4.0×10−3 HRI 272.5 1.7×10−4
+HRI 17.3 9.9×10−4 LMC-WR66 Brey54 PSPC 11.2 1.8×10−3
+LMC-WR28 Brey22 PSPC 52.2 3.9×10−4 HRI 4.6 1.8×10−3
+HRI 21.9 7.5×10−4 LMC-WR67 Brey56 PSPC 124.9 7.5×10−4
+LMC-WR29 Brey23 PSPC 8.3 1.5×10−3 HRI 248.9 1.9×10−4
+LMC-WR30 Brey24 PSPC 33.5 3.5×10−4 LMC-WR68 Brey58 PSPC 124.9 7.7×10−4
+LMC-WR31 Brey25 HRI 110.6 3.7×10−4 HRI 248.9 1.9×10−4
+LMC-WR32 Brey26 PSPC 24.1 5.5×10−4 LMC-WR69 TSWR4 PSPC 124.9 7.7×10−4
+HRI 1.5 4.8×10−3 HRI 248.9 1.9×10−4
+LMC-WR33 Sk−68◦73 PSPC 15.2 1.0×10−3 LMC-WR70 Brey62 PSPC 124.9 7.9×10−4
+HRI 110.6 3.2×10−4 HRI 248.9 1.9×10−4
+LMC-WR34 Brey28 PSPC 24.1 3.4×10−4 LMC-WR71 Brey60 PSPC 121.2 5.4×10−4
+HRI 2.2 3.2×10−3 HRI 272.5 1.6×10−4
+LMC-WR35 Brey27 PSPC 25.2 6.0×10−4 LMC-WR72 Brey61 PSPC 121.2 5.3×10−4
+HRI 179.0 2.7×10−4 HRI 272.5 1.7×10−4
+LMC-WR36 Brey29 PSPC 31.6 1.5×10−3 LMC-WR73 Brey63 PSPC 118.9 4.5×10−4
+LMC-WR37 Brey30 PSPC 25.2 6.0×10−4 HRI 129.6 2.3×10−4
+HRI 179.0 3.0×10−4 LMC-WR74 Brey63a PSPC 118.9 4.6×10−4
+LMC-WR39 Brey32 HRI 26.8 9.3×10−4 HRI 129.6 2.6×10−4
+LMC-WR40 Brey33 PSPC 34.3 3.7×10−4 LMC-WR75 Brey59 PSPC 11.2 1.8×10−3
+HRI 26.8 8.7×10−4 HRI 4.6 1.8×10−3
+LMC-WR41 Brey35 PSPC 31.6 6.5×10−4 LMC-WR76 Brey64 PSPC 118.9 2.9×10−4
+HRI 51.5 6.7×10−4 HRI 302.6 1.5×10−4
+LMC-WR43 Brey37 PSPC 13.1 1.8×10−3 LMC-WR77 Brey65 PSPC 124.9 7.6×10−4
+HRI 1.9 4.3×10−3 HRI 302.6 1.6×10−4
+LMC-WR44 Brey36 PSPC 64.0 4.3×10−4 LMC-WR78 Brey65b PSPC 124.9 7.6×10−4
+HRI 28.2 1.2×10−3 HRI 302.6 1.6×10−4
+LMC-WR45 Sk−69◦142a PSPC 31.6 3.3×10−4 LMC-WR79 Brey57 PSPC 124.9 7.6×10−4
+HRI 51.5 4.8×10−4 HRI 302.6 1.6×10−4
+LMC-WR46 Brey38 PSPC 31.6 7.0×10−4 LMC-WR80 Brey65c PSPC 124.9 7.6×10−4
+HRI 51.5 5.7×10−4 LMC-WR81 Brey65a HRI 4.6 1.8×10−3
+LMC-WR47 Brey39 PSPC 31.6 7.6×10−4 LMC-WR82 Brey66 HRI 279.1 1.8×10−4
+HRI 74.2 4.9×10−4 LMC-WR83 HD269858 PSPC 124.9 6.0×10−4
+LMC-WR48 Brey40 PSPC 31.6 7.7×10−4 HRI 185.0 2.4×10−4
+HRI 73.6 5.2×10−4 LMC-WR84 Brey68 HRI 185.0 2.6×10−4
+LMC-WR49 Brey40a PSPC 11.3 1.5×10−3 LMC-WR86 Brey69 PSPC 138.9 5.0×10−4
+– 22 –
+Table 5—Continued
+WR # WR Name Instrument texp 3σ Upper Limit WR # WR Name Instrument texp 3σ Upper Limit
+(ks) (cnts s−1) (ks) (cnts s−1)
+HRI 48.7 8.3×10−4 HRI 279.1 1.7×10−4
+LMC-WR87 Brey70 PSPC 124.9 6.9×10−4 LMC-WR128 Brey96 PSPC 135.0 5.7×10−4
+HRI 321.1 1.6×10−4 HRI 56.4 7.1×10−4
+LMC-WR88 Brey70a HRI 279.1 1.7×10−4 LMC-WR129 Brey97 PSPC 13.1 1.2×10−3
+LMC-WR89 Brey71 HRI 279.1 1.6×10−4 LMC-WR130 Sk−69◦297 PSPC 18.1 2.6×10−3
+LMC-WR90 Brey74 PSPC 138.9 5.1×10−4 HRI 42.6 7.0×10−4
+HRI 279.1 1.7×10−4 LMC-WR131 Brey98 PSPC 1.6 6.5×10−3
+LMC-WR94 Brey85 PSPC 138.9 4.5×10−4 LMC-WR132 Brey99 PSPC 1.6 5.7×10−3
+HRI 99.9 4.3×10−4 LMC-WR133 Sk−67◦266 PSPC 1.6 7.1×10−3
+LMC-WR95 Brey80 HRI 166.5 3.3×10−4 SMC-WR1 AV2a PSPC 62.8 8.9×10−4
+LMC-WR96 Brey81 HRI 166.5 3.0×10−4 HRI 39.2 6.8×10−4
+LMC-WR97 Mk51 HRI 166.5 3.0×10−4 SMC-WR2 AV39a PSPC 80.4 7.0×10−4
+LMC-WR98 Brey79 HRI 166.5 3.0×10−4 HRI 63.0 5.8×10−4
+LMC-WR117 Brey88 HRI 166.5 2.6×10−4 SMC-WR3 AV60a PSPC 62.8 6.9×10−4
+LMC-WR119 Brey90 HRI 166.5 2.7×10−4 HRI 82.2 4.9×10−4
+LMC-WR120 Brey91 PSPC 122.9 6.4×10−4 SMC-WR4 Sk41 PSPC 62.8 8.4×10−4
+HRI 99.9 4.5×10−4 HRI 49.6 7.2×10−4
+LMC-WR121 Brey90a HRI 166.5 2.1×10−4 SMC-WR6 Sk108 PSPC 25.7 1.0×10−3
+LMC-WR122 Brey92 HRI 166.5 2.3×10−4 HRI 36.0 1.3×10−3
+LMC-WR123 Brey93 PSPC 115.5 1.0×10−3 SMC-WR7 AV336a PSPC 25.7 7.0×10−4
+HRI 53.7 5.7×10−4 HRI 36.0 1.2×10−3
+LMC-WR124 Brey93a PSPC 121.1 7.3×10−4 SMC-WR9 MG9 PSPC 64.1 6.8×10−4
+HRI 88.3 5.1×10−4 HRI 31.0 8.5×10−4
+LMC-WR125 Brey94 PSPC 121.1 6.8×10−4 SMC-WR10 . .. PSPC 62.8 9.7×10−4
+HRI 40.5 8.2×10−4 HRI 17.2 1.1×10−3
+LMC-WR126 Brey95 PSPC 121.1 6.9×10−4 SMC-WR11 . .. PSPC 64.1 7.0×10−4
+HRI 40.5 9.0×10−4 HRI 41.4 7.1×10−4
+LMC-WR127 Brey95a PSPC 121.1 7.1×10−4 SMC-WR12 SMC-054730 PSPC 25.7 6.0×10−4
+HRI 40.5 9.2×10−4 HRI 99.4 4.7×10−4
+– 23 –
+Figure 1.
+ROSAT HRI (left) and PSPC (center) smoothed X-ray and DSS optical (right) images of
+the WR stars in the MCs with detected X-ray emission. The ROSAT HRI and PSPC im-
+ages are overlaid with their corresponding X-ray contours, while the optical DSS images are
+overlaid with the PSPC X-ray contours. The X-ray contour levels are 3σ, 6σ, 9σ, 12σ, 15σ,
+25σ, 35σ, ... above the background level. The positions of WR stars in the LMC given by
+Breysacher et al. (1999) are marked with a ’+’ sign.
+Figure 2.
+ROSAT HRI smoothed X-ray (left) and HST optical (right) images of R136 (top) and R140
+(bottom). As in Fig. 1, the ROSAT HRI and HST images are overlaid with X-ray contours
+at 3σ, 6σ, 9σ, 12σ, 15σ, 25σ, 35σ, ... above the background level, and the “+” sign marks
+the locations of WR stars in the LMC given by Breysacher et al. (1999).
+This figure "f1.jpg" is available in "jpg"  format from:
+http://de.arxiv.org/ps/0802.0493v1
+This figure "f2.jpg" is available in "jpg"  format from:
+http://de.arxiv.org/ps/0802.0493v1

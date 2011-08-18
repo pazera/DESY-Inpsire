@@ -1,0 +1,4050 @@
+arXiv:0802.0716v1  [hep-ph]  5 Feb 2008
+Spin Effects in Long Range
+Gravitational Scattering
+Barry R. Holsteina∗ and Andreas Rossa,b†
+a Department of Physics – LGRT
+University of Massachusetts
+Amherst, MA 01003, USA
+b Department of Physics
+Yale University
+New Haven, CT 06520, USA
+May 27, 2010
+Abstract
+We study the gravitational scattering of massive particles with and
+without spin in the effective theory of gravity at one loop level. Our
+focus is on long distance effects arising from nonanalytic components
+of the scattering amplitude and we show that the spin-independent
+and the spin-dependent long range components exhibit a universal
+form. Both classical and quantum corrections are obtained, and the
+definition of a proper second order potential is discussed.
+∗holstein@physics.umass.edu
+†andreas.ross@yale.edu
+1 Introduction
+The gravitational interaction of two massive particles is described by New-
+ton’s law
+V(r) = −Gmambr (1)
+which is a good approximation for the motion of nonrelativistic particles at
+large separations. Einstein’s theory of general relativity, however, predicts
+important corrections that have been verified experimentally, e.g., in mea-
+surements of the precession of the perihelion of Mercury [1]. This effect
+can be calculated from the famous Einstein-Infeld-Hoffmann Lagrangian [2]
+where the terms beyond Newtonian physics stem from the relativistic O(v2)
+corrections to the kinetic energy, from relativistic O(v2) corrections to the
+Newtonian potential and from a new piece of the potential proportional to
+G2M3/r2 which may be regarded as an O(GM/r) correction to the leading
+Newtonian potential. The two small expansion parameters here are v2 and
+GM/r which for bound states are related due to the virial theorem. We,
+however, will examine scattering processes wherein the classical expansion
+parameters v2 and GM/r are independent, and our focus will be on the
+components that vanish in the nonrelativistic limit v → 0.
+In the weak field limit gravitational dynamics can be described in terms
+of a quantum field theory which is based on expanding around flat Minkowski
+spacetime and quantizing the metric fluctuation in terms of a massless spin-2
+field—the graviton. The resulting theory is an effective field theory whose
+predictions are trustworthy only for energies much smaller than the Planck
+scale. Nevertheless, one can in this picture calculate well-defined quantum
+predictions as well as classical corrections to Newtonian physics. Donoghue
+has pioneered the use of the effective field theory of gravity to extract the
+leading long distance effects in the nonrelativistic limit [3, 4] (see [5] and [6]
+for reviews) which yield corrections of the form
+V(r) = −Gmambr
+parenleftBigg
+1 +AC GMr +AQ G¯hr2
+parenrightBigg
+(2)
+where AC and AQ are the coefficients of the classical and quantum correc-
+tions respectively and are evaluated below. Note that while the classical
+expansion parameter GM/r ∼ M/MPl × ℓPl/r can give measurable effects
+for macroscopic objects (where a large factor multiplies a tiny factor), the
+quantum corrections which scale as G¯h/r2 ∼ (ℓPl/r)2 are clearly tiny and
+1
+phenomenologically irrelevant for macroscopic systems. The calculations of
+these leading long distance corrections are performed by evaluating the lead-
+ing nonanalytic components of the scattering amplitude at one loop level,
+where O(G2) effects first arise, and by defining a potential in terms of the
+Fourier transform of this amplitude.
+Once spin is introduced into the calculation, additional interaction struc-
+tures arise, such as a spin-orbit coupling and a spin-spin coupling. The
+leading effects of orderGstemming from the tree level one-graviton exchange
+process give rise to the familiar geodetic precession and to the Lense-Thirring
+effect [1]. At the two-graviton exchange level, classical O(GM/r) and quan-
+tum O(G¯h/r2) corrections to these leading spin-dependent interactions arise
+and are calculated as part of our work.
+In earlier work on loop corrections to the form factors of graviton cou-
+plings it was found that the long distance corrections to the spin-independent
+interactions have the same form for scalars, spin-1/2 fermions and for spin-1
+bosons [7, 8]. These NLO form factor interactions constitute one compo-
+nent of the calculation of the full scattering amplitude at the two-graviton
+exchange level, so the question arises as to whether the full scattering am-
+plitude also exhibits such universalities, whereby the form of the corrections
+to the spin-independent Newtonian potential is independent of the spins of
+the scattered particles — in other words, are the coefficients AC and AQ in
+Eq. (2) independent of spin?
+This then is the goal of the present work — to evaluate the gravitational
+scattering of two massive particles having various spins, in order to check
+previous work and to verify the universality hypothesis. In the next section
+then we review our calculational methods and reproduce the long range grav-
+itational scattering amplitude in the case of a pair of spinless particles. In
+the following sections, we generalize these methods to the cases of spin-0 –
+spin-1/2, spin-0 – spin-1 and spin-1/2 – spin-1/2 scattering and demonstrate
+both the expected universality as well as novel spin-dependent interactions.
+We summarize our work and draw general implications in a brief concluding
+section. Appendix A encapsulates parts of our calculational methods while
+we refer to our companion paper on long distance effects in electromagnetic
+scattering [9] for many of the details such as the required Feynman integrals,
+the Fourier transformations etc. In Appendix B we demonstrate how the
+classical equations of motion in the form of the Einstein-Infeld-Hoffmann
+Lagrangian can be extracted from our results.
+2
+p1 p3
+a b
+p2 = p1 −q p4 = p4 + q
+Figure 1: Basic kinematics of gravitational scattering.
+2 Spin-Independent Scattering
+We first set the kinematic framework for our study. We consider the gravi-
+tational scattering of two non-identical particles—particle a with mass ma,
+and incoming four-momentum p1 and particle b with mass mb, and incoming
+four-momentum p3. After interacting the final four-momentum of particle a
+is p2 = p1 −q and that of particle b is p4 = p3 +q—cf. Fig. 1. Now we need
+to be more specific.
+2.1 Spin-0 – Spin-0 Scattering
+We begin by examining the gravitational scattering of two spinless particles.
+The gravitational coupling of a spin-0 particle is found by expanding the
+minimally coupled scalar field matter Lagrangian
+√−gL
+m =
+√−gparenleftbigg1
+2g
+µν∂µφ∂νφ− 1
+2m
+2φ2
+parenrightbigg
+(3)
+in terms of the gravitational field hµν which is a small fluctuation of the
+metric about flat Minkowski space defined as
+gµν = ηµν +κhµν (4)
+with κ = √32πG∝ 1/MP. The inclusion of this factor κ in the definition of
+the graviton fieldhµν gives this field a mass-dimension of unity and thus yields
+3
+a kinetic term of standard normalization without a dimensionful parameter.
+For matter interactions, this choice is convenient since the order of κ keeps
+track of the number of gravitons involved in an interaction. Once the action
+is written in terms of the expansion of the graviton field, all indices are
+understood to be lowered or raised using the Minkowski metric ηµν. We also
+require the expansion of the inverse metric and square root of the determinant
+of the metric tensor—
+gµν = ηµν −κhµν +κ2hµαhνα +O(κ3)
+√−g = 1+ κ
+2h+
+κ2
+8
+parenleftBig
+h2 −2hµνhµν
+parenrightBig
++O(κ3). (5)
+Then, expanding in powers of κ, we find
+√−gL(0)
+m =
+1
+2∂µφ∂
+µφ− 1
+2m
+2φ2
+√−gL(1)
+m =
+κ
+2 h
+µν
+bracketleftbigg
+ηµν
+parenleftbigg1
+2∂αφ∂
+αφ− 1
+2m
+2φ2
+parenrightbigg
+−∂µφ∂νφ
+bracketrightbigg
+√−gL(2)
+m =
+κ2
+2
+bracketleftBigg1
+4
+parenleftBig
+h2 −2hµνhµν
+parenrightBigparenleftbigg1
+2∂αφ∂
+αφ− 1
+2m
+2φ2
+parenrightbigg
++
+parenleftbigg
+hµαhνα − 12hhµν
+parenrightbigg
+∂µφ∂νφ
+bracketrightBigg
+(6)
+whereh≡ηαβhαβ represents the trace and the one- and two-graviton vertices
+are identified as
+p1
+p2
+µν
+p1
+p2
+µν
+ρσ
+0τ(1)
+µν (p2,p1,m)=
+−iκ
+2
+bracketleftBig
+p1µp2ν +p1νp2µ −ηµν(p1 ·p2 −m2)
+bracketrightBig
+0τ(2)
+µν,ρσ(p2,p1,m)=
+iκ2
+2
+bracketleftbigg
+2Iµν,κζIζλ,ρσ(pκ1pλ2 +pλ1pκ2)
+−(ηµνIκλ,ρσ+ηρσIκλ,µν)pκ1pλ2 −Pµν,ρσ(p1·p2−m2)
+bracketrightbigg
+(7)
+4
+where we have defined
+Iαβ,γδ ≡ 12(ηαγηβδ +ηαδηβγ)
+Pαβ,γδ ≡ 12(ηαγηβδ +ηαδηβγ −ηαβηγδ). (8)
+The purely gravitational dynamics are derived from the Einstein-Hilbert
+action
+SGR = 116πG
+integraldisplay
+d4x√−gR (9)
+where higher dimensional operators such as R2, which are needed when per-
+forming renormalization, are not relevant here [3, 4]. Since general relativity
+is invariant under local coordinate transformations, it is a gauge theory and
+one must deal with the subtleties that arise in the quantization of gauge
+theories—we have to perform gauge fixing. The procedure works analogously
+to gauge fixing in Yang-Mills theories. Furthermore, we will make use of the
+background field method, which provides a powerful organizational scheme
+for the quantization of the effective field theory of gravity: Keeping the back-
+ground metric general instead of restricting to the flat Minkowski metric, we
+use the expansion
+gµν = ¯gµν +κhµν. (10)
+where ¯gµν is the classical background metric (or field) and hµν is the quan-
+tum field. A gauge fixing condition is only imposed on the quantum field hµν,
+leaving the general covariance of the background unaffected. This procedure
+has the advantage of ensuring that the resulting theory can be renormal-
+ized, since the loop expansion then has the same symmetry properties as the
+action.
+Moreover, the background field method greatly simplifies calculations in-
+volving graviton loops. Gravitons running in loops must be derived from
+from an expansion involving the quantum field hµν whereas gravitons that
+are not within a loop may be derived from expanding the background field
+¯gµν = ηµν +κHµν (11)
+where Hµν denotes an “external” graviton, i.e., a graviton that is not inside
+a loop. At the one loop level, at most two gravitons involved in a vertex are
+propagating within a loop, which allows us to use a gauge fixing condition
+linear in the quantum field hµν and greatly simplifies the derivation of both
+5
+the triple graviton vertex and the vertex that couples one graviton to the
+ghost fields.
+In order to fix the gauge, we will use the harmonic gauge—
+¯Dνhµν − 1
+2
+¯Dµh = 0 (12)
+where ¯Dµ denotes the covariant derivative on the background metric. This
+condition leads to an additional gauge fixing piece of the action
+SGF =
+integraldisplay
+d4x√−¯g
+parenleftbigg
+¯Dνhµν − 1
+2
+¯Dµh
+parenrightbiggparenleftbigg
+¯Dρhµρ − 1
+2
+¯Dµh
+parenrightbigg
+(13)
+as well as the ghost action
+SGhost =
+integraldisplay
+d4x√−¯g ¯ηµ
+parenleftBig¯
+Dµ ¯Dν −Rµν
+parenrightBig
+ην (14)
+where ηµ is the ghost field that annihilates a ghost particle while ¯ηµ creates
+a ghost particle.1
+Now we are in the position to derive the Feynman rules for the effective
+field theory of gravity. The complete quantum gravitational action consists
+of three components
+SGrav = SGR +SGF +SGhost, (15)
+and we will illustrate the use of the background field method during the
+derivations of the Feynman rules. When deriving the graviton propagator
+we expand the action to second order in the quantum fieldshµν and to zeroth
+order in the external gravitons Hµν and the ghosts, yielding
+Dαβ,γδ(q) = iPαβ,γδq2 . (16)
+We obtain the ghost propagator expanding the action to second order in the
+ghost fields and to zeroth order in the gravitons, whereby
+Dµν(q) = iηµνq2 . (17)
+Our triple graviton vertex is obtained by expanding to second order in the
+quantum fields hµν, to first order in the background gravitons Hµν, and to
+zeroth order in the ghost fields and reads
+1Note that the ghost fields anticommute since they obey Fermi-Dirac statistics and we
+have to include a factor of (−1) for each closed ghost loop.
+6
+k + q
+k
+q
+αβ
+γδ
+µν
+τµναβ,γδ(k,q) = −iκ2
+braceleftBigg
+Pαβ,γδ
+bracketleftbigg
+kµkν + (k+q)µ(k+q)ν +qµqν − 32ηµνq2
+bracketrightbigg
++2qλqσ
+bracketleftbigg
+Iλσ,αβIµν,γδ +Iλσ,γδIµν,αβ
+−Iλµ,αβIσν,γδ −Iσν,αβIλµ,γδ
+bracketrightbigg
++
+bracketleftbigg
+qλqµ(ηαβIλν,γδ +ηγδIλν,αβ)+qλqν(ηαβIλµ,γδ +ηγδIλµ,αβ)
+−q2(ηαβIµν,γδ+ηγδIµν,αβ)−ηµνqλqσ(ηαβIγδ,λσ+ηγδIαβ,λσ)
+bracketrightbigg
++
+bracketleftbigg
+2qλ
+parenleftBig
+Iσν,γδIαβ,λσkµ +Iσµ,γδIαβ,λσkν
+−Iσν,αβIγδ,λσ(k+q)µ −Iσµ,αβIγδ,λσ(k+q)ν
+parenrightBig
++q2(Iσµ,αβIγδ,σν +Iαβ,σνIσµ,γδ)
++ηµνqλqσ(Iαβ,λρIρσ,γδ +Iγδ,λρIρσ,αβ)
+bracketrightbigg
++
+bracketleftbigg
+(k2 +(k+q)2)
+parenleftbigg
+Iσµ,αβIγδ,σν +Iσν,αβIγδ,σµ−12ηµνPαβ,γδ
+parenrightbigg
+−((k+q)2ηαβIµν,γδ +k2ηγδIµν,αβ)
+bracketrightbiggbracerightBigg
+(18)
+where the graviton with Lorentz indices µν represents a background gravi-
+ton, and therefore, it is not to be used within any loop!2 The final missing
+Feynman rule from the purely gravitational action is the vertex coupling one
+2For each closed graviton bubble loop, we also have to include a symmetry factor of
+1/2! in the amplitude.
+7
+graviton to two ghost fields which we derive by expanding to second order in
+the ghost fields and to first order in Hµν—
+k + q
+k
+q
+α
+β
+µν
+τµνα,β(k,q) = iκ2
+bracketleftbigg
+(k2 + (k+q)2 +q2)Iαβ,µν + 2ηαβkλ(k+q)σPλσ,µν
++2qαkλIβλ,µν −2qβ(k+q)λIαλ,µν +qαqβηµν
+bracketrightbigg
+(19)
+where the graviton with Lorentz indices µν is again a background graviton
+and not to be used as part of any loop.
+We begin our calculation with the simplest tree level single-graviton ex-
+change which leads to the amplitude3
+0M(1)(q) = −i√
+2E12E22E32E4 τ
+(1a)
+µν (p2,p1)
+iPµν,αβ
+q2 τ
+(1b)
+αβ (p4,p3)
+= −8πG√2E
+12E22E32E4
+bracketleftBigg(s−m2
+a −m
+2
+b +
+1
+2q
+2)2 −2m2
+am
+2
+b −
+1
+4q
+4
+q2
+bracketrightBigg
+.
+(20)
+A convenient way to define the nonrelativistic potential is as the Fourier
+transform of the nonrelativistic center of mass scattering amplitude. We
+utilize a symmetric center of mass frame4 with incoming momenta vectorp1 =
+vectorp+vectorq/2 and vectorp3 = −vectorp1 = −vectorp−vectorq/2 and with outgoing momenta vectorp2 = vectorp−vectorq/2
+3Our normalization of the amplitude is a nonrelativistic one such that after applying
+all Feynman rules we divide the amplitude by a factor of √2E12E22E32E4.
+4These symmetric momentum labels of the center of mass frame are chosen so that
+the leading order coordinate space potential is real in the calculation of spin-0 – spin-1
+scattering presented below.
+8
+and vectorp4 = −vectorp+vectorq/2. Conservation of energy then requires vectorp·vectorq = 0 so that
+vectorp2i = vectorp2 +vectorq2/4 for i = 1,2,3,4 and q2 = −vectorq2. In the nonrelativistic limit—
+vectorq2,vectorp2 ≪m2 —the lowest order amplitude reads
+0M(1)(vectorq) ≃ 4πGmamb
+vectorq2
+bracketleftBigg
+1 + vectorp
+2
+mamb
+parenleftBigg
+1 + 3(ma +mb)
+2
+2mamb
+parenrightBigg
++...
+bracketrightBigg
++ Gπ
+bracketleftBigg3(m2
+a +m
+2
+b)
+2mamb +
+vectorp2
+mamb
+parenleftBigg
+3− 5(m
+2
+a +m
+2
+b)
+2
+4m2am2b
+parenrightBigg
++...
+bracketrightBigg
++...
+(21)
+yielding the potential
+0V(1)
+G (vectorr) = −
+integraldisplay d3q
+(2π)3
+0M(1)(vectorq)e−ivectorq·vectorr
+= −Gmambr
+bracketleftBigg
+1 + vectorp
+2
+mamb
+parenleftBigg
+1 + 3(ma +mb)
+2
+2mamb
+parenrightBigg
++...
+bracketrightBigg
++Gπδ3(vectorr)
+bracketleftBigg3(m2
+a +m
+2
+b)
+2mamb +
+vectorp2
+mamb
+parenleftBigg
+3− 5(m
+2
+a +m
+2
+b)
+2
+4m2am2b
+parenrightBigg
++...
+bracketrightBigg
+(22)
+The leading component of Eq. (22) is recognized as the usual Newtonian
+potential (accompanied by a small kinematic correction) while the second
+piece is a short range modification.
+Our purpose in this paper is to study the long distance corrections to this
+lowest order potential which arise from the two-graviton exchange diagrams
+shown in Fig. 2. This problem has been previously studied by Iwasaki using
+noncovariant perturbation theory [10], and by Khriplovich and Kirilin [11,
+12] and by Bjerrum-Bohr, Donoghue, and Holstein [13] using conventional
+Feynman diagrams. Our approach will be similar to that used in [11, 12]
+and [13]. That is, using the ideas of effective field theory, we evaluate these
+Feynman diagrams by keeping only the leading nonanalytic structure in q2,
+since it is these pieces that lead to the long range corrections to the potential
+while components analytic in q2 only yield short range contributions, i.e.,
+delta functions or derivatives of delta functions. The leading nonanalytic
+behavior is of two basic forms
+i) terms in 1/√−q2 which are ¯h-independent and therefore classical
+9
+(a) (b) (c) (d)
+(e)
++
+(f) (g)
+Figure 2: One loop diagrams of gravitational scattering.
+ii) terms in log−q2 which are ¯h-dependent and therefore quantum me-
+chanical.
+The former terms, when Fourier transformed lead to corrections to the non-
+relativistic potential of the form Vclassical(r) ∼ 1/r2 while the latter lead to
+Vquantum(r) ∼ ¯h/mr3 corrections. For typical masses and separations the
+quantum mechanical forms are themselves numerically insignificant. How-
+ever, they are intriguing in that their origin appears to be associated with
+zitterbewegung. That is, classically we can define the potential by measuring
+the energy when two objects are separated by distance r. However, in the
+quantum mechanical case the distance between two objects is uncertain by
+an amount of order the Compton wavelength due to zero point motion—
+δr ∼ ¯h/m. This leads to the replacement
+V(r) ∼ 1r2 −→ 1(r±δr)2 ∼ 1r2 ∓2 ¯hmr3
+which is the form found in our calculations.
+The diagrams to be evaluated are shown in Fig. 2 where the “blobs”
+shown in diagrams (f) and (g) are explained in Fig. 3. The calculational
+10
+= +
+= +
+Figure 3: Loop corrections subsumed in vertex and in vacuum polarization
+functions.
+details including the Feynman integrals are described in an appendix of our
+companion paper on electromagnetic scattering [9]. Here we present only the
+results. Defining5
+S = π
+2
+√−q2 and L = log−q2
+we have, from diagrams 2(a)-(g) respectively
+0M(2)2
+a(q) = G
+2mamb [−44L]
+0M(2)2
+b(q) = G
+2mamb [28L+ 8maS]
+0M(2)2
+c(q) = G
+2mamb [28L+ 8mbS]
+0M(2)2
+d(q) = G
+2mamb
+bracketleftBiggparenleftBigg4m
+amb
+q2 +
+8(m2a +m2b)
+mamb −8
+parenrightBigg
+L+4(ma +mb)S
+bracketrightBigg
+− i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+0M(2)2
+e(q) = G
+2mamb
+bracketleftBiggparenleftBigg
+−4mambq2 − 8(m
+2
+a +m
+2
+b)
+mamb −
+70
+3
+parenrightBigg
+L−4(ma +mb)S
+bracketrightBigg
+5Note that our definition of S differs slightly from previous publications [3, 4, 13, 7] in
+that it does not include a factor of mass in the numerator.
+11
+0M2
+f(q) = G
+2mamb [14L−2(ma +mb)S]
+0M2
+g(q) = G
+2mamb
+bracketleftbigg
+−4315L
+bracketrightbigg
+(23)
+wheres = (p1+p3)2 is the square of the center of mass energy ands0 = (ma+
+mb)2 is its threshold value. The contributions from the form factor diagrams
+in Fig. 2(f) have been calculated both directly and using the results from
+[7, 8], and the contribution from vacuum polarization diagrams in Fig. 2(g)
+have been obtained both by direct evaluation and by using previous results
+of ’t Hooft and Veltman [14] for the divergences of the graviton self-energy
+that allow us to infer its nonanalytic contributions6. Here we should note
+that any massless particle would contribute to the nonanalytic terms of the
+graviton vacuum energy since gravitons couple to anything. We choose here
+not to include other massless particles besides the graviton—in particular we
+do not include the contribution of the photon in the quantum piece of our
+potential.
+Summing, we find the total result
+0M(2)
+tot(q) = G
+2mamb
+bracketleftbigg
+6(ma +mb)S− 415 L
+bracketrightbigg
+−i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0 (24)
+and we observe that, in addition to the expected terms involving L and S,
+there arises a piece of the second order amplitude which is imaginary. The
+origin of this imaginary piece is, of course, from the second Born approxi-
+mation to the Newtonian potential, and reminds us that in order to define
+a proper correction to the first order Newtonian potential we must subtract
+off such terms. For this purpose we will work in the nonrelativistic limit and
+the center of mass frame—vectorp1 +vectorp3 = 0 as defined above. We have then
+s−s0 = 2
+radicalBig
+m2a +vectorp21
+radicalBig
+m2b +vectorp21 + 2vectorp21 −2mamb (25)
+and radicalBigg
+mamb
+s−s0 ≃
+mr
+p0 (26)
+where mr = mamb/(ma+mb) is the reduced mass andp0 ≡|vectorpi|, i = 1,2,3,4.
+The transition amplitude Eq. (24) then assumes the form
+0M(2)
+tot(vectorq) ≃G
+2mamb
+bracketleftbigg
+6(ma +mb)S− 415 L
+bracketrightbigg
+−i4πG2m2am2b Lq2 mrp
+0
+. (27)
+6In a massless theory the divergences of dimensional regularization are accompanied
+by logarithms of the momentum transfer.
+12
+For the iteration we shall use the simple potential
+0V(1)
+G (vectorr) = −
+Gmamb
+r (28)
+which reproduces the long distance behavior of the lowest order amplitude
+for spin-0 – spin-0 gravitational scattering—Eq. (22)—in the nonrelativistic
+limit. We will employ the momentum space representation
+0V(1)
+G (vectorq) ≡
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle0 ˆV(1)G
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+= −4πGmambvectorq2 = −4πGmamb(vectorp
+i −vectorpf)2
+(29)
+where we identify vectorpi = vectorp1 and vectorpf = vectorp2, and the second Born term is then
+0Amp(2)
+G (vectorq) = −
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle0 ˆV(1)G
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle0 ˆV(1)G
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+E(p0)−E(ℓ) +iǫ
+= i
+integraldisplay d3ℓ
+(2π)3
+0V(1)
+G (vectorℓ−vectorpf)G
+(0)(vectorℓ)0V(1)
+G (vectorpi −vectorℓ) (30)
+where
+G(0)(ℓ) = ip2
+0
+2mr −
+ℓ2
+2mr +iǫ
+(31)
+is the nonrelativistic propagator. Note that in Eq. (30) we take both the
+leading order potential as well as the total energies E(p0) and E(ℓ) in the
+nonrelativistic limit. The remaining integration can be performed exactly,
+yielding7
+0Amp(2)
+G (vectorq) = i
+integraldisplay d3ℓ
+(2π)3
+−4πGmamb
+|vectorℓ−vectorp2|2 +λ2
+i
+p20
+2mr −
+ℓ2
+2mr +iǫ
+−4πGmamb
+|vectorp1 −vectorℓ|2 +λ2
+= H = −i4πG2m2am2b Lq2 mrp
+0
+(32)
+which precisely reproduces the imaginary component of 0M(2)tot(vectorq), as ex-
+pected. In order to produce a properly defined second order potential 0V(2)G (vectorr)
+we must then subtract this second order Born term from the second order
+7Note that the iteration integrals are listed in Appendix A
+13
+transition amplitude, yielding the result
+0V(2)
+G (vectorr) = −
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrbracketleftBig0M(2)
+tot(q)−
+0Amp(2)
+G (q)
+bracketrightBig
+=
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrG2mamb
+bracketleftbigg
+−6S(ma +mb) + 415 L
+bracketrightbigg
+= −3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+(33)
+The quantum mechanical—∼ ¯h/r3—component of the second order po-
+tential given in Eq. (33) agrees with that previously given by Bjerrum-Bohr,
+Donoghue, and Holstein [13] and by Kirilin and Khriplovich [12]. However,
+the classical—∼ 1/r2—contribution quoted by Iwasaki
+0V(2)
+IW(vectorr) =
+G2mamb(ma +mb)
+2r2 . (34)
+differs from that quoted above in Eq. (33) and by Bjerrum-Bohr et al. in [13].
+The resolution of this issue was given by Sucher, who pointed out that the
+classical term depends upon the precise definition of the first order potential
+used in the iteration [15]. Moreover, it depends and on whether one uses
+relativistic forms of the leading order potentials and the propagatorG(0)(ℓ) in
+the iteration. In modern terms, the potential depends on how one performs
+the matching—e.g., Iwasaki [10] performs an off-shell matching while we
+match on-shell. In our companion paper on electromagnetic scattering [9] we
+have provided a more detailed discussion of these ambiguities8. Use of the
+simple lowest order form Eq. (29) within a nonrelativistic iteration yields our
+result for the iteration amplitude given in Eq. (32) and is sufficient to remove
+the offending imaginary piece of the scattering amplitude. In Appendix B
+we derive an alternative form of the O(G2) classical potential which results
+from an iteration that includes the leading relativistic corrections and which
+reproduces the classical equations of motion.
+Therefore, a unique definition of the potential does not exist. Of course,
+the ambiguities in the form of the second order classical potential should not
+8Besides the dependence on the forms used in the iteration, the classical piece also
+depends on the coordinates used. The quantum piece however depends neither on the
+choice of coordinates [13] nor on the iteration forms [9].
+14
+be a concern, since the potential is not an observable. What is an observable
+is the on-shell transition amplitude, which is uniquely defined in each case
+as
+0Mtot(vectorq) = −
+integraldisplay
+d3reivectorq·vectorr
+bracketleftBig0
+V(1)i (vectorr) + 0V(2)i (vectorr)
+bracketrightBig
++ 0Ampi(vectorq) (35)
+where the index i denotes differing possible definitions of the potentials and
+the iteration. Thus we regard our potential as a nice way to display our re-
+sulting scattering amplitudes in coordinate space, but we emphasize that our
+main results are the long distance components of the scattering amplitude.
+3 Spin-DependentScattering: Spin-Orbit In-
+teraction
+3.1 Spin-0 – Spin-1/2
+Having determined the form of the potential for the spinless scattering case
+we move on to the case of scattering of particles carrying spin. We begin
+with the scattering of a spinless particle a from a spin-1/2 particle b.
+For the case of spin-1/2 we require some additional formalism in order
+to extract the gravitational couplings, which is necessary because the Dirac
+algebra {γa,γb} = 2ηab is defined with respect to the Minkoswki flat space
+metric. In this case the Dirac matter Lagrangian coupled to gravity reads
+√−gL
+m =
+√−g ¯ψbracketleftbiggi
+2e
+µa{γa,Dµ}−m
+bracketrightbigg
+ψ (36)
+and involves the vierbein eµa which links global coordinates with those in
+a locally flat space. The vierbein is in some sense the “square root” of the
+metric tensor gµν and satisfies the relations
+eµaeνbηab = gµν eµaeνbηab = gµν
+eµaeνbgµν = ηab eµaeνbgµν = ηab. (37)
+The covariant derivative is
+Dµ = 12∂LRµ + i4ωµabηac σcb (38)
+with σcb = i2
+bracketleftBig
+γc,γd
+bracketrightBig
+and the partial derivative ∂LRµ acts only on spinors and
+in such a way that
+¯ψ∂LRµ ψ = ¯ψ∂µψ−parenleftBig∂µ ¯ψparenrightBigψ. (39)
+15
+Putting everything together, we find then
+√−gL
+m =
+√−g ¯ψbracketleftbiggi
+2γ
+aeµa∂LR
+µ −
+1
+8e
+µa′ ωµa
+bηac{γ
+a′,σcb}−m
+bracketrightbigg
+ψ. (40)
+The spin connection ωµabηac can be derived in terms of vierbeins by requir-
+ing Dµeνa = 0 and by antisymmetrization in µ ↔ ν in order to get rid of
+Christoffel symbols9. The result is:
+ωµabηac =
+parenleftbiggη
+ab
+2 e
+νc (∂µeνa −∂νeµa) + ηaf
+2 e
+νceρbeµf∂ρeνa
+parenrightbigg
+−
+parenleftBig
+b↔c
+parenrightBig
+(41)
+In order to derive the Feynman rules we expand the ingredients in Eq. (40)
+that contain graviton couplings, that is we need eµa and ωµabηac expanded
+up to O(κ2)
+eµa = δaµ + κ2haµ − κ
+2
+8 hµρh
+aρ +...
+eµa = δµa − κ2hµa + 3κ
+2
+8 haρh
+µρ +...
+ωµabηac = κ2∂bhµc + κ
+2
+8 h
+ρ
+b∂µhcρ −
+κ2
+4 h
+ρ
+b∂ρhµc +
+κ2
+4 h
+ρ
+b∂chµρ −
+parenleftBig
+b↔c
+parenrightBig
+(42)
+After these expansions are employed, we no longer need to distinguish be-
+tween Latin Lorentz indeces and Greek covariant indices and can use the
+Minkowski metric to lower and raise all indices.
+The matter Lagrangian then has the expansion—(note here that our con-
+ventions are γ5 = −iγ0γ1γ2γ3 and ǫ0123 = +1)
+√−gL(0)
+m = ¯ψ
+parenleftbiggi
+2negationslash∂
+LR −m
+parenrightbigg
+ψ
+√−gL(1)
+m =
+κ
+2h
+¯ψ
+parenleftbiggi
+2negationslash∂
+LR −m
+parenrightbigg
+ψ− κ2hµν ¯ψ i2∂LRµ γνψ
+√−gL(2)
+m =
+κ2
+8
+parenleftBig
+h2 −2hαβhαβ
+parenrightBig ¯
+ψ
+parenleftbiggi
+2negationslash∂
+LR −m
+parenrightbigg
+ψ
+9For our purposes we shall use only the symmetric component of the vierbein matrices,
+since these are physical and can be connected to the metric tensor, while their antisym-
+metric components are associated with freedom of homogeneous transformations of the
+local Lorentz frames and do not contribute to nonanalyticity [16].
+16
++ κ
+2
+8
+parenleftBig
+3hµρhνρ −2hhµν
+parenrightBig ¯
+ψ i2∂LRµ γνψ
++ iκ
+2
+16ǫ
+αβγδ hρ
+α(i∂βhργ) ¯ψγδγ5ψ (43)
+and the corresponding one- and two-graviton vertices are found to be
+p1
+p2
+µν
+k
+p1
+p2
+k + q
+µν
+ρσ
+1
+2τ(1)µν (p2,p1,m)=
+−iκ
+2
+bracketleftBigg1
+4
+parenleftBig
+γµ(p1+p2)ν +γν(p1+p2)µ
+parenrightBig
+−ηµν
+parenleftBigg1
+2(negationslashp1+negationslashp2)−m
+parenrightBiggbracketrightBigg
+1
+2τ(2)µν,ρσ(p2,p1,m)=iκ2
+bracketleftBigg
+− 12
+parenleftbigg1
+2(negationslashp1+negationslashp2)−m
+parenrightbigg
+Pµν,ρσ
+− 116
+bracketleftbigg
+ηµν
+parenleftBig
+γρ(p1 +p2)σ +γσ(p1 +p2)ρ
+parenrightBig
++ηρσ
+parenleftBig
+γµ(p1 +p2)ν +γν(p1 +p2)µ
+parenrightBigbracketrightbigg
++ 316(p1 +p2)ǫρξ(Iξφ,µνIφǫ,ρσ +Iξφ,ρσIφǫ,µν)
++ i16ǫǫφηλγλγ5
+parenleftBig
+Iρσ,φξIµν,ηξkǫ −Iµν,φξIρσ,ηξ(k+q)ǫ
+parenrightBigbracketrightBigg
+.
+(44)
+The tree level transition amplitude from one-graviton exchange is then
+1
+2M(1)(q) =
+−16πGmamb√
+2E12E2E3E4
+bracketleftBigg
+− mambq2 ¯u(p4)u(p3)
++ s−m
+2
+a −m
+2
+b +
+1
+2q
+2
+q2
+1
+ma ¯u(p4)negationslashp1u(p3)
+bracketrightBigg
+. (45)
+17
+Defining the spin vector as
+Sµb = 12¯u(p4)γ5γµu(p3) (46)
+we find the identity
+¯u(p4)γµu(p3) =
+
+ 1
+1− q24m2
+b
+
+
+bracketleftBigg(p
+3 +p4)µ
+2mb ¯u(p4)u(p3)−
+i
+m2bǫµβγδq
+βpγ
+3S
+δ
+b
+bracketrightBigg
+(47)
+whereupon the nonanalytic part of the transition amplitude in the thereshold
+limit s→s0 = (ma +mb)2 can be written in the form
+1
+2M(1)(q) ≃−
+4πGmamb
+q2
+bracketleftBigg
+¯u(p4)u(p3) + 2im
+am2b
+ǫαβγδpα1pβ3qγSδb
+bracketrightBigg
+. (48)
+In order to define the potential we require the nonrelativistic amplitude in
+the symmetric center of mass frame (vectorp1 = −vectorp3 = vectorp+vectorq/2) where
+Sαb NR−→ (0,vectorSb) with vectorSb = 12χb†f vectorσχbi, (49)
+¯u(p4)u(p3) NR−→χb†f χbi − i2m2
+b
+vectorSb ·vectorp×vectorq (50)
+and
+ǫαβγδpα1pβ3qγSδb NR−→ (ma +mb)
+parenleftBigg
+1 + vectorp
+2
+2mamb
+parenrightBigg
+vectorSb ·vectorp×vectorq, (51)
+so that
+1
+2M(1)(vectorq) ≃
+4πGmamb
+vectorq2
+bracketleftBigg
+χb†f χbi + i(3ma + 4mb)2m
+am2b
+vectorSb ·vectorp×vectorq+...
+bracketrightBigg
+(52)
+and the lowest order potential becomes
+1
+2V(1)G (vectorr) = −
+integraldisplay d3q
+(2π)3
+1
+2M(1)(vectorq)e−ivectorq·vectorr
+= −Gmambr χb†f χbi − 3ma + 4mb2m
+am2b
+vectorSb ·vectorp× vector∇
+parenleftbigg
+−Gmambr
+parenrightbigg
+= −Gmambr χb†f χbi + Gr3 3ma + 4mb2m
+b
+vectorL· vectorSb (53)
+18
+where vectorL =vectorr×vectorp is the angular momentum—the modification of the leading
+spin-independent potential has a spin-orbit character.
+In order to determine the second order potential, we must evaluate the
+one loop diagrams in Fig. 2. A subtlety that arises in the calculation involv-
+ing spin is that two independent kinematic variables arise: the momentum
+transfer q2 and s−s0, which is to leading order proportional to p20 (where
+p20 ≡ vectorp2i , i = 1,2,3,4) in the center of mass frame. We find that our re-
+sults differ if we perform an expansion first in s−s0 and then in q2 or vice
+versa. This ordering issue occurs only for the box diagram, diagram (d) of
+Fig. 2, where it stems from the reduction of vector and tensor box integrals.
+Their reduction in terms of scalar integrals involves the inversion of a ma-
+trix whose Gram determinant vanishes in the nonrelativistic threshold limit
+q2,s−s0 → 0. More precisely, the denominators or the vector and tensor box
+integrals (see Appendix A in [9]) involve a factor of (4p20−vectorq2) when expanded
+in the nonrelativistic limit. Since q2 = 4p20 sin2 θ2 with θ the scattering angle,
+we notice that 4p20 >vectorq2 unless we consider backward scattering where θ = π
+and where the scattering amplitude diverges. And since p20 originates from
+the relativistic structure s− s0, it is clear that we must first expand our
+vector and tensor box integrals inq2 and then in s−s0. With this procedure,
+the contributions of the loop diagrams in Fig. 2 to the spin-0 – spin-1/2
+scattering amplitude read
+1
+2M(2)2a(q) = G2mamb
+bracketleftbigg
+¯u(p4)u(p3)(−10L) + 1m
+a
+¯u(p4)negationslashp1u(p3)(−24L)
+bracketrightbigg
+1
+2M(2)2b(q) = G2mamb
+bracketleftbigg
+¯u(p4)u(p3)(−maS + 3L)
++ 1m
+a
+¯u(p4)negationslashp1u(p3)(8maS + 20L)
+bracketrightbigg
+1
+2M(2)2c(q) = G2mamb
+bracketleftbigg
+¯u(p4)u(p3)(4mbS + 2L)
++ 1m
+a
+¯u(p4)negationslashp1u(p3)(4mbS + 16L)
+bracketrightbigg
+1
+2M(2)2d(q) = G2mamb
+bracketleftBigg
+¯u(p4)u(p3)
+parenleftBigg
+− 4mambq2 L− mamb(3ma + 4mb)s−s
+0
+S
+−(6ma+11mb)S−42m
+2
+a+23mamb−4m
+2
+b
+6mamb L
+parenrightBigg
++ 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenleftBigg8m
+amb
+q2 L+
+mamb(3ma + 4mb)
+s−s0 S
+19
++(9ma + 13mb)S
++153m
+2
+a −44mamb + 88m
+2
+b
+12mamb L
+parenrightBiggbracketrightBigg
+− i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftbigg
+2 1m
+a
+¯u(p4)negationslashp1u(p3)− ¯u(p4)u(p3)
+parenrightbigg
+1
+2M(2)2e(q) = G2mamb
+bracketleftBigg
+¯u(p4)u(p3)
+parenleftBigg4m
+amb
+q2 L
++19ma4 S + 42m
+2
+a+21mamb−4m
+2
+b
+6mamb L
+parenrightBigg
++ 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenleftBigg
+− 8mambq2 L− 33ma + 16mb4 S
+−153m
+2
+a + 268mamb + 88m
+2
+b
+12mamb L
+parenrightBiggbracketrightBigg
+1
+2M(2)2f(q) = G2mamb
+bracketleftbigg
+¯u(p4)u(p3)
+parenleftbigg
+− 3ma2 S + 10L
+parenrightbigg
++ 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenleftbigg
+− ma + 4mb2 S + 4L
+parenrightbiggbracketrightbigg
+1
+2M(2)2g(q) = G2mamb
+bracketleftbigg
+¯u(p4)u(p3)
+parenleftbigg
+− 115L
+parenrightbigg
++ 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenleftbigg
+−4215L
+parenrightbiggbracketrightbigg
+.(54)
+Again, we have calculated the form factor diagrams in Fig. 2(f) both directly
+and via the results from [7, 8]. Summing, we find
+1
+2M(2)tot(q) = G2mamb
+bracketleftBigg
+L
+parenleftbigg23
+5 ¯u(p4)u(p3)−
+64
+5
+1
+ma ¯u(p4)negationslashp1u(p3)
+parenrightbigg
++S
+parenleftbigg
+− 15ma + 28mb4 ¯u(p4)u(p3)
++ 11(3ma + 4mb)4 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenrightbigg
+−(3ma+4mb)mambSs−s
+0
+parenleftbigg
+¯u(p4)u(p3)− 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenrightbiggbracketrightBigg
+− i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftbigg
+−¯u(p4)u(p3) + 2 1m
+a
+¯u(p4)negationslashp1u(p3)
+parenrightbigg
+(55)
+20
+Using the identity Eq. (47) and
+p1 ·(p3 +p4) = 2mamb +s−s0 + q
+2
+2
+Eq. (55) becomes
+1
+2M(2)tot(q) = G2mamb
+bracketleftBigg
+¯u(p4)u(p3)
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
++ im
+am2b
+ǫαβγδpα1pβ3qγSδb
+parenleftbigg11(3m
+a + 4mb)
+4 S−
+64
+5 L
+parenrightbigg
++iS(3ma + 4mb)m
+b(s−s0)
+ǫαβγδpα1pβ3qγSδb
+bracketrightBigg
+−i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftBigg
+¯u(p4)u(p3) + 2im
+am2b
+ǫαβγδpα1pβ3qγSδb
+parenrightBigg
+(56)
+Finally, working in the center of mass frame and taking the nonrelativistic
+limit, we find
+1
+2M(2)tot(vectorq) ≃
+bracketleftBigg
+G2mamb
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
+−i4πG2m2am2b Lq2 mrp
+0
+bracketrightBigg
+χb†f χbi
++
+bracketleftBigg
+G2
+parenleftBigg12m3
+a+45m
+2
+amb+56mam
+2
+b +24m
+3
+b
+2(ma+mb) S−
+87ma+128mb
+10 L
+parenrightBigg
++G
+2m2
+am
+2
+b(3ma + 4mb)
+(ma +mb)
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBiggbracketrightBigg i
+mb
+vectorSb ·vectorp×vectorq (57)
+We note from Eq. (57) that the scattering amplitude consists of two pieces—a
+spin-independent component proportional to χb†f χbi whose functional form
+G2mamb
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
+−i4πG2m2am2b Lq2 mrp
+0
+(58)
+is identical to that of spinless scattering—together with a spin-orbit compo-
+nent proportional to
+i
+mb
+vectorSb ·vectorp×vectorq
+21
+whose functional form is
+G2
+parenleftBigg12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b
+2(ma +mb) S−
+87ma + 128mb
+10 L
+parenrightBigg
++ G
+2m2
+am
+2
+b(3ma + 4mb)
+(ma +mb)
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBigg
+(59)
+We note in Eq. (59) the presence in the spin-orbit potential of an imaginary
+final state rescattering term proportional to i/p0, similar to that found in
+the case of spin-independent scattering, together with a completely new type
+of kinematic form, proportional to 1/p20 which diverges at threshold. The
+presence of either term would prevent us from writing down a well defined
+second order potential.
+The solution to thisproblem is, asbefore, to properlysubtract the iterated
+first order potential—
+1
+2Amp(2)G (vectorq) = −
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)G
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)G
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+p20
+2mr −
+ℓ2
+2mr +iǫ
+(60)
+where we now use the one-graviton exchange potential 12V(1)G (vectorr) given in Eq.
+(53). Splitting this lowest order potential into spin-independent and spin-
+dependent components—
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)G
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+=
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
++
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−O
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+(61)
+where
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+= −4πGmambvectorq2 χb†f χbi = −4πGmamb(vectorp
+i −vectorpf)2
+χb†f χbi
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−O
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+= −4πGmambvectorq2 3ma + 4mb2m
+amb
+i
+mb
+vectorSb ·vectorp×vectorq
+= −4πGmamb(vectorp
+i −vectorpf)2
+3ma + 4mb
+2mamb
+i
+mb
+vectorSb · 1
+2(vectorpi +vectorpf)×(vectorpi −vectorpf)
+(62)
+we find that the iterated amplitude splits also into spin-independent and
+spin-dependent pieces. The leading spin-independent amplitude is
+1
+2Amp(2)S−I(vectorq) = −
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+p20
+2mr −
+ℓ2
+2mr +iǫ
+22
+= isummationdisplay
+sℓ
+integraldisplay d3ℓ
+(2π)3
+c2Gχb†f χbsℓ
+|vectorℓ−vectorpf|2 +λ2
+i
+p20
+2mr −
+ℓ2
+2mr +iǫ
+c2Gχb†sℓχbi
+|vectorpi −vectorℓ|2 +λ2
+= χb†f χbiH = −i4πG2m2am2b Lq2 mrp
+0
+χb†f χbi (63)
+where we defined c2G ≡−4πGmamb, and the leading spin-dependent term is
+1
+2Amp(2)S−O(vectorq) = −
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−O
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+p20
+2mr −
+ℓ2
+2mr +iǫ
+−
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−O
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+p20
+2mr −
+ℓ2
+2mr +iǫ
+= i(3ma + 4mb)2m
+am2b
+vectorSb ·
+
+i
+integraldisplay d3ℓ
+(2π)3
+c2G
+|vectorℓ−vectorpf|2+λ2
+i
+p20
+2mr −
+ℓ2
+2mr +iǫ
+c2G 12(vectorpi+vectorℓ)×(vectorpi−vectorℓ)
+|vectorpi−vectorℓ|2+λ2
++i
+integraldisplay d3ℓ
+(2π)3
+c2G 12(vectorℓ+vectorpf)×(vectorℓ−vectorpf)
+|vectorℓ−vectorpf|2+λ2
+i
+p20
+2mr −
+ℓ2
+2mr +iǫ
+c2G
+|vectorpi−vectorℓ|2+λ2
+
+
+= i(3ma + 4mb)2m
+am2b
+vectorSb · vectorH ×vectorq
+= G
+2m2
+am
+2
+b(3ma + 4mb)
+(ma +mb)
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBigg i
+mb
+vectorSb ·vectorp×vectorq (64)
+(In principle we would also have to iterate the leading order spin-orbit piece
+twice. However this procedure yields only terms higher order in p20.) We
+observe that when the amplitudes Eqs. (64) and (63) are subtracted from
+the full one loop scattering amplitude Eq. (57) both the terms involving
+1/p20 and those proportional to i/p0 disappear leaving behind a well-defined
+second order potential
+1
+2V(2)G (vectorr) = −
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrbracketleftBig12M(2)
+tot(vectorq)−
+1
+2Amp(2)G (vectorq)
+bracketrightBig
+=
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorr
+bracketleftBigg
+G2mamb
+parenleftbigg
+−6(ma +mb)S + 415 L
+parenrightbigg
+χb†f χbi
++G2
+parenleftBigg
+− 12m
+3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b
+2(ma +mb) S
+23
++ 87ma + 128mb10 L
+parenrightBigg i
+mb
+vectorSb ·vectorp×vectorq
+bracketrightBigg
+=
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+χb†f χbi
++ 1m
+b
+vectorSb ·vectorp× vector∇
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+4(ma +mb)r2
++G
+2(87ma + 128mb)¯h
+20πr3
+bracketrightBigg
+=
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+χb†f χbi
++
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+2mb(ma +mb)r4
++3G
+2(87ma + 128mb)¯h
+20πmbr5
+bracketrightBigg
+vectorL· vectorSb (65)
+We observe then that the second order potential for long range gravitational
+scattering of a spinless and spin-1/2 particle consists of two components: one
+which is independent of the spin of particle b and is identical to the potential
+found for the case of spinless scattering, accompanied by a spin-orbit inter-
+action involving a new form for its classical and quantum potentials. It is
+tempting to speculate that the form of this new spin-orbit potential is also
+universal. In order to check this hypothesis we consider the case of spin-0 –
+spin-1 scattering.
+3.2 Spin-0 – Spin-1
+The dynamics of a neutral spin-1 field φµ having mass m is described by the
+Proca Lagrangian which, when coupled to gravity via minimal substitution,
+takes the form
+√−gL
+m =
+√−gbracketleftbigg−1
+4UµνUρσg
+µρgνσ + 1
+2m
+2φµφνgµν
+bracketrightbigg
+(66)
+where
+Uµν = Dµφν −Dνφµ = ∂µφν −∂νφµ (67)
+is the spin-1 field tensor. The last equality in Eq. (67) follows from the
+symmetry of the connection coefficients Γαµν = Γανµ. Expanded in terms of
+24
+the graviton field, the matter Lagrangian then has the form
+√−gL(0)
+m = −
+1
+2∂µφν∂
+µφν + 1
+2∂µφν∂
+νφµ + 1
+2m
+2φµφµ
+√−gL(1)
+m =
+κ
+2h
+parenleftbigg
+−12∂µφν∂µφν + 12∂µφν∂νφµ + 12m2φµφµ
+parenrightbigg
+− κhµν
+parenleftbigg
+−12∂µφα∂νφα − 12∂αφµ∂αφν +∂µφα∂αφν + 12m2φµφν
+parenrightbigg
+√−gL(2)
+m =
+κ2
+8
+parenleftBig
+h2 −2hαβhαβ
+parenrightBigparenleftbigg
+−12∂µφν∂µφν + 12∂µφν∂νφµ + 12m2φµφµ
+parenrightbigg
++ κ
+2
+2
+parenleftBig
+2hµρhνρ −hhµν
+parenrightBig
+×
+parenleftbigg
+−12∂µφα∂νφα − 12∂αφµ∂αφν +∂µφα∂αφν + 12m2φµφν
+parenrightbigg
++ κ2hµρhνσ
+parenleftbigg
+−12∂µφν∂ρφσ + 12∂µφν∂σφρ
+parenrightbigg
+(68)
+and the one- and two-graviton vertices are
+p1
+p2
+µν
+β
+α
+p1
+p2
+µν
+ρσ
+β
+α
+1τ(1)
+β,α,µν(p2,p1,m)=−
+iκ
+2 ηµν
+bracketleftBig
+(p1 ·p2 −m2)ηαβ −p1βp2α
+bracketrightBig
++iκIµν,κλ
+bracketleftbigg
+(p1 ·p2 −m2)Iαβ,κλ + 12(pκ1pλ2 +pλ1pκ2)ηαβ
+−(pκ1p2αδλβ +pκ2p1βδλα)
+bracketrightbigg
+1τ(2)
+β,α,µν,ρσ(p2,p1,m)=
+iκ2
+2 Pµν,ρσ
+bracketleftBig
+(p1 ·p2 −m2)ηαβ −p1βp2α
+bracketrightBig
+25
+−iκ2
+parenleftbigg
+Iµν,κδIρσ,δλ+Iρσ,κδIµν,δλ−12
+parenleftBig
+ηµνIρσ,κλ+ηρσIµν,κλ
+parenrightBigparenrightbigg
+×
+bracketleftbigg
+(p1 ·p2 −m2)Iαβ,κλ + 12(pκ1pλ2 +pλ1pκ2)ηαβ
+−(pκ1p2αδλβ +pκ2p1βδλα)
+bracketrightbigg
+− iκ
+2
+2
+parenleftBig
+Iµν,ηθIρσ,κλ +Iρσ,ηθIµν,κλ
+parenrightBig
+×
+bracketleftbigg
+p1ηηακ(p2θηβλ−p2ληβθ)+p2ηηβκ(p1θηαλ−p1ληαθ)
+bracketrightbigg
+.
+(69)
+If we take the incoming spin-1 particle to have polarization vector ǫbi sat-
+isfying ǫbi ·p3 = 0 and the outgoing particle to have polarization ǫbf satisfying
+ǫbf ·p4 = 0, then the one-graviton exchange amplitude can then be written as
+1M(1)(q) = − 8πG√
+2E12E22E32E4
+×
+bracketleftBigg
+−ǫb∗f ·ǫbi
+parenleftBigg(s−m2
+a −m
+2
+b +
+1
+2q
+2)2 −2m2
+am
+2
+b +m
+2
+aq
+2 − 1
+4q
+4
+q2
+parenrightBigg
+−
+parenleftBig
+ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q
+parenrightBig2(s−m2a −m2b + 12q2)
+q2
+−
+parenleftBig
+ǫb∗f ·qǫbi ·p1 +ǫb∗f ·p1ǫbi ·q
+parenrightBig
++2ǫb∗f ·qǫbi ·qm
+2
+a
+q2 + 2ǫ
+b∗
+f ·p1ǫ
+b
+i ·p1
+bracketrightBigg
+≃ −4πGmambq2
+bracketleftBigg
+−ǫb∗f ·ǫbi − 2m
+amb
+parenleftBig
+ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q
+parenrightBig
++ 1m2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+(70)
+where the first expression is exact while the second expression contains only
+the nonanalytic part in the threshold limit s → s0 = (ma +mb)2. Now we
+rewrite this expression using the identity
+ǫb∗fµǫbi·q−ǫbiµǫb∗f ·q = 11− q2
+4m2b
+bracketleftBigg i
+mbǫµβγδp
+β
+3q
+γSδ
+b −
+(p3 +p4)µ
+2m2b ǫ
+b∗
+f ·qǫ
+b
+i ·q
+bracketrightBigg
+(71)
+26
+where we have defined the spin vector
+Sbµ = i2m
+b
+ǫµβγδǫb∗βf ǫbγi (p3 +p4)δ (72)
+The leading one-graviton exchange amplitude can then be written as
+1M(1)(q) ≃−4πGmamb
+q2
+bracketleftBigg
+−ǫb∗f ·ǫbi + 2im
+am2b
+ǫαβγδpα1pβ3qγSδb − 1m2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+(73)
+In the nonrelativistic limit we have
+ǫb0i ≃ 1m
+b
+ˆǫbi · vectorp3, ǫb0f ≃ 1m
+b
+ˆǫbf · vectorp4 (74)
+so that
+ǫb∗f ·ǫbi ≃ −ˆǫb∗f ·ˆǫbi + 1m2
+b
+ˆǫb∗f ·vectorp4ˆǫbi ·vectorp3
+≃ −ˆǫb∗f ·ˆǫbi + 12m2
+b
+ˆǫb∗f ×ˆǫbi ·vectorp4 ×vectorp3
++ 12m2
+b
+parenleftBig
+ˆǫb∗f ·vectorp4ˆǫbi ·vectorp3 + ˆǫb∗f ·vectorp3ˆǫbi ·vectorp4
+parenrightBig
+(75)
+Since
+−iˆǫb∗f ×ˆǫbi =
+angbracketleftBig
+1,mf
+vextendsinglevextendsingle
+vextendsinglevectorSb
+vextendsinglevextendsingle
+vextendsingle1,mi
+angbracketrightBig
+, (76)
+Eq. (75) becomes
+ǫb∗f ·ǫbi ≃ −ˆǫb∗f ·ˆǫbi − i2m2
+b
+vectorSb ·vectorp3 ×vectorp4 + 1
+2m2b
+parenleftBig
+ˆǫb∗f ·vectorp4ˆǫbi ·vectorp3 + ˆǫb∗f ·vectorp3ˆǫbi ·vectorp4
+parenrightBig
+≃ −ˆǫb∗f ·ˆǫbi + 1m2
+b
+ˆǫb∗f ·vectorp ˆǫbi ·vectorp+ i2m2
+b
+vectorSb ·vectorp×vectorq− 1
+4m2b ˆǫ
+b∗
+f ·vectorq ˆǫ
+b
+i ·vectorq
+(77)
+and the transition amplitude assumes the form
+1M(1)(vectorq) ≃ 4πGmamb
+vectorq2
+bracketleftbigg
+ˆǫb∗f ·ˆǫbi − 1m2
+b
+ˆǫb∗f ·vectorp ˆǫbi ·vectorp+ i(3ma + 4mb)2m
+am2b
+vectorSb ·vectorp×vectorq
+− 34m2
+b
+ˆǫb∗f ·vectorq ˆǫbi ·vectorq
+bracketrightbigg
+(78)
+27
+The spin-independent and spin-orbit terms here are identical in form to those
+found in the spin-0 – spin-1/2 case but now are accompanied by new terms
+which are quadrupole in nature, as can be seen from the identity
+Tbcd ≡ 12
+parenleftBig
+ˆǫb∗fcˆǫbid + ˆǫbicˆǫb∗fd
+parenrightBig
+− 13δcdˆǫb∗f ·ˆǫbi
+= −
+angbracketleftbigg
+1,mf
+vextendsinglevextendsingle
+vextendsinglevextendsingle1
+2(ScSd +SdSc)−
+2
+3δcd
+vextendsinglevextendsingle
+vextendsinglevextendsingle1,mi
+angbracketrightbigg
+(79)
+The corresponding lowest order potential is then
+1V(1)
+C (vectorr) = −
+integraldisplay d3q
+(2π)3
+1M(1)(vectorq)e−ivectorq·vectorr
+≃ −Gmambr
+parenleftBigg
+ˆǫb∗f ·ˆǫbi − 1m2
+b
+ˆǫb∗f ·vectorp ˆǫbi ·vectorp
+parenrightBigg
+−3ma + 4mb2m
+am2b
+vectorSb ·vectorp× vector∇
+parenleftbigg
+−Gmambr
+parenrightbigg
++ 34m2
+b
+ˆǫb∗f · vector∇ ˆǫbi · vector∇
+parenleftbigg
+−Gmambr
+parenrightbigg
+≃ −Gmambr
+parenleftBigg
+ˆǫb∗f ·ˆǫbi − 1m2
+b
+vectorp : Tb : vectorp
+parenrightBigg
++ Gr3 3ma + 4mb2m
+b
+vectorL· vectorSb
+− Gr5 9ma4m
+b
+vectorr : Tb :vectorr (80)
+where we have defined
+vectorw : Tb :vectors≡wcTbcdsd
+and which agrees precisely with its spin-1/2 analog in Eq. (53) up to qua-
+drupole and tensor corrections.
+The calculation of the one loop corrections proceeds as before, but with
+increased complexity due to the unit spin. Evaluating the diagrams in Fig.
+2, we find then
+1M(2)2
+a(q) = G
+2mamb
+bracketleftBigg
+28Lǫ∗bf ·ǫbi − 16Lm2
+a
+ǫb∗f ·p1ǫbi ·p1
++ 16Lm
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
++8Lm2
+a
+(ǫb∗f ·qǫbi ·p1 +ǫb∗f ·p1ǫbi ·q)
+28
++4Lm2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+1M(2)2
+b(q) = G
+2mamb
+bracketleftBigg
+(−4maS−16L)ǫ∗bf ·ǫbi + 8maS + 16Lm2
+a
+ǫb∗f ·p1ǫbi ·p1
+− 8Lm
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
+−4maS + 8Lm2
+a
+(ǫb∗f ·qǫbi ·p1 +ǫb∗f ·p1ǫbi ·q)
+−
+parenleftBiggparenleftBigg
+2ma − 3m
+2
+b
+2ma
+parenrightBigg
+S +
+parenleftBigg
+2− 2m
+2
+b
+m2a
+parenrightBigg
+L
+parenrightBigg 1
+m2bǫ
+b∗
+f ·qǫ
+b
+i ·q
+bracketrightBigg
+1M(2)2
+c(q) = G
+2mamb
+bracketleftBigg
+(−8mbS−12L)ǫ∗bf ·ǫbi + 16Lm2
+a
+ǫb∗f ·p1ǫbi ·p1
+−4mbS + 8Lm
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
+−8Lm2
+a
+(ǫb∗f ·qǫbi ·p1 +ǫb∗f ·p1ǫbi ·q)
+−mbS + 8Lm2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+1M(2)2
+d(q) = G
+2mamb
+bracketleftBigg4m
+amb
+q2 L
+parenleftbigg
+−ǫ∗bf ·ǫbi − 2m
+amb
+(ǫb∗f ·qǫbi ·p1−ǫb∗f ·p1ǫbi ·q)
++ 1m2
+b
+ǫb∗f ·qǫbi ·q
+parenrightbigg
++ Ss−s
+0
+parenleftbigg
+−(3ma + 4mb)(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
++ma(5ma + 7mb)2m
+b
+ǫb∗f ·qǫbi ·q
+parenrightbigg
+−
+parenleftbigg
+(6ma + 4mb)S + 12m
+2
+a −6mamb + 24m
+2
+b
+3mamb L
+parenrightbigg
+ǫ∗bf ·ǫbi
++
+parenleftbigg
+−4maS + 22ma −24mb3m
+b
+L
+parenrightbigg 1
+m2aǫ
+b∗
+f ·p1ǫ
+b
+i ·p1
+−
+parenleftbigg
+13(ma +mb)S + 25m
+2
+a + 7mamb + 22m
+2
+b
+3mamb L
+parenrightbigg
+× 1m
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
+29
++
+parenleftbigg
+2maS− 11ma−12mb3m
+b
+L
+parenrightbigg 1
+m2a(ǫ
+b∗
+f ·qǫ
+b
+i·p1 +ǫ
+b∗
+f ·p1ǫ
+b
+i·q)
++
+parenleftbiggparenleftbigg
+7ma+9mb−3m
+2
+b
+4ma
+parenrightbigg
+S+
+parenleftbigg
+5mam
+b
++2+9mbm
+a
+−m
+2
+b
+m2a
+parenrightbigg
+L
+parenrightbigg
+× 1m2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+− i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftBigg
+−ǫ∗bf ·ǫbi− 2m
+amb
+(ǫb∗f ·qǫbi·p1−ǫb∗f ·p1ǫbi·q)
++ 1m2
+b
+ǫb∗f ·qǫbi ·q
+parenrightBigg
+1M(2)2
+e(q) = G
+2mamb
+bracketleftBigg4m
+amb
+q2 L
+parenleftbigg
+ǫ∗bf ·ǫbi + 2m
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
+− 1m2
+b
+ǫb∗f ·qǫbi ·q
+parenrightbigg
++
+parenleftbigg
+(2ma + 4mb)S + 12m
+2
+a + 52mamb + 24m
+2
+b
+3mamb L
+parenrightbigg
+ǫ∗bf ·ǫbi
+−
+parenleftbigg
+4maS + 22ma + 24mb3m
+b
+L
+parenrightbigg 1
+m2aǫ
+b∗
+f ·p1ǫ
+b
+i ·p1
++
+parenleftbiggparenleftbigg17
+4 ma + 4mb
+parenrightbigg
+S + 25m
+2
+a + 49mamb + 22m
+2
+b
+3mamb L
+parenrightbigg
+× 1m
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
++
+parenleftbigg
+2maS+ 11ma+12mb3m
+b
+L
+parenrightbigg 1
+m2a(ǫ
+b∗
+f ·qǫ
+b
+i·p1 +ǫ
+b∗
+f ·p1ǫ
+b
+i·q)
+−
+parenleftbiggparenleftbigg13
+8 ma+
+31
+8 mb+
+3m2b
+4ma
+parenrightbigg
+S+
+parenleftbigg
+5mam
+b
++163 +9mbm
+a
++m
+2
+b
+m2a
+parenrightbigg
+L
+parenrightbigg
+× 1m2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+1M(2)2
+f(q) = G
+2mamb
+bracketleftBigg
+(2(ma +mb)S−14L)ǫ∗bf ·ǫbi
++
+parenleftbiggparenleftbigg1
+2ma+2mb
+parenrightbigg
+S−4L
+parenrightbigg 1
+mamb(ǫ
+b∗
+f ·qǫ
+b
+i ·p1−ǫ
+b∗
+f ·p1ǫ
+b
+i ·q)
++
+parenleftbiggparenleftbigg
+− 14ma + 12mb
+parenrightbigg
+S + 4L
+parenrightbigg 1
+m2bǫ
+b∗
+f ·qǫ
+b
+i ·q
+bracketrightBigg
+30
+1M(2)2
+g(q) = G
+2mamb
+bracketleftBigg43L
+15 ǫ
+∗b
+f ·ǫ
+b
+i +
+14L
+5mamb(ǫ
+b∗
+f ·qǫ
+b
+i ·p1 −ǫ
+b∗
+f ·p1ǫ
+b
+i ·q)
+− 7L5m2
+b
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+(81)
+Combining, we find the full one loop amplitude
+1M(2)
+tot(q) = G
+2mamb
+bracketleftBigg S
+s−s0
+parenleftbigg
+−(3ma + 4mb)(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
++ma(5ma + 7mb)2m
+b
+ǫb∗f ·qǫbi ·q
+parenrightbigg
++
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbiggparenleftBig
+−ǫb∗f ·ǫbi
+parenrightBig
++
+parenleftbigg
+− 11(3ma + 4mb)4 S + 645 L
+parenrightbigg
+× 1m
+amb
+(ǫb∗f ·qǫbi ·p1 −ǫb∗f ·p1ǫbi ·q)
++
+parenleftbigg25m
+a + 37mb
+8 S−
+101
+15 L
+parenrightbigg 1
+m2bǫ
+b∗
+f ·qǫ
+b
+i ·q
+bracketrightBigg
+(82)
+which, using the identity Eq. (71), becomes
+1M(2)
+tot(q) = G
+2mamb
+bracketleftBigg
+−ǫb∗f ·ǫbi
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
++ im
+am2b
+ǫαβγδpα1pβ3qγSδb
+parenleftbigg11(3m
+a + 4mb)
+4 S−
+64
+5 L
+parenrightbigg
++ 1m2
+b
+ǫb∗f ·qǫbi ·q
+parenleftbigg
+− 53ma + 67mb8 S + 9115L
+parenrightbigg
++i(3ma + 4mb)Sm
+b(s−s0)
+ǫαβγδpα1pβ3qγSδb
+−ma(ma +mb)S2m
+b(s−s0)
+ǫb∗f ·qǫbi ·q
+bracketrightBigg
+− i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftBigg
+−ǫ∗bf ·ǫbi + 2im
+amb
+ǫαβγδpα1pβ3qγSδb
+− 1m2
+b
+ǫb∗f ·qǫbi ·q
+parenrightBigg
+(83)
+31
+Notice here that without the ǫb∗f ·qǫbi ·q terms, Eq. (83) has an identical
+structure to that of the case of spin-0 – spin-1/2 scattering—Eq. (56)—
+provided we substitute ¯u(p4)u(p3) −→−ǫb∗f ·ǫbi.
+Finally, taking the nonrelativistic limit we find
+1M(2)
+tot(vectorq) ≃
+bracketleftBigg
+G2mamb
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
+−i4πG2m2am2b Lq2 mrp
+0
+bracketrightBigg
+×
+parenleftBigg
+ˆǫb∗f ·ˆǫbi − 1m2
+b
+vectorp:Tb:vectorp
+parenrightBigg
++
+bracketleftBigg
+G2
+parenleftBigg12m3
+a+45m
+2
+amb+56mam
+2
+b +24m
+3
+b
+2(ma+mb) S−
+87ma+128mb
+10 L
+parenrightBigg
++G
+2m2
+am
+2
+b(3ma + 4mb)
+(ma +mb)
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBiggbracketrightBigg i
+mb
+vectorSb ·vectorp×vectorq
++
+bracketleftBigg
+G2mamb
+parenleftBigg
+−21m
+2
+a + 47mamb + 28m
+2
+b
+4(ma +mb) S +
+241
+60 L
+parenrightBigg
++ G
+2m3
+am
+3
+b
+2(ma +mb)
+parenleftBigg
+i6πLp
+0q2
+− Sp2
+0
+parenrightBiggbracketrightBigg 1
+m2b vectorq : T
+b : vectorq (84)
+As found in the earlier calculations, there exist terms involving both i/p0
+and 1/p20 which prevent the defining of a simple second order potential. The
+solution now is well known—subtraction of the iterated first order potential.
+Since the form of the spin-independent—ˆǫ∗B ·ˆǫA—and spin-orbit—vectorSb·vectorp×vectorq—
+terms is identical to that found for the case of spin-1/2, it is clear that the
+subtraction goes through as before and that the corresponding pieces of the
+second order potential have the same form as found for spin-1/2. In addition,
+there are now two new pieces of the amplitude, the quadrupole structure
+vectorq : Tb : vectorq which multiplies terms involving both i/p0 and 1/p20 and the tensor
+structure vectorp : Tb : vectorp multiplying only i/p0. In order to remove these we must
+iterate the full first order potential including these quadrupole and tensor
+components. However, we find that our simple nonrelativistic iteration fails
+to remove them! We suspect the reason to be the presence of the tensor
+structure vectorp : Tb : vectorp in the lowest order potential which is in some sense a
+relativistic correction but which when iterated yields also quadrupole pieces
+vectorq : Tb : vectorq. A fully relativistic iteration should thus be performed which is
+under study but is beyond the scope of this paper. It would be interesting
+to investigate if the requirement of canceling all i/p0 and 1/p20 forms in the
+quadrupole and tensor pieces could clarify the ambiguity in the iteration of
+32
+the leading order potential as discussed in [15, 9].
+Since we did not perform the proper iteration of the quadrupole and
+tensor pieces we include only the spin independent and spin-orbit pieces in
+the resulting second order potential
+1V(2)
+G (vectorr) = −
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrbracketleftBig1M(2)
+tot(vectorq)−
+1Amp(2)
+G (vectorq)
+bracketrightBig
+=
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+ˆǫb∗f ·ˆǫbi
++ 1m
+b
+vectorSb ·vectorp× vector∇
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+4(ma +mb)r2
++G
+2(87ma + 128mb)¯h
+20πr3
+bracketrightBigg
++ 1V(2)T (vectorr)
+=
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+ˆǫb∗f ·ˆǫbi
++
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+2mb(ma +mb)r4
++3G
+2(87ma + 128mb)¯h
+20πmbr5
+bracketrightBigg
+vectorL· vectorSb + 1V(2)T (vectorr) (85)
+where 1V(2)T (vectorr) denotes the tensor pieces not explicitly shown. Comparison
+with the corresponding form of 12V(1)(vectorr) given in Eq. (65) confirms the
+universality which we have suggested—the spin-independent and spin-orbit
+terms have identical forms. The next task is to see whether this universality
+applies when both scattered particles carry spin. For this purpose we consider
+the case of spin-1/2 – spin-1/2 scattering.
+4 Spin-Dependent Scattering: Spin-Spin In-
+teraction
+4.1 Spin-1/2 – Spin-1/2
+In the case of scattering of a pair of spin-1/2 particles, the basic vertices have
+already been developed in the spin-0 – spin-1/2 scattering section, so we can
+proceed directly to our calculation. The one-graviton exchange amplitude at
+33
+tree level reads
+1
+2
+1
+2M(1)(q) = −
+4πGmamb
+q2
+bracketleftBiggs−m2
+a −m
+2
+b +
+1
+2q
+2
+2mamb ¯u(p1)γαu(p2) ¯u(p3)γ
+αu(p4)
++ 1m
+amb
+¯u(p1)negationslashp3u(p2) ¯u(p3)negationslashp1u(p4)
+− ¯u(p1)u(p2) ¯u(p3)u(p4)
+bracketrightBigg
+×
+radicalBigg
+m2am2b
+E1E2E3E4 (86)
+and with the spin identities Eq. (47) for system b and
+¯u(p2)γµu(p1) =
+
+ 1
+1− q24m2
+a
+
+
+bracketleftBigg(p
+1 +p2)µ
+2ma ¯u(p2)u(p1) +
+i
+m2aǫµβγδq
+βpγ
+1S
+δ
+a
+bracketrightBigg
+(87)
+for system a, Eq. (86) can be written as
+1
+2
+1
+2M(1)(q) = −
+4πGmamb
+q2
+bracketleftBigg
+¯u(p2)u(p1)¯u(p4)u(p3)
++ 2im
+am2b
+¯u(p2)u(p1)ǫαβγδpα1pβ3qγSδb
++ 2im2
+amb
+¯u(p4)u(p3)ǫαβγδpα1pβ3qγSδa
++ 1m
+amb
+(Sa ·qSb ·q−q2Sb ·Sa)
+bracketrightBigg
+. (88)
+In the symmetric center of mass frame we take the nonrelativistic limit yield-
+ing
+1
+2
+1
+2M(1)(vectorq) ≃
+4πGmamb
+vectorq2
+bracketleftBigg
+χa†f χai χb†f χbi + i(3ma + 4mb)2m
+am2b
+vectorSb ·vectorp×vectorqχa†f χai
++i(4ma + 3mb)2m2
+amb
+vectorSa ·vectorp×vectorqχb†f χbi
++ 1m
+amb
+parenleftBigvector
+Sa ·vectorqvectorSb ·vectorq−vectorq2vectorSa · vectorSb
+parenrightBigbracketrightBigg
+(89)
+whereby the lowest order potential for spin-1/2 – spin-1/2 scattering becomes
+1
+2
+1
+2V(1)G (vectorr) = −
+integraldisplay d3q
+(2π)3
+1
+2
+1
+2M(1)(vectorq)e−ivectorq·vectorr
+34
+≃ −Gmambr χa†f χaiχb†f χbi
+−(3ma + 4mb)2m
+am2b
+vectorSb ·vectorp× vector∇
+parenleftbigg
+− Gmambr
+parenrightbigg
+χa†f χai
+−(4ma + 3mb)2m2
+amb
+vectorSa ·vectorp× vector∇
+parenleftbigg
+− Gmambr
+parenrightbigg
+χb†f χbi
+− 1m
+amb
+vectorSa · vector∇vectorSb · vector∇
+parenleftbigg
+− Gmambr
+parenrightbigg
+≃ −Gmambr χa†f χaiχb†f χbi + Gr3 (3ma + 4mb)2m
+b
+vectorL· vectorSbχa†f χai
++Gr3 (4ma + 3mb)2m
+a
+vectorL· vectorSaχb†f χbi + G
+r5
+parenleftBig
+3vectorSa ·vectorrvectorSb ·vectorr−r2vectorSa · vectorSb
+parenrightBig
+.
+(90)
+Note that since the piece proportional to vectorSa ·vectorSb in Eq. (89) is analytic in vectorq2
+it yields only a short distance contribution which is omitted in the potential
+Eq. (90).
+In this case when we evaluate the loop diagrams in Fig. 2, we notice that
+part of the spin-spin structure piece contains the form q2Sa ·Sb multiplying
+the nonanalytic structures L and S. Due to the extra factor of q2 in this
+form, we must expand all loop integrals to one order higher in q2 than before
+in order to be consistent. This has been done and does make a difference in
+our results for the spin-spin interaction piece. The results for the individual
+diagrams are then found to be
+1
+2
+1
+2M(2)2a(q) = G2mamb
+bracketleftBigg
+UaUb (−26L) +i EaUbm2
+amb
+(−17L) +i UaEbm
+am2b
+(−17L)
++Sa ·qSb ·qm
+amb
+(−9L)− q
+2Sa ·Sb
+mamb
+parenleftbigg
+−152 L
+parenrightbiggbracketrightBigg
+1
+2
+1
+2M(2)2b(q) = G2mamb
+bracketleftBigg
+UaUb (15L+ 7maS)
++i EaUbm2
+amb
+parenleftbigg21
+2 L+ 4maS
+parenrightbigg
++i UaEbm
+am2b
+(13L+ 8maS)
++Sa ·qSb ·qm
+amb
+parenleftbigg17
+3 L+
+5
+2maS
+parenrightbigg
+−q
+2Sa ·Sb
+mamb
+parenleftbigg11
+3 L+
+3
+2maS
+parenrightbiggbracketrightBigg
+35
+1
+2
+1
+2M(2)2c(q) = G2mamb
+bracketleftBigg
+UaUb (15L+ 7mbS)
++i EaUbm2
+amb
+(13L+ 8mbS) +i UaEbm
+am2b
+parenleftbigg21
+2 L+ 4mbS
+parenrightbigg
++Sa ·qSb ·qm
+amb
+parenleftbigg17
+3 L+
+5
+2mbS
+parenrightbigg
+−q
+2Sa ·Sb
+mamb
+parenleftbigg11
+3 L+
+3
+2mbS
+parenrightbiggbracketrightBigg
+1
+2
+1
+2M(2)2d(q) = G2mamb
+bracketleftBigg
+UaUb
+parenleftBigg
+L
+parenleftBigg4m
+amb
+q2 +
+31m2a−16mamb+31m2b
+4mamb
+parenrightBigg
++S 92(ma +mb)
+parenrightBigg
++i EaUbm2
+amb
+parenleftBigg
+L
+parenleftBigg8m
+amb
+q2 +
+124m2a −11mamb + 177m2b
+12mamb
+parenrightBigg
++S
+parenleftBiggm
+amb(4ma+3mb)
+s−s0 +(13ma+9mb)
+parenrightBiggparenrightBigg
++i UaEbm
+am2b
+parenleftBigg
+L
+parenleftBigg8m
+amb
+q2 +
+177m2a −11mamb + 124m2b
+12mamb
+parenrightBigg
++S
+parenleftBiggm
+amb(3ma+4mb)
+s−s0 +(9ma+13mb)
+parenrightBiggparenrightBigg
++Sa ·qSb ·qm
+amb
+parenleftBigg
+L
+parenleftBigg4m
+amb
+q2 +
+39m2a+25mamb+39m2b
+6mamb
+parenrightBigg
++S
+parenleftBiggm
+amb(ma+mb)
+s−s0 +
+39
+4 (ma+mb)
+parenrightBiggparenrightBigg
+−q
+2Sa ·Sb
+mamb
+parenleftBigg
+L
+parenleftBigg2m
+amb
+q2 +
+153m2a+218mamb+153m2b
+24mamb
+parenrightBigg
++S
+parenleftBiggm
+amb(ma+mb)
+s−s0 +
+41
+4 (ma+mb)
+parenrightBiggparenrightBigg
++
+parenleftBig
+2Sa·p3Sb ·p1 +Sa·qSb ·p1 −Sa·p3Sb ·q
+parenrightBig 22L
+3mamb
+bracketrightBigg
+− i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftBigg
+UaUb + 2i EaUbm2
+amb
++ 2i UaEbm
+am2b
+36
++Sa ·qSb ·q−
+1
+2q
+2Sa ·Sb
+mamb
+parenrightBigg
+1
+2
+1
+2M(2)2e(q) = G2mamb
+bracketleftBigg
+UaUb
+parenleftBigg
+L
+parenleftBigg
+−4mambq2 −93m
+2
+a+232mamb +93m
+2
+b
+12mamb
+parenrightBigg
++S
+parenleftbigg
+−72(ma +mb)
+parenrightbiggparenrightBigg
++i EaUbm2
+amb
+parenleftBigg
+L
+parenleftBigg
+−8mambq2 −124m
+2
+a+235mamb+177m
+2
+b
+12mamb
+parenrightBigg
++S
+parenleftbigg
+−4ma − 334 mb
+parenrightbiggparenrightBigg
++i UaEbm
+am2b
+parenleftBigg
+L
+parenleftBigg
+−8mambq2 −177m
+2
+a+235mamb+124m
+2
+b
+12mamb
+parenrightBigg
++S
+parenleftbigg
+−334 ma −4mb
+parenrightbiggparenrightBigg
++Sa ·qSb ·qm
+amb
+parenleftBigg
+L
+parenleftBigg
+−4mambq2 −39m
+2
+a+23mamb+39m
+2
+b
+6mamb
+parenrightBigg
++S
+parenleftbigg39
+4 (ma+mb)
+parenrightbiggparenrightBigg
+−q
+2Sa·Sb
+mamb
+parenleftBigg
+L
+parenleftBigg
+−2mambq2 −153m
+2
+a+158mamb+153m
+2
+b
+24mamb
+parenrightBigg
++S
+parenleftbigg
+−32 (ma+mb)
+parenrightbiggparenrightBigg
++
+parenleftBig
+2Sa·p3Sb ·p1 +Sa·qSb ·p1 −Sa·p3Sb ·q
+parenrightBig −22L
+3mamb
+bracketrightBigg
+1
+2
+1
+2M(2)2f(q) = G2mamb
+bracketleftBigg
+UaUb
+parenleftBig
+14L−2(ma +mb)S
+parenrightBig
++i EaUbm2
+amb
+parenleftBigg
+4L+
+parenleftbigg
+−2ma − 12mb
+parenrightbigg
+S
+parenrightBigg
++i UaEbm
+am2b
+parenleftBigg
+4L+
+parenleftbigg
+−12ma −2mb
+parenrightbigg
+S
+parenrightBigg
++Sa ·qSb ·qm
+amb
+(−2L−(ma +mb)S)
+37
+−q
+2Sa ·Sb
+mamb (−2L−(ma +mb)S)
+bracketrightBigg
+1
+2
+1
+2M(2)2g(q) = G2mamb
+bracketleftBigg
+UaUb
+parenleftbigg
+−4315L
+parenrightbigg
++i EaUbm2
+amb
+parenleftbigg
+−145 L
+parenrightbigg
++i UaEbm
+am2b
+parenleftbigg
+−145 L
+parenrightbigg
++Sa ·qSb ·qm
+amb
+parenleftbigg
+−75L
+parenrightbigg
+− q
+2Sa ·Sb
+mamb
+parenleftbigg
+−75L
+parenrightbiggbracketrightBigg
+. (91)
+where we have defined
+Ua = ¯u(p2)u(p1) Ub = ¯u(p4)u(p3) (92)
+and
+Ei = ǫαβγδpα1pβ3qγSδi (93)
+with i = a,b to keep our notation compact. The sum of all diagrams is found
+to be
+1
+2
+1
+2M(2)tot(q)=G2mamb
+bracketleftBigg
+UaUb
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
++i EaUbm2
+amb
+parenleftbigg11(4m
+a+3mb)
+4 S−
+64
+5 L+
+mamb(4ma+3mb)
+s−s0 S
+parenrightbigg
++i UaEbm
+am2b
+parenleftbigg11(3m
+a+4mb)
+4 S−
+64
+5 L+
+mamb(3ma+4mb)
+s−s0 S
+parenrightbigg
++S(ma +mb)Sa ·qSb ·q−q
+2Sa ·Sb
+mamb
+parenleftbigg37
+4 +
+mamb
+s−s0
+parenrightbigg
+−L 11Sa ·qSb ·q−16q
+2Sa ·Sb
+15mamb
+bracketrightBigg
+−i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+parenleftBigg
+UaUb + 2i EaUbm2
+amb
++ 2i UaEbm
+am2b
++Sa ·qSb ·q−
+1
+2q
+2Sa ·Sb
+mamb
+parenrightBigg
+. (94)
+Comparing with our finding for spin-0 – spin-1/2 scattering in Eq. (56),
+we notice the by now familiar universality of the amplitude: The form of
+the component proportional to ¯u(p4)u(p3) of Eq. (56) is found here in the
+component proportional to UaUb, and the form of the structure proportional
+to ǫαβγδpα1pβ3qγSδb of Eq. (56) is now found in the component proportional
+38
+to UaEb in Eq. (94). Moreover, the amplitude is symmetric in a ↔ b and
+new gravitational spin-spin interaction corrections arise. The quantum part
+of the spin-spin component has been calculated previously by Kirilin [17]
+whose result disagrees with our result for the numerical prefactors. For the
+quantum terms in the spin-orbit components however, we fully agree with
+Kirilin’s results in [17]. In the nonrelativistic limit we obtain the expression
+1
+2
+1
+2M(2)tot(vectorq)≃
+bracketleftBigg
+G2mamb
+parenleftbigg
+6(ma+mb)S−415 L
+parenrightbigg
+−i4πG2m2am2b Lq2 mrp
+0
+bracketrightBigg
+χa†f χai χb†f χbi
++
+bracketleftBigg
+G2
+parenleftBigg24m3
+a+56m
+2
+amb+45mam
+2
+b +12m
+3
+b
+2(ma+mb) S−
+128ma+87mb
+10 L
+parenrightBigg
++G
+2m2
+am
+2
+b(4ma + 3mb)
+(ma +mb)
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBiggbracketrightBigg i
+ma
+vectorSa ·vectorp×vectorqχb†f χbi
++
+bracketleftBigg
+G2
+parenleftBigg12m3
+a+45m
+2
+amb+56mam
+2
+b +24m
+3
+b
+2(ma+mb) S−
+87ma+128mb
+10 L
+parenrightBigg
++G
+2m2
+am
+2
+b(3ma + 4mb)
+(ma +mb)
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBiggbracketrightBigg
+χa†f χai im
+b
+vectorSb ·vectorp×vectorq
++G2mamb 19m
+2
+a + 36mamb + 19m
+2
+b
+2(ma +mb) S
+vectorSa ·vectorqvectorSb ·vectorq−vectorq2vectorSa · vectorSb
+mamb
+−G2mambL 11
+vectorSa ·vectorqvectorSb ·vectorq−16vectorq2vectorSa · vectorSb
+15mamb
++ G
+2m3
+am
+3
+b
+ma +mb
+S
+p20
+vectorSa ·vectorqvectorSb ·vectorq−vectorq2vectorSa · vectorSb
+mamb
++ G
+2m3
+am
+3
+b
+ma +mb
+parenleftBigg
+−i4πLp
+0q2
+parenrightBigg vectorS
+a ·vectorqvectorSb ·vectorq− 12vectorq2vectorSa · vectorSb
+mamb (95)
+which obviously has to exhibit the universalities of the spin-independent and
+the spin-orbit pieces. Therefore, we know that the subtraction of the second
+Born iteration successfully removes the unwanted i/p0 and 1/p20 structures
+for the spin-independent and the spin-orbit components.
+The leading spin-spin term of the second Born iteration amplitude is new,
+however, and we compute
+1
+2
+1
+2Amp(2)S−S(vectorq) = −
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle12 12 ˆV(1)S−S
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+p20
+2mr −
+ℓ2
+2mr +iǫ
+39
+−
+integraldisplay d3ℓ
+(2π)3
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle12 12 ˆV(1)S−S
+vextendsinglevextendsingle
+vextendsinglevectorℓ
+angbracketrightBigangbracketleftBigvector
+ℓ
+vextendsinglevextendsingle
+vextendsingle12 12 ˆV(1)S−I
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+p20
+2mr −
+ℓ2
+2mr +iǫ
+= 1m
+amb
+SraSsb
+
+i
+integraldisplay d3ℓ
+(2π)3
+c2G
+|vectorℓ−vectorpf|2+λ2
+i
+p20
+2mr −
+ℓ2
+2mr +iǫ
+c2G(pi−ℓ)r(pi−ℓ)s
+|vectorpi−vectorℓ|2+λ2
++i
+integraldisplay d3ℓ
+(2π)3
+c2G(ℓ−pf)r(ℓ−pf)s
+|vectorℓ−vectorpf|2+λ2
+i
+p20
+2mr −
+ℓ2
+2mr +iǫ
+c2G
+|vectorpi−vectorℓ|2 +λ2
+
+
+λ→0−→ 1
+mamb
+bracketleftBiggparenleftBig
+vectorSa ·vectorpi vectorSb ·vectorpi + vectorSa · vectorpf vectorSb · vectorpfparenrightBigH
+−vectorSa ·(vectorpi +pf)vectorSb · vectorH − vectorSa · vectorH vectorSb ·(vectorpi +pf)
++2SraSsb Hrs
+bracketrightBigg
+= G
+2m2
+am
+2
+b
+ma +mb
+S
+p20 (
+vectorSa ·vectorqvectorSb ·vectorq−vectorq2vectorSa · vectorSb)
++ G
+2m2
+am
+2
+b
+ma +mb
+parenleftBigg
+−i4πLp
+0q2
+parenrightBigg
+(vectorSa ·vectorqvectorSb ·vectorq− 12vectorq2vectorSa · vectorSb). (96)
+where we again defined c2G ≡ −4πGmamb. With this, the full second Born
+iteration amplitude becomes
+1
+2
+1
+2Amp(2)G (vectorq) =
+1
+2
+1
+2Amp(2)S−I(vectorq) +
+1
+2
+1
+2Amp(2)S−O(vectorq) +
+1
+2
+1
+2Amp(2)S−S(vectorq)
+= −i4πG2m2am2b Lq2 mrp
+0
+χa†f χai χb†f χbi
++ G
+2m2
+am
+2
+b(2ma +mb)
+ma +mb
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBigg i
+ma
+vectorSa ·vectorp×vectorq χb†f χbi
++ G
+2m2
+am
+2
+b(ma + 2mb)
+ma +mb
+parenleftBigg
+−i2πLp
+0q2
++ Sp2
+0
+parenrightBigg
+χa†f χai im
+b
+vectorSb ·vectorp×vectorq
++ G
+2m2
+am
+2
+b
+ma +mb
+S
+p20 (
+vectorSa ·vectorqvectorSb ·vectorq−vectorq2vectorSa · vectorSb)
++ G
+2m2
+am
+2
+b
+ma +mb
+parenleftBigg
+−i4πLp
+0q2
+parenrightBigg
+(vectorSa ·vectorqvectorSb ·vectorq− 12vectorq2vectorSa · vectorSb) (97)
+and we observe that when this amplitude is subtracted from the full one loop
+40
+scattering amplitude Eq. (95), all terms involving 1/p20 and i/p0 disappear
+leaving behind a well-defined second order potential
+1
+2
+1
+2V(2)G (vectorr) = −
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrbracketleftBig12 12M(2)
+tot(vectorq)−
+1
+2
+1
+2Amp(2)G (vectorq)
+bracketrightBig
+≃
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+χa†f χai χb†f χbi
++ 1m
+a
+vectorSa ·vectorp× vector∇
+bracketleftBiggG2(24m3
+a + 56m
+2
+amb + 45mam
+2
+b + 12m
+3
+b)
+4(ma +mb)r2
++G
+2(128ma + 87mb)¯h
+20πr3
+bracketrightBigg
+χa†f χai
++ χa†f χai 1m
+b
+vectorSb ·vectorp× vector∇
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+4(ma +mb)r2
++G
+2(87ma + 128mb)¯h
+20πr3
+bracketrightBigg
++
+vectorSa · vector∇vectorSb · vector∇− vector∇2vectorSa · vectorSb
+mamb
+bracketleftBiggG2m
+amb(19m2a + 36mamb + 19m2b)
+4(ma +mb)r2
+bracketrightBigg
++ 11
+vectorSa · vector∇vectorSb · vector∇−16vector∇2vectorSa · vectorSb
+15mamb
+bracketleftBiggG2m
+amb¯h
+2πr3
+bracketrightBigg
+≃
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+χa†f χai χb†f χbi
++
+bracketleftBiggG2(24m3
+a + 56m
+2
+amb + 45mam
+2
+b + 12m
+3
+b)
+2ma(ma +mb)r4
++3G
+2(128ma + 87mb)¯h
+20πmar5
+bracketrightBigg
+vectorL· vectorSaχb†f χbi
++
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+2mb(ma +mb)r4
++3G
+2(87ma + 128mb)¯h
+20πmbr5
+bracketrightBigg
+χa†f χai vectorL· vectorSb
++
+bracketleftBigg2G2(19m2
+a + 36mamb + 19m
+2
+b)
+(ma +mb)r4
+bracketrightBiggparenleftbigg
+vectorSa ·vectorrvectorSb ·vectorr/r2 − 1
+2
+vectorSa · vectorSb
+parenrightbigg
++ 11G
+2¯h
+2πr5
+parenleftbigg
+vectorSa ·vectorrvectorSb ·vectorr/r2 − 43
+55
+vectorSa · vectorSb
+parenrightbigg
+(98)
+41
+which besides the universal spin-independent and spin-orbit components dis-
+plays a new (and presumably universal) gravitational spin-spin interaction.
+5 Conclusions
+Above we have analyzed the gravitational scattering of two particles hav-
+ing nonzero mass. In lowest order the interaction arises from one-graviton
+exchange and leads at threshold to the well known Newtonian interaction
+V(r) = −Gmamb/r. Inclusion of two-graviton exchange effects means adding
+the contribution from box, cross-box, triangle, and bubble diagrams, which
+have a rather complex form. The calculation can be simplified, however,
+by using ideas from effective field theory. The point is that if one is inter-
+ested only in the leading long-range behavior of the interaction, then one
+need retain only the leading nonanalytic small momentum-transfer piece of
+the scattering amplitude. Specifically, the terms which one retains are those
+which are nonanalytic and behave aseither 1/√−q2 or log−q2. When Fourier
+transformed, the former leads to classical (¯h-independent) terms in the po-
+tential of order G2M3/r2 while the latter generates quantum mechanical (¯h-
+dependent) corrections of orderG2M2¯h/r3. (Of course, there are also shorter
+range nonanalytic contributions than these that are generated by scattering
+terms of order q2n/√−q2 or q2n log−q2. However, these pieces are higher
+order in momentum transfer and thus lead to shorter distance effects than
+those considered above and are therefore neglected in our discussion.)
+Specific calculations were done for particles with spin 0−0, 0−1/2, 0−1,
+and 1/2−1/2 and various universalities were found. In particular, we found
+that in each case there was a spin-independent contribution of the form
+SaSbM(2)
+tot(q)=
+bracketleftBigg
+G2mamb
+parenleftbigg
+6(ma +mb)S− 415 L
+parenrightbigg
+−i4πG2m2am2b Lq2
+radicalBiggm
+amb
+s−s0
+bracketrightBigg
+×〈Sa,maf|Sa,mai〉〈Sb,mbf|Sb,mbi〉 (99)
+where L = log−q2 and S = π2/√−q2 and with Sa the spin of particle a
+and Sb the spin of particle b with projections ma and mb on the quantization
+axis. The imaginary component of the amplitude, which would not, when
+Fourier-transformed lead to a real potential, is eliminated when the iterated
+lowest order potential contribution is subtracted, leading to a well defined
+42
+spin-independent second order potential of universal form
+SaSbV(2)
+S−I(vectorr) =
+bracketleftBigg
+−3G
+2mamb(ma +mb)
+r2 −
+41G2mamb¯h
+10πr3
+bracketrightBigg
+×〈Sa,maf|Sa,mai〉〈Sb,mbf|Sb,mbi〉 (100)
+whose classical component depends on the way the iteration of the leading
+order potential is performed. This ambiguity shows that the second order
+potential itself is not an observable, but we use it as a nice way to display the
+long distance components of the scattering amplitude in coordinate space.
+If either scattering particle carries spin then there exists an additional
+spin-orbit contribution, whose form is also universal
+SaSbV(2)
+S−O(vectorr) =
+bracketleftBiggG2(24m3
+a + 56m
+2
+amb + 45mam
+2
+b + 12m
+3
+b)
+2ma(ma +mb)r4
++3G
+2(128ma + 87mb)¯h
+20πmar5
+bracketrightBigg
+×vectorL· vectorSa〈Sb,mbf|Sb,mbi〉
++
+bracketleftBiggG2(12m3
+a + 45m
+2
+amb + 56mam
+2
+b + 24m
+3
+b)
+2mb(ma +mb)r4
++3G
+2(87ma + 128mb)¯h
+20πmbr5
+bracketrightBigg
+×〈Sa,maf|Sa,mai〉vectorL· vectorSb (101)
+where we have defined
+vectorSa = angbracketleftBigSa,maf vextendsinglevextendsinglevextendsinglevectorSvextendsinglevextendsinglevextendsingleSa,maiangbracketrightBig and vectorSb =angbracketleftBigSb,mbf vextendsinglevextendsinglevextendsinglevectorSvextendsinglevextendsinglevextendsingleSb,mbiangbracketrightBig.
+In this case a well defined second order potential required the subtraction of
+infrared singular terms behaving as both i/p0 and 1/p20 which arise from the
+iterated lowest order potential.
+In the calculation of spin-0 – spin-1 scattering we encountered new tensor
+structures including a quadrupole interaction. Unfortunately, the subtraction
+of thei/p0 and 1/p20 tensor pieces in the two-graviton exchange amplitude was
+not successful with our simple nonrelativistic iteration of the leading order
+potential so that we cannot at this time give the form of the quadrupole
+component of the potential. Further work is needed to clarify this issue. The
+corrections to the spin-spin interaction have only been calculated in spin-1/2
+– spin-1/2 scattering where we found their contributions to the scattering
+amplitude and to the potential. Since we verified these forms only for a
+43
+single spin configuration we have not confirmed its universality which we,
+however, strongly suspect. Of course, for higher spin configurations, there
+also exist quadrupole-quadrupole interactions, spin-quadrupole interactions,
+etc. However, the calculation ofsuch formsbecomes increasingly cumbersome
+as the spin increases, and the phenomenological importance becomes smaller.
+Thus we end our calculations here.
+One point of view to interpret the universalities of the long distance com-
+ponents of the scattering amplitudes and the resulting potentials is that if
+we increase the spins of our scattered particles, all we do is to add additional
+multipole moments. The spin-independent component can then be viewed as
+a monopole-monopole interaction, the spin-orbit piece as a dipole-monopole
+interaction etc. As long as we do not change the quantum numbers that
+characterize the lower multipoles, an increase in spin of the scattered parti-
+cles merely adds new interactions that are less important at long distances.
+The same kind of universalities were also found in long distance effects in
+electromagnetic scattering [9] and in the long range components of mixed
+electromagnetic-gravitational scattering [18].
+Acknowledgements
+We would like to thank John Donoghue for many clarifying discussions
+and Walter Goldberger for important comments. This work was supported in
+part by the National Science Foundation under award PHY05-53304 (BRH
+and AR) and by the the US Department of Energy under grant DE-FG-02-
+92ER40704 (AR).
+A Iteration Integrals
+In this appendix we give the integrals
+[H;Hr;Hrs] = i
+integraldisplay d3ℓ
+(2π)3
+−4πGmamb
+|vectorℓ−vectorpf|2 +λ2
+i[1;ℓr;ℓrℓs]
+p20
+2mr −
+ℓ2
+2mr +iǫ
+−4πGmamb
+|vectorpi −vectorℓ|2 +λ2 (102)
+which are needed in order to perform the iteration of the lowest order Newton
+potentials. Here we list only the results; for a more detailed derivation, albeit
+with a different prefactor, see [9]. The leading expressions for the iteration
+44
+integrals read
+H ≃ −i4πG2m2am2b Lq2 mrp
+0
+Hr ≃ (pi +pf)r G2m2am2b
+parenleftBigg
+−i2πLq2 mrp
+0
++Smrp2
+0
+parenrightBigg
+Hrs ≃ δrs vectorq2 G2m2am2b
+parenleftBigg
+iπLq2 mrp
+0
+− 12Smrp2
+0
+parenrightBigg
++ (pi +pf)r(pi +pf)s G2m2am2b
+parenleftBigg
+−iπLq2 mrp
+0
++Smrp2
+0
+parenrightBigg
++ (pi −pf)r(pi −pf)s G2m2am2b
+parenleftBigg
+−iπLq2 mrp
+0
++ 12Smrp2
+0
+parenrightBigg
+. (103)
+B Classical Equations of Motion
+Above we have argued that the scattering amplitude which is ultimately
+related to observables in quantum field theory is a physical result while the
+potential we have given is not an observable and depends both on the gauge,
+i.e., the choice of coordinates used, and on the way we perform the iteration,
+i.e., on the way we perform the matching. While the classical component
+of our potential is in fact plagued by these ambiguities, the quantum part
+is unique since it is unaffected by how we perform the matching and since
+a quantum field theory calculation in any gauge would result in the same
+result [13].
+In this appendix we will demonstrate how we can recover the classi-
+cal equations of motion from our scattering amplitudes by setting up the
+Einstein-Infeld-Hoffmann (EIH) Lagrangian [2]. The EIH Lagrangian is it-
+self dependent on the choice of coordinates, but can be expressed in the
+center of mass frame (vectorP ≡vectorpa = −vectorpb,vectorr ≡vectorra−vectorrb) in a general way as [19, 20]
+LEIH = T −V (104)
+where the kinetic energy to NLO in the nonrelativistic expansion reads
+T =
+vectorP 2
+2ma +
+vectorP 2
+2mb −
+vectorP 4
+8m3a −
+vectorP 4
+8m3b (105)
+and the potential is
+V = V(1) +V(2) (106)
+45
+with
+V(1) = −Gmambr
+
+
+1 +
+bracketleftBigg1
+2 +
+parenleftbigg3
+2 −α
+parenrightbigg(m
+a +mb)2
+mamb
+bracketrightBigg vectorP 2
+mamb
++
+bracketleftBigg1
+2 +α
+(ma +mb)2
+mamb
+bracketrightBiggparenleftBigvectorP · ˆrparenrightBig2
+mamb
+
+
+ (107)
+V(2) = (1−2α)G
+2mamb(ma +mb)
+2r2 . (108)
+The parameter α parameterizes the choice of coordinates used, where α = 0
+was the gauge of the original EIH result. The coordinate change
+vectorr →vectorr
+parenleftBigg
+1−αG(ma +mb)r
+parenrightBigg
+(109)
+which implies
+vectorP → vectorP +αG(ma +mb)
+r
+bracketleftBigvector
+P −
+parenleftBigvector
+P · ˆr
+parenrightBig
+ˆr
+bracketrightBig
+(110)
+brings the original EIH Lagrangian into the form above, which is the most
+general result.
+Since we perform our matching on-shell, i.e., we use the on-shell one-
+graviton exchange amplitude to define the leading order O(G) potential,
+terms proportional to vectorP ·ˆr would never arise. Clearly, our result must be in
+a gauge such that the coefficient of the structure
+parenleftBigvector
+P · ˆr
+parenrightBig2
+mamb
+in Eq. (107) vanishes. That is the case if and only if the gauge parameter is
+α = − mamb2(m
+a +mb)2
+(111)
+whereby the EIH potential becomes
+V(1) = −Gmambr
+
+1 +
+bracketleftBigg
+1 + 32 (ma +mb)
+2
+mamb
+bracketrightBigg vectorP 2
+mamb
+
+ (112)
+V(2) =
+parenleftBigg
+1 + mamb(m
+a +mb)2
+parenrightBiggG2m
+amb(ma +mb)
+2r2 . (113)
+46
+Comparing the EIH potential V(1) in this gauge of Eq. (112) with the long
+distance component of the leading order spin-independent potential in Eq.
+(22) we find full agreement for the relativistic corrections to the O(G) poten-
+tial. However, comparing the EIH potential V(2) in this gauge of Eq. (113)
+with the classical component of our spin-independent potential in Eq. (33)
+we see that the two do not agree! The reason for this discrepancy is that
+we elected to use a nonrelativistic iteration when we performed the second
+Born iteration of the leading order potential in Eq. (32). This procedure,
+however, is not self-consistent when we are interested in equations of motion
+at NLO, for which we must account for the leading relativistic corrections in
+the iteration. In particular, we must use expressions for the potential and the
+propagator in Eq. (30) which include the leading relativistic corrections10
+angbracketleftBig
+vectorpf
+vextendsinglevextendsingle
+vextendsingle0 ˆV(1)NLO
+vextendsinglevextendsingle
+vextendsinglevectorpi
+angbracketrightBig
+≃−4πGmambvectorq2
+bracketleftBigg
+1+ vectorp
+2
+i +vectorp
+2
+f
+2mamb
+parenleftBigg
+1 + 3(ma +mb)
+2
+2mamb
+parenrightBiggbracketrightBigg
+(114)
+G(0)NLO(ℓ) = ip2
+0
+2mr −
+ℓ2
+2mr +iǫ
+×
+bracketleftBigg
+1 +
+parenleftBigg p2
+0
+4m2r +
+ℓ2
+4m2r
+parenrightBiggparenleftBigg
+1−3 m
+2
+r
+mamb
+parenrightBiggbracketrightBigg
+(115)
+which yields a second Born iteration amplitude
+0Amp(2)
+NLO(vectorq) ≃ −
+integraldisplay d3ℓ
+(2π)3
+4πGmamb
+|vectorpf −vectorℓ|2
+1
+p20
+2mr −
+ℓ2
+2mr +iǫ
+4πGmamb
+|vectorℓ−vectorpi|2
+×
+bracketleftBigg
+1 + (p
+2
+0 +ℓ
+2)
+mamb
+parenleftBigg1
+4 +
+7
+4
+mamb
+m2r
+parenrightBiggbracketrightBigg
+≃ H + 1m
+amb
+parenleftBig
+p20H +δrsHrs
+parenrightBigparenleftBigg1
+4 +
+7
+4
+mamb
+m2r
+parenrightBigg
+≃ −i4πG2m2am2b Lq2 mrp
+0
++ G
+2m2
+am
+2
+b
+ma +mb
+parenleftBigg
+1 + 7(ma +mb)
+2
+mamb
+parenrightBigg
+S.
+(116)
+Subtracting this iterated amplitude which includes all corrections to NLO
+from the scattering amplitude 0M(2)tot(vectorq) of Eq. (21) we find then the second
+order potential
+0V(2)
+NLO(vectorr) = −
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrbracketleftBig0M(2)
+tot(vectorq)−
+0Amp(2)
+NLO(vectorq)
+bracketrightBig
+10The subscript NLO in this sections refers to the iteration being performed at NLO in
+the relativistic expansion.
+47
+=
+integraldisplay d3q
+(2π)3e
+−ivectorq·vectorrG2mamb
+bracketleftbiggparenleftbigg
+(ma +mb) + mambm
+a +mb
+parenrightbigg
+S + 415 L
+bracketrightbigg
+=
+parenleftBigg
+1 + mamb(m
+a +mb)2
+parenrightBiggG2m
+amb(ma +mb)
+2r2 −
+41G2mamb¯h
+10πr3 (117)
+and observe that now the classical component agrees with the O(G2) EIH
+potential of Eq. (113).
+Thus we have shown that if we consistently take into account the v2
+and GM/r corrections beyond Newtonian physics we reproduce the EIH
+Lagrangian in a certain gauge. From the resulting EIH Lagrangian we could
+evaluate observables such as the precession of the perihelion of Mercury which
+must clearly be independent of the gauge used. The inclusion of the v2
+corrections is required since the equations of motion can be used to describe
+bound states where v2 ∼GM/r by the virial theorem.
+However, our methods are clearly clumsy for the calculation of classical
+observables. Recently, Goldberger and Rothstein have developed an effective
+field theory of gravity which is optimized for calculating classical observables
+of bound states called NRGR [21, 22, 23, 24, 25, 26]. Here the external
+particles are static sources so that no loops are to be calculated in their theory
+when calculating classical observables since the only propagating particles
+present are gravitons which are massless and thus the loop expansion in
+NRGR corresponds to an expansion in ¯h. In the NRGR framework the spin-
+dependent classical equations of motion were calculated recently to NLO by
+Porto and Rothstein [27, 28, 29, 30] so that we will not continue here to
+evaluate the corresponding spin-dependent classical potentials consistently
+taking into account all relativistic O(v2) effects in the iteration.
+References
+[1] See, e.g., S. Weinberg,Gravitation and Cosmology, Wiley, New York
+(1972).
+[2] A. Einstein, L. Infeld and B. Hoffmann, Annals Math. 39, 65 (1938).
+[3] J. F. Donoghue, Phys. Rev. Lett. 72, 2996 (1994) [arXiv:gr-qc/9310024].
+[4] J. F. Donoghue, Phys. Rev. D 50, 3874 (1994) [arXiv:gr-qc/9405057].
+[5] J. F. Donoghue, arXiv:gr-qc/9512024.
+48
+[6] C. P. Burgess, Living Rev. Rel. 7, 5 (2004) [arXiv:gr-qc/0311082].
+[7] N. E. J. Bjerrum-Bohr, J. F. Donoghue and B. R. Holstein, Phys.
+Rev. D 68, 084005 (2003) [Erratum-ibid. D 71, 069904 (2005)]
+[arXiv:hep-th/0211071].
+[8] B. R. Holstein, Phys. Rev. D 74, 084030 (2006).
+B. R. Holstein, arXiv:gr-qc/0607051.
+[9] B.R. Holstein, A. Ross, arXiv:0802.0715 [hep-ph].
+[10] Y. Iwasaki, Prog. Theo. Phys. 46, 1587 (1971).
+[11] I. B. Khriplovich and G. G. Kirilin, J. Exp. Theor. Phys. 95, 981 (2002)
+[Zh. Eksp. Teor. Fiz. 95, 1139 (2002)] [arXiv:gr-qc/0207118].
+[12] I. B. Khriplovich and G. G. Kirilin, eConf C0306234, 1361 (2003)
+[J. Exp. Theor. Phys. 98, 1063 (2004 ZETFA,125,1219-1228.2004)]
+[arXiv:gr-qc/0402018].
+[13] N. E. J. Bjerrum-Bohr, J. F. Donoghue and B. R. Holstein, Phys.
+Rev. D 67, 084033 (2003) [Erratum-ibid. D 71, 069903 (2005)]
+[arXiv:hep-th/0211072].
+[14] G. ’t Hooft and M. J. G. Veltman, Annales Poincare Phys. Theor. A 20,
+69 (1974).
+[15] J. Sucher, Phys. Rev. D 49, 4284 (1994).
+[16] S. Deser and P. van Nieuwenhuizen, Phys. Rev. D 10, 411 (1974).
+[17] G. G. Kirilin, Nucl. Phys. B 728, 179 (2005) [arXiv:gr-qc/0507070].
+[18] B.R. Holstein, A. Ross, arXiv:0802.0717 [hep-ph].
+[19] K. Hiida and H. Okamura, Prog. Theor. Phys. 47, 1743 (1972).
+[20] B. M. Barker and R. F. O’Connell, Phys. Rev. D 12, 329 (1975).
+[21] W. D. Goldberger and I. Z. Rothstein, Phys. Rev. D 73, 104029 (2006)
+[arXiv:hep-th/0409156].
+49
+[22] W. D. Goldberger and I. Z. Rothstein, Gen. Rel. Grav. 38, 1537 (2006)
+[Int. J. Mod. Phys. D 15, 2293 (2006)] [arXiv:hep-th/0605238].
+[23] W. D. Goldberger, arXiv:hep-ph/0701129.
+[24] W. D. Goldberger and I. Z. Rothstein, Phys. Rev. D 73, 104030 (2006)
+[arXiv:hep-th/0511133].
+[25] B. Kol and M. Smolkin, arXiv:0712.2822 [hep-th].
+[26] B. Kol and M. Smolkin, arXiv:0712.4116 [hep-th].
+[27] R. A. Porto, Phys. Rev. D 73, 104031 (2006) [arXiv:gr-qc/0511061].
+[28] R. A. Porto and I. Z. Rothstein, Phys. Rev. Lett. 97, 021101 (2006)
+[arXiv:gr-qc/0604099].
+[29] R. A. Porto, arXiv:0710.5150 [hep-th].
+[30] R. A. Porto and I. Z. Rothstein, arXiv:0712.2032 [gr-qc].
+50

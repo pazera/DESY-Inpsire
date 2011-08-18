@@ -1,0 +1,510 @@
+arXiv:0806.1516v1  [hep-ph]  9 Jun 2008
+Higgs Decays and Brane Gravi-vectors
+T.E. Clark,∗ Boyang Liu,† S.T. Love,‡ and C. Xiong§
+Department of Physics, Purdue University, West Lafayette, IN 47907-2036, U.S.A.
+T. ter Veldhuis¶
+Department of Physics & Astronomy, Macalester College, Saint Paul, MN 55105-1899, U.S.A.
+Higgs boson decays in flexible brane world models with stable, massive gravi-vectors are con-
+sidered. Such vectors couple bilinearly to the Standard Model fields through either the Standard
+Model energy-momentum tensor, the weak hypercharge field strength or the Higgs scalar. The role
+of the coupling involving the extrinsic curvature is highlighted. It is found that within the presently
+allowed parameter space, the decay rate of the Higgs into two gravi-vectors (which would appear
+as an invisible Higgs decay) can be comparable to the rate for any of the Standard Model decay
+modes.
+Various theoretical extensions of theories of gravity in-
+clude vector particles. In particular, such gravi-vectors[1]
+appear in flexible brane world models in which a four di-
+mensional spacetime is embedded in a higher dimensional
+spacetime thus breaking the extra dimensional spatial
+translation symmetries[2]. When these symmetries are
+made local thereby including higher dimensional grav-
+itational interactions, the erstwhile Nambu-Goldstone
+scalar degrees of freedom[3] associated with the higher
+dimensional spatial translation symmetry breakdown be-
+come the longitudinal components of the now massive
+vector particles, Xµi . For N ≥ 2 additional compact-
+ified isotropic spatial dimensions, these vectors, which
+are completely neutral under the Standard Model gauge
+group, carry an additional SO(N) quantum number, la-
+belled by i = 1,...,N, which reflects the isometry of
+the co-dimensional space when the 4-dimensional brane
+is embedded in the larger dimensional spacetime. On
+the other hand, all Standard Model particles are SO(N)
+singlets. Consequently, SO(N) invariant interactions of
+these vector Proca fields require them to appear in pairs
+and they are thus massive, stable physical degrees of free-
+dom. For a single codimension, N = 1, the vector is
+stable provided there is a unbroken parity with respect
+to the extra dimension under which the brane vector is
+odd. Being stable, the vectors are also candidates for the
+dark matter of the universe and are thus subject to the
+appropriate constaints[4].
+The strength of the vector interactions is governed by
+the ratio M2XF4
+X
+where MX is the vector mass whose non-
+zero value is model dependent and F4X the brane ten-
+sion. In the flexible brane limit where the brane tension
+is much smaller than the D-dimensional Planck scale, the
+Kaluza-Klein modes of higher dimensional gravity decou-
+∗Electronic address: clark@physics.purdue.edu
+†Electronic address: liu115@purdue.edu
+‡Electronic address: love@physics.purdue.edu
+§Electronic address: xiong@purdue.edu
+¶Electronic address: terveldhuis@macalester.edu
+ple from the Standard Model particles and thus we can
+focus attention on the coupling of the brane-vectors to
+the Standard Model. The leading four-dimensional cou-
+plings of these vectors to the Standard Model is given
+by[4]
+SX−SM =
+integraldisplay
+d4x[LTXX +LBXX +LHXX] . (1)
+Here the effective Lagrangian
+LTXX = 12M
+2
+X
+F4X X
+µ
+i T
+SM
+µν X
+ν
+i (2)
+details the coupling of the induced metric on the brane to
+the Standard Model symmetric energy momentum tensor
+TSMµν . The other two interactions involve the extrinsic
+curvature and vector field strength tensors. The extrinsic
+curvature tensor
+Kµνi = 12(∂µXνi +∂νXµi ) +... (3)
+measures the curvature of the embedded brane relative
+to enveloping D-dimensional geometry, while the vector
+field strength is given by
+Xµνi = ∂µXνi −∂νXµi . (4)
+The product of the extrinsic curvature tensor and field
+strength couple to the Standard Model singlet weak
+hypercharge field strength Bµν = ∂µBν − ∂νBµ with
+Bµ = cosθWAµ −sinθWZµ as
+LBXX = M
+2
+X
+2F4X [κ1Bµν +κ2
+˜Bµν]Xµρi Kρiν . (5)
+The coefficients κ1,κ2 are dimensionless constants of the
+effective Lagrangian. Finally, there is an invariant cou-
+pling to the Standard Model scalar doublet bilinear, φ†φ,
+given by
+LHXX = M
+2
+X
+2F4X [λ1K
+µν
+i Kiµν +λ2XiµνX
+µν
+i
++λ3Xiµν ˜Xµνi ](φ†φ− v
+2
+2 ) . (6)
+2
+with v2 = M2W sin2 θWpiα . In unitary gauge: φ†φ − v22 =
+vH + 12H2 with H the Higgs scalar so that included in
+LHXX is the interaction of the Higgs to two X fields.
+Here again, the coefficients λ1,λ2,λ3 are dimensionless
+constants of the effective Lagrangian.
+Thus the effective interaction (1) is characterized by
+two mass scales, FX and MX which we treat as free pa-
+rameters as well as five model dependent dimensionless
+couplings, κ1,κ2,λ1,λ2,λ3. Constraints on the FX−MX
+parameterspacehavebeen obtained[4] using collider data
+and dark matter limits. For the numerical estimates
+made in this paper, we shall, for definiteness, use the
+value FX = 250 GeV which is well within the currently
+allowed range for MX ≤ 100 GeV and is appropriate for
+a Higgs boson with mass less than 200 GeV. Moreover,
+for definiteness, we take N = 2.
+We nowturn to considerHiggsbosondecayscontaining
+a pair of X vectors. We begin with the decay H → XX
+which appears as an invisible Higgs decay. The leading
+order Feynman graph for this process is displayed in fig-
+ure 1 where the vertex is secured using the effective La-
+a1
+Xj
+Xi
+H
+FIG. 1: Leading order Feynman graph for process H →XX.
+grangianLHXX. Note that LTXX does not contribute to
+the leading order graph since vacuum stability dictates
+that there is no term linear in H in the Higgs potential.
+The decay rate is readily computed as
+Γ(H →XX) = N sin
+2 θW
+32pi2α
+M7HM2W
+F8X
+radicalbig
+1−4ξ2
+bracketleftbigg
+(λ14 +λ2)2(1−2ξ2)2(14 −ξ2 +3ξ4)
++(λ
+21
+16 −λ
+2
+2)
+1
+2(1−2ξ
+2)2(1−4ξ2)
++ 14(λ14 −λ2)2(1−4ξ2)2 +8λ23ξ4(1−4ξ2)
+bracketrightbigg
+(7)
+with ξ ≡ MXMH. Figures 2 and 3 display the ratio of this
+rate to the total Higgs decay rate as computed in the
+Standard Model for Higgs masses of 120 GeV and 180
+GeV taking the parameters λ1 = λ2 = λ3 = 1. We see
+that the rate of Higgs decay to a pair of X vectors for
+these parameters is quite comparable to the rate for any
+of the Standard Model decay channels. Note that the
+FX dependence is quite steep varying as 1/F8X. Even so,
+0.1 0.2 0.3 0.4 0.5 ΞEqual
+MxFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+MH
+0.2
+0.4
+0.6
+0.8
+CapGamma LParen1H RArrow xxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+LParen1CapGammaHRParen1SM
+MHEqual120Gev
+FxEqual250Gev
+Λ1EqualΛ2EqualΛ3Equal1
+FIG. 2: Ratio of decay rate for H → XX to the Standard
+Model Higgs decay rate as a function of MX/MH with MH =
+120 GeV and FX = 250 GeV.
+0.1 0.2 0.3 0.4 0.5 ΞEqual
+MxFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+MH
+0.02
+0.04
+0.06
+0.08
+0.1
+CapGamma LParen1H RArrow xxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+LParen1CapGammaHRParen1SM
+MHEqual180Gev
+FxEqual250Gev
+Λ1EqualΛ2EqualΛ3Equal1
+FIG. 3: Ratio of decay rate for H → XX to the Standard
+Model Higgs decay rate as a function of MX/MH with MH =
+180 GeV and FX = 250 GeV.
+for an FX value as high as 500 GeV, the 120 GeV Higgs
+boson will still decay to the X pairs at roughly a rate of
+10−3 that obtained from the Standard Model.
+Since the Higgs decay to µ¯µ is one of considerable
+focus at the LHC, we next consider the decay channel
+H →µ¯µXX which would appear as µ¯µ plus missing en-
+ergy. This process can be mediated by either the induced
+metric coupling LTXX to the energy-momentum tensor
+TSMµν or the coupling LBXX to the weak hypercharge.
+The former interactions appear in the Feynman graphs
+of figure 4. The amplitude obtained from these graphs
+variesas mµF4
+X
+and is thus, in general, suppressedrelativeto
+the amplitude obtained from the graph of figure 5 which
+depends on the extrinsic curvature coupling LBXX and
+is independent of mµ.
+In figures 6-7 is plotted the ratio of the total rate for
+this process to the Standard Model rate of Higgs decay to
+µ¯µfor a Higgs massof 120 GeV while takingκ1 = κ2 = 1.
+The rather sharp peak in figure 6 arises when both of
+the internal Z lines are basically on-shell thus providing
+a significant enhancement. For this narrow range of MX
+masses which is roughly centered about MX ≃ 13 GeV,
+3
+a1
+¯µ
+Xj
+Xi
+µ
+H +
+a2
+¯µ
+Xj
+Xi
+µ
+H
++
+a3
+Xj
+¯µ
+µ
+Xi
+H +
+a4
+¯µ
+Xj
+Xi
+µ
+H
+FIG. 4: Leading order Feynman graphs for the decay H →
+µ¯µXX mediated using the coupling LTXX.
+a1
+Z
+Z
+Xj
+Xi
+¯µ
+µ
+H
+FIG. 5: Leading order Feynman graph for the decay H →
+µ¯µXX mediated using the coupling LBXX.
+the ratio is ∼ 10−3. It then falls quite dramatically by
+several orders of magnitude as seen in the figure 7. The
+bump in this plot arises from one of the internal Z lines
+being essentially on shell. This generic type of behavior
+is also seen for a Higgs mass of 180 GeV as evidenced in
+the figure 8. Once again, there is a narrow range of MX
+values where the decay rate Γ(H → µ¯µXX) relative to
+the Standard Model rate for H → µ¯µ is a few parts in
+10−3 while for other MX values the ratio steeply drops
+to an experimentally inaccessible range.
+Finally, we consider the decay rate H → γXX which
+appears as a photon plus missing energy. The leading
+Feynman graph contributing to this process is displayed
+in figure 9. Here for the Hγγ and HγZ vertices, we use
+the 1-loop Standard Model effective couplings
+SHγγ +SHγZ = sin
+2 θWM2
+Wradicalbig
+4piM3Hintegraldisplay
+d4x
+bracketleftbiggradicalbig
+ΓH→γγFµνFµνH
++
+radicaltpradicalvertex
+radicalvertexradicalbt 2ΓH→γZ
+(1− M2ZM2
+H
+)3
+FµνZµνH
+bracketrightbigg
+, (8)
+with Fµν = ∂µAν −∂νAµ ; Zµν = ∂µZν −∂νZµ which
+0.05 0.1 0.15 0.2 0.25
+Mx2FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+MH2
+0.0002
+0.0004
+0.0006
+0.0008
+0.001
+0.0012
+0.0014
+CapGamma LParen1H MinusGreater Μ ΜOverBar xxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+CapGamma LParen1H MinusGreater Μ ΜOverBarRParen1
+MHEqual120Gev
+FxEqual250Gev
+Κ1EqualΚ2Equal1
+FIG. 6: Ratio of decay rate for H → µ¯µXX to Standard
+Model rate for H → µ¯µ as a function of M2X/M2H for MH =
+120 GeV and FX = 250 GeV with the scale on the vertical
+axis appropriate for displaying the sharp peak at MX ≃ 13
+GeV.
+0.05 0.1 0.15 0.2 0.25
+Mx2FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+MH2
+5·10-10
+1·10-9
+1.5·10-9
+2·10-9
+2.5·10-9
+CapGamma LParen1H MinusGreater Μ ΜOverBar xxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+CapGamma LParen1H MinusGreater Μ ΜOverBarRParen1
+MHEqual120Gev
+FxEqual250Gev
+Κ1EqualΚ2Equal1
+FIG. 7: Ratio of decay rate for H → µ¯µXX to Standard
+Model rate for H → µ¯µ as a function of M2X/M2H for MH =
+120 GeV and FX = 250 GeV with the scale on the vertical
+axis appropriate for displaying a secondary, much lower peak
+at M2X/M2H ≃ 0.13.
+0.05 0.1 0.15 0.2 0.25
+Mx2FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+MH2
+0.0005
+0.001
+0.0015
+0.002
+0.0025
+0.003
+0.0035
+CapGamma LParen1H MinusGreater Μ ΜOverBar xxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+CapGamma LParen1H MinusGreater Μ ΜOverBarRParen1
+MHEqual180Gev
+FxEqual250Gev
+Κ1EqualΚ2Equal1
+FIG. 8: Ratio of decay rate for H → µ¯µXX to Standard
+Model rate for H → µ¯µ as a function of M2X/M2H for MH =
+180 GeV and FX = 250 GeV with the scale on the vertical
+axis appropriate for displaying the dominant peak.
+4
+a1
+γ,Z
+Xj
+Xi
+γ
+H
+FIG. 9: Leading order Feynamn graph for the process H →
+γXX.
+is secured from the fermion and W vector 1-loop graphs.
+On the other hand, theγXX andZXX verticesaregiven
+by the effective Lagrangian LBXX. The doubly differen-
+tial decay rate is dΓ(H→γXX)dEγdΩγ is isotropic in the Higgs rest
+frame, while the differential rate with respect to photon
+energy in this frame takes the form
+dΓ(H →γXX)
+dEγ =
+N
+384pi3
+M2XM5H
+F8X η
+3(1−η)32
+(1−η− 4M
+2
+X
+M2H )
+3
+2
+bracketleftbigg
+κ21(1−η)
++κ22(1−η− 4M
+2
+X
+M2H )
+bracketrightbiggbraceleftbigg4cos2 θ
+W
+(1−η)2 ΓH→γγ
+−
+4cosθW sinθW(1−η− M2ZM2
+H
+)
+(1−η)[(1−η− M2ZM2
+H
+)2 + M2ZΓ2ZM4
+H
+]radicaltp
+radicalvertexradicalvertex
+radicalbt2ΓH→γγΓH→γZ
+(1− M2ZM2
+H
+)3
++ 2sin
+2 θW
+[(1−η− M2ZM2
+H
+)2 + M2ZΓ2ZM4
+H
+]
+ΓH→γZ
+(1− M2ZM2
+H
+)3
+bracerightbigg
+, (9)
+where 0 ≤ η = 2EγMH ≤ 1 − 4M2XM2
+H
+. In figure 10, we plot
+the ratio of the differential rate to the total rate for this
+process as a function of η = 2EγMH for MX = 25 GeV, while
+figure 11 shows the ratio of the total rate for this process
+to the Standard Model rate for H →γγ. The peak tracks
+the enhancement accompanying the internal Z line going
+to mass shell. Unfortunately, the rate for this process is
+too small to allow for experimental detection.
+A variety of flexible brane world models contain mas-
+sive, stable vector fields[1],[5]. In this note we focused on
+the decay modes of the Higgs boson which contain a pair
+of such vectors. Using representative values of the vec-
+tor effective Lagrangian parameters which are consistent
+with the current experimental limits, we found that the
+rate for H →XX (an invisible Higgs decay) could prove
+comparable to any of the Standard Model Higgs decay
+rates. Note that the invisible decay of the Higgs with
+0.2 0.4 0.6 0.8 ΗEqual
+2 EΓFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+MH
+5
+10
+15
+20
+25
+1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+CapGamma LParen1H RArrow ΓxxRParen1
+dCapGamma LParen1H RArrow ΓxxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+dΗ
+MxEqual25Gev
+MHEqual120Gev
+FxEqual250Gev
+Κ1EqualΚ2Equal1
+FIG. 10: Ratio of differential rate dΓ(H→γXX)dη , with η = 2EγMH ,
+to total rate for H →γXX as a function of η.
+10 20 30 40 50 60 MxLParen1GevRParen1
+0.2
+0.4
+0.6
+0.8
+1
+CapGamma LParen1H MinusGreater ΓxxRParen1FractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExtFractionBarExt
+CapGamma LParen1H MinusGreater ΓΓRParen1 Multiply10
+8
+MHEqual120Gev
+FxEqual250Gev
+Κ1EqualΚ2Equal1
+FIG. 11: Ratio of total rate for H →γXX to Standard Model
+rate for H →γγ as a function of MX.
+comparable rates also occurs in other extensions of the
+Standard Model with additional stable, neutral, weakly
+interacting particles such as neutralinos in supersymmet-
+ric extensions of the Standard Model[6].
+The work of TEC, STL and CX was supported in part
+bythe U.S. Department ofEnergyunder grantDE-FG02-
+91ER40681 (Task B). The work of TtV was supported in
+part by a Cottrell Award from the Research Corporation.
+TtV would like to thank the theory group at Purdue
+University for its hospitality during his sabbatical leave.
+[1] T.E. Clark, S. T. Love, M. Nitta, T. ter Veld-
+huis and C. Xiong, Phys. Rev. D75, 065028 (2007),
+[arXiv:hep-th/0612147]; S.T. Love, J. Phys. A: Math.
+Theor. 40, 7049 (2007), [arXiv:hep-th/0611199]; T.E.
+Clark, S.T. Love, M. Nitta and T. ter Veldhuis, Phys.
+Rev. D72, 085014 (2005), [arXiv:hep-th/0506094].
+5
+[2] T.E. Clark, S.T. Love, M. Nitta, T. ter Veld-
+huis and C. Xiong, Phys. Rev. D76, 105014 (2007)
+[arXiv:hep-th/0703179]; T.E. Clark and S.T. Love, Phys.
+Rev. D73, 025001 (2006), [arXiv:hep-th/0510274]; S.T.
+Love, Mod. Phys. Lett. A20, 2903-2911 (2005),
+[arXiv/hep-th/0510187] ; T.E. Clark, S.T. Love, M.
+Nitta and T. ter Veldhuis, J. Math. Phys. 46,
+102304 (2005), [arXiv:hep-th/0501241] ; J. Gomis, K.
+Kamimura and P. West, Class. Quant. Grav. 23, 7369
+(2006), [arXiv:hep-th/0607057]; JHEP 0610, 015 (2006),
+[arXiv:hep-th/0607104].
+[3] P. Creminelli and A. Strumia, Nucl. Phys. B596,
+125 (2001), [arXiv:hep-ph/0007267]; A.R. Cembranos, A.
+Dobado and A.L. Maroto, J. Phys. A 40, 6631 (2007),
+[arXiv:hep-ph/0611024].
+[4] T.E. Clark, S.T. Love, M. Nitta, T. ter Veldhuis and
+C. Xiong, ”Brane Vector Phenomenology”, arXiv:hep-
+th/0709.4023; S.T. Love, ”Vectors and Locally Invariant
+Brane World Models”, to appear in Proceedings of the
+2007 Europhysics High Energy Physics Conference
+, Manchester, 2007, J. Phys. CS (2008).
+[5] M. Bando, T. Kugo, T. Noguchi and K. Yoshioka, Phys.
+Rev. Lett. 83, 3601 (1999) [arXiv:hep-ph/9906549]; T.
+Kugo and K. Yoshioka, Nucl. Phys. B 594, 301 (2001)
+[arXiv:hep-ph/9912496].
+[6] R. M. Godbole, M. Guchait, K. Mazumdar, S. Moretti
+and D. P. Roy, Phys. Lett. B 571, 184 (2003),
+[arXiv:hep-ph/0304137]; H. Davoudiasl, T. Han and
+H. E. Logan, Phys. Rev. D 71, 115007 (2005),
+[arXiv:hep-ph/0412269].

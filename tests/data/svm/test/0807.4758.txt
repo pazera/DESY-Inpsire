@@ -1,0 +1,1096 @@
+arXiv:0807.4758v2  [math-ph]  4 Nov 2008
+Painlev´e V and the distribution function of a
+discontinuous linear statistics in the Laguerre
+Unitary Ensembles
+Estelle Basor∗
+American Institute of Mathematics
+Palo Alto, California
+94306 USA
+Yang Chen†
+Department of Mathematics
+Imperial College London
+180 Queen’s Gates
+London SW7 2BZ UK
+28-10-2008
+Abstract
+In this paper we study the characteristic or generating function of a certain dis-
+continuous linear statistics of the Laguerre unitary ensembles and show that this is a
+particular fifth Painl´eve transcendant in the variable t, the position of the discontinu-
+ity.
+The proof of the ladder operators adapted to orthogonal polynomial with discontin-
+uous weight announced sometime ago [13] is presented here, followed by the non-linear
+difference equations satisfied by two auxiliary quantities and the derivation of the
+Painl´eve equation.
+∗ebasor@aimath.org. Supported in part by NSF Grant DMS-0500892
+†ychen.ic.ac.uk
+1
+1 Introduction
+In the theory of random matrix ensembles with unitary symmetry the real eigenvalues
+{xj}nj=1 have the joint probability distribution
+P(x1,...,xn)dx1...dxn = 1n! D
+n
+productdisplay
+1≤j<k≤n
+(xk −xj)2
+nproductdisplay
+l=1
+w0(xl)dxl, (1.1)
+where w0(x) with x ∈ [a,b] say, is strictly positive and satisfies a Lipshitz condition and
+has finite moments, that is, the existence of the integrals,
+integraldisplay b
+a
+xjw0(x)dx, j ∈{0,1,2,...}.
+Here Dn is the normalization constant
+Dn[w0] = 1n!
+integraldisplay
+[a,b]n
+productdisplay
+1≤j<k≤n
+(xk −xj)2
+nproductdisplay
+l=1
+w0(xl)dxl, (1.2)
+so that
+integraldisplay
+[a,b]n
+P(x1,...,xn)dx1...dxn = 1. (1.3)
+We include the cases where a may be −∞ and/or b may be ∞. For a comprehensive
+study of the theory of random matrices see [20].
+A linear statistics is a linear sum of a certain function g of the random variable xj :
+nsummationdisplay
+k=1
+g(xk). (1.4)
+The generating function of such alinear statistics is, by definition the average of exp(λsummationtextk g(xk)),
+with respect to the joint probability distribution (1.1), where λ is a parameter, reads,
+integraldisplay
+[a,b]n
+exp
+bracketleftBigg
+λ
+nsummationdisplay
+k=1
+g(xk)
+bracketrightBigg
+P(x1,...,xn)
+nproductdisplay
+k=1
+dxk. (1.5)
+More generally, we can consider
+integraldisplay
+[a,b]n
+bracketleftBigg nproductdisplay
+k=1
+f(xk)
+bracketrightBigg
+P(x1,...,xn)
+nproductdisplay
+k=1
+dxk (1.6)
+If f is a ”smooth” function then asymptotic formulas for large n for the characteristic
+functions have been obtained for the Hermite case, where w0(x) = e−x2, x ∈ (−∞,∞)
+2
+by Kac [16] and Akhiezer[1] and generalized by many authors. See [8] for a history of
+this problem. These results are continuous analogs of the classical Szeg¨o limit theorem on
+Toeplitz determinants
+In the Laguerre case where w0(x) = xαe−x, x ∈ [0,∞) an analogous formula was found
+recently for smooth functions in [4]. However, results for the situations where f has dis-
+continuities are harder to come by. We mention here the original studies in [6] where f has
+several discontinuities and which corresponds to the Hermite case. More general results can
+be found in [9, 10, 7] and [21]. Also, results that correspond to α = ±1/2 and large n
+appear in [5].
+In this paper we investigate the case where n is finite, and f is constant except for a
+jump at t ∈ [0,∞), and is of the form
+f(x,t) = A + Bθ(x−t) (1.7)
+where θ(x) is one for x > 0 and zero otherwise and A ≥ 0 and B > 0. In the special case
+of linear statistics the function g will take the form
+g(x,t) := θ(x−t) ln
+parenleftbigg
+1 + β2
+parenrightbigg
++ θ(t−x) ln
+parenleftbigg
+1− β2
+parenrightbigg
+, (1.8)
+where −1 < β2 < 1. This corresponds to a function f where
+f(x,t) =
+parenleftbigg
+1− β2
+parenrightbiggλ
++
+bracketleftBiggparenleftbigg
+1 + β2
+parenrightbiggλ
+−
+parenleftbigg
+1− β2
+parenrightbiggλbracketrightBigg
+θ(x−t)
+that is
+A =
+parenleftbigg
+1− β2
+parenrightbiggλ
+and
+B =
+parenleftbigg
+1 + β2
+parenrightbiggλ
+−
+parenleftbigg
+1− β2
+parenrightbiggλ
+.
+We also point out that if A = 0 and B = 1 then we have the important case where we
+are computing the probability that all the eigenvalues are in the interval [t,∞). This case
+of course is what leads to the now well-known Tracy-Widom laws. More will be said about
+this later.
+Our main tool will be to use the theory of orthogonal polynomials. Previously, in random
+matrix theory one made use of the orthogonal polynomials associated to the weight that
+defined the ensemble. Fundamental quantities were then described in terms of Fredholm
+determinants. While both the authors are very fond of determinants, in this work, we do not
+consider Fredholm determinants. Instead we consider the polynomials that are orthogonal to
+the perturbed weight, that is a regular or ”nice” weight multiplied by the discontinuous factor
+given in (1.7). In this manner we are able to use the results of the orthogonal polynomials
+to derive equations associated with the various statistics of interest.
+3
+The idea is that we write the multiple integral in (1.6) as a Hankel determinant. We then
+need to know information about the norms of the orthogonal polynomials. To understand
+this we need to know something about the recursion coefficients of the polynomials. This
+will lead us naturally to another pair of auxiliary quantities that depend on t and n. In the
+paper they are called rn and Rn . Using these auxiliary quantities we are able to produce
+the second order non-linear differential equations satisfied by Sn = 1 − 1/Rn which turns
+out to be a particular fifth Painl´eve transcendent, in addition to the Jimo-Miwa-Okamoto
+σ form [15] satisfied by the logarithmic derivative of the Hankel determinant with respect
+to t. We also wish to emphasize that the logarithmic derivative of the Hankel determinant
+can be computed very naturally in terms of our quantity rn(t) and its derivative and the
+relationships between these quantities arise naturally using this approach.
+We also derive a discrete version of the σ form of a nonlinear second order difference
+equation satisfied by the same logarithmic derivative. Our computations show that in fact
+the values of our generalized polynomials at the end points of the intervals are intimately
+related to the resolvent kernels found in the standard approach of Tracy and Widom. This
+is really not surprising, since we are all starting with the same multiple integral. Rather, our
+point is that computations can all be made by using only the very basic theory of orthogonal
+polynomials.
+The Palinlev´e equation can be found in [27]. The second order difference equation [(4.29),
+Theorem 8], as far as we know is a new equation.
+In the next section the proof for a pair of ladder operators, and the associated supple-
+mentary conditions adapted to orthogonal polynomials with discontinuous weights which
+was announced sometime ago [13] will be provided. In section 3, a system of difference equa-
+tions satisfied by two auxiliary quantities rn and Rn (these will ultimately determine the
+recurrence coefficients for the orthogonal polynomials) are derived. In section 4 we derive a
+second order non-linear differential equation which turns out to be a particular fifth Painlev´e
+transcendent. In the process we identity that the quantity
+Sn(t) := 1− 1R
+n(t)
+,
+to be such an equation. Furthermore we show that the logarithmic derivative of the gener-
+ating function
+Hn(t) := t ddt lnG(n,t) = t ddt lnDn(t)
+satisfies both the continuous and discrete σ form of Painlev´e V.
+4
+2 Ladder operators and supplementary conditions
+According the general theory of orthogonal polynomials of one variable, for a generic weight
+w, the normalization constant (1.2) has the two more alternative representations
+Dn[w] := det(µi+j)n−1i,j=0 := det
+parenleftbiggintegraldisplay b
+a
+xi+j w(x)dx
+parenrightbiggn−1
+i,j=0
+(2.1)
+=
+n−1productdisplay
+j=0
+hj, (2.2)
+where the determinant of the moment matrix (µi+j) is the Hankel determinant. Here
+{hj}nj=0 is the square of the L2 norm of the sequence of (monic-)polynomials {Pj(x)}nj=0
+orthogonal with respect to w over [a,b];
+integraldisplay b
+a
+Pi(x)Pj(x)w(x)dx = δi,jhj. (2.3)
+Therefore with reference to (1.2) and (1.5) the quantity that we need to compute is
+G(t,n) = Dn [w]D
+n[w0]
+=
+producttextn−1
+i=0 hi(t)producttext
+n−1
+i=0 hi
+,
+where w(x,t) := xαe−x(A + Bθ(x−t)) and hk(t) is defined by
+integraldisplay ∞
+0
+{Pk(x)}2(A + B θ(x−t)) xα e−xdx = hk(t). (2.4)
+We also denote
+Dn(t) := Dn[w(.,t)].
+This leads to the generic problem of the characterization of polynomials orthogonal with
+respect to ”smooth” weights w0(x) perturbed by a jump factor where the discontinuity is
+at t. So if we write
+wJ(x,t) := A + B θ(x−t), A ≥ 0, A + B > 0 (2.5)
+then
+integraldisplay b
+a
+Pi(x)Pj(x)w0(x)wJ(x,t)dx = δi,jhj(t). (2.6)
+It follows from the orthogonality relations that,
+zPn(z) = Pn+1(z) + αn(t)Pn(z) + βn(t)Pn−1(z). (2.7)
+5
+This three term recurrence relations, together with the ”initial” conditions,
+P0(z) = 1, β0P−1(z) = 0,
+generates the monic polynomials,
+Pn(z) = zn +p1(n,t)zn−1 + ... (2.8)
+the first two of which are
+P0(z) = 1
+P1(z) = z −α0(t) = z − µ1(t)µ
+0(t)
+. (2.9)
+Note that due to the t dependence of the weight, the coefficients of the polynomials and
+the recurrence coefficients αn and βn also depend on t the position of the jump. However,
+unless it is required we do not display the t dependence.
+From (2.7) and (2.8), we find, for n ∈{0,1,2,..}
+αn = p1(n,t)−p1(n+ 1,t),
+n−1summationdisplay
+j=0
+αj = −p1(n,t) (2.10)
+where p1(0,t) := 0.
+From (2.6) and (2.7) we have the well-known strictly positive expression,
+βn := hnh
+n−1
+. (2.11)
+Another consequence of the recurrence relation is the Christoffel-Darboux formula
+n−1summationdisplay
+k=0
+Pk(x)Pk(y)
+hk =
+Pn(x)Pn−1(y)−Pn(y)Pn−1(x)
+hn−1(x−y) . (C −D)
+The above basic information about orthogonal polynomials can be found in [26].
+In this section, we give an account of a recursive algorithm for the determination of the
+αn, βn for a given weight. This is based on a pair of ladder operators and the associated
+supplementary conditions to be denoted as (S1) and (S2). For an general ”smooth” weight
+the lowering and raising operators has been derived by many authors [3, 11, 12, 24]. We
+should like to note here A.P. Magnus’s contribution to this formalism [17, 18, 19]. Indeed,
+we have been motivated by the investigation of [19] where he obtained the large n behavior
+of the recurrence coefficients of a generalization of the Jacobi polynomials in which the
+standard Jacobi weight is perturbed by a ”line” analogue to the Fisher-Hartwig singularity.
+We end the discussion about the ladder operators with the remark that the supplementary
+conditions for orthogonal polynomials on the unit circle was found in [2] and have been used
+to compute explicitly the Toeplitz determinants with Fisher-Hartwig symbols.
+The lemma below gives a detailed proof of the ladder operators in the discontinuous case
+where the results were announced sometime ago [13].
+6
+Lemma 1 Let w0(x), x ∈ [a,b] be a smooth weight function where the associated moments,
+integraldisplay b
+a
+xjw0(x)dx, j ∈{0,1,2,..} (2.12)
+of all order exist.
+Let w0(a) = w0(b) = 0, and v0(x) := −lnw0(x).
+The lowering and raising operators for polynomials orthogonal with respect to
+w(x) := w0(x)wJ(x,t),
+are
+P′n(z) = −Bn(z)Pn(z) + βnAn(z)Pn−1(z), (2.13)
+P′n−1(z) = [Bn(z) + v′0(z)]Pn−1(z)−An−1(z)Pn(z), (2.14)
+where
+An(z) := Rn(t)z −t + 1h
+n
+integraldisplay b
+a
+v′0(z)−v′0(y)
+z −y P
+2
+n(y)w(y)dy (2.15)
+Bn(z) := rn(t)z −t + 1h
+n−1
+integraldisplay b
+a
+v′0(z)−v′0(y)
+z −y Pn(y)Pn−1(y)w(y)dy (2.16)
+Rn(t) := B w0(t)h
+n(t)
+{Pn(t,t)}2 (2.17)
+rn(t) := B w0(t)h
+n−1(t)
+Pn(t,t)Pn−1(t,t). (2.18)
+where
+Pn(t,t) := Pn(z,t)vextendsinglevextendsinglez=t.
+Here lnw0(x), is well defined since w0(x) is suppose to be strictly positive for x ∈ [a,b].
+Proof: We start from
+P′n(z) =
+n−1summationdisplay
+k=0
+CnkPk(z),
+where Cnk is determined from the orthogonality relations,
+Cnk = 1h
+k
+integraldisplay b
+a
+P′n(y)Pk(y)w(y)dy.
+7
+Therefore
+P′n(z) =
+n−1summationdisplay
+k=0
+Pk(z)
+hk
+integraldisplay b
+a
+P′n(y)Pk(y)w(y)dy
+= −
+n−1summationdisplay
+k=0
+integraldisplay b
+a
+Pk(z)
+hk Pn(y){P
+′
+k(y)w(y)+ Pk(y)[Bδ(y −t)w0(y) + w
+′
+0(y)wJ(y,t)]}dy
+= −
+integraldisplay b
+a
+Pn(y)
+n−1summationdisplay
+k=0
+Pk(z)Pk(y)
+hk
+bracketleftbigg
+B w0(y)δ(y−t) + w
+′
+0(y)
+w0(y)w(y)
+bracketrightbigg
+dy
+= −
+integraldisplay b
+a
+Pn(y)
+n−1summationdisplay
+k=0
+Pk(z)Pk(y)
+hk {B w0(y)δ(y −t) + [v
+′
+0(z)−v
+′
+0(y)]w(y)}dy
+= −
+integraldisplay b
+a
+Pn(y)Pn(z)Pn−1(y)−Pn(y)Pn−1(z)h
+n−1(z −y)
+{Bδ(y −t)w0(y)+ [v′0(z)−v′0(y)]w(y)}dy
+where we have used integration by parts, (C-D), the definition of v0, (2.11) and that
+integraldisplay b
+a
+Pn(y)Pk(y)w(y)dy = 0, k = 0,1,2,...,n−1,
+to arrive at the above. A little simplification produces (2.15) and (2.16) follows from straight
+forward application of the recurrence relations. a50
+Remark 1. If w0(a) negationslash= 0, w0(b) negationslash= 0, the terms
+w(y) {Pn(y,t)}
+2
+hn(t)(z −y)
+vextendsinglevextendsingle
+vextendsinglevextendsingle
+vextendsingle
+b
+y=a
+and w(y)Pn(y,t)Pn−1(y,t)h
+n−1(t)(z −y)
+vextendsinglevextendsingle
+vextendsinglevextendsingle
+vextendsingle
+b
+y=a
+are to be added into the definition of An(z) and Bn(z) respectively.
+Remark 2. If there are several jumps at t1,...,tN then the first term of (2.15) and (2.16)
+should be replaced by
+Nsummationdisplay
+j=1
+Rn,j(tj;t)
+z −tj
+Nsummationdisplay
+j=1
+rn,j(tj;t)
+z −tj
+where
+Rn,j(tj;t) := Bjw0(tj)h
+n(t)
+{Pn(tj;t)}2
+rn,j(tj;t) := Bj w0(tj)h
+n−1(t)
+Pn(tj;t)Pn−1(tj;t)
+t := (t1,...,tN).
+8
+As in the case of the smooth weight the ”coefficients” An(z) and Bn(z) that appear in
+the ladder operators satisfy two identities valid for all z ∈C∪{∞}, which we gather in the
+next lemma.
+Lemma 2 The functions An(z) and Bn(z) satisfy the following identities which hold for
+all z :
+Bn+1(z) + Bn(z) = (z −αn)An(z)−v′0(z) (S1)
+1+ (z −αn)[Bn+1(z)−Bn(z)] = βn+1An+1(z)−βnAn−1(z) (S2)
+Proof: By a direct computation using the definition of An(z) and Bn(z). a50
+It turns out that a suitable combination of (S1) and (S2) produces an identity involvingsummationtext
+n−1
+j=0 Aj(z), from which further insight into the recurrence coefficients may be gained.
+Lemma 3 An(z), Bn(z) and summationtextn−1j=0 Aj(z) satisfy the identity
+[Bn(z)]2 + v′0(z) Bn(z) +
+n−1summationdisplay
+j=0
+Aj(z) = βnAn(z)An−1(z) (S′2)
+Proof: Multiply (S2) by An(z) and replace (z −αn)An(z) in the resulting equation by
+Bn+1(z) + Bn(z) +v′0(z). See (S1). This leads to
+[Bn+1(z)]2 −[Bn(z)]2 +v′0(z)[Bn+1(z)−Bn(z)] + An(z) = βn+1An+1(z)An(z)−βnAn(z)An−1(z).
+Taking a telescopic sum of the above equation from 0 to n−1 with the ”initial” conditions,
+B0(z) = 0 and β0A−1(z) = 0, we have (S′2). a50
+Let y = Pn(z) we find by eliminating Pn−1(z) from the raising and lowering operators,
+the second order differential equation
+Lemma 4
+y′′(z)−
+parenleftbigg
+v′0(z) + A
+′
+n(z)
+An(z)
+parenrightbigg
+y′(z) +
+parenleftBigg
+B′n(z)−Bn(z)A
+′
+n(z)
+An(z) +
+n−1summationdisplay
+j=0
+Aj(z)
+parenrightBigg
+y(z) = 0. (2.19)
+Proof: By a straight forward computation using (2.15), (2.16) and (S′2). a50
+Recalling (2.17) and (2.18) we note that if v′0(z) is rational in z then the difference
+kernel, [v′0(z)−v′0(y)]/(z−y) is rational in z and y. Consequently (S1) and (S′2) may be
+put to good use to obtain a system of difference equations satisfied by the auxiliary quantities
+Rn and rn and the recurrence coefficients αn and βn. This will be clear in the next section.
+9
+3 Recurrence coefficients and difference equations.
+For the problem at hand,
+w0(x) = xαe−x, x ∈ [0,∞),
+v0(x) := −lnw0(x) = −αlnx + x
+and for α > 0, w0(0) = 0. Note that w(∞) = 0. An easy computation gives,
+v′0(z)−v′0(y)
+z −y =
+α
+zy.
+Using these and integration by parts we have the following
+Lemma 5
+An(z) = Rn(t)z −t + 1−Rn(t)z , (3.1)
+Bn(z) = rn(t)z −t − n+ rn(t)z , (3.2)
+where
+Rn(t) := B w0(t){Pn(t,t)}
+2
+hn(t) (3.3)
+rn(t) := B w0(t)Pn(t,t)Pn−1(t,t)h
+n−1(t)
+. (3.4)
+Proof: Through integration by parts we find,
+α
+integraldisplay ∞
+0
+yα−1e−ywJ(y;t){Pn(y,t)}2dy = hn(t)−B w0(t){Pn(t,t)}2 (3.5)
+α
+integraldisplay ∞
+0
+yα−1e−ywJ(y;t)Pn(y,t)Pn−1(y,t)dy = −n hn−1(t)
+− B w0(t)Pn(t,t)Pn−1(t,t), (3.6)
+and we have used the fact that
+∂
+∂xPn(x,t) = nPn−1(x,t) + lower degree
+to arrived at (3.6). From (3.5) and (3.6) and the definitions of An(z) and Bn(z), (3.1)—(3.4)
+follows. a50
+Substituting (3.1) and (3.2) into (S1) we find by equating the residues
+rn+1 + rn = Rn(t−αn) (3.7)
+−(rn+1 + rn) = 2n+ 1 + α−αn(1−Rn). (3.8)
+10
+Lemma 6
+αn = 2n+ 1 + α + tRn (3.9)
+rn+1 + rn = Rn(t−αn) (3.10)
+Proof: (3.7)+(3.8) implies (3.9) and we restate (3.7) as (3.10). a50
+Substituting (3.1) and (3.2) into (S′2), we find, after some elementary but messy compu-
+tations,
+[Bn(z)]2 +v′0(z) Bn(z) +
+n−1summationdisplay
+j=0
+Aj(z) = r
+2
+n
+(z −t)2 +
+(n+ rn)(α + n+ rn)
+z2
++
+summationtextn−1
+j=0 Rj + rn
+bracketleftBig
+1− αt − 2(n+rn)t
+bracketrightBig
+z −t
++ 1z
+bracketleftBigg
+n−
+n−1summationdisplay
+j=0
+Rj + (n+ rn)
+parenleftbigg2r
+n
+t −1
+parenrightbigg
++ αrnt
+bracketrightBigg
+(3.11)
+and
+βnAn(z)An−1(z) = βnRnRn−1(z −t)2 + βn(1−Rn)(1−Rn−1z2
++ 1t
+parenleftbigg 1
+z −t −
+1
+z
+parenrightbigg
+βn [(1−Rn)Rn−1 + (1−Rn−1)Rn]. (3.12)
+Now (S′2) implies
+Lemma 7 For a fixed t, the quantities rn, Rn, βn satisfy the equations
+r2n = βnRnRn−1 (3.13)
+(n + rn)(n+ α + rn) = βn(1−Rn)(1−Rn−1) (3.14)
+n−1summationdisplay
+j=0
+Rj + rn
+bracketleftbigg
+1− αt − 2(n+ rn)t
+bracketrightbigg
+= βnt [(1−Rn)Rn−1 + (1−Rn−1)Rn]. (3.15)
+Proof: The equations (3.13)—(3.15) are obtained by equating residues of (S′2). a50
+In the next Lemma an expression is found for βn in terms of rn and Rn.
+Lemma 8 In terms of rn and Rn, βn the off-diagonal recurrence coefficient reads
+βn = 11−R
+n
+bracketleftbigg
+rn(2n+ α) + n(n+ α) + r
+2
+n
+Rn
+bracketrightbigg
+. (3.16)
+11
+Proof: We eliminate βnRnRn−1 from (3.13) and (3.14) to find,
+rn(2n+ α) + n(n+ α) = βn(1−Rn −Rn−1) (3.17)
+= βn(1−Rn)− r
+2
+n
+Rn. (3.18)
+In the last step we have used (3.13) to replace βnRn−1 by r2n/Rn. a50
+We note that B > 0 can always be satisfied for the proper range of λ.
+The equation (3.9) states that αn is linear in Rn up to a linear form in n, together
+with (3.10) and (3.16), when combined with say, (3.13) provide us with a pair of non-linear
+difference equations satisfied by rn and Rn. We state this in the next theorem.
+Theorem 1 The quantities rn and Rn satisfy the difference equations;
+rn+1 + rn = Rn(t−2n−α−1−tRn) (3.19)
+r2n
+parenleftbigg 1
+RnRn−1 −
+1
+Rn −
+1
+Rn−1
+parenrightbigg
+= rn(2n+ α)+ n(n + α) (3.20)
+with the ”initial” conditions,
+r0(t) = 0 (3.21)
+R0(t) = B t
+αe−t
+h0(t) (3.22)
+h0(t) =
+parenleftbigg
+1− β2
+parenrightbiggλ
+Γ(1 + α) +
+bracketleftBiggparenleftbigg
+1 + β2
+parenrightbiggλ
+−
+parenleftbigg
+1− β2
+parenrightbiggλbracketrightBiggintegraldisplay ∞
+t
+xα e−xdx. (3.23)
+Proof: This is simply a restatement of (3.10) and (3.13) with (3.9) and (3.16) a50
+We shall see that (S′2) automatically performs finite sums in ”local” form, of the quan-
+tities Rn and αn. This will be seen later to be relevant in the evaluation of the derivative
+of lnDn(t) with respect to t and the derivation of the Painl´eve transcendent.
+Theorem 2
+t
+n−1summationdisplay
+j=0
+Rj = −trn −n(n + α)+ βn (3.24)
+n−1summationdisplay
+j=0
+αj = −p1(n) = βn −trn. (3.25)
+Proof: From (3.15) we have,
+t
+n−1summationdisplay
+j=0
+Rj = rn [2(n+ rn) + α−t] + βn [Rn + Rn−1 −2RnRn−1]
+= rn [2(n+ rn) + α−t] + βn [Rn + Rn−1]−2r2n
+= rn [2(n+ rn) + α−t] + βn −rn(2n+ α)−n(n+ α)−2r2n
+= −t rn −n(n + α) + βn. (3.26)
+12
+The second equality of (3.26) follows from (3.13) and the third equality follows from (3.17).
+The equation (3.25) follows from (3.9) and the second equality of (2.10). a50
+4 PV (0,-α22 ,2n+1+α,-12)
+In this section we shall discover which of the auxiliary quantities defined as the residues of
+the rational functions An(z) and Bn(z) is a Painl´eve transcendent.
+This will be obtained from a pair of Toda equations which shows that the Hankel deter-
+minant is the τ−function and these when suitably combined with the difference equations
+produce our PV .
+Taking the derivative of hn(t) with respect to t, we find
+d
+dt lnhn(t) = −B w0(t)
+{Pn(t,t)}2
+hn(t) = −Rn(t), (4.1)
+and consequently we have the Theorem
+Theorem 3
+−t ddt lnDn(t) = −t
+n−1summationdisplay
+j=0
+d
+dt lnhj(t)
+= t
+n−1summationdisplay
+j=0
+Rj = −p1(n,t)−n(n+ α). (4.2)
+Proof: The proof is obvious. a50
+The next lemma gives the derivative of p1(n,t) with respect to t.
+Lemma 9
+d
+dtp1(n,t) = rn(t). (4.3)
+Proof: Note the t dependence of p1(n,t). Taking a derivative of
+0 =
+integraldisplay ∞
+0
+Pn(x)Pn−1(x)wJ(x,t)w0(x)dx,
+with respect to t, produces,
+0 = −B w0(t) Pn(t,t)Pn−1(t,t) +
+integraldisplay ∞
+0
+bracketleftbiggd
+dtp1(n,t)x
+n−1 + ...
+bracketrightbigg
+Pn−1(x)wJ(x,t)w0(x)dx
+= −B w0(t)Pn(t,t)Pn−1(t,t) + hn−1 ddtp1(n,t).
+and (4.3) follows. a50
+We expect Dn(t) to satisfied the Toda molecule equation [25] and this should indicate
+the emergence of a Painl´eve transcendant. The question that we will address is ”Which
+quantity is satisfied by this particular Painl´eve transcendant?”
+13
+Theorem 4 The Hankel determinant Dn(t) satisfy the following differential-difference or
+the Toda molecule equation [25],
+t2 d
+2
+dt2 lnDn(t) = −n(n + α)+
+Dn+1(t)Dn−1(t)
+D2n(t) . (4.4)
+Proof: Taking a derivative of (4.2) with respect to t and (4.3) imply
+d
+dt
+parenleftbigg
+t ddt lnDn(t)
+parenrightbigg
+= rn.
+Now substitute rn given above into (3.24) to find,
+t
+n−1summationdisplay
+j=0
+Rj = −t ddt
+bracketleftbigg
+t ddt lnDn(t)
+bracketrightbigg
+−n(n + α)+ βn.
+= −t ddt lnDn(t),
+where the last equality comes from (4.2). The equation (4.4) follows if we recall
+βn = hnh
+n−1
+= Dn+1Dn−1D2
+n
+,
+since Dn = h0...hn−1. a50
+We now state a pair of somewhat non-standard Toda equations.
+Lemma 10 The recurrence coefficients αn and βn satisfy for n ∈{1,2,..} the differential-
+difference equations
+β′n(t) = (Rn−1 −Rn)βn (T1)
+α′n(t) = rn −rn−1, (T2)
+with r0(t) and R0(t) given by (3.22) and (3.23) respectively.
+Proof: These equations are an immediate consequence of (4.1), (2.11), (4.3) and the first
+equality (2.10). a50
+To discover the PV of our problem. We first state two preliminary lemmas describing
+the t evolution of rn and Rn.
+Lemma 11 For a fixed n, Rn(t) satisfies the Riccati equation,
+tR′n = 2rn + (2n+ α−t+ tRn)Rn. (4.5)
+Proof: We begin with (T2) and replace rn+1 by Rn(t−αn)−rn. See (3.7). This leaves
+α′n = 2rn −(t−αn)Rn
+After eliminating αn in favor of Rn with (3.9) we have (4.5). a50
+14
+Lemma 12 For a fixed n, rn(t) satisfy the Riccati equation,
+tr′n = 1−2RnR
+n(1−Rn)
+(rn)2 −(2n+ α) Rnrn1−R
+n
+−n(n + α) Rn1−R
+n
+. (4.6)
+Proof: By equating (3.24) to the last equality of (4.2), we find
+p1(n,t) = trn −βn.
+Taking a derivative of the above equation with respect to t and noting (4.3) we see that
+tr′n = β′n
+= [Rn−1 −Rn]βn
+= r
+2
+n
+Rn −βn Rn,
+and use have been made of (T2) and (3.13) to obtain the last two equalities. The equation
+(4.6) follows if we express βn in terms of rn and Rn using (3.16). a50
+The next theorem shows that Rn is up to a linear fractional transformation a particular
+PV .
+Theorem 5 The quantity
+Sn(t) := 1− 1R
+n(t)
+, (4.7)
+satisfies
+S′′n = 3Sn −12S
+n(1−Sn)
+(S′n)2 − S
+′
+n
+t −
+α2
+2
+(Sn −1)2
+t2 Sn + (2n+ 1 + α)
+Sn
+t −
+1
+2
+Sn(Sn + 1)
+Sn −1 . (4.8)
+which is PV (0,−α2/2,2n+ 1 + α,−1/2).
+In terms of the recurrence coefficient αn(t), we have,
+Sn(t) = αn(t)−(2n+ α + 1)−tα
+n(t)−(2n+ α + 1)
+. (4.9)
+Proof: Eliminate rn(t) from (4.5) and (4.6) and with Rn = 1/(1−Sn) gives (4.8). We
+have followed the convention of [14]. a50
+Remark 3. Note that for n = 0, (4.8) is satisfied by
+S0(t) = 1− 1R
+0(t)
+,
+where R0(t) is given by (3.22) and (3.23) and ultimately in terms of an Incomplete Gamma
+function— a special case of the Kummer function of the second kind. Furthermore, since
+r0(t) = 0, it can be verified that R0(t) also satisfy (4.5) at n = 0.
+We may express the logarithmic derivative of Dn(t) with respect to t in the so-called
+Jimbo-Miwa-Okamoto σ form. This is described in the next theorem.
+15
+Theorem 6 Let
+Hn(t) := t ddt lnDn(t), (4.10)
+then
+(tH′′n)2 = 4(H′n)2[Hn −n(n+ α)−tH′n] + [(2n+ α−t)H′n + Hn]2. (4.11)
+Proof: First we express rn(t) and βn(t) in terms of Hn and its derivatives. From (3.24)
+and (4.2) we have
+−Hn = −t rn + βn −n(n + α)
+= −p1(n,t)−n(n+ α). (4.12)
+Taking a derivative of (4.2) with respect to t and recalling (4.3) we have
+rn = H′n, (4.13)
+and with the first equality of (4.12) and (4.13), we find,
+βn = tH′n −Hn + n(n + α). (4.14)
+Now a derivative of (4.14) with respect to t and (T1) gives
+(tH′n)′ −H′n = tH′′n
+= β′n = (Rn−1 −Rn)βn
+= r
+2
+n
+Rn −βnRn. (4.15)
+Here we have made use of (3.13) to arrive at the last equality. Therefore we have a quadratic
+equation in Rn;
+r2n
+Rn −βnRn = tH
+′′
+n. (4.16)
+There is another quadratic equation in Rn which is a restatement of (3.16);
+r2n
+Rn + βnRn = βn −(2n+ α)rn −n(n + α). (4.17)
+Now we solve for Rn and 1/Rn from (4.16) and (4.17) and find
+2r2n
+Rn = βn −(2n+ α)rn −n(n + α) + tH
+′′
+n
+2βnRn = βn −(2n+ α)rn −n(n + α)−tH′′n.
+16
+The equation (4.10) follows from the product of the above two equations,
+4βnr2n = [βn −(2n+ α)rn −n(n+ α)]2 −(tH′′n)2,
+and (4.13) and (4.14). a50
+Incidentally Rn has two alternative representations,
+Rn = tH
+′′
+n + (2n+ α−t)H
+′
+n + Hn
+2[Hn −n(n + α)−tH′n] (4.18)
+1
+Rn =
+tH′′n −(2n+ α−t)H′n −Hn
+2(H′n)2 . (4.19)
+The ”discrete” structure inherited from the recurrence relations (2.7), induces a discrete
+analog of the σ form, namely, a non-linear second order difference equation in n satisfied
+by Hn for a fixed t; we believe such a discrete form is new and may have been missed
+in previous similar studies perhaps because the recurrence relations were not sufficiently
+exploited. We note here that our derivation of (4.11) bypasses a third order equation and
+without having to identify a first integral which reduces the order by one.
+We note also that equation (4.11) was first discovered by Tracy and Widom in [27] (which
+in our problem corresponds to A = 0 and B = 1) and just as was done in their paper for
+the Hermite case one can also rescale to obtain the Painlev´e III equation corresponding to
+the Bessel kernel or “hard edge scaling”. We change variables t → s/4n, Hn → σ use (4.11)
+and keep only the highest order terms to obtain
+(sσ′′)2 = 4 σ(σ′)2 −4 s(σ′)3 −s(σ′)2 + σσ′ + α2(σ′)2.
+Finally, we point out that the above analysis shows that the resolvent kernel used in the
+Tracy-Widom approach can be directly related to the orthogonal polynomials defined on
+(t,∞). In fact, if we denote tildewideR(t,t) as the resolvent kernel defined in [27] then
+ttildewideR(t,t) = Hn(t) = −trn −n(n+ α) + βn.
+Thus
+ttildewideR(t,t) = −tBw0Pn(t,t)Pn−1(t,t)h
+n−1(t)
+−n(n + α)+ hn(t)h
+n−1(t)
+.
+The term βn can also be written using (3.16). In addtion, we have that
+d
+dt
+parenleftBig
+ttildewideR(t,t)
+parenrightBig
+= rn = Bw0Pn(t,t)Pn−1(t,t)h
+n−1(t)
+.
+In other words we have found an identity for the resolvent kernel in terms of the values at
+the end points of the normalized orthogonal polynomials.
+17
+Theorem 7 The auxiliary quantities Rn and rn are expressed in terms Hn and Hn±1 as
+follows:
+t Rn = Hn −Hn+1 (4.20)
+trn = [Hn −n(n+ α)](t+ Hn+1 −Hn−1) + tn(n + α)t+ H
+n+1 −Hn−1 −2n−α
+. (4.21)
+The discrete analog of the σ form satisfied by Hn results from the substitution of (4.20) and
+(4.21) into
+(t rn)2 = [n(n + α)+ t rn −Hn][(t Rn)2 + tRn(Hn+1 + Hn−1 −2Hn)]. (4.22)
+Proof: Taking a first order difference on the second equality of (4.2) together with (2.10)
+and (3.9) implies (4.20).
+We re-write (3.24) gives
+βn = n(n+ α) + t rn −Hn. (4.23)
+We will now find another equation expressing βn in terms rn, Rn, Hn, Hn±1. Taking a
+first order difference on (4.20) gives,
+t(Rn −Rn−1) = 2Hn −Hn+1 −Hn−1.
+Now multiply the above equation by Rn and make use of (3.13) we find
+tR2n − tr
+2
+n
+βn = (2Hn −Hn+1 −Hn−1)Rn,
+and therefore
+1
+βn =
+tR2n −(2Hn −Hn+1 −Hn−1)Rn
+t r2n . (4.24)
+Therefore the product of (4.23) and (4.24) implies (4.21), which leaves us the job of finding
+a further expression of rn in terms of Hn and Hn±1. For this purpose we rewrite (3.17) as
+βn(1−Rn −Rn−1) = (2n+ α)rn + n(n+ α).
+Now substitute βn given in (4.23) into the above resulting a linear equation in rn;
+rn[(t−tRn −tRn−1)−2n−α] = [Hn −n(n+ α)](1−Rn −Rn−1) + n(n+ α).
+With tRn as in (4.20) we have (4.21).
+We summarize our results in the next theorem
+18
+Theorem 8 Let Dn(t) be the Hankel determinant associated with the Laguerre weight per-
+turbed by a jump factor, and
+Hn(t) := t ddt lnDn(t).
+Then the recurrence coefficients are
+αn(t)−(2n+ α + 1) = t
+2H′′
+n + [(2n+ α)t−t
+2]H′
+n + tHn
+2[Hn −n(n+ α)−tH′n] (4.25)
+βn(t)−n(n + α) = tH′n −Hn, (4.26)
+where 2n+1+α and n(n+α) are the ”unperturbed” recurrence coefficients and Hn satisfies
+a non-linear differential equation in Jimbo-Miwa-Okamoto σ form,
+(tH′′n)2 = 4(H′n)2[Hn −n(n+ α)−tH′n] + [(2n+ α−t)H′n + Hn]2.
+For the same Hn, the recurrence coefficients are
+αn(t)−(2n+ α + 1) = Hn −Hn+1 (4.27)
+βn(t)−n(n + α) = Hn(2n+ α)−n(n + α)(Hn+1 −Hn−1)t+ H
+n+1 −Hn−1 −2n−α
+, (4.28)
+where Hn satisfies the discrete σ form of a non-linear difference equation,
+braceleftBigg
+[Hn −n(n+ α)](t+ Hn+1 −Hn−1) + tn(n + α)
+t+ Hn+1 −Hn−1 −2n−α
+bracerightBigg2
+=
+braceleftBigg
+(2n+ α)[Hn −n(n + α)] + tn(n+ α)
+t + Hn+1 −Hn−1 −2n−α
+bracerightBigg
+(Hn −Hn+1)(Hn−1 −Hn). (4.29)
+Note that sinceαn(t) and βn(t) have two alternative representations,Hn(t) satisfies two
+more differential-difference equations, (4.25) = (4.27) and (4.26) = (4.28).
+We end thispaper with a discussion on the relationship between our PV and the difference
+equations (3.19) and (3.20). We would like to thank the second referee for supplying us the
+background material part of which is reproduced here.
+The fifth Painlev´e equation PV (a,b,c,d = −1/2) :
+y′′ =
+parenleftbigg 1
+2y +
+1
+y −1
+parenrightbigg
+(y′)2 − y
+′
+t +
+(y −1)2
+t2
+parenleftbigg
+ay + by
+parenrightbigg
++ cyt + dy(y + 1)y −1 , ′ = ddt
+is equivalent to the Hamiltonian system HV :
+q′ = ∂H∂p, tp′ = −∂H∂q ,
+19
+with the time-dependent Hamiltonian H = H(p,q,t) :
+tH = p(p + t)q(q −1) + α2qt−α3pq −α1p(q −1),
+where
+a = α
+2
+1
+2 , b = −
+α23
+2 , c = α0 −α2, d = −
+1
+2, α0 := 1−α1 −α2 −α3
+and
+y = 1− 1q.
+The Hamiltonian structure was studied in [22] and the τ−function is defined such that
+d
+dt lnτ = H.
+The extended affine Weyl group W(A(1)3 ) =< s0,s1,s2,s3,π > of the Weyl group type A(1)3
+acts as bi-rational symmetries on PV and induces Backlund transformations on the solutions
+of PV . Here the s′i s and π are the generators. See [22] for the study of Weyl group actions
+on PV .
+For example, the action of s0 :
+s0{α0,α1,α2,α3} = {−α0,α1 + α0,α2,α3 + α0},
+s0(q) = q + α0p + t,
+s0(p) = p,
+leaves PV or the Hamiltonian system HV invariant. We refer the readers to [22, 28] for
+information on Weyl group actions and [(4.3),[28]] which lists the bi-rational transformations.
+To proceed further, consider a parallel transformation l = (s2s3π)2 ∈ W(A(1)3 ) :
+l : vectorα = (α0,α1,α2,α3) mapsto−→ vectorα + (1,0,−1,0).
+From a direct computation, we may verify that, the variables q and r := pq(q−1) satisfies
+the following system of difference equations:
+l(r) + r = q(α2 −α0 + t−tq)−α1 (4.30)parenleftbigg
+1
+q −1
+parenrightbiggparenleftbigg 1
+l−1(q) −1
+parenrightbigg
+= (r−α2)(r−α2 −α3)r(r + α
+1)
+, (4.31)
+these seems to the d−PIII of [205,[23]] in disguise.
+In terms of H our auxiliary parameter r reads
+r = ddt (tH). (4.32)
+20
+In our problem we have PV (0,−α2/2,2n+ 1 + α,−1/2), which implies
+(α0,α1,α2,α3) = (1 + n,0,−n−α,α).
+If
+ln(q) = qn =: Rn
+ln(r) =: rn,
+for n ∈{0,1,2,...}, then a direct computation shows that (4.33) and (4.34) are
+rn+1 + rn = Rn(−α−2n−1 + t−tRn), (4.33)parenleftbigg
+1
+Rn −1
+parenrightbiggparenleftbigg 1
+Rn−1 −1
+parenrightbigg
+= (rn + n + α)(rn + n)r2
+n
+, (4.34)
+are equivalent to (3.19) and (3.20) respectively.
+We should like to mention here that (3.19) and (3.20) and other equations are derived
+entirely from orthogonality and the immediate consequence—the recurrence relations.
+In view of (3.32) we see that the logarithmic derivative of the generating function
+G(n,t) = Dn(t) is the τ− function of our PV . We end this paper with the final remark: the
+equation (4.4) is essentially the same as the Toda equation among a τ−sequence discovered
+by Okamoto [22].
+References
+[1] Akhiezer N.I. Continual analogue to some theorems on Toeplitz matrices, Amer. Math.
+Soc. Trans. Series (2) 50 (1964) 295–316
+[2] Basor E. and Chen Y., Toeplitz determinants from compatibility conditions, Ramanujan
+Journal, 16(2008)25–40.
+[3] Bonan S. and Nevai P., Orthogonal polynomials and their derivatives. I, J. Approx. The-
+ory 40(1984)134–147; Bonan S. and Clark D.S., Estimates of the orthogonal polynomials
+with weight exp(−xm), m and even integer J. Approx. Theory 46 (1986) 408–410; Bo-
+nan S., Lubinsky D.S. and Nevai,P. Orthogonal polynomials and their derivatives. II, J.
+Approx. SIAM J. Math. Anal. 18(1987)1163–1176;
+[4] Basor E.L., Chen Y. and Widom H. Determinants of Hankel matrices. J. Funct. Anal.
+179 (2001), no. 1, 214–234.
+[5] Basor E.L., Ehrhardt T. and Widom H., On the determinant of a certain Wiener-Hopf
++ Hankel operator. Integral Equations Operator Theory 47 (2003), no. 3, 275–288.
+21
+[6] Basor E.L. and Widom H., Toeplitz and Wiener-Hopf determinants with piecewise con-
+tinuous symbols, J. Funct. Anal. 50 (1983) 387–413.
+[7] Basor E.L. and Widom H., Wiener-Hopf determinants with Fisher-Hartwig symbols,
+Operator theoretical methods and applications to mathematical physics, 131–149, Oper.
+Theory Adv. Appl., 147, Birkhuser, Basel, 2004.
+[8] B¨ottcher A. and Silbermann B. – Analysis of Toeplitz Operators, Springer, Berlin, 1990.
+[9] B¨ottcher A., Silbermann B. and Widom H.A continuous analogue of the Fisher-Hartwig
+formula for piecewise continuous symbols, J. Func. Anal. 122 (1994) 222–246.
+[10] B¨ottcher A., Silbermann B. and Widom H., Determinants of truncated Wiener-Hopf
+operators with Hilbert-Schmidt kernels and piecewise continuous symbols Arch. Math.
+63 (1994) 60–71.
+[11] Chen Y. and Ismail M. Ladder operators and differential equations for orthogonal poly-
+nomials, J. Phys. A: Math. Gen. 30(1997)7817-7829.
+[12] Chen Y. and Ismail M. Jacobi polynomials from campatibilty conditions, Proc. Amer.
+Math. Soc. 133(2005)465-472.
+[13] Chen Y. and Pruessner G. Orthogonal polynomials with discontinuous weights, J. Phys.
+A:Math. Gen. 38(2005)L191-198.
+[14] Gromak V.I., Laine I. and Shinomura S. Painlev´e differential equations in the complex
+plane, W. de Gruyter, Berlin. New York (2002).
+[15] Jimbo M. and Miwa T. Monodromy preserving deformation of linear ordinary differen-
+tial equations with rational coefficients.II, Physica D 2 (1981) 407–448; Okamoto K. On
+the τ−function of the Painlev´e equations, Physica D2(1982)525-535.
+[16] Kac M. Toeplitz matrices, translation kernel and a related problem in probability theory,
+Duke Math. J. 21 (1954) 501–509.
+[17] Magnus A.P.Painlev´e-type differential equations for the recurrence coefficients of semi-
+classical orthogonal polynomials, J. Comp. Appl. Math. 57(1995)215-237.
+[18] Magnus A.P. Freud equations for Legendre polynomials on a circular arc and solution
+of the Gr¨ubaum-Delsarte-Janssen-Vries problem, J. Approx. Theory 139 (2006) 75–90.
+[19] Magnus A.P. Asymptotics for the simplest generalized Jacobi polynomials recurence co-
+efficients from Freud’s equations:numerical exploration, Ann.Numer.Math 2 (1995), no.
+1-4, 311-325.
+[20] Mehta M.L. Random natrices, third edition, Elsevier (Singapore) Pte. Ltd. 2006.
+22
+[21] Mikaelyan L.V. Asymptotics of determinants of truncated Wiener-Hopf operators in a
+singular case [Russian]. Akad. Nauk Armyan. SSR Dokl. 82 (1986) 151–155.
+[22] Okamoto K. Studies on the Painlev´e equations.II. Fifth Painlev´e equation PV , Japan.
+J. Math. (N.S.) 13 (1987) 47–76.
+[23] Sakai H., Rational surfaces asscoiated with affine root systems and geometry of the
+Painlev´e equations, Commun. Math. Phys. 220 (2001) 165–229.
+[24] Shohat J. A differential equation for orthogonal polynomials, Duke Math. J. 5 (1939)
+401–417.
+[25] Sogo K. Time dependent orthogonal polynomials and theory of solition– Applications to
+matrix model, vertex model and level statistics, J. Phys. Soc. Japan 62 (1993)1887–1894.
+[26] Szeg¨o G. Orthogonal polynomials, Amer. Math. Soc. Colloq. Publ. vol. 23, Providence,
+R.I., 1975.
+[27] Tracy C. A. and Widom H., Fredholm Determinants, Differential Equations and Matrix
+Models Comm, Math. Phys. 163 (1994) 33 - 72.
+[28] Tsuda T., Okamoto K. and Sakai H., Folding transformations of the Painlev´e equations,
+Math. Ann. 331 (2005) 713–738.
+23

@@ -1,0 +1,237 @@
+arXiv:0810.4131v1  [hep-lat]  22 Oct 2008
+Melting instantons, domain walls, and large N
+Hank Thacker∗
+University of Virginia
+E-mail: hbt8r@virginia.edu
+Monte Carlo studies of CPN−1 sigma models have shown that the structure of topological charge
+in these models undergoes a sharp transition at N =Nc ≈4. For N < Nc topological charge is dom-
+inated by small instantons, while for N > Nc it is dominated by extended, thin, 1-dimensionally
+coherent membranes of topological charge, which can be interpreted as domain walls between
+discrete quasi-stable vacua. These vacua differ by a unit of background electric flux. The transi-
+tion can be identified as the delocalization of topological charge, or “instanton melting,” a phe-
+nomenon first suggested by Witten to resolve the conflict between instantons and large N behavior.
+Implications for QCD are discussed.
+The XXVI International Symposium on Lattice Field Theory
+July 14 - 19, 2008
+Williamsburg, Virginia, USA
+∗Speaker.
+c©Copyright owned by the author(s) under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike Licence. http://pos.sissa.it/
+Melting instantons Hank Thacker
+1. Introduction
+The structure of topological charge fluctuations in the QCD vacuum is a central issue in the
+study of low energy hadron dynamics. The role of topological charge in resolving the axial U(1)
+problem and providing a mass to the η′ meson is well known and has been extensively studied
+in lattice calculations [1]. In addition to resolving the U(1) problem, it is likely that topological
+charge fluctuations are responsible for spontaneous chiral symmetry breaking and the appearance
+of a quark condensate in the QCD vacuum. For example, in the context of the instanton liq-
+uid model, the near-zero Dirac eigenmodes needed to form a quark condensate are provided by
+the approximate t’Hooft zero modes of the instantons and anti-instantons [2]. Although one may
+question the assumptions of the instanton liquid model, it can be argued that the connection be-
+tween topological charge and chiral symmetry breaking is more general and does not depend on
+the specifics of the instanton model. Any sufficiently strong coherent regions of positive (negative)
+topological charge will attract left (right)- handed quarks and produce near-zero Dirac eigenmodes
+localized in the region of the topological charge fluctuation. As I will discuss here, a combination
+of theoretical arguments [3, 4] and lattice studies [5, 6] point toward a new paradigm for the QCD
+vacuum, in which coherent topological charge structure comes not in the form of instantons, but
+of extended, thin, coherent membranes of codimension one. In a large-N chiral Lagrangian frame-
+work, these membranes appear as domain walls between discrete chiral phases [3]. From the point
+of view of AdS/CFT string/gauge duality, these topological charge membranes can be interpreted
+as the holographic image of D6-branes (wrapped around an S4), which arise naturally as carriers
+of Ramond-Ramond (RR) charge in IIA string theory [4]. The θ parameter in QCD arises from a
+nonzero Wilson line of the RR potential around a compact S1, and the corresponding domain wall
+separates vacua with θ parameters differing by ±2pi. In the string theory, the statement that θ steps
+by an integer multiple of 2pi across the membrane corresponds to the quantization of RR charge
+on the D6-brane. It is interesting that the gauge theory construct which corresponds holographi-
+cally to the string theory D6-brane was introduced long ago by Luscher [7]. This “Wilson bag”
+operator is the integral over a 3-surface of the 3-index Chern-Simons tensor of Yang-Mills theory
+(the operator whose curl is the topological charge). In this talk I will make considerable use of the
+analogy between 4-dimensional Yang-Mills theory and 2-dimensional CPN−1 sigma models. In the
+2D models, the Wilson bag operator reduces to the ordinary Wilson loop (which in 2 dimensions is
+also an integral of the Chern-Simons flux jCSµ ≡ εµνAν over a codimension-one surface) [7].
+In the large N limit of an asymptotically free gauge theory, we expect that instantons will
+disappear in favor of codimension one topologically charged domain walls separating discrete,
+quasi-stable vacua. Monte Carlo studies have borne this out for both 4-dimensional SU(3) gauge
+theory [5, 6] and 2-dimensional CPN−1 models [8, 9] with N > 4. In both these cases, the Monte
+Carlo results are consistent with expectations based on the large N approximation. But the CPN−1
+models have the interesting feature that the topological charge structure undergoes a rather sharp
+transition as a function of N at around Nc ≈ 4, which can be identified as the instanton melting
+point. For N > 4 the gauge configurations are dominated by codimension one membranes, but
+below this value of N, i.e. for CP1 and CP2, the topological fluctuations are dominated by small
+instantons [9, 10]. The CPN−1 models thus provide an opportunity to study the transition from
+instanton dominance to domain wall dominance and to identify the nature of the instability that
+2
+Melting instantons Hank Thacker
+Figure 1: A coherent structure in the topological charge distribution of a typical Monte Carlo configuration
+for CP5 at β = 1.2.
+leads to instanton melting. [Note: The small instantons that dominate CP1 and CP2 have radii of
+order the lattice spacing and lead to a non-scaling contribution to the topological susceptibility, as
+discussed by Luscher [10]. For CP2 it is possible to define a lattice version of the model which
+eliminates the small instantons [11]. But CP1 will be instanton dominated for any lattice action and
+has a divergent χt in the scaling limit. For N ≥ 4, χt is found to scale properly to a finite value in
+the continuum limit [9].]
+The CPN−1 models are asymptotically free, classically conformally invariant, and acquire a
+mass scale via a conformal anomaly (dimensional transmutation), just as in QCD. Most importantly
+for this discussion, they have classical instanton solutions whose contributions are exponentially
+suppressed at large N, like QCD instantons. As emphasized in Witten’s original discussion [3], this
+exponential suppression is an indication that, at sufficiently large N, instantons melt or disappear
+from the path integral in favor of other topological charge fluctuations associated with the confining
+vacuum which are only suppressed by 1/N. After considering the instanton melting phenomenon
+in the CPN−1 models, I will then discuss the implications for 4-dimensional QCD.
+2. Topological charge structures in CPN−1 and QCD
+The discovery of 3-dimensional topological charge membranes in 4D SU(3) QCD and of co-
+herent 1-dimensional structures in 2-dimensional CPN−1 gauge configurations [8] provides clear
+evidence of long range topological charge structure. The CPN−1 results also strongly support the
+3
+Melting instantons Hank Thacker
+010
+2030
+40
+0 10
+20 30
+−0.2
+−0.15
+−0.1
+−0.05
+0
+0.05
+0.1
+0.15
+0.2
+Figure 2: Topological distribution for a CP2 configuration with total Q=+1. The prominent instanton peak
+seen contains approximately one unit of topological charge.
+interpretation of this structure in terms of discrete θ vacua and domain walls. To see the emer-
+gence of 1-dimensional structure, it is instructive to plot the largest connected coherent structure
+in a typical gauge configuration. (Here nearest-neighbor sites are connected if they have the same
+sign of q.) Comparing with similar plots for randomly generated q(x) distributions, the emergence
+of 1-dimensional structures is clear. Fig. 1 shows the largest structure in a typical configuration
+for CP5 on a 50×50 lattice at β = 1.2 (correlation length ≈ 20). Nearly all of the gauge config-
+urations have largest structures which extend over the length of the lattice in some direction. The
+1-dimensional coherence of the observed topological charge structures clearly extends well beyond
+the physical correlation length of the system. This is even more clear in the QCD studies [5], where
+the correlation length determined by the pseudoscalar glueball mass is very short (< .1 f m) com-
+pared to the observed coherence of the topological charge sheets, which extend over the whole
+lattice. It is also worth remarking that the observed structure cannot be dismissed as an artifact of
+the overlap construction of q(x). In the CPN−1 case, the very same 1-dimensional structures can
+also be identified in the distribution obtained from the ultralocal q(x) operator constructed from the
+log of the plaquette after using a simple 1-hit nearest-neighbor smoothing procedure. In fact, in
+general for the 2D models, the overlap topological charge at a site is reasonably well approximated
+by the average of the four plaquette charges around the site.
+For CP1 and CP2 the topological charge structure is qualitatively different than for CP3 and
+higher. It is dominated by small instantons which typically have a radius of one or two lattice
+spacings. FIg. 2 shows the overlap topological charge distribution for a typical CP2 configuration
+at β = 1.8. This configuration has a global topological charge of +1. The prominent peak seen
+is a small instanton, containing approximately one unit of TC. The rest of the distribution inte-
+grates to approximately zero. At sufficiently large β these small instantons totally dominate the
+4
+Melting instantons Hank Thacker
+ 0
+ 5
+ 10
+ 15
+ 20
+ 0  0.2  0.4  0.6  0.8  1
+E/
+χ t
+θ/2pi
+Figure 3: The free energy density ε(θ) for CP1 (×’s), CP5 (square’s), and CP9 (o’s) extracted from fractionally
+charged Wilson loops. The lower and upper curves are the instanton gas and large N predictions, normalized
+to the same topological susceptibility. Note that, for θ/2pi > 12 the large N curve is interpreted as the energy
+of the false (unscreened) vacuum.
+TC distribution for CP1 and CP2. In the course of a Monte Carlo run, the tunneling of the global
+charge from one integer to another is invariably accompanied by the appearance or disappearance
+of an instanton or anti-instanton. This is in marked contrast to the results for CP5 and CP9, which
+showed no trace of instantons in any configuration.
+3. Theta dependence, discrete vacua, and domain walls
+Recent results from an analysis of fractionally charged Wilson loops [12] in CP1, CP5, and
+CP9, provide further evidence of the transition from an instanton gas to large N behavior. This
+transition is directly reflected in the change of behavior of the ground state energy ε(θ) in the
+region θ ≈ pi. First consider the results for θ < pi. As shown in Fig. 3 and [12], the behavior of
+ε(θ) for CP1 is in good agreement with the dilute instanton gas prediction
+ε(θ)= χt(1−cosθ) (3.1)
+while, for θ < pi, CP9 agrees well with the large N prediction
+ε(θ) = 12 χtθ2, θ < pi (3.2)
+= 12 χt(2pi −θ)2 pi < θ < 2pi (3.3)
+For CP5 the results lie between the instanton and large N predictions, but both CP5 and CP9 clearly
+exhibit a positive, nonvanishing slope at θ = pi. Because of symmetry around pi,
+ε(θ)= ε(2pi −θ) (3.4)
+5
+Melting instantons Hank Thacker
+this implies that ε(θ) has a cusp at θ = pi, indicating a first order phase transition between discrete
+vacua for both CP5 and CP9. On the other hand for CP1, the vanishing slope at θ = pi appears
+to rule out a first order transition for this model. (The data near θ = pi is not accurate enough to
+observe the second order transition expected for CP1 from Haldane’s arguments.)
+An even more illuminating distinction between CP1 and the large N models is seen in the
+behavior of the apparent value of ε(θ) for θ > pi. The data plotted in Fig. 3 are the values of ε(θ)
+extracted from the area law for a large Wilson loop of charge θ/2pi. For CP1, the results agree
+with the instanton gas formula (3.1) over the entire range 0 < θ < 2pi, and are consistent with the
+reflection symmetry (3.4). In particular, ε(θ) returns to zero and the confining potential vanishes
+at θ = 2pi. This shows that an integer charged loop is completely screened. But for CP5 and CP9,
+the measured ε(θ) violates the reflection symmetry and continues to increase beyond θ = pi. In
+fact, for CP9, it continues to follow the extrapolated large N formula (3.2) rather than (3.3). In the
+large N framework, there are two possible discrete vacua in the interior of the Wilson loop. One
+has a background electric flux of θ/2pi (unbroken string), the other has a flux of θ/2pi −1 (broken
+string). For θ > pi the broken string is the true (screened) vacuum. However, the Wilson line has
+a much larger overlap with the unbroken string. (A similar phenomenon occurs in full QCD with
+dynamical quarks, where string breaking should occur but is difficult to observe in Wilson loops.)
+The results for CP5 and CP9 at θ > pi clearly demonstrate the existence of a discrete, quasi-stable
+false vacuum state which differs from the true vacuum by one unit of electric flux. By contrast,
+the CP1 model shows no evidence of a quasi-stable electric flux string. The Wilson loop area
+law simply vanishes for an integer charged loop. For fractional charge, the fluctuating number of
+instantons inside the loop generates a confining potential by randomizing the phase of the loop.
+But when small instantons dominate, the amount of topological charge inside the loop is typically
+close to an integer, so the phase of an integer charged loop is not randomized.
+4. Implications for QCD
+The behavior of the CPN−1 models suggests a heuristic description of the instanton melting
+transition: Above some value of N the action begins to favor large instantons over small ones.
+But the tendency for small instantons to grow into large ones is in conflict with a fundamen-
+tal requirement on the two-point topological charge correlator, i.e. that it has to be negative for
+nonzero separation in the continuum theory[13]. (Instantons with radius of order lattice spacing
+only contribute to the positive delta-function contact term in the correlator and thus do not violate
+the negativity requirement.) As an instanton grows in radius the negativity of the correlator forces
+it to become a thin hollow bubble (a Wilson loop excitation in 2D, or a Wilson bag in 4D). The
+Wilson bag is screened by an anti-bag which appears inside the bag (the analog of string-breaking
+in 2D). Further growth produces an alternating sequence of concentric bags. The original unit of
+topological charge has delocalized and the vacuum is filled with alternating-sign, codimension one
+membranes, in agreement with the observed structure of Monte Carlo generated gauge configura-
+tions. In an asymptotically free theory, a weak coupling calculation of the instanton contribution
+to the path integral is given in terms of an integral over instanton radius of the form integraltext dρρα(N). A
+semiclassical estimate of (actually a lower bound on) the instanton melting point Nc is given by the
+“tipping point” of the integral over radius, where α(Nc) = −1. For N > Nc the integral diverges
+6
+Melting instantons Hank Thacker
+for large instantons and instantons are presumed to melt, as described. This gives a melting point
+of Nc = 2 for CPN−1 and Nc = 12/11 for 4D gauge theory. This along with the dominance of
+codimension one structures observed in Monte Carlo configurations suggests that 4-dimensional
+SU(3) gauge theory is in the large N phase.
+The view of the QCD vacuum as a laminated “topological sandwich” of alternating sign mem-
+branes has some appealing features. A nonzero value of the θ parameter can be thought of as anal-
+ogous to an electric field transverse to the membranes. The fact that the topological susceptibility
+is nonzero results from the fact that the topological sandwich vacuum is a polarizable medium.
+The UA(1) problem is resolved ala Witten-Veneziano. A massless Goldstone pion is naturally in-
+terpreted as a quark-antiquark pair propagating along adjacent, oppositely charged TC membranes
+via delocalized surface modes on these membranes. Finally, it can be plausibly argued that the
+topological sandwich vacuum leads to confinement. In the CPN−1 models, charge confinement
+occurs by quite different mechanisms for the small-N instanton vacuum and the large-N topologi-
+cal sandwich vacuum. In the instanton models, although fractional charge is confined, there is no
+confining force between integer charges. However, for large N, the effect of the topological charge
+membranes is to produce a quasi-stable electric flux string and a linear potential, even between in-
+teger charges. As is well-known, the instanton confinement mechanism does not generalize to four
+dimensions. On the other hand, the large-N confinement mechanism induced by codimension one
+membranes (which disorder a Wilson loop and lead to an area law) seems quite likely to generalize
+to four-dimensional gauge theory.
+References
+[1] W. Bardeen, et al., Phys. Rev. D62:114505 (2000); Phys. Rev. D65:014509 (2001); Phys. Rev.
+D69:054502 (2004); Phys. Rev. D70:117502 (2004).
+[2] D. Diakonov and V. Petrov, Phys. Lett. B147:351 (1984);
+[3] E. Witten, Nucl. Phys. B149, 285 (1979).
+[4] E. Witten, Phys. Rev. Lett. 81: 2862 (1998).
+[5] I. Horvath et al, Phys. Rev. D68, 114505 (2003).
+[6] E.-M. Ilgenfritz, et. al, Phys. Rev. D76:034506 (2007).
+[7] M. Luscher, Phys. Lett. B78:465 (1978).
+[8] S. Ahmad, J. Lenaghan, and H. Thacker, Phys. Rev. D72:114511 (2005).
+[9] Y. Lian and H. Thacker, Phys. Rev. D75:065031 (2007).
+[10] M. Luscher, Nucl. Phys. B200:61 (1982).
+[11] D. Petcher and M. Luscher, Nucl. Phys. B225:53 (1983).
+[12] P. Keith-Hynes and H. Thacker, Phys. Rev. D78:025009 (2008).
+[13] E. Seiler and I. O. Stamatescu, MPI-PAE/Pth 10/87.
+7

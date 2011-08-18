@@ -1,0 +1,574 @@
+arXiv:0809.5007v1  [hep-ex]  29 Sep 2008
+Measurement of Resonance Parameters of Orbitally Excited Narrow B0 Mesons
+T. Aaltonen,24 J. Adelman,14 T. Akimoto,56 M.G. Albrow,18 B. ´Alvarez Gonz´alez,12 S. Ameriox,44 D. Amidei,35
+A. Anastassov,39 A. Annovi,20 J. Antos,15 G. Apollinari,18 A. Apresyan,49 T. Arisawa,58 A. Artikov,16
+W. Ashmanskas,18 A. Attal,4 A. Aurisano,54 F. Azfar,43 P. Azzurriaa,47 W. Badgett,18 A. Barbaro-Galtieri,29
+V.E. Barnes,49 B.A. Barnett,26 V. Bartsch,31 G. Bauer,33 P.-H. Beauchemin,34 F. Bedeschi,47 D. Beecher,31
+S. Behari,26 G. Bellettiniy,47 J. Bellinger,60 D. Benjamin,17 A. Beretvas,18 J. Beringer,29 A. Bhatti,51 M. Binkley,18
+D. Bisellox,44 I. Bizjakdd,31 R.E. Blair,2 C. Blocker,7 B. Blumenfeld,26 A. Bocci,17 A. Bodek,50 V. Boisvert,50
+G. Bolla,49 D. Bortoletto,49 J. Boudreau,48 A. Boveia,11 B. Braua,11 A. Bridgeman,25 L. Brigliadori,44
+C. Bromberg,36 E. Brubaker,14 J. Budagov,16 H.S. Budd,50 S. Budd,25 S. Burke,18 K. Burkett,18 G. Busettox,44
+P. Busseyk,22 A. Buzatu,34 K. L. Byrum,2 S. Cabrerau,17 C. Calancha,32 M. Campanelli,36 M. Campbell,35
+F. Canelli,18 A. Canepa,46 B. Carls,25 D. Carlsmith,60 R. Carosi,47 S. Carrillom,19 S. Carron,34 B. Casal,12
+M. Casarsa,18 A. Castrow,6 P. Catastiniz,47 D. Cauzcc,55 V. Cavalierez,47 M. Cavalli-Sforza,4 A. Cerri,29
+L. Cerriton,31 S.H. Chang,28 Y.C. Chen,1 M. Chertok,8 G. Chiarelli,47 G. Chlachidze,18 F. Chlebana,18 K. Cho,28
+D. Chokheli,16 J.P. Chou,23 G. Choudalakis,33 S.H. Chuang,53 K. Chung,13 W.H. Chung,60 Y.S. Chung,50
+T. Chwalek,27 C.I. Ciobanu,45 M.A. Ciocciz,47 A. Clark,21 D. Clark,7 G. Compostella,44 M.E. Convery,18
+J. Conway,8 M. Cordelli,20 G. Cortianax,44 C.A. Cox,8 D.J. Cox,8 F. Crescioliy,47 C. Cuenca Almenaru,8
+J. Cuevasr,12 R. Culbertson,18 J.C. Cully,35 D. Dagenhart,18 M. Datta,18 T. Davies,22 P. de Barbaro,50
+S. De Cecco,52 A. Deisher,29 G. De Lorenzo,4 M. Dell’Orsoy,47 C. Deluca,4 L. Demortier,51 J. Deng,17 M. Deninno,6
+P.F. Derwent,18 G.P. di Giovanni,45 C. Dionisibb,52 B. Di Ruzzacc,55 J.R. Dittmann,5 M. D’Onofrio,4 S. Donatiy,47
+P. Dong,9 J. Donini,44 T. Dorigo,44 S. Dube,53 J. Efron,40 A. Elagin,54 R. Erbacher,8 D. Errede,25 S. Errede,25
+R. Eusebi,18 H.C. Fang,29 S. Farrington,43 W.T. Fedorko,14 R.G. Feild,61 M. Feindt,27 J.P. Fernandez,32
+C. Ferrazzaaa,47 R. Field,19 G. Flanagan,49 R. Forrest,8 M.J. Frank,5 M. Franklin,23 J.C. Freeman,18 I. Furic,19
+M. Gallinaro,52 J. Galyardt,13 F. Garberson,11 J.E. Garcia,21 A.F. Garfinkel,49 K. Genser,18 H. Gerberich,25
+D. Gerdes,35 A. Gessler,27 S. Giagubb,52 V. Giakoumopoulou,3 P. Giannetti,47 K. Gibson,48 J.L. Gimmell,50
+C.M. Ginsburg,18 N. Giokaris,3 M. Giordanicc,55 P. Giromini,20 M. Giuntay,47 G. Giurgiu,26 V. Glagolev,16
+D. Glenzinski,18 M. Gold,38 N. Goldschmidt,19 A. Golossanov,18 G. Gomez,12 G. Gomez-Ceballos,33
+M. Goncharov,54 O. Gonz´alez,32 I. Gorelov,38 A.T. Goshaw,17 K. Goulianos,51 A. Greselex,44 S. Grinstein,23
+C. Grosso-Pilcher,14 R.C. Group,18 U. Grundler,25 J. Guimaraes da Costa,23 Z. Gunay-Unalan,36 C. Haber,29
+K. Hahn,33 S.R. Hahn,18 E. Halkiadakis,53 B.-Y. Han,50 J.Y. Han,50 F. Happacher,20 K. Hara,56 D. Hare,53
+M. Hare,57 S. Harper,43 R.F. Harr,59 R.M. Harris,18 M. Hartz,48 K. Hatakeyama,51 C. Hays,43 M. Heck,27
+A. Heijboer,46 J. Heinrich,46 C. Henderson,33 M. Herndon,60 J. Heuser,27 S. Hewamanage,5 D. Hidas,17
+C.S. Hillc,11 D. Hirschbuehl,27 A. Hocker,18 S. Hou,1 M. Houlden,30 S.-C. Hsu,29 B.T. Huffman,43 R.E. Hughes,40
+U. Husemann,61 J. Huston,36 J. Incandela,11 G. Introzzi,47 M. Ioribb,52 A. Ivanov,8 E. James,18 B. Jayatilaka,17
+E.J. Jeon,28 M.K. Jha,6 S. Jindariani,18 W. Johnson,8 M. Jones,49 K.K. Joo,28 S.Y. Jun,13 J.E. Jung,28
+T.R. Junk,18 T. Kamon,54 D. Kar,19 P.E. Karchin,59 Y. Kato,42 R. Kephart,18 J. Keung,46 V. Khotilovich,54
+B. Kilminster,18 D.H. Kim,28 H.S. Kim,28 H.W. Kim,28 J.E. Kim,28 M.J. Kim,20 S.B. Kim,28 S.H. Kim,56
+Y.K. Kim,14 N. Kimura,56 L. Kirsch,7 S. Klimenko,19 B. Knuteson,33 B.R. Ko,17 K. Kondo,58 D.J. Kong,28
+J. Konigsberg,19 A. Korytov,19 A.V. Kotwal,17 M. Kreps,27 J. Kroll,46 D. Krop,14 N. Krumnack,5 M. Kruse,17
+V. Krutelyov,11 T. Kubo,56 T. Kuhr,27 N.P. Kulkarni,59 M. Kurata,56 Y. Kusakabe,58 S. Kwang,14 A.T. Laasanen,49
+S. Lami,47 S. Lammel,18 M. Lancaster,31 R.L. Lander,8 K. Lannonq,40 A. Lath,53 G. Latinoz,47 I. Lazzizzerax,44
+T. LeCompte,2 E. Lee,54 H.S. Lee,14 S.W. Leet,54 S. Leone,47 J.D. Lewis,18 C.-S. Lin,29 J. Linacre,43 M. Lindgren,18
+E. Lipeles,46 A. Lister,8 D.O. Litvintsev,18 C. Liu,48 T. Liu,18 N.S. Lockyer,46 A. Loginov,61 M. Loretix,44
+L. Lovas,15 D. Lucchesix,44 C. Lucibb,52 J. Lueck,27 P. Lujan,29 P. Lukens,18 G. Lungu,51 L. Lyons,43 J. Lys,29
+R. Lysak,15 D. MacQueen,34 R. Madrak,18 K. Maeshima,18 K. Makhoul,33 T. Maki,24 P. Maksimovic,26 S. Malde,43
+S. Malik,31 G. Mancae,30 A. Manousakis-Katsikakis,3 F. Margaroli,49 C. Marino,27 C.P. Marino,25 A. Martin,61
+V. Martinl,22 M. Mart´ınez,4 R. Mart´ınez-Ballar´ın,32 T. Maruyama,56 P. Mastrandrea,52 T. Masubuchi,56
+M. Mathis,26 M.E. Mattson,59 P. Mazzanti,6 K.S. McFarland,50 P. McIntyre,54 R. McNultyj,30 A. Mehta,30
+P. Mehtala,24 A. Menzione,47 P. Merkel,49 C. Mesropian,51 T. Miao,18 N. Miladinovic,7 R. Miller,36 C. Mills,23
+M. Milnik,27 A. Mitra,1 G. Mitselmakher,19 H. Miyake,56 N. Moggi,6 C.S. Moon,28 R. Moore,18 M.J. Morelloy,47
+J. Morlok,27 P. Movilla Fernandez,18 J. M¨ulmenst¨adt,29 A. Mukherjee,18 Th. Muller,27 R. Mumford,26 P. Murat,18
+M. Mussiniw,6 J. Nachtman,18 Y. Nagai,56 A. Nagano,56 J. Naganoma,56 K. Nakamura,56 I. Nakano,41 A. Napier,57
+2
+V. Necula,17 J. Nett,60 C. Neuv,46 M.S. Neubauer,25 S. Neubauer,27 J. Nielseng,29 L. Nodulman,2 M. Norman,10
+O. Norniella,25 E. Nurse,31 L. Oakes,43 S.H. Oh,17 Y.D. Oh,28 I. Oksuzian,19 T. Okusawa,42 R. Orava,24
+S. Pagan Grisox,44 E. Palencia,18 V. Papadimitriou,18 A. Papaikonomou,27 A.A. Paramonov,14 B. Parks,40
+S. Pashapour,34 J. Patrick,18 G. Paulettacc,55 M. Paulini,13 C. Paus,33 T. Peiffer,27 D.E. Pellett,8 A. Penzo,55
+T.J. Phillips,17 G. Piacentino,47 E. Pianori,46 L. Pinera,19 K. Pitts,25 C. Plager,9 L. Pondrom,60 O. Poukhov∗,16
+N. Pounder,43 F. Prakoshyn,16 A. Pronko,18 J. Proudfoot,2 F. Ptohosi,18 E. Pueschel,13 G. Punziy,47 J. Pursley,60
+J. Rademackerc,43 A. Rahaman,48 V. Ramakrishnan,60 N. Ranjan,49 I. Redondo,32 V. Rekovic,38 P. Renton,43
+M. Renz,27 M. Rescigno,52 S. Richter,27 F. Rimondiw,6 L. Ristori,47 A. Robson,22 T. Rodrigo,12 T. Rodriguez,46
+E. Rogers,25 S. Rolli,57 R. Roser,18 M. Rossi,55 R. Rossin,11 P. Roy,34 A. Ruiz,12 J. Russ,13 V. Rusu,18
+A. Safonov,54 W.K. Sakumoto,50 O. Salt´o,4 L. Santicc,55 S. Sarkarbb,52 L. Sartori,47 K. Sato,18 A. Savoy-Navarro,45
+P. Schlabach,18 A. Schmidt,27 E.E. Schmidt,18 M.A. Schmidt,14 M.P. Schmidt∗,61 M. Schmitt,39 T. Schwarz,8
+L. Scodellaro,12 A. Scribanoz,47 F. Scuri,47 A. Sedov,49 S. Seidel,38 Y. Seiya,42 A. Semenov,16 L. Sexton-Kennedy,18
+F. Sforza,47 A. Sfyrla,25 S.Z. Shalhout,59 T. Shears,30 P.F. Shepard,48 M. Shimojimap,56 S. Shiraishi,14
+M. Shochet,14 Y. Shon,60 I. Shreyber,37 A. Sidoti,47 P. Sinervo,34 A. Sisakyan,16 A.J. Slaughter,18 J. Slaunwhite,40
+K. Sliwa,57 J.R. Smith,8 F.D. Snider,18 R. Snihur,34 A. Soha,8 S. Somalwar,53 V. Sorin,36 J. Spalding,18
+T. Spreitzer,34 P. Squillaciotiz,47 M. Stanitzki,61 R. St. Denis,22 B. Stelzers,9 O. Stelzer-Chilton,17 D. Stentz,39
+J. Strologas,38 G.L. Strycker,35 D. Stuart,11 J.S. Suh,28 A. Sukhanov,19 I. Suslov,16 T. Suzuki,56 A. Taffardf,25
+R. Takashima,41 Y. Takeuchi,56 R. Tanaka,41 M. Tecchio,35 P.K. Teng,1 K. Terashi,51 J. Thomh,18
+A.S. Thompson,22 G.A. Thompson,25 E. Thomson,46 P. Tipton,61 P. Ttito-Guzm´an,32 S. Tkaczyk,18 D. Toback,54
+S. Tokar,15 K. Tollefson,36 T. Tomura,56 D. Tonelli,18 S. Torre,20 D. Torretta,18 P. Totarocc,55 S. Tourneur,45
+M. Trovato,47 S.-Y. Tsai,1 Y. Tu,46 N. Turiniz,47 F. Ukegawa,56 S. Vallecorsa,21 N. van Remortelb,24 A. Varganov,35
+E. Vatagaaa,47 F. V´azquezm,19 G. Velev,18 C. Vellidis,3 V. Veszpremi,49 M. Vidal,32 R. Vidal,18 I. Vila,12 R. Vilar,12
+T. Vine,31 M. Vogel,38 I. Volobouevt,29 G. Volpiy,47 P. Wagner,46 R.G. Wagner,2 R.L. Wagner,18 W. Wagner,27
+J. Wagner-Kuhr,27 T. Wakisaka,42 R. Wallny,9 S.M. Wang,1 A. Warburton,34 D. Waters,31 M. Weinberger,54
+J. Weinelt,27 W.C. Wester III,18 B. Whitehouse,57 D. Whitesonf,46 A.B. Wicklund,2 E. Wicklund,18 S. Wilbur,14
+G. Williams,34 H.H. Williams,46 P. Wilson,18 B.L. Winer,40 P. Wittichh,18 S. Wolbers,18 C. Wolfe,14
+T. Wright,35 X. Wu,21 F. W¨urthwein,10 S.M. Wynne,30 S. Xie,33 A. Yagil,10 K. Yamamoto,42 J. Yamaoka,53
+U.K. Yango,14 Y.C. Yang,28 W.M. Yao,29 G.P. Yeh,18 J. Yoh,18 K. Yorita,14 T. Yoshida,42 G.B. Yu,50
+I. Yu,28 S.S. Yu,18 J.C. Yun,18 L. Zanellobb,52 A. Zanetti,55 X. Zhang,25 Y. Zhengd,9 and S. Zucchelliw,6
+(CDF Collaboration†)
+1Institute of Physics, Academia Sinica, Taipei, Taiwan 11529, Republic of China
+2Argonne National Laboratory, Argonne, Illinois 60439
+3University of Athens, 157 71 Athens, Greece
+4Institut de Fisica d’Altes Energies, Universitat Autonoma de Barcelona, E-08193, Bellaterra (Barcelona), Spain
+5Baylor University, Waco, Texas 76798
+6Istituto Nazionale di Fisica Nucleare Bologna, wUniversity of Bologna, I-40127 Bologna, Italy
+7Brandeis University, Waltham, Massachusetts 02254
+8University of California, Davis, Davis, California 95616
+9University of California, Los Angeles, Los Angeles, California 90024
+10University of California, San Diego, La Jolla, California 92093
+11University of California, Santa Barbara, Santa Barbara, California 93106
+12Instituto de Fisica de Cantabria, CSIC-University of Cantabria, 39005 Santander, Spain
+13Carnegie Mellon University, Pittsburgh, PA 15213
+14Enrico Fermi Institute, University of Chicago, Chicago, Illinois 60637
+15Comenius University, 842 48 Bratislava, Slovakia; Institute of Experimental Physics, 040 01 Kosice, Slovakia
+16Joint Institute for Nuclear Research, RU-141980 Dubna, Russia
+17Duke University, Durham, North Carolina 27708
+18Fermi National Accelerator Laboratory, Batavia, Illinois 60510
+19University of Florida, Gainesville, Florida 32611
+20Laboratori Nazionali di Frascati, Istituto Nazionale di Fisica Nucleare, I-00044 Frascati, Italy
+21University of Geneva, CH-1211 Geneva 4, Switzerland
+22Glasgow University, Glasgow G12 8QQ, United Kingdom
+23Harvard University, Cambridge, Massachusetts 02138
+24Division of High Energy Physics, Department of Physics,
+University of Helsinki and Helsinki Institute of Physics, FIN-00014, Helsinki, Finland
+25University of Illinois, Urbana, Illinois 61801
+3
+26The Johns Hopkins University, Baltimore, Maryland 21218
+27Institut f¨ur Experimentelle Kernphysik, Universit¨at Karlsruhe, 76128 Karlsruhe, Germany
+28Center for High Energy Physics: Kyungpook National University,
+Daegu 702-701, Korea; Seoul National University, Seoul 151-742,
+Korea; Sungkyunkwan University, Suwon 440-746,
+Korea; Korea Institute of Science and Technology Information, Daejeon,
+305-806, Korea; Chonnam National University, Gwangju, 500-757, Korea
+29Ernest Orlando Lawrence Berkeley National Laboratory, Berkeley, California 94720
+30University of Liverpool, Liverpool L69 7ZE, United Kingdom
+31University College London, London WC1E 6BT, United Kingdom
+32Centro de Investigaciones Energeticas Medioambientales y Tecnologicas, E-28040 Madrid, Spain
+33Massachusetts Institute of Technology, Cambridge, Massachusetts 02139
+34Institute of Particle Physics: McGill University, Montr´eal,
+Canada H3A 2T8; and University of Toronto, Toronto, Canada M5S 1A7
+35University of Michigan, Ann Arbor, Michigan 48109
+36Michigan State University, East Lansing, Michigan 48824
+37Institution for Theoretical and Experimental Physics, ITEP, Moscow 117259, Russia
+38University of New Mexico, Albuquerque, New Mexico 87131
+39Northwestern University, Evanston, Illinois 60208
+40The Ohio State University, Columbus, Ohio 43210
+41Okayama University, Okayama 700-8530, Japan
+42Osaka City University, Osaka 588, Japan
+43University of Oxford, Oxford OX1 3RH, United Kingdom
+44Istituto Nazionale di Fisica Nucleare, Sezione di Padova-Trento, xUniversity of Padova, I-35131 Padova, Italy
+45LPNHE, Universite Pierre et Marie Curie/IN2P3-CNRS, UMR7585, Paris, F-75252 France
+46University of Pennsylvania, Philadelphia, Pennsylvania 19104
+47Istituto Nazionale di Fisica Nucleare Pisa, yUniversity of Pisa,
+zUniversity of Siena and aaScuola Normale Superiore, I-56127 Pisa, Italy
+48University of Pittsburgh, Pittsburgh, Pennsylvania 15260
+49Purdue University, West Lafayette, Indiana 47907
+50University of Rochester, Rochester, New York 14627
+51The Rockefeller University, New York, New York 10021
+52Istituto Nazionale di Fisica Nucleare, Sezione di Roma 1,
+bbSapienza Universit`a di Roma, I-00185 Roma, Italy
+53Rutgers University, Piscataway, New Jersey 08855
+54Texas A&M University, College Station, Texas 77843
+55Istituto Nazionale di Fisica Nucleare Trieste/Udine, ccUniversity of Trieste/Udine, Italy
+56University of Tsukuba, Tsukuba, Ibaraki 305, Japan
+57Tufts University, Medford, Massachusetts 02155
+58Waseda University, Tokyo 169, Japan
+59Wayne State University, Detroit, Michigan 48201
+60University of Wisconsin, Madison, Wisconsin 53706
+61Yale University, New Haven, Connecticut 06520
+We report a measurement of resonance parameters of the orbitally excited (L = 1) narrow
+B0 mesons in decays to B(∗)+pi− using 1.7 fb−1 of data collected by the CDF II detector at
+the Fermilab Tevatron. The mass and width of the B∗02 state are measured to be m(B∗02 ) =
+5740.2+1.7−1.8(stat.)+0.9−0.8(syst.) MeV/c2 and Γ(B∗02 ) = 22.7+3.8−3.2(stat.)+3.2−10.2(syst.) MeV/c2. The mass
+difference between the B∗02 and B01 states is measured to be 14.9+2.2−2.5(stat.)+1.2−1.4(syst.) MeV/c2, re-
+sulting in a B01 mass of 5725.3+1.6−2.2(stat.)+1.4−1.5(syst.) MeV/c2. This is currently the most precise
+measurement of the masses of these states and the first measurement of the B∗02 width.
+PACS numbers: 14.40.Nd, 12.40.Yx
+∗Deceased
+†With visitors from aUniversity of Massachusetts Amherst,
+Amherst, Massachusetts 01003, bUniversiteit Antwerpen, B-2610
+Antwerp, Belgium, cUniversity of Bristol, Bristol BS8 1TL,
+United Kingdom, dChinese Academy of Sciences, Beijing 100864,
+China, eIstituto Nazionale di Fisica Nucleare, Sezione di Cagliari,
+09042 Monserrato (Cagliari), Italy, fUniversity of California
+Irvine, Irvine, CA 92697, gUniversity of California Santa Cruz,
+Santa Cruz, CA 95064, hCornell University, Ithaca, NY 14853,
+iUniversity of Cyprus, Nicosia CY-1678, Cyprus, jUniversity
+College Dublin, Dublin 4, Ireland, kRoyal Society of Edin-
+4
+Mesons consisting of a light and a heavy quark are an
+interesting laboratory for the study of quantum chromo-
+dynamics, the theory of strong interactions. The role of
+the heavy-light quark mesons is similar to that played by
+the hydrogen atom in understanding quantum electrody-
+namics. The bound states of a ¯b quark with either a light
+uordquark are referred to asB mesons. The states with
+zero internal orbital angularmomentum (L = 0) and spin
+parity JP = 0− (B) and 1− (B∗) are well established [1],
+but the spectroscopy of the orbitally excitedB states has
+not been well studied. For L = 1, the total angular mo-
+mentum of the light quark is j = 12 or j = 32. With the
+addition of spin of the heavyquark, twodoublets of states
+are expected: states with j = 12, named B∗0 (J = 0) and
+B′1 (J = 1), and states with j = 32, named B1 (J = 1)
+and B∗2 (J = 2). These four states are collectively re-
+ferred to as B∗∗.
+Heavy quark effective theory [2] predicts that the mass
+splitting within each doublet of a heavy-light quark me-
+son is inversely proportional to the heavy quark mass
+[2, 3, 4, 5, 6, 7, 8]. The j = 12 states are expected to
+decay to B(∗)pi via an S-wave transition and to exhibit
+resonance widths in the range 100−200 MeV/c2 [9]. The
+j = 32 states are expected to decay toB(∗)pi via a D-wave
+transition and to have widths of 10−20 MeV/c2 [7, 8].
+This Letter focuses on the B1 and B∗2 observed in Bpi
+final states. The decay B1 → Bpi is forbidden by con-
+servation of angular momentum and parity, while both
+B∗2 → Bpi and B∗2 → B∗pi decays are allowed. Decays
+to a B∗ are followed by B∗ → Bγ, where the photon
+is not reconstructed in CDF due to its low energy. Be-
+cause of the missing photon, the measured Bpi mass in
+B1 → B∗pi → Bpiγ and B∗2 → B∗pi → Bpiγ events is
+lower than the B∗pi mass by 45.78 ± 0.35 MeV/c2 [1],
+resulting in an expected signal structure of three narrow
+Bpi peaks for the B1 and B∗2.
+Previous measurements of properties of the j = 32 B01
+andB∗02 mesons using inclusive or partially reconstructed
+decays did not separate the narrow states [10, 11] or were
+limited by low sample statistics [12]. Recently the D0
+Collaboration resolved the B01 and B∗02 masses [13]. The
+superb mass resolution of the CDF II detector allows bet-
+ter precision and enables us to measure the B∗02 width.
+burgh/Scottish Executive Support Research Fellow, lUniversity of
+Edinburgh, Edinburgh EH9 3JZ, United Kingdom, mUniversidad
+Iberoamericana, Mexico D.F., Mexico, nQueen Mary, University
+of London, London, E1 4NS, England, oUniversity of Manchester,
+Manchester M13 9PL, England, pNagasaki Institute of Applied Sci-
+ence, Nagasaki, Japan, qUniversity of Notre Dame, Notre Dame,
+IN 46556, rUniversity de Oviedo, E-33007 Oviedo, Spain, sSimon
+Fraser University, Vancouver, British Columbia, Canada V6B
+5K3, tTexas Tech University, Lubbock, TX 79409, uIFIC(CSIC-
+Universitat de Valencia), 46071 Valencia, Spain, vUniversity of
+Virginia, Charlottesville, VA 22904, ddOn leave from J. Stefan In-
+stitute, Ljubljana, Slovenia,
+Here, we present measurements of the masses of the B01
+andB∗02 states and the width of theB∗02 state. We recon-
+struct B∗∗0 in B+pi− and B∗+pi− decays, where the B+
+candidates decay into J/ψK+, ¯D0pi+, and ¯D0pi+pi+pi−
+final states with J/ψ → µ+µ− and ¯D0 → K+pi−.
+Throughout this paper, any reference to a specific charge
+state implies the charge conjugate state as well.
+We use a data sample of events produced in p¯p colli-
+sions at √s = 1.96 TeV recorded by the CDF II detector
+at the Tevatron, corresponding to an integrated lumi-
+nosity of 1.7 fb−1. The components and performance
+parameters of CDF II [14] most relevant for this analysis
+are the tracking, the muon detectors, and the trigger on
+displaced vertices. The tracking system lies in a uniform
+axial magnetic field of 1.4 T. The inner tracking volume
+is instrumented with a layer of single-sided silicon mi-
+crostrip detectors mounted directly on the beam pipe at
+a radius of 1.5 cm, and 7 layers of double-sided silicon
+that extend out to a radius of 28 cm [15]. This system
+provides excellent resolution of the impact parameter,d0,
+defined as the distance of closest approach of the track
+to the interaction point in the transverse plane. The
+outer tracking volume contains an open-cell drift cham-
+ber (COT) up to a radius of 137 cm [16]. Muons are
+detected in planes of drift tubes and scintillators [17] lo-
+cated outside the hadronic and electromagnetic calorime-
+ters. The muon detectors used in this study cover the
+pseudorapidity range |η|≤ 1.0, where η = −lntan(θ/2)
+and θ is the polar angle measured from the proton beam.
+A three-level trigger system selects events in real time.
+A dimuon trigger [14] requires two tracks of opposite
+charge that match track segments in the muon cham-
+bers and have a combined dimuon mass consistent with
+the J/ψ mass. An extremely fast tracker at level 1
+(XFT) [18] groups COT hits into tracks in the trans-
+verse plane. A silicon vertex trigger at level 2 (SVT) [19]
+adds silicon hits to tracks found by the XFT, thus pro-
+viding better-defined tracksand allowingcandidate selec-
+tion based on the impact parameter. A displaced vertex
+trigger [20] requires two tracks each with a scalar trans-
+verse momentum, pT, greater than 2 GeV/c and with
+0.12 < d0 < 1 mm. Additionally, the intersection point
+of the track pair must be transversely displaced from the
+p¯p interaction point by at least 0.2 mm, and the pair
+must have a scalar sum pT(1)+pT(2) >5.5 GeV/c.
+Decays B+ → J/ψK+ are reconstructed from the
+dimuon trigger data while decays B+ → ¯D0pi+(pi+pi−)
+are reconstructed from the displaced vertex trigger data.
+In each decay, the tracks are constrained in a three-
+dimensional kinematic fit to the appropriate B+ vertex
+topology with the J/ψ and ¯D0 masses constrained to the
+world average values [1]. Each track compatible with
+originating from the same interaction point as the B+
+and not used to reconstruct the B+ is considered as a
+pion candidate, and its 4-momentum is combined with
+that of the B+ candidate to form a B∗∗0 candidate. We
+5
+searchfor narrowresonancesin the mass difference distri-
+bution ofQ = m(B+pi−)−m(B+)−mpi, wherem(B+pi−)
+and m(B+) are the reconstructed invariant masses of the
+B+pi− pair and the B+ candidate, and mpi is the pion
+mass.
+The B+ candidates are selected using independent ar-
+tificial neural networks for each of the three B+ decay
+modes. The neural networks are based on the Neu-
+roBayes package [21]. For the decays B+ → J/ψK+
+and B+ → ¯D0pi+, we use the training and selection
+methods developed in Ref. [22]. For the decay B+ →
+¯D0pi+pi+pi− we closely follow the construction of the
+neural networks for the other two decays. To train
+this last neural network we use data from the region
+5325 <m(B+) < 5395 MeV/c2 as the background sam-
+ple and simulated B+ events as the signal sample [23].
+The most discriminating inputs to the neural networks
+are pT(B+), d0(B+), d0 of the kaon or pion with respect
+to theB+ decay vertex, and the projected distance of the
+B+ decay vertex from the primary vertex along the B+
+transverse momentum. We select approximately 51 500
+B events in the J/ψK+ decay channel, 40 100 in the
+¯D0pi+ channel, and 11 000 in the ¯D0pi+pi+pi− channel.
+To select B∗∗0 mesons, three additional neural net-
+works are trained on a combination of a simulated signal
+sample and real data for a background sample. The data
+for the background sample are taken from the entire Q
+range of 0 to 1000 MeV/c2, which includes only a small
+contribution from the signal in the data. To avoidbiasing
+the network training, the simulated events are generated
+with the same Q distribution as the data. The B∗∗0
+neural networks use the same inputs as the B+ neural
+networks, together with the kinematic and particle iden-
+tification quantities for the pion from the B∗∗0 decay.
+The most important discriminants are the pT and d0 of
+the pion from the B∗∗0 decay vertex and the output of
+the B+ neural network.
+For each B+ decay channel, we require fewer than six
+B∗∗0 candidates in an event in order to enhance the
+signal-to-background ratio. The observed B∗∗0 signals
+are consistent for all three B+ decay channels. Therefore
+we combine the B∗∗0 events for all decay channels and
+use this combined Q distribution to measure the B∗∗0
+properties. We count the number of Monte Carlo signal
+events, NMC, and the number of signal and background
+events in the data, Ndata, in the Qsignal region of 200 to
+400 MeV/c2 for a given cut on each of the three network
+outputs. We then optimize the B∗∗0 selection for each
+B+ decaychannelto maximize the combinedsignificance,
+NMC/√Ndata. The resulting combined Q distribution is
+shown in Figure 1.
+The B∗∗0 signal structure is interpreted as resulting
+from the three signal processes B01 → B∗+pi−, B∗02 →
+B+pi−, and B∗02 → B∗+pi−, with B∗+ → B+γ. The Q
+distribution for each signal process is modeled by a non-
+relativistic fixed-width Breit-Wigner function convoluted
+)2 (MeV/cpi) - m(B) - mpiQ = m(B
+0 200 400 600
+2
+Candidates per 5 MeV/c
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200      Data
+     Total Fit
+pi* B→ 01     B
+pi* B→ 2*0     B
+pi B→ 2*0     B
+K(*) B→ **0s     B
+     Background
+FIG. 1: Distribution of the mass difference Q =
+m(B+pi−)−m(B+)−mpi for exclusive B+ decays.
+Curves are shown separately for the background,
+theB∗∗0s →B(∗)K reflections, and the threeB∗∗0
+decays.
+with the detector resolution model. The resolution on
+Q is determined from simulation and modeled as a sum
+of two Gaussian distributions, a dominant narrow core
+and a broad tail with Q-dependent standard deviations
+of about 2 MeV/c2 and 4 MeV/c2, respectively. The
+fraction of events in the broad tail is fixed to be 0.2.
+We perform an unbinned maximum-likelihood fit to
+the combined Q distribution, from which we extract the
+Q value of the B∗02 → B+pi− decay, the mass difference
+between the B01 and B∗02 states, the width of the B∗02 ,
+and the number of events in each signal process. The
+following parameters in the fit are constrained to their
+values from either previous measurements or theoreti-
+cal predictions: the energy of the B∗+ decay photon,
+E(γ) = 45.78±0.35 MeV/c2 [1]; the ratio of the B01 and
+B∗02 widths, Γ(B01)Γ(B∗0
+2 )
+= 0.9±0.2 [7]; and the ratio of the
+B∗02 branching fractions, BR(B∗02 →B+pi−)BR(B∗0
+2 →B∗+pi−)
+= 1.1±0.3[11],
+consistent with the value measured in Ref. [13].
+The background is modeled by a sum of two compo-
+nents, each being the product of a power law and an
+exponential function. We also expect reflections from
+B∗∗0s → B+K− decays when the kaon is mistakenly as-
+signed the pion mass. The shape of the reflection in
+the Q distribution is determined in simulations of B∗∗0s
+states [22] and fixed in the fit. The normalization of the
+B∗∗0s is obtained by correcting the observed yield from
+Ref. [22] by a ratio of efficiencies to reconstruct a B∗∗0s
+decay as a B∗∗0 and B∗∗0s . In the B∗∗0 data sample we
+6
+expect 24±12 B0s1 events and 62±31 B∗0s2 events. These
+normalizations enter the fit as Gaussian constraints.
+Sources of systematic uncertainty on the mass differ-
+ence and width measurements include mass scale, mass-
+dependent signal efficiency, fit model bias, assumptions
+entered as Gaussian constraints in the fit, choice of back-
+ground and resolution models, and location and amount
+of B∗∗0 broad states. The systematic uncertainties are
+summarized in Table I.
+To determine the mass scale uncertainty, we recon-
+structψ(2S) →J/ψpi+pi− with J/ψ →µ+µ−, which has
+a similar Q value as the B∗∗0 decays. We compare the
+measured Q to the world average [1] and take the differ-
+ence as the mass scale uncertainty. To evaluate the effect
+of signal efficiency with changing Q, we generate a large
+number of samples of the same size as the data, called
+pseudoexperiments, with the Q-dependent efficiency ob-
+tained from simulation. We then apply the default fit to
+the pseudoexperiments.
+Tests of the fit model on pseudoexperiments show a
+small fit bias on the B∗∗0 signal parameters, which is
+included as a systematic uncertainty. Signal parameters
+entered as Gaussian constraints in the fit contribute to
+the fit uncertainty. To determine their systematic contri-
+bution, we refit the data with these constrained parame-
+ters fixed. This fit returns the statistical fit uncertainties,
+which are subtracted in quadrature from the total fit un-
+certainties to obtain the systematic contribution.
+To estimate the uncertainties due to the choice of
+background and resolution models, we generate pseudo-
+experiments with varied background parameterizations
+or worse mass resolution. The background is also well-
+modeled by the sum of a broad Breit-Wigner function
+with the product of a power law and an exponential func-
+tion. From comparisonsof the detector resolution in data
+and Monte Carlo for the ψ(2S) sample, we expect the
+Monte Carlo to underestimate the resolution by no more
+than 20%. These pseudoexperiments are fit with the de-
+fault fit and the generating model. The distribution of
+the differences between these fit results is modeled by
+a Gaussian, whose mean is assigned as the systematic
+uncertainty.
+Possibleeffects ofB∗0 andB′1 decayson ourbackground
+model are studied by adding two Breit-Wigner functions
+of identicalwidth variedoverthe range100−200MeV/c2.
+The Q values of the states are independently varied in
+the range 240 to 360 MeV/c2, the region around the nar-
+rowB∗∗0 peaks. We refit the data for various masses and
+widths of the broad states, with the normalizations of the
+broad Breit-Wigner functions as additional free parame-
+ters in the fit model. We then take the largest variation
+in the narrow B∗∗0 parameters from any configuration
+of broad states as the systematic uncertainty due to the
+B∗∗0 broad states.
+The result of the likelihood fit to the data is shown in
+Figure 1, and we measure the following:
+TABLE I: Systematic uncertainties on the B∗∗0 parameter
+measurements. Each row corresponds to one source of sys-
+tematic uncertainty. The columns show the uncertainties for
+each of the three B∗∗0 signal parameters. Uncertainties are
+in units of MeV/c2.
+Source Q(B∗02 ) Γ(B∗02 ) m(B∗02 )−m(B01)
+Mass scale ±0.2 – < 0.01
+Efficiency +0−0.03 +0.4−0 +0−0.3
+Fit bias +0−0.1 +0.4−0 +0−0.2
+Fit constraints +0.4−0.3 +2.1−1.5 +0.7−0.9
+Background +0.2−0 +0−1.6 +0.2−0
+Resolution < 0.01 +0−0.4 < 0.01
+Broad states +0.7−0.5 +2.3−9.9 +0.9−1.0
+Total +0.9−0.7 +3.2−10.2 +1.2−1.4
+m(B∗02 )−m(B+)−mpi = 321.5+1.7−1.8(stat.)+0.9−0.7(syst.)
+MeV/c2;
+m(B∗02 ) − m(B01) = 14.9+2.2−2.5(stat.)+1.2−1.4(syst.)
+MeV/c2; and
+Γ(B∗02 ) = 22.7+3.8−3.2(stat.)+3.2−10.2(syst.) MeV/c2.
+The signalis consistent with theoretical predictions [5, 6],
+and Gaussian-constrained parameters remain close to
+their input values, the largest departure being 0.4 stan-
+dard deviations. The numbers of events are N(B01) =
+503+75−68, N(B∗02 → B+pi−) = 385+48−45, and N(B∗02 →
+B∗+pi−) = 351+48−45, where uncertainties are statistical
+only. Using the mass of the B+ [1] and the correlations
+between the fit parameters, the masses of theB01 andB∗02
+are m(B∗02 ) = 5740.2+1.7−1.8(stat.)+0.9−0.8(syst.) MeV/c2 and
+m(B01) = 5725.3+1.6−2.2(stat.)+1.4−1.5(syst.) MeV/c2. With the
+current statistics the data are also consistent with con-
+taining only the B01 and B∗02 →B+pi− peaks.
+In summary, using the three fully reconstructed decays
+B+ → J/ψK+, B+ → ¯D0pi+, and B+ → ¯D0pi+pi+pi−,
+we observe two narrow B∗∗0 states in the decays B01 →
+B∗+pi− and B∗02 → B(∗)+pi−. This is the most precise
+measurement of the narrow B∗∗0 masses to date. We
+have also measured the B∗02 width for the first time.
+There is some discrepancy between these measurements
+and those reported by the D0 collaboration [13], the
+largest being close to a 3σdifference in the mass splitting
+of the two B∗∗0 states.
+We thank the Fermilab staff and the technical staffs of
+the participatinginstitutions fortheir vital contributions.
+This work was supported by the U.S. Department of En-
+ergy and National Science Foundation; the Italian Isti-
+tuto Nazionale di Fisica Nucleare; the Ministry of Educa-
+tion, Culture, Sports, Science and Technology of Japan;
+the Natural Sciences and Engineering Research Council
+7
+of Canada; the National Science Council of the Repub-
+lic of China; the Swiss National Science Foundation; the
+A.P. Sloan Foundation; the Bundesministerium f¨ur Bil-
+dung und Forschung, Germany; the Korean Science and
+Engineering Foundation and the Korean Research Foun-
+dation; the Science and TechnologyFacilities Council and
+the Royal Society, UK; the Institut National de Physique
+Nucleaire et Physique des Particules/CNRS; the Russian
+Foundation for Basic Research; the Ministerio de Cien-
+cia e Innovaci´on, Spain; the Slovak R&D Agency; and
+the Academy of Finland.
+[1] C. Amsler et al. (Particle Data Group), Phys. Lett. B
+667, 1 (2008).
+[2] N. Isgur and M. B. Wise, Phys. Lett. B 232, 113 (1989);
+ibid. B 237, 527 (1990).
+[3] E. J. Eichten, C. T. Hill, and C. Quigg, Phys. Rev. Lett.
+71, 4116 (1993); E. J. Eichten, C. T. Hill, and C. Quigg,
+FERMILAB-CONF-94/118-T (1994).
+[4] N. Isgur, Phys. Rev. D 57, 4041 (1998).
+[5] D. Ebert, V. O. Galkin, and R. N. Faustov, Phys. Rev.
+D 57, 5663 (1998) [Erratum-ibid. D 59, 019902 (1999)].
+[6] T. Matsuki, T. Morii, and K. Sudoh, Prog. Theor. Phys.
+117, 1077 (2007).
+[7] A. F. Falk and T. Mehen, Phys. Rev. D 53, 231 (1996).
+[8] A. H. Orsland and H. Hogaasen, Eur. Phys. J. C 9, 503
+(1999).
+[9] T. Mehen, private communication.
+[10] R. Akers et al. (OPAL Collaboration), Z. Phys. C 66, 19
+(1995); P. Abreu et al. (DELPHI Collaboration), Phys.
+Lett. B 345, 598 (1995); D. Buskulic et al. (ALEPH Col-
+laboration), Z. Phys. C 69, 393 (1996); M. Acciarri et
+al. (L3 Collaboration), Phys. Lett. B 465, 323 (1999);
+A. Affolder et al. (CDF Collaboration), Phys. Rev. D
+64, 072002 (2001).
+[11] A. Oyanguren (DELPHI Collaboration), Proceedings of
+32nd International Conference on High-Energy Physics
+(ICHEP 04), Beijing, China, 16-22 Aug 2004. Hacken-
+sack, World Scientific (2005), 2 vols.
+[12] R. Barate et al. (ALEPH Collaboration), Phys. Lett. B
+425, 215 (1998).
+[13] V. M. Abazov et al. (D0 Collaboration), Phys. Rev. Lett.
+99, 172001 (2007).
+[14] D. Acosta et al. (CDF Collaboration), Phys. Rev. D 71,
+032001 (2005).
+[15] C. S. Hill, Nucl. Instrum. Methods A 530, 1 (2004);
+A. Affolder et al., ibid. A 453, 84 (2000); A. Sill, ibid. A
+447, 1 (2000).
+[16] T. Affolder et al., Nucl. Instrum. Methods A 526, 249
+(2004).
+[17] G. Ascoli et al., Nucl. Instrum. Methods A 268, 33
+(1988).
+[18] E. J. Thomson et al., IEEE Trans. Nucl. Sci. 49, 1063
+(2002).
+[19] W. Ashmanskas et al., Nucl. Instrum. Methods A 518,
+532 (2004).
+[20] A. Abulencia et al. (CDF Collaboration), Phys. Rev.
+Lett. 96, 191801 (2006).
+[21] M. Feindt, arXiv:physics/0402093 (2004); M. Feindt and
+U. Kerzel, Nucl. Instrum. Methods A 559, 190 (2006).
+[22] T. Aaltonen et al. (CDF Collaboration),
+Phys. Rev. Lett. 100, 082001 (2008).
+[23] We use several single b hadron simulations, all using the
+B hadron pT and y distributions obtained from B decays
+in CDF Run II data. The b hadron decays are generated
+with the EvtGen package, D. J. Lange, Nucl. Instrum.
+Methods A 462, 152 (2001). Monte Carlo samples that
+also contain the hadronization backgrounds were gener-
+ated by the pythia program, T. Sj¨ostrand et al., Com-
+put. Phys. Commun. 135, 238 (2001).
