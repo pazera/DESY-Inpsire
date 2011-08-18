@@ -17,12 +17,19 @@ from workflows.records import svm_classification
 cfg.init('DESY.ini')
 
 workflow = [
-            init_params(),
+            svm_classifier.init_params(),
             WHILE(get_input_sources, [
                     create_records.workflow,
                     WHILE(get_records, [
+
                           svm_classification.workflow,
                           bibclassify_classification.workflow,
+
+                          decision_before_inspire.workflow,
+
+                          IF(check_passed,
+                             create_marcxml,
+                             upload_marcxml,)
                         ])
                   ]),
 

@@ -18,12 +18,18 @@ from libs import svm_classifier
 def init(svm_model,
          svm_train,
          svm_predict,
-         indexer='#indexer'):
+         indexer='#indexer',
+         train_dir=None,
+         test_dir=None,
+         output_dir=None):
 
     def _x(obj, eng):
         eng.setVar('#svm_train', svm_train)
         eng.setVar('#svm_predict', svm_predict)
         eng.setVar('#svm_model', svm_model)
+        eng.setVar('#train_dir', train_dir)
+        eng.setVar('#test_dir', test_dir)
+        eng.setVar('#output_dir', output_dir)
         if indexer:
             eng.setVar('#indexer', indexer)
     return _x
@@ -82,11 +88,11 @@ build_feature_map_from_index = _build_feature_map_from_index()
 
 
 def build_feature_map_from_dir(obj, eng):
-    dirpath = eng.getVar('#dirpath')
+    dirpath = eng.getVar('#train_dir')
     if not dirpath:
-        raise Exception('Missing parameter: dirpath')
+        raise Exception('Missing parameter: #train_dir')
 
-    eng.setVar(svm_classifier.build_feature_map_from_dir(dirpath))
+    eng.setVar('#svm_fmap', svm_classifier.build_feature_map_from_dir(dirpath))
 
 def train_model(obj, eng):
     svm_train = eng.getVar('#svm_train')
@@ -103,7 +109,7 @@ def classify_record(obj, eng):
     fmap = eng.getVar('#svm_fmap')
     svm_predict = eng.getVar('#svm_predict')
     model = eng.getVar('#svm_model')
-    output_dir = eng.getVar('#smv_output_dir')
+    output_dir = eng.getVar('#output_dir')
 
     vector = svm_classifier.vectorize_text(fmap, text)
     result = svm_classifier.classify_vector(svm_predict, model, vector, output_dir)
